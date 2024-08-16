@@ -1,13 +1,14 @@
-import WOWNameGenerator from "@/components/wow-name-generator/WOW-Name-Generator"
+import WOWNameGenerator from "@/components/wow-name-generator/WoW-Name-Generator"
+
 
 
 
 const page = () => {
-    return (
-      <div>
+  return (
+    <div>
       <WOWNameGenerator />
-      </div>
-    )
-  }
-  
-  export default page
+    </div>
+  )
+}
+
+export default page
