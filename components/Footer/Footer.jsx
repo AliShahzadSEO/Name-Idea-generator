@@ -1,0 +1,84 @@
+import Link from "next/link";
+import React from "react";
+
+const Footer = () => {
+  return (
+    <div className="w-[100%] border-t border-solid bg-black py-[40px] bg-overlay2"
+    style={{
+      backgroundImage: `url("/demonpic.jpg")`,
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      backgroundAttachment: "fixed",
+    }}>
+      <div className="w-[90%] mx-auto flex sm:flex-row flex-col sm:justify-between gap-8">
+        {/* First section */}
+        <div className="sm:w-[25%]">
+          <div>
+            <p className="text-[36px] font-bold text-white">NIG</p>
+          </div>
+          <div className="py-[10px]">
+            <p className="font-semibold text-[14px] text-white">
+              Subscribe to the newsletter, so you can get notified about
+              important news and content updates. Subscribe to the newsletter,
+              so you can get notified about important news and content updates.
+            </p>
+            <div className="flex gap-2 py-[20px]">
+              <input
+                type="email"
+                placeholder="abc@gmail.com"
+                className="border border-solid rounded-[10px] px-[4px]"
+              />
+              <button className="bg-[#007bff] text-white hover:bg-[#1a4e86] p-[5px] text-[14px] rounded-[10px]">
+                SEND
+              </button>
+            </div>
+            {/* <div className=" flex gap-2">
+              <input type="checkbox" />
+              <span>
+                By checking this box, you are agreeing with the privacy policy.
+              </span>
+            </div> */}
+          </div>
+        </div>
+        {/* Second section */}
+        <div className="sm:w-[25%]">
+          <div>
+            <p className="text-[36px] font-bold text-white">Support</p>
+          </div>
+          <div className="py-[10px]">
+            <p className="font-semibold text-[14px] text-white">
+              Enjoying my work and free to use content? You can support me with
+              donations. Thank you!
+            </p>
+            <div className="flex  py-[16px]">
+              <button className="bg-red-500 text-white p-[8px] rounded-[10px] text-[14px]">DONATE</button>
+            </div>
+          </div>
+        </div>
+        {/* Third section */}
+        <div className="sm:w-[25%]">
+        <div>
+            <p className="text-[36px] font-bold text-white">Categories</p>
+          </div>
+          <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
+          <Link href={"/fantasyandmythicalcreatures"}>
+            <p>Fantasy and Mythical</p>
+          </Link>
+          <Link href={"/culturalandhistorical"}>
+            <p className="cursor-pointer">Cultural and Historical</p>
+          </Link>
+          <Link href={"/fictionalandscifi"}>
+            <p className="cursor-pointer">Fictional and Sci-Fi</p>
+          </Link>
+
+          </div>
+
+        </div>
+        <div className="sm:w-[25%]"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

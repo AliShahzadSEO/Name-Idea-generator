@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#close{
+    animation-duration: 3000ms;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-name: slideopen;
+    max-height: 0px;
+  }
+  @keyframes slideopen {
+    from{
+        max-height: 0px;
+    }
+    to{
+        max-height: 5200px;
+    }
+    
+  }
+  #open{
+    animation-duration: 300ms;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-name: slideclose;
+  }
+  @keyframes slideclose {
+    from{
+        max-height: 200px;
+    }
+    to{
+        max-height: 0px;
+    }
+    
+  }
+  .bg-overlay {
+    position: relative; /* Ensure the section is a stacking context */
+    z-index: 1; /* Ensure the content is above the background overlay */
+  }
+  
+  .bg-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1; /* Ensure the overlay is behind the content */
+  } 
+  .bg-overlay2 {
+    position: relative; /* Ensure the section is a stacking context */
+    z-index: 1; /* Ensure the content is above the background overlay */
+  }
+  
+  .bg-overlay2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1; /* Ensure the overlay is behind the content */
+  } 
