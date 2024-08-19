@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Alien Name Generator | Create Random Alien Name | Name Idea Generator',
     description: "Explore the cosmos with our Alien Name Generator! Instantly create random and unique alien names for your stories, games, or characters. Find the perfect name that captures the otherworldly essence you need.",
-    url: 'https://yourwebsite.com/alien-name-generator',
+    url: 'https://www.nameideagenerator.com/alien-name-generator',
     images: [
       {
         url: 'alien.webp',
