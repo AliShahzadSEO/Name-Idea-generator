@@ -24,6 +24,7 @@ export const metadata = {
     description: "Explore the cosmos with our Alien Name Generator! Instantly create random and unique alien names for your stories, games, or characters. Find the perfect name that captures the otherworldly essence you need.",
     images: ['alien.webp'],
   },
+  robots:{index:true, follow: truse},
 
   keywords: ['alien name generator', 'random alien name generator', 'alien name generator male', 'alien name generator female', 'alien name generator girl', 'alien name generator fantasy'],
   canonical: 'https://www.nameideagenerator.com/alien-name-generator',
