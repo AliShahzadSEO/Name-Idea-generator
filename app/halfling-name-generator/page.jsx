@@ -1,16 +1,16 @@
 import HalflingNameGenerator from "@/components/halfling-name-generator/Halfling-Name-Generator"
 
 export const metadata = {
-  title: 'Halfling Name Generator | DnD half elf name generator With Meaning | Name Idea Generator ',
-  description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
+  title: 'Halfling Name Generator | Random Halfling Name Generator With Meaning | Name Idea Generator ',
+  description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
   
   openGraph: {
     title: 'Halfling Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
-    description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
-    url: 'https://www.nameideagenerator.com/goblin-name-generator',
+    description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
+    url: 'https://www.nameideagenerator.com/halfling-name-generator',
     images: [
       {
-        url: 'half-demon.webp',
+        url: 'halfling.webp',
         width: 800,
         height: 600,
         alt: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
@@ -21,15 +21,15 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
-    description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
-    images: ['half-demon.webp'],
+    description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
+    images: ['halfling.webp'],
   },
 
-  keywords: ['Halfling name generator', 'dnd half elf name generator', 'high half elf name generator', 'wood half elf name generator',
-     'half elf name generator dnd', 'random half elf name generator', 'drow half elf name generator', 'half elf name generator pathfinder', 'bg3 half elf name generator'],
+  keywords: ['Halfling name generator', 'dnd halfling name generator', 'halfling name generator 5e', 'random halfling name generator',
+     'female halfling name generator', 'lightfoot halfling name generator ', 'halfling name generator dnd', 'fantasy halfling name generator', 'dnd 5e halfling name generator'],
   robots:{index:true, follow: true},
   alternates:{
-    canonical:"https://www.nameideagenerator.com/goblin-name-generator"
+    canonical:"https://www.nameideagenerator.com/halfling-name-generator"
   },
 }
 
