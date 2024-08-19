@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'Goblin Name Generator | Get Random Goblin Name | Name Idea Generator',
     description: "Discover mischievous and quirky names with our Goblin Name Generator! Instantly create random goblin names for your stories, games, or characters. Find the perfect name that brings your goblin to life.",
-    url: 'https://yourwebsite.com/alien-name-generator',
+    url: 'https://www.nameideagenerator.com/goblin-name-generator',
     images: [
       {
         url: 'Goblin.jpg',
@@ -28,7 +28,7 @@ export const metadata = {
 
   keywords: ['Goblin name generator', 'dnd goblin name generator', 'goblin name generator dnd', 'goblin name generator wow',
      'wow goblin name generator', 'random goblin name generator', 'goblin name generator 5e', 'female goblin name generator', 'harry potter goblin name generator'],
-  canonical: 'https://yourwebsite.com/alien-name-generator',
+  canonical: 'https://www.nameideagenerator.com/goblin-name-generator',
   
 }
 
