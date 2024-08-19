@@ -28,8 +28,10 @@ export const metadata = {
 
   keywords: ['Goblin name generator', 'dnd goblin name generator', 'goblin name generator dnd', 'goblin name generator wow',
      'wow goblin name generator', 'random goblin name generator', 'goblin name generator 5e', 'female goblin name generator', 'harry potter goblin name generator'],
-  canonical: 'https://www.nameideagenerator.com/goblin-name-generator',
-  
+  robots:{index:true, follow: true},
+  alternates:{
+    canonical:"https://www.nameideagenerator.com/goblin-name-generator"
+  },
 }
 
 
