@@ -26,8 +26,11 @@ export const metadata = {
   },
 
   keywords: ['alien name generator', 'random alien name generator', 'alien name generator male', 'alien name generator female', 'alien name generator girl', 'alien name generator fantasy'],
-  canonical: 'https://yourwebsite.com/alien-name-generator',
-  
+  canonical: 'https://www.nameideagenerator.com/alien-name-generator',
+ 
+  alternates:{
+    canonical:"https://www.nameideagenerator.com/alien-name-generator"
+  },
 }
 
 const page = () => {
