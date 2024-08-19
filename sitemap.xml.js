@@ -7,7 +7,7 @@ function generateSiteMap(posts) {
 
    <url>
        <loc>https://www.nameideagenerator.com/</loc>
-     </url>
+    </url>
      ${posts
        .map(({ id }) => {
          return `
