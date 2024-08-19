@@ -27,10 +27,9 @@ export const metadata = {
   robots:{index:true, follow: true},
 
   keywords: ['angel name generator', 'fallen angel name generator', 'dark angel name generator', 'blood angel name generator', 'angel name generator dnd', 'random angel name generator', 'angel name generator with meaning', 'female fallen angel name generator', 'fantasy angel name generator', 'female angel name generator'],
-  canonical: 'https://www.nameideagenerator.com/alien-name-generator',
  
   alternates:{
-    canonical:"https://www.nameideagenerator.com/alien-name-generator"
+    canonical:"https://www.nameideagenerator.com/angel-name-generator"
   },
 }
 
