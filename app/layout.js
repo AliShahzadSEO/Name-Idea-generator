@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="IW3ie0bKpLn8jz5a03YsvJRQy6X2TWYnzvprqsR7cms" />
         <script async src={`https://www.googletagmanager.com/gtag/js?id=G-CR7P6GW9K1`} />
       </head>
-      <body className={inter.className}>
       <script>
           {`
             window.dataLayer = window.dataLayer || [];
@@ -25,6 +24,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-CR7P6GW9K1');
           `}
         </script>
+      <body className={inter.className}>
         {/* <NavBar /> */}
         {children}
         {/* <Footer /> */}
