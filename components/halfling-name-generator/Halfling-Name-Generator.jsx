@@ -423,26 +423,26 @@ function getRandomDemon(gender, type, demonNames) {
 }
 const Category1 = [
     {
-        name: "Tabaxi Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
-    },
-    {
-        name: "Tiefling Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
-    },
-    {
         name: "Goblin Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        pic: "/Goblin.jpg",
+        link: "https://www.nameideagenerator.com/goblin-name-generator",
     },
     {
-        name: "ORC Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Half Elf Name Generator",
+        pic: "/half-demon.webp",
+        link: "https://www.nameideagenerator.com/half-elf-name-generator",
     },
-];
+    {
+        name: "Demon Name Generator",
+        pic: "/demonpic.jpg",
+        link: "https://www.nameideagenerator.com/demon-name-generator",
+    },
+    {
+        name: "DragonBorn Name Generator",
+        pic: "bg-dragonborn.webp",
+        link: "https://www.nameideagenerator.com/dragonborn-name-generator",
+    },
+    ];
 
 const HalflingNameGenerator = () => {
     const [lockedDemonList, setLockedDemonList] = useState([

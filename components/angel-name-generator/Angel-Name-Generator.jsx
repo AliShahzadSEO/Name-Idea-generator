@@ -305,24 +305,24 @@ function getRandomDemon(gender, type, demonNames) {
 }
 const Category1 = [
     {
-        name: "Tabaxi Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Alien Name Generator",
+        pic: "/alien.webp",
+        link: "https://www.nameideagenerator.com/alien-name-generator",
     },
     {
-        name: "Tiefling Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Song Name Generator",
+        pic: "/pop.jpg",
+        link: "https://www.nameideagenerator.com/song-name-generator",
     },
     {
-        name: "Goblin Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "WoW (World of Warcraft) Name Generator",
+        pic: "/wow.jpg",
+        link: "https://www.nameideagenerator.com/wow-name-generator",
     },
     {
-        name: "ORC Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Horse Name Generator",
+        pic: "horse.webp",
+        link: "https://www.nameideagenerator.com/horse-name-generator",
     },
 ];
 
