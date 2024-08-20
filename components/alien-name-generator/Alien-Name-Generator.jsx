@@ -425,24 +425,24 @@ function getRandomDemon(gender, type, demonNames) {
 }
 const Category1 = [
     {
-        name: "Tabaxi Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Island Name Generator",
+        pic: "/island1.jpg",
+        link: "https://www.nameideagenerator.com/island-name-generator",
     },
     {
-        name: "Tiefling Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Song Name Generator",
+        pic: "/pop.jpg",
+        link: "https://www.nameideagenerator.com/song-name-generator",
     },
     {
-        name: "Goblin Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "WoW (World of Warcraft) Name Generator",
+        pic: "/wow.jpg",
+        link: "https://www.nameideagenerator.com/wow-name-generator",
     },
     {
-        name: "ORC Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Horse Name Generator",
+        pic: "horse.webp",
+        link: "https://www.nameideagenerator.com/horse-name-generator",
     },
 ];
 
@@ -689,9 +689,9 @@ const A5 = "The current manual does not specify any costs associated with using 
                     backgroundAttachment: "fixed",
                 }}
             >
-                <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to DragonBorn-Name-Generator
-                </p>
+                <h3 className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
+                    Related to Alien Name Generator
+                </h3>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
                         <Link key={index} href={item.link}>
@@ -793,13 +793,13 @@ const A5 = "The current manual does not specify any costs associated with using 
 
                     <div class="sm:w-[40%] relative">
                         <img
-                            src="tiffling.webp"
-                            alt="Tiefling Image 1"
+                            src="alien3.jpeg"
+                            alt="alien name generator"
                             class="w-[350px] my-[60px] h-[350px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
-                            src="tiffing.webp"
-                            alt="Tiefling Image 2"
+                            src="alien4.jpeg"
+                            alt="alien name generator"
                             class="w-[350px] h-[350px] my-[20px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

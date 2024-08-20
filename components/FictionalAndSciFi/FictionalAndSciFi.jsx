@@ -5,6 +5,11 @@ import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
 const Data = [
   {
+    name: "Alien Name Generator",
+    pic: "/alien.webp",
+    link: "/alien-name-generator",
+  },
+  {
     name: "Island Name Generator",
     pic: "/island1.jpg",
     link: "/island-name-generator",
