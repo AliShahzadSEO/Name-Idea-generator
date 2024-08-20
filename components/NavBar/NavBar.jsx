@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="w-[90%] mx-auto flex justify-between items-center py-[20px]">
           <div>
             <p className="font-bold text-[28px] text-[#007bff]">
-              Name Idea Generator
+              <a href="http://nameideagenerator.com/">Name Idea Generator</a>
             </p>
           </div>
           <div className="flex gap-4">
