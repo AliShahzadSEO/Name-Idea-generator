@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Robot Name Generator | Random Robot Name Generator With Meaning | Name Idea Generator',
     description: "Discover authentic Russian names with our Russian Name Generator! Generate random names with meanings that reflect cultural heritage and history. Find the ideal name idea for your character effortlessly.",
-    url: 'https://www.nameideagenerator.com/robot-name-generator',
+    url: 'https://www.nameideagenerator.com/russian-name-generator',
     images: [
       {
         url: 'Russian.webp',
@@ -29,7 +29,7 @@ export const metadata = {
      'russian name generator female', 'russian name generator with meaning', 'english to russian name generator', 'female russian name generator', 'old russian name generator'],
   robots:{index:true, follow: true},
   alternates:{
-    canonical:"https://www.nameideagenerator.com/robot-name-generator"
+    canonical:"https://www.nameideagenerator.com/russian-name-generator"
   },
 }
 
