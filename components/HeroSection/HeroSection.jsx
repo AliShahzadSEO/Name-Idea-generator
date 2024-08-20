@@ -80,27 +80,36 @@ const HeroSection = ({ context, bgImage }) => {
                 onMouseLeave={() => setFirstArrow(false)}
               >
                 <div className="flex items-center hover:text-[#007bff] text-white gap-[2px] cursor-pointer relative">
+                <Link href="/categories/fantasy-and-mythicalcreatures">
                   <p className="font-medium text-[13px] hover:border-b hover:border-solid">
                     Fantasy and Mythical Creatures
                   </p>
+                  </Link>
                   {firstarrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
                 </div>
                 <ul
                   className={`absolute text-center top-[100%] flex flex-col gap-4 pt-[20px] py-[10px] text-[14px] bg-white w-[100%] transition-all duration-300 ${firstarrow ? "opacity-100 visible" : "opacity-0 invisible"
                     }`}
-                >
+                ><Link href="/demon-name-generator">
                   <li className="hover:text-[#007bff]">
                     Demon Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/tiefling-name-generator">
                   <li className="hover:text-[#007bff]">
                     Tiefling Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/dragonborn-name-generator">
                   <li className="hover:text-[#007bff]">
                     Dragonborn Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/orc-name-generator">
                   <li className="hover:text-[#007bff]">
                     Orc Name <br /> Generator
                   </li>
+                  </Link>
                 </ul>
               </div>
               <div
@@ -109,27 +118,36 @@ const HeroSection = ({ context, bgImage }) => {
                 onMouseLeave={() => setSecondArrow(false)}
               >
                 <div className="flex items-center hover:text-[#007bff] text-white gap-[2px] cursor-pointer relative">
+                <Link href="/categories/cultural-and-historical">
                   <p className="font-medium text-[13px] hover:border-b hover:border-solid">
                     Cultural and Historical
                   </p>
+                  </Link>
                   {SecondArrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
                 </div>
                 <ul
                   className={`absolute text-center top-[100%] flex flex-col gap-4 pt-[20px] py-[10px] text-[14px] bg-white w-[100%] transition-all duration-300 ${SecondArrow ? "opacity-100 visible" : "opacity-0 invisible"
                     }`}
-                >
+                ><Link href="/viking-name-generator">
                   <li className="hover:text-[#007bff]">
                     Viking Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/viking-name-generator">
                   <li className="hover:text-[#007bff]">
                     Russian Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/viking-name-generator">
                   <li className="hover:text-[#007bff]">
                     Greek Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/norse-name-generator">
                   <li className="hover:text-[#007bff]">
                     Norse Name <br /> Generator
                   </li>
+                  </Link>
                 </ul>
               </div>
               <div
@@ -138,27 +156,36 @@ const HeroSection = ({ context, bgImage }) => {
                 onMouseLeave={() => setThirdArrow(false)}
               >
                 <div className="flex items-center hover:text-[#007bff] text-white gap-[2px] cursor-pointer relative">
+                <Link href="/categories/cultural-and-historical">
                   <p className="font-medium text-[13px] hover:border-b hover:border-solid">
                     Fictional and Sci-Fi
                   </p>
+                  </Link>
                   {ThirdArrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
                 </div>
                 <ul
                   className={`absolute text-center top-[100%] flex flex-col gap-4 pt-[20px] py-[10px] text-[14px] bg-white w-[100%] transition-all duration-300 ${ThirdArrow ? "opacity-100 visible" : "opacity-0 invisible"
                     }`}
-                >
+                ><Link href="/alien-name-generator">
                   <li className="hover:text-[#007bff]">
                     Alien Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/robot-name-generator">
                   <li className="hover:text-[#007bff]">
                     Robot Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/saiyan-name-generator">
                   <li className="hover:text-[#007bff]">
                     Saiyan Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/demon-name-generator">
                   <li className="hover:text-[#007bff]">
-                    Star Wars Name <br /> Generator
+                    Demon Name <br /> Generator
                   </li>
+                  </Link>
                 </ul>
               </div>
               <div
@@ -167,27 +194,37 @@ const HeroSection = ({ context, bgImage }) => {
                 onMouseLeave={() => setFourthArrow(false)}
               >
                 <div className="flex items-center hover:text-[#007bff] text-white gap-[2px] cursor-pointer relative">
+                <Link href="#">
                   <p className="font-medium text-[13px] hover:border-b hover:border-solid">
                     Miscellaneous Themes
                   </p>
+                  </Link>
                   {FourthArrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
                 </div>
                 <ul
                   className={`absolute text-center top-[100%] flex flex-col gap-4 pt-[20px] py-[10px] text-[14px] bg-white w-[100%] transition-all duration-300 ${FourthArrow ? "opacity-100 visible" : "opacity-0 invisible"
                     }`}
                 >
+                  <Link href="/island-name-generator">
                   <li className="hover:text-[#007bff]">
                     Island Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/song-name-generator">                  
                   <li className="hover:text-[#007bff]">
                     Song Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/angel-name-generator">
                   <li className="hover:text-[#007bff]">
                     Angel Name <br /> Generator
                   </li>
+                  </Link>
+                  <Link href="/horse-name-generator">
                   <li className="hover:text-[#007bff]">
                     Horse Name <br /> Generator
                   </li>
+                  </Link>
                 </ul>
               </div>
               <div className="flex items-center">

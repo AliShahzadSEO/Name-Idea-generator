@@ -4,7 +4,7 @@ import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { motion } from "framer-motion";
 import { IoClose } from "react-icons/io5";
-import Link from "next/link";
+import Link from 'next/link';
 
 const NavBar = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -104,10 +104,26 @@ const NavBar = () => {
                 className={`absolute text-center top-[100%] flex flex-col gap-4 pt-[20px] py-[10px] text-[14px] bg-white w-[100%] transition-all duration-300 ${FourthArrow ? "opacity-100 visible" : "opacity-0 invisible"
                   }`}
               >
-                <li className="hover:text-[#007bff]"><Link href="/island-name-generator">Island Name <br /> Generator</Link></li>
-                <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/song-name-generator">Song Name <br /> Generator</a></li>
-                <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/angel-name-generator">Angel Name <br /> Generator</a></li>
-                <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/horse-name-generator">Horse Name <br /> Generator</a></li>
+                  <Link href="/island-name-generator">
+                <li className="hover:text-[#007bff]">
+                    <a>Island Name <br /> Generator</a>
+                </li>
+                  </Link>
+                <li className="hover:text-[#007bff]">
+                  <Link href="/song-name-generator" passHref>
+                    <a>Song Name <br /> Generator</a>
+                  </Link>
+                </li>
+                <li className="hover:text-[#007bff]">
+                  <Link href="/angel-name-generator" passHref>
+                    <a>Angel Name <br /> Generator</a>
+                  </Link>
+                </li>
+                <li className="hover:text-[#007bff]">
+                  <Link href="/horse-name-generator" passHref>
+                    <a>Horse Name <br /> Generator</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="flex items-center">
