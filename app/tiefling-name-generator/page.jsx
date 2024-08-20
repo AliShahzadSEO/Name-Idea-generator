@@ -2,12 +2,12 @@ import TieflingNameGenerator from "@/components/tiefling-name-generator/Tiefling
 
 export const metadata = {
   title: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator ',
-  description: "Explore the cosmos with our Alien Name Generator! Instantly create random and unique alien names for your stories, games, or characters. Find the perfect name that captures the otherworldly essence you need.",
+  description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
   
   openGraph: {
     title: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator',
-    description: "Explore the cosmos with our Alien Name Generator! Instantly create random and unique alien names for your stories, games, or characters. Find the perfect name that captures the otherworldly essence you need.",
-    url: 'https://yourwebsite.com/alien-name-generator',
+    description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
+    url: 'http://nameideagenerator.com/tiefling-name-generator',
     images: [
       {
         url: 'female.jpg',
@@ -21,14 +21,16 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator',
-    description: "Explore the cosmos with our Alien Name Generator! Instantly create random and unique alien names for your stories, games, or characters. Find the perfect name that captures the otherworldly essence you need.",
+    description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
     images: ['female.jpg'],
   },
 
   keywords: ['Tiefling name generator', 'tiefling name generator 5e', 'tiefling name generator dnd', 'dnd tiefling name generator',
      'female tiefling name generator', 'tiefling name generator pathfinder', 'bg3 tiefling name generator'],
-  canonical: 'https://yourwebsite.com/alien-name-generator',
-  
+     robots:{index:true, follow: true},
+     alternates:{
+       canonical:"https://www.nameideagenerator.com/tabaxi-name-generator"
+     },
 }
 
 const page = () => {
