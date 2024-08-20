@@ -414,27 +414,27 @@ function getRandomDemon(gender, type, demonNames) {
     const randomIndex = Math.floor(Math.random() * filteredDemons.length);
     return filteredDemons[randomIndex];
 }
-const Category1 = [
+const FictionalAndSciFi = [
     {
-        name: "Tabaxi Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
-    },
-    {
-        name: "Tiefling Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
-    },
-    {
-        name: "Goblin Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
-    },
-    {
-        name: "ORC Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
-    },
+        name: "Alien Name Generator",
+        pic: "/alien.webp",
+        link: "https://www.nameideagenerator.com/alien-name-generator",
+      },
+      {
+        name: "Island Name Generator",
+        pic: "/island1.jpg",
+        link: "https://www.nameideagenerator.com/island-name-generator",
+      },
+      {
+        name: "Song Name Generator",
+        pic: "/pop.jpg",
+        link: "https://www.nameideagenerator.com/song-name-generator",
+      },
+      {
+        name: "Angel Name Generator",
+        pic: "/angel.jpg",
+        link: "https://www.nameideagenerator.com/angel-name-generator",
+      },
 ];
 
 const SaiyanNameGenerator = () => {

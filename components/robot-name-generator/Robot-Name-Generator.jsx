@@ -342,27 +342,27 @@ function getRandomDemon(gender, type, demonNames) {
     const randomIndex = Math.floor(Math.random() * filteredDemons.length);
     return filteredDemons[randomIndex];
 }
-const Category1 = [
-    {
-        name: "Kobold Name Generator",
-        pic: "/kobold.jpg",
-        link: "https://www.nameideagenerator.com/kobold-name-generator",
-    },
-    {
-        name: "Norse Name Generator",
-        pic: "/Norse.jpg",
-        link: "https://www.nameideagenerator.com/norse-name-generator",
-    },
-    {
-        name: "Orc Name Generator",
-        pic: "/orc-name-generator.jpg",
-        link: "https://www.nameideagenerator.com/orc-name-generator",
-    },
-    {
-        name: "Horse Name Generator",
-        pic: "horse.webp",
-        link: "https://www.nameideagenerator.com/horse-name-generator",
-    },
+const FictionalAndSciFi = [
+   {
+    name: "Alien Name Generator",
+    pic: "/alien.webp",
+    link: "https://www.nameideagenerator.com/alien-name-generator",
+  },
+  {
+    name: "Island Name Generator",
+    pic: "/island1.jpg",
+    link: "https://www.nameideagenerator.com/island-name-generator",
+  },
+  {
+    name: "Song Name Generator",
+    pic: "/pop.jpg",
+    link: "https://www.nameideagenerator.com/song-name-generator",
+  },
+  {
+    name: "Angel Name Generator",
+    pic: "/angel.jpg",
+    link: "https://www.nameideagenerator.com/angel-name-generator",
+  },
     ];
 
 const RobotNameGenerator = () => {

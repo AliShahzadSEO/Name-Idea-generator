@@ -423,28 +423,28 @@ function getRandomDemon(gender, type, demonNames) {
     const randomIndex = Math.floor(Math.random() * filteredDemons.length);
     return filteredDemons[randomIndex];
 }
-const Category1 = [
+const Category2 = [
     {
-        name: "Tabaxi Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Viking Name Generator",
+        pic: "/vikings.jpg",
+        link: "https://www.nameideagenerator.com/viking-name-generator",
     },
     {
-        name: "Tiefling Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Russian Name Generator",
+        pic: "/Russian.webp",
+        link: "https://www.nameideagenerator.com/russian-name-generator",
     },
     {
-        name: "Goblin Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Norse Name Generator",
+        pic: "/Norse.jpg",
+        link: "https://www.nameideagenerator.com/norse-name-generator",
     },
     {
-        name: "ORC Name Generator",
-        pic: "/demonpic.jpg",
-        link: "",
+        name: "Greek Name Generator",
+        pic: "greek.webp",
+        link: "https://www.nameideagenerator.com/greek-name-generator",
     },
-];
+    ];
 
 const SongNameGenerator = () => {
     const [lockedDemonList, setLockedDemonList] = useState([

@@ -403,29 +403,28 @@ function getRandomDemon(gender, type, demonNames) {
     const randomIndex = Math.floor(Math.random() * filteredDemons.length);
     return filteredDemons[randomIndex];
 }
-const Category1 = [
+const Category2 = [
     {
-        name: "Kobold Name Generator",
-        pic: "/kobold.jpg",
-        link: "https://www.nameideagenerator.com/kobold-name-generator",
+        name: "Viking Name Generator",
+        pic: "/vikings.jpg",
+        link: "https://www.nameideagenerator.com/viking-name-generator",
     },
     {
-        name: "Half Elf Name Generator",
-        pic: "/half-demon.webp",
-        link: "https://www.nameideagenerator.com/half-elf-name-generator",
+        name: "Russian Name Generator",
+        pic: "/Russian.webp",
+        link: "https://www.nameideagenerator.com/russian-name-generator",
     },
     {
-        name: "Halfing Name Generator",
-        pic: "/halfling.webp",
-        link: "https://www.nameideagenerator.com/halfling-name-generator",
+        name: "Norse Name Generator",
+        pic: "/Norse.jpg",
+        link: "https://www.nameideagenerator.com/norse-name-generator",
     },
     {
-        name: "Horse Name Generator",
-        pic: "horse.webp",
-        link: "https://www.nameideagenerator.com/horse-name-generator",
+        name: "Greek Name Generator",
+        pic: "greek.webp",
+        link: "https://www.nameideagenerator.com/greek-name-generator",
     },
     ];
-
 const NorseNameGenerator = () => {
     const [lockedDemonList, setLockedDemonList] = useState([
         null,

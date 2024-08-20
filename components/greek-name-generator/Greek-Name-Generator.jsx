@@ -397,26 +397,26 @@ function getRandomDemon(gender, type, demonNames) {
     const randomIndex = Math.floor(Math.random() * filteredDemons.length);
     return filteredDemons[randomIndex];
 }
-const Category1 = [
+const Category2 = [
     {
-        name: "Goblin Name Generator",
-        pic: "/Goblin.jpg",
-        link: "https://www.nameideagenerator.com/goblin-name-generator",
+        name: "Viking Name Generator",
+        pic: "/vikings.jpg",
+        link: "https://www.nameideagenerator.com/viking-name-generator",
     },
     {
-        name: "Angel Name Generator",
-        pic: "/angel.jpg",
-        link: "https://www.nameideagenerator.com/angel-name-generator",
+        name: "Russian Name Generator",
+        pic: "/Russian.webp",
+        link: "https://www.nameideagenerator.com/russian-name-generator",
     },
     {
-        name: "Demon Name Generator",
-        pic: "/demonpic.jpg",
-        link: "https://www.nameideagenerator.com/demon-name-generator",
+        name: "Norse Name Generator",
+        pic: "/Norse.jpg",
+        link: "https://www.nameideagenerator.com/norse-name-generator",
     },
     {
-        name: "DragonBorn Name Generator",
-        pic: "bg-dragonborn.webp",
-        link: "https://www.nameideagenerator.com/dragonborn-name-generator",
+        name: "Greek Name Generator",
+        pic: "greek.webp",
+        link: "https://www.nameideagenerator.com/greek-name-generator",
     },
     ];
 
