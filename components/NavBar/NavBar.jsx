@@ -104,7 +104,7 @@ const NavBar = () => {
                 className={`absolute text-center top-[100%] flex flex-col gap-4 pt-[20px] py-[10px] text-[14px] bg-white w-[100%] transition-all duration-300 ${FourthArrow ? "opacity-100 visible" : "opacity-0 invisible"
                   }`}
               >
-                <li className="hover:text-[#007bff]"><Link href="https://www.nameideagenerator.com/island-name-generator">Island Name <br /> Generator</Link></li>
+                <li className="hover:text-[#007bff]"><Link href="/island-name-generator">Island Name <br /> Generator</Link></li>
                 <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/song-name-generator">Song Name <br /> Generator</a></li>
                 <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/angel-name-generator">Angel Name <br /> Generator</a></li>
                 <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/horse-name-generator">Horse Name <br /> Generator</a></li>
