@@ -62,13 +62,13 @@ const Footer = () => {
             <p className="text-[36px] font-bold text-white">Categories</p>
           </div>
           <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
-          <Link href={"/fantasyandmythicalcreatures"}>
+          <Link href={"/categories/fantasy-and-mythical-creatures"}>
             <p>Fantasy and Mythical</p>
           </Link>
-          <Link href={"/culturalandhistorical"}>
+          <Link href={"/categories/cultural-and-historical"}>
             <p className="cursor-pointer">Cultural and Historical</p>
           </Link>
-          <Link href={"/fictionalandscifi"}>
+          <Link href={"/categories/fictional-and-scifi"}>
             <p className="cursor-pointer">Fictional and Sci-Fi</p>
           </Link>
 
