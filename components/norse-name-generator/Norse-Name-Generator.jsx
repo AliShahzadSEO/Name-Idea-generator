@@ -674,7 +674,7 @@ const NorseNameGenerator = () => {
                     Related to Norse-Name-Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
-                    {Category1.map((item, index) => (
+                    {Category2.map((item, index) => (
                         <Link key={index} href={item.link}>
                             <motion.div
                                 variants={{
