@@ -31,9 +31,10 @@ const NavBar = () => {
            onMouseLeave={() => setFirstArrow(false)}
          >
            <div className="flex items-center hover:text-[#007bff] gap-[2px] cursor-pointer relative">
-             <p className="font-medium text-[14px] hover:border-b hover:border-solid">
+           <a href="https://www.nameideagenerator.com/categories/fantasy-and-mythicalcreatures">  <p className="font-medium text-[14px] hover:border-b hover:border-solid">
                Fantasy and Mythical Creatures
              </p>
+             </a>
              {firstarrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
            </div>
            <ul
@@ -41,10 +42,10 @@ const NavBar = () => {
                firstarrow ? "opacity-100 visible" : "opacity-0 invisible"
              }`}
            >
-             <li className="hover:text-[#007bff]">Demon Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Tiefling Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Dragonborn Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Orc Name <br /> Generator</li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/demon-name-generator"> Demon Name <br /> Generator </a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/tiefling-name-generator">Tiefling Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/dragonborn-name-generator">Dragonborn Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/orc-name-generator">Orc Name <br /> Generator</a></li>
            </ul>
          </div>
          <div
@@ -53,9 +54,9 @@ const NavBar = () => {
            onMouseLeave={() => setSecondArrow(false)}
          >
            <div className="flex items-center hover:text-[#007bff] gap-[2px] cursor-pointer relative">
-             <p className="font-medium text-[14px] hover:border-b hover:border-solid">
+            <a href="https://www.nameideagenerator.com/categories/cultural-and-historical"> <p className="font-medium text-[14px] hover:border-b hover:border-solid">
                Cultural and Historical
-             </p>
+             </p></a>
              {SecondArrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
            </div>
            <ul
@@ -63,10 +64,10 @@ const NavBar = () => {
                SecondArrow ? "opacity-100 visible" : "opacity-0 invisible"
              }`}
            >
-             <li className="hover:text-[#007bff]">Viking Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Russian Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Greek Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Norse Name <br /> Generator</li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/viking-name-generator">Viking Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/russian-name-generator">Russian Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/greek-name-generator">Greek Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/norse-name-generator">Norse Name <br /> Generator</a></li>
            </ul>
          </div>
          <div
@@ -75,9 +76,9 @@ const NavBar = () => {
            onMouseLeave={() => setThirdArrow(false)}
          >
            <div className="flex items-center hover:text-[#007bff] gap-[2px] cursor-pointer relative">
-             <p className="font-medium text-[14px] hover:border-b hover:border-solid">
+          <a href="https://www.nameideagenerator.com/categories/fictional-and-scifi"> <p className="font-medium text-[14px] hover:border-b hover:border-solid">
                Fictional and Sci-Fi
-             </p>
+             </p></a>  
              {ThirdArrow ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
            </div>
            <ul
@@ -85,10 +86,10 @@ const NavBar = () => {
                ThirdArrow ? "opacity-100 visible" : "opacity-0 invisible"
              }`}
            >
-             <li className="hover:text-[#007bff]">Alien Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Robot Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Saiyan Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Star Wars Name <br /> Generator</li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/alien-name-generator">Alien Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/island-name-generator">Robot Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/saiyan-name-generator">Saiyan Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/angel-name-generator">Angel Name <br /> Generator</a></li>
            </ul>
          </div>
          <div
@@ -107,10 +108,10 @@ const NavBar = () => {
                FourthArrow ? "opacity-100 visible" : "opacity-0 invisible"
              }`}
            >
-             <li className="hover:text-[#007bff]">Island Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Song Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Angel Name <br /> Generator</li>
-             <li className="hover:text-[#007bff]">Horse Name <br /> Generator</li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/island-name-generator">Island Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/song-name-generator">Song Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/angel-name-generator">Angel Name <br /> Generator</a></li>
+             <li className="hover:text-[#007bff]"><a href="https://www.nameideagenerator.com/horse-name-generator">Horse Name <br /> Generator</a></li>
            </ul>
          </div>
          <div className="flex items-center">
