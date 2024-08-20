@@ -91,9 +91,9 @@ const Category1 = () => {
       <HeroSection bgImage={bgImage} context={context}/>
       <div className="w-[90%] mx-auto">
         <div className="py-[16px]">
-          <h2 className="text-center sm:text-[36px] text-[24px] font-semibold">
+          <h1 className="text-center sm:text-[36px] text-[24px] font-semibold">
             FANTASY AND MYTHICAL CREATURES
-          </h2>
+          </h1>
         </div>
         <div className="grid sm:grid-cols-3 grid-cols-1  gap-4 pt-[20px] py-[60px]">
           {Data.map((item, index) => (
