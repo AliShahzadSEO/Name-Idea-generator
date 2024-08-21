@@ -38,12 +38,12 @@ const Data = [
   {
     name: "Wood Elf Name Generator",
     pic: "/Wood_Elf.webp",
-    link: "/wood-name-generator",
+    link: "/wood-elf-name-generator",
   },
   {
     name: "Half Elf Name Generator",
     pic: "/half-demon.webp",
-    link: "/half-name-generator",
+    link: "/half-elf-name-generator",
   },
   {
     name: "Tabaxi Name Generator",
