@@ -69,7 +69,7 @@ const HeroSection = ({ context, bgImage }) => {
         {width > 768 ? (
           <div className="w-[90%] mx-auto flex justify-between items-center py-[20px]">
             <div>
-            <Link href="home">
+            <Link href="/">
               <p className="font-bold text-[28px] text-[#007bff]">
                 Name Idea Generator
               </p>
