@@ -133,12 +133,12 @@ const HeroSection = ({ context, bgImage }) => {
                     Viking Name <br /> Generator
                   </li>
                   </Link>
-                  <Link href="/viking-name-generator">
+                  <Link href="/russian-name-generator">
                   <li className="hover:text-[#007bff]">
                     Russian Name <br /> Generator
                   </li>
                   </Link>
-                  <Link href="/viking-name-generator">
+                  <Link href="/greek-name-generator">
                   <li className="hover:text-[#007bff]">
                     Greek Name <br /> Generator
                   </li>

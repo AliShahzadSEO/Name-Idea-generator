@@ -29,7 +29,7 @@ export const metadata = {
      'female tiefling name generator', 'tiefling name generator pathfinder', 'bg3 tiefling name generator'],
      robots:{index:true, follow: true},
      alternates:{
-       canonical:"https://www.nameideagenerator.com/tabaxi-name-generator"
+       canonical:"https://www.nameideagenerator.com/tiefling-name-generator"
      },
 }
 

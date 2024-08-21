@@ -13,14 +13,14 @@ export const metadata = {
         url: 'halfling.webp',
         width: 800,
         height: 600,
-        alt: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
+        alt: 'Halfling Name Generator | Random Halfling Name Generator With Meaning | Name Idea Generator',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
+    title: 'Halfling Name Generator | Random Halfling Name Generator With Meaning | Name Idea Generator',
     description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
     images: ['halfling.webp'],
   },

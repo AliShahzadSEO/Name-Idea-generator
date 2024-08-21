@@ -5,22 +5,22 @@ export const metadata = {
   description: "Forge fierce identities with our Orc Name Generator! Generate random orc names with meanings that reflect their strength and warrior spirit. Find the perfect name idea for your orc character quickly and easily.",
   
   openGraph: {
-    title: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator',
+    title: 'Orc Name Generator | Random Orc Name Generator With Meaning | Name Idea Generator',
     description: "Forge fierce identities with our Orc Name Generator! Generate random orc names with meanings that reflect their strength and warrior spirit. Find the perfect name idea for your orc character quickly and easily.",
-    url: 'https://www.nameideagenerator.com/norse-name-generator',
+    url: 'https://www.nameideagenerator.com/orc-name-generator',
     images: [
       {
         url: 'orc-name-generator.jpg',
         width: 800,
         height: 600,
-        alt: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator',
+        alt: 'Orc Name Generator | Random Orc Name Generator With Meaning | Name Idea Generator',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator',
+    title: 'Orc Name Generator | Random Orc Name Generator With Meaning | Name Idea Generator',
     description: "Forge fierce identities with our Orc Name Generator! Generate random orc names with meanings that reflect their strength and warrior spirit. Find the perfect name idea for your orc character quickly and easily.",
     images: ['orc-name-generator.jpg'],
   },
@@ -29,7 +29,7 @@ export const metadata = {
      'skyrim orc name generator', 'wow orc name generator', 'dnd orc name generator', 'orc name generator wow', 'orc name generator dnd'],
   robots:{index:true, follow: true},
   alternates:{
-    canonical:"https://www.nameideagenerator.com/norse-name-generator"
+    canonical:"https://www.nameideagenerator.com/orc-name-generator"
   },
 }
 
