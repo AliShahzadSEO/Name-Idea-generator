@@ -551,7 +551,7 @@ const SongNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Tabaxi</p>
+                        <p className="text-center text-[#343a40]">Types of Songs</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -685,7 +685,7 @@ const SongNameGenerator = () => {
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/song name generator.png")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
