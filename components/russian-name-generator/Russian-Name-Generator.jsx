@@ -657,7 +657,7 @@ const RussianNameGenerator = () => {
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
-                            src="Viking1.jpg"
+                            src="russian2.webp"
                             alt=""
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />

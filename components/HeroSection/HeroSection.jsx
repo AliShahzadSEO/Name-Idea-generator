@@ -156,7 +156,7 @@ const HeroSection = ({ context, bgImage }) => {
                 onMouseLeave={() => setThirdArrow(false)}
               >
                 <div className="flex items-center hover:text-[#007bff] text-white gap-[2px] cursor-pointer relative">
-                <Link href="/categories/cultural-and-historical">
+                <Link href="/categories/fictional-and-scifi">
                   <p className="font-medium text-[13px] hover:border-b hover:border-solid">
                     Fictional and Sci-Fi
                   </p>
