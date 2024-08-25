@@ -1,49 +1,35 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import Script from 'next/script';
+import { useEffect } from 'react';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Name Idea Generator | Generate Unique Name Ideas For Your Character",
-  description: "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!",
-  robots:{index:true, follow: true},
-  
-  alternates:{
-    canonical:"https://www.nameideagenerator.com"
-  },
-
-  openGraph: {
-    title: 'Name Idea Generator | Generate Unique Name Ideas For Your Character',
-    description: "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!!",
-    url: 'https://www.nameideagenerator.com',
-    images: [
-      {
-        url: 'bg2.jpg',
-        width: 800,
-        height: 600,
-        alt: 'Dragonborn Name Generator | Create Unique Demon Names | Name Idea Generator ',
-      },
-    ],
-  },
-
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Name Idea Generator | Generate Unique Name Ideas For Your Character',
-    description: "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!",
-    images: ['bg2.jpg'],
-  },
-
+  // ...
 };
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS);
+    }
+  }, []);
+
   return (
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="IW3ie0bKpLn8jz5a03YsvJRQy6X2TWYnzvprqsR7cms" />
-        
-        </head>
-      
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          strategy="lazyOnload"
+        />
+      </head>
       <body className={inter.className}>
         {/* <NavBar /> */}
         {children}
