@@ -1,3 +1,5 @@
+'use client';
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
@@ -11,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   useEffect(() => {
-    if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS) {
+    if (typeof window !== 'undefined' && process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS) {
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         window.dataLayer.push(arguments);
@@ -27,7 +29,7 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="IW3ie0bKpLn8jz5a03YsvJRQy6X2TWYnzvprqsR7cms" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
       </head>
       <body className={inter.className}>
