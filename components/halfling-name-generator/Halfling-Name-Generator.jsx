@@ -679,7 +679,7 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to DragonBorn-Name-Generator
+                    Related to Halfing Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (

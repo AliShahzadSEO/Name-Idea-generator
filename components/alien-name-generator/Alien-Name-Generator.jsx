@@ -793,12 +793,12 @@ const A5 = "The current manual does not specify any costs associated with using 
 
                     <div class="sm:w-[40%] relative">
                         <img
-                            src="alien3"
+                            src="alien3.jpeg"
                             alt="alien name generator"
                             class="w-[350px] my-[60px] h-[350px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
-                            src="alien4"
+                            src="alien4.jpeg"
                             alt="alien name generator"
                             class="w-[350px] h-[350px] my-[20px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />

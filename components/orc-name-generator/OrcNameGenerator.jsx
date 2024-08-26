@@ -551,7 +551,7 @@ Our responsibility to confidentiality is at the core of what we do and ensures t
         }}
       >
         <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-          Related to DragonBorn-Name-Generator
+          Related to Orc Name Generator
         </p>
         <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
           {Category1.map((item, index) => (
