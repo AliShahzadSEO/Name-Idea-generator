@@ -35,6 +35,16 @@ const Data = [
     link: "/horse-name-generator",
   },
   {
+    name: "Saiyan Name Generator",
+    pic: "/saiyan3.jpg",
+    link: "/saiyan-name-generator",
+  },
+  {
+    name: "Robot Name Generator",
+    pic: "/robot.jpg",
+    link: "/robot-name-generator",
+  },
+  {
     name: "Pirate Name Generator",
     pic: "/demonpic.jpg",
     link: "",
