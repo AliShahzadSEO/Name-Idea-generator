@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'WoW Name Generator | Random Wow Name Generator | Name Idea Generator',
     description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
-    url: 'http://nameideagenerator.com/wow-name-generator',
+    url: 'https://www.nameideagenerator.com/wow-name-generator',
     images: [
       {
         url: 'wow.jpg',
@@ -27,7 +27,7 @@ export const metadata = {
 
   keywords: ['wow name generator', 'wow name generator blood elf', 'wow name generator human', 'random wow name generator',
      'wow name generator troll', 'orc wow name generator', 'funny wow name generator', 'wow name generator orc', 'human wow name generator', 'wow name generator night elf'],
-  canonical: 'http://nameideagenerator.com/wow-name-generator',
+  canonical: 'https://www.nameideagenerator.com/wow-name-generator',
   
 }
 
