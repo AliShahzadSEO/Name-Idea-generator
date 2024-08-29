@@ -27,8 +27,10 @@ export const metadata = {
 
   keywords: ['wow name generator', 'wow name generator blood elf', 'wow name generator human', 'random wow name generator',
      'wow name generator troll', 'orc wow name generator', 'funny wow name generator', 'wow name generator orc', 'human wow name generator', 'wow name generator night elf'],
-  canonical: "https://www.nameideagenerator.com/wow-name-generator",
   
+     alternates:{
+      canonical:"https://www.nameideagenerator.com/wow-name-generator"
+    },
 }
 
 const page = () => {
