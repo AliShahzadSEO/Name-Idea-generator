@@ -46,11 +46,11 @@ export default function RootLayout({ children }) {
       <head></head>
 
       <body className={inter.className}>
-        <GoogleAnalytics gaId="G-CR7B6GW9K1"/>
         {/* <NavBar /> */}
         {children}
         {/* <Footer /> */}
       </body>
+        <GoogleAnalytics gaId="G-CR7B6GW9K1"/>
     </html>
   );
 }
