@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 
@@ -43,7 +42,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="IW3ie0bKpLn8jz5a03YsvJRQy6X2TWYnzvprqsR7cms" />
-        <GoogleAnalytics gaId="G-CR7P6GW9K1" />
+        
         </head>
       
       <body className={inter.className}>
@@ -51,7 +50,6 @@ export default function RootLayout({ children }) {
         {children}
         {/* <Footer /> */}
       </body>
-
     </html>
   );
 }
