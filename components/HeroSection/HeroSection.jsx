@@ -70,7 +70,7 @@ const HeroSection = ({ context, bgImage }) => {
           <div className="w-[90%] mx-auto flex justify-between items-center py-[20px]">
             <div>
     <Link href="/">
-        <img src="Logo.png" alt="Name idea generator Logo" className="w-40 h-20" />
+        <img src="Logo.png" alt="Name idea generator Logo" className="w-20 h-20" />
     </Link>
 </div>
             <div className="flex gap-4">
