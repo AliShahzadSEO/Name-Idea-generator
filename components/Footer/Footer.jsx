@@ -46,7 +46,7 @@ const Footer = () => {
         {/* Second section */}
         <div className="sm:w-[25%]">
           <div>
-            <p className="text-[36px] font-bold text-white">Support</p>
+            <p className="text-[26px] font-bold text-white">Support</p>
           </div>
           <div className="py-[10px]">
             <p className="font-semibold text-[14px] text-white">
@@ -61,7 +61,7 @@ const Footer = () => {
         {/* Third section */}
         <div className="sm:w-[25%]">
         <div>
-            <p className="text-[36px] font-bold text-white">Categories</p>
+            <p className="text-[26px] font-bold text-white">Categories</p>
           </div>
           <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
           <Link href={"/categories/fantasy-and-mythicalcreatures"}>
