@@ -2,11 +2,11 @@ import RussianNameGenerator from "@/components/russian-name-generator/Russian-Na
 
 export const metadata = {
   title: 'Russian Name Generator | Random Russian Name Generator With Meaning | Name Idea Generator ',
-  description: "Discover authentic Russian names with our Russian Name Generator! Generate random names with meanings that reflect cultural heritage and history. Find the ideal name idea for your character effortlessly.",
+  description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
   
   openGraph: {
     title: 'Robot Name Generator | Random Robot Name Generator With Meaning | Name Idea Generator',
-    description: "Discover authentic Russian names with our Russian Name Generator! Generate random names with meanings that reflect cultural heritage and history. Find the ideal name idea for your character effortlessly.",
+    description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
     url: 'https://www.nameideagenerator.com/russian-name-generator',
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Russian Name Generator | Random Russian Name Generator With Meaning | Name Idea Generator',
-    description: "Discover authentic Russian names with our Russian Name Generator! Generate random names with meanings that reflect cultural heritage and history. Find the ideal name idea for your character effortlessly.",
+    description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
     images: ['Russian.webp'],
   },
 

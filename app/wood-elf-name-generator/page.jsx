@@ -1,11 +1,11 @@
 import WoodElfNameGenerator from "@/components/wood-elf-name-generator/Wood-Elf-Name-Generator"
 
 export const metadata = {
-  title: 'Wood Elf Name Generator | Random Wood Elf Name Generator | Name Idea Generator ',
+  title: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
   description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
   
   openGraph: {
-    title: 'Wood Elf Name Generator | Random Wood Elf Name Generator | Name Idea Generator ',
+    title: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
     description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
     url: 'http://nameideagenerator.com/wood-elf-name-generator',
     images: [
@@ -13,14 +13,14 @@ export const metadata = {
         url: 'Wood_Elf.webp',
         width: 800,
         height: 600,
-        alt: 'Wood Elf Name Generator | Random Wood Elf Name Generator | Name Idea Generator ',
+        alt: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Wood Elf Name Generator | Random Wood Elf Name Generator | Name Idea Generator',
+    title: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
     description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
     images: ['Wood_Elf.webp'],
   },

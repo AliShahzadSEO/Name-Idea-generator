@@ -1,27 +1,27 @@
 import KoboldNameGenerator from "@/components/kobold-name-generator/Kobold-Name-Generator"
 
 export const metadata = {
-  title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning | Name Idea Generator ',
-  description: "Unleash creativity with our Kobold Name Generator! Generate random kobold names with meanings that reflect their cunning and charm. Find the perfect name idea for your kobold character effortlessly.",
+  title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning',
+  description: "Generate random Kobold names with meanings using our Kobold Name Generator. Perfect for DnD, games, and fantasy projects!",
   
   openGraph: {
-    title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning | Name Idea Generator',
-    description: "Unleash creativity with our Kobold Name Generator! Generate random kobold names with meanings that reflect their cunning and charm. Find the perfect name idea for your kobold character effortlessly.",
+    title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning',
+    description: "Generate random Kobold names with meanings using our Kobold Name Generator. Perfect for DnD, games, and fantasy projects!",
     url: 'https://www.nameideagenerator.com/kobold-name-generator',
     images: [
       {
         url: 'kobold.jpg',
         width: 800,
         height: 600,
-        alt: 'Kobold Name Generator | Random Kobold Name Generator With Meaning | Name Idea Generator',
+        alt: 'Kobold Name Generator | Random Kobold Name Generator With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning | Name Idea Generator',
-    description: "Unleash creativity with our Kobold Name Generator! Generate random kobold names with meanings that reflect their cunning and charm. Find the perfect name idea for your kobold character effortlessly.",
+    title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning',
+    description: "Generate random Kobold names with meanings using our Kobold Name Generator. Perfect for DnD, games, and fantasy projects!",
     images: ['kobold.jpg'],
   },
 

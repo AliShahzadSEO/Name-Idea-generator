@@ -1,27 +1,27 @@
 import TabaxiNameGenerator from "@/components/tabaxi-name-generator/Tabaxi-Name-Generator"
 
 export const metadata = {
-  title: 'Tabaxi Name Generator | Random Tabaxi Name Generator With Meaning | Name Idea Generator',
-  description: "Unleash your creativity with our Tabaxi Name Generator! Generate random Tabaxi names with meanings that reflect their feline grace and mystique. Find the perfect name idea for your Tabaxi character quickly and easily.",
+  title: 'Tabaxi Name Generator | DnD Tabaxi Name Generator With Meaning',
+  description: "Create unique Tabaxi names with detailed meanings using our DnD Tabaxi Name Generator. Perfect for adding depth to your fantasy characters and enriching your campaigns!",
   
   openGraph: {
-    title: 'Tabaxi Name Generator | Random Tabaxi Name Generator With Meaning | Name Idea Generator',
-    description: "Unleash your creativity with our Tabaxi Name Generator! Generate random Tabaxi names with meanings that reflect their feline grace and mystique. Find the perfect name idea for your Tabaxi character quickly and easily.",
+    title: 'Tabaxi Name Generator | DnD Tabaxi Name Generator With Meaning',
+    description: "Create unique Tabaxi names with detailed meanings using our DnD Tabaxi Name Generator. Perfect for adding depth to your fantasy characters and enriching your campaigns!",
     url: 'https://www.nameideagenerator.com/tabaxi-name-generator',
     images: [
       {
         url: 'tabaxi.jpeg',
         width: 800,
         height: 600,
-        alt: 'Tabaxi Name Generator | Random Tabaxi Name Generator With Meaning | Name Idea Generator',
+        alt: 'Tabaxi Name Generator | DnD Tabaxi Name Generator With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Tabaxi Name Generator | Random Tabaxi Name Generator With Meaning | Name Idea Generator',
-    description: "Unleash your creativity with our Tabaxi Name Generator! Generate random Tabaxi names with meanings that reflect their feline grace and mystique. Find the perfect name idea for your Tabaxi character quickly and easily.",
+    title: 'Tabaxi Name Generator | DnD Tabaxi Name Generator With Meaning',
+    description: "Create unique Tabaxi names with detailed meanings using our DnD Tabaxi Name Generator. Perfect for adding depth to your fantasy characters and enriching your campaigns!",
     images: ['tabaxi.jpeg'],
   },
 

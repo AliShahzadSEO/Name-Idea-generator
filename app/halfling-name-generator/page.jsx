@@ -1,12 +1,12 @@
 import HalflingNameGenerator from "@/components/halfling-name-generator/Halfling-Name-Generator"
 
 export const metadata = {
-  title: 'Halfling Name Generator | Random Halfling Name Generator With Meaning | Name Idea Generator ',
-  description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
+  title: 'Halfling Name Generator | DnD Halfling Name Generator With Meaning',
+  description: "Generate unique Halfling names with meanings using our DnD Halfling Name Generator. Ideal for your fantasy stories and games!",
   
   openGraph: {
     title: 'Halfling Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
-    description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
+    description: "Generate unique Halfling names with meanings using our DnD Halfling Name Generator. Ideal for your fantasy stories and games!",
     url: 'https://www.nameideagenerator.com/halfling-name-generator',
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Halfling Name Generator | Random Halfling Name Generator With Meaning | Name Idea Generator',
-    description: "Find unique and meaningful halfling names with our Random Halfling Name Generator at Name Idea Generator. Perfect for creating the ideal name for your character!",
+    description: "Generate unique Halfling names with meanings using our DnD Halfling Name Generator. Ideal for your fantasy stories and games!",
     images: ['halfling.webp'],
   },
 

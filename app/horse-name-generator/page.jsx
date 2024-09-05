@@ -1,27 +1,27 @@
 import HorseNameGenerator from "@/components/horse-name-generator/Horse-Name-Generator"
 
 export const metadata = {
-  title: 'Horse Name Generator | Race Horse Name Generator With Meaning | Name Idea Generator ',
-  description: "Discover the perfect name for your horse with our Horse Name Generator! Find unique race horse names with meanings that capture your horse's spirit and strength. Get creative and choose the best name ideas effortlessly.",
+  title: 'Horse Name Generator | Race Horse Name Generator With Meaning',
+  description: "Create unique race horse names with meanings using our Horse Name Generator. Perfect for naming racehorses, pets, and more!",
   
   openGraph: {
-    title: 'Horse Name Generator | Race Horse Name Generator With Meaning | Name Idea Generator',
-    description: "Discover the perfect name for your horse with our Horse Name Generator! Find unique race horse names with meanings that capture your horse's spirit and strength. Get creative and choose the best name ideas effortlessly.",
+    title: 'Horse Name Generator | Race Horse Name Generator With Meaning',
+    description: "Create unique race horse names with meanings using our Horse Name Generator. Perfect for naming racehorses, pets, and more!",
     url: 'https://www.nameideagenerator.com/horse-name-generator',
     images: [
       {
         url: 'horse.webp',
         width: 800,
         height: 600,
-        alt: 'Horse Name Generator | Race Horse Name Generator With Meaning | Name Idea Generator',
+        alt: 'Horse Name Generator | Race Horse Name Generator With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Horse Name Generator | Race Horse Name Generator With Meaning | Name Idea Generator',
-    description: "Discover the perfect name for your horse with our Horse Name Generator! Find unique race horse names with meanings that capture your horse's spirit and strength. Get creative and choose the best name ideas effortlessly.",
+    title: 'Horse Name Generator | Race Horse Name Generator With Meaning',
+    description: "Create unique race horse names with meanings using our Horse Name Generator. Perfect for naming racehorses, pets, and more!",
     images: ['horse.webp'],
   },
 

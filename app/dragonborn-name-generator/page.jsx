@@ -1,11 +1,11 @@
 import DragonbornNameGenerator from "@/components/dragonborn-name-generator/DragonbornNameGenerator"
 
 export const metadata = {
-  title: 'Dragonborn Name Generator | Random Dragonborn Names With Meaning | Name Idea Generator ',
+  title: 'Dragonborn Name Generator | DND Dragonborn Names With Meaning | Name Idea Generator ',
   description: "Create powerful and meaningful names with our Dragonborn Name Generator. Perfect for generating random Dragonborn names with deep meanings for your characters!",
   
   openGraph: {
-    title: 'Dragonborn Name Generator | Random Dragonborn Names With Meaning | Name Idea Generator ',
+    title: 'Dragonborn Name Generator | DND Dragonborn Names With Meaning | Name Idea Generator ',
     description: "Create powerful and meaningful names with our Dragonborn Name Generator. Perfect for generating random Dragonborn names with deep meanings for your characters!",
     url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
     images: [
@@ -20,7 +20,7 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Dragonborn Name Generator | Random Dragonborn Names With Meaning | Name Idea Generator',
+    title: 'Dragonborn Name Generator | DND Dragonborn Names With Meaning | Name Idea Generator',
     description: "Create powerful and meaningful names with our Dragonborn Name Generator. Perfect for generating random Dragonborn names with deep meanings for your characters!",
     images: ['bg-dragonborn.webp'],
   },

@@ -2,27 +2,27 @@ import GoblinNameGenerator from "@/components/goblin-name-generator/Goblin-Name-
 
 
 export const metadata = {
-  title: 'Goblin Name Generator | Get Random Goblin Name | Name Idea Generator ',
-  description: "Discover mischievous and quirky names with our Goblin Name Generator! Instantly create random goblin names for your stories, games, or characters. Find the perfect name that brings your goblin to life.",
+  title: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+  description: "Generate random goblin names with meanings using our Goblin Name Generator. Perfect for DnD, games, and creative projects!",
   
   openGraph: {
-    title: 'Goblin Name Generator | Get Random Goblin Name | Name Idea Generator',
-    description: "Discover mischievous and quirky names with our Goblin Name Generator! Instantly create random goblin names for your stories, games, or characters. Find the perfect name that brings your goblin to life.",
+    title: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+    description: "Generate random goblin names with meanings using our Goblin Name Generator. Perfect for DnD, games, and creative projects!",
     url: 'https://www.nameideagenerator.com/goblin-name-generator',
     images: [
       {
         url: 'Goblin.jpg',
         width: 800,
         height: 600,
-        alt: 'Goblin Name Generator | Get Random Goblin Name | Name Idea Generator',
+        alt: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Goblin Name Generator | Get Random Goblin Name | Name Idea Generator',
-    description: "Discover mischievous and quirky names with our Goblin Name Generator! Instantly create random goblin names for your stories, games, or characters. Find the perfect name that brings your goblin to life.",
+    title: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+    description: "Generate random goblin names with meanings using our Goblin Name Generator. Perfect for DnD, games, and creative projects!",
     images: ['Goblin.jpg'],
   },
 

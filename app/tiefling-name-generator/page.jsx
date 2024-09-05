@@ -1,11 +1,11 @@
 import TieflingNameGenerator from "@/components/tiefling-name-generator/TieflingNameGenerator"
 
 export const metadata = {
-  title: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator ',
+  title: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
   description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
   
   openGraph: {
-    title: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator',
+    title: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
     description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
     url: 'http://nameideagenerator.com/tiefling-name-generator',
     images: [
@@ -13,14 +13,14 @@ export const metadata = {
         url: 'female.jpg',
         width: 800,
         height: 600,
-        alt: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator',
+        alt: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Tiefling Name Generator | Get Random Tiefling Name | Name Idea Generator',
+    title: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
     description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
     images: ['female.jpg'],
   },

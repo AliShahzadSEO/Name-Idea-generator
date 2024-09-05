@@ -1,11 +1,11 @@
 import NorseNameGenerator from "@/components/norse-name-generator/Norse-Name-Generator"
 
 export const metadata = {
-  title: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator ',
+  title: 'Norse Name Generator | Random Old Norse Name Generator With Meaning',
   description: "Explore the rich heritage of the Norse with our Norse Name Generator! Generate random Norse names with powerful meanings that embody strength and tradition. Discover the perfect name idea for your Viking character in seconds.",
   
   openGraph: {
-    title: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator',
+    title: 'Norse Name Generator | Random Old Norse Name Generator With Meaning',
     description: "Explore the rich heritage of the Norse with our Norse Name Generator! Generate random Norse names with powerful meanings that embody strength and tradition. Discover the perfect name idea for your Viking character in seconds.",
     url: 'https://www.nameideagenerator.com/norse-name-generator',
     images: [
@@ -13,14 +13,14 @@ export const metadata = {
         url: 'Norse.jpg',
         width: 800,
         height: 600,
-        alt: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator',
+        alt: 'Norse Name Generator | Random Old Norse Name Generator With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Norse Name Generator | Random Norse Name Generator With Meaning | Name Idea Generator',
+    title: 'Norse Name Generator | Random Old Norse Name Generator With Meaning',
     description: "Explore the rich heritage of the Norse with our Norse Name Generator! Generate random Norse names with powerful meanings that embody strength and tradition. Discover the perfect name idea for your Viking character in seconds.",
     images: ['Norse.jpg'],
   },

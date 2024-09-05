@@ -2,11 +2,11 @@ import WOWNameGenerator from "@/components/wow-name-generator/WoW-Name-Generator
 
 export const metadata = {
   title: 'WoW Name Generator | Random Wow Name Generator | Name Idea Generator ',
-  description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
+  description: "Generate random World of Warcraft names with our WoW Name Generator. Perfect for creating unique character names and adding depth to your WoW adventures and gaming experience!",
   
   openGraph: {
     title: 'WoW Name Generator | Random Wow Name Generator | Name Idea Generator',
-    description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
+    description: "Generate random World of Warcraft names with our WoW Name Generator. Perfect for creating unique character names and adding depth to your WoW adventures and gaming experience!",
     url: 'https://www.nameideagenerator.com/wow-name-generator',
     images: [
       {
@@ -21,7 +21,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'WoW Name Generator | Random Wow Name Generator | Name Idea Generator',
-    description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
+    description: "Generate random World of Warcraft names with our WoW Name Generator. Perfect for creating unique character names and adding depth to your WoW adventures and gaming experience!",
     images: ['wow.jpg'],
   },
 
