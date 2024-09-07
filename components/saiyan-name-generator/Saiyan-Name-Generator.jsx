@@ -639,7 +639,7 @@ const SaiyanNameGenerator = () => {
                             Step 1- Access the Tool
                             </h3>
                             <p>
-                            Navigate to the Saiyan Name Generator on our <a href="/">Name Idea Generator</a> website. Ensure you have a stable internet connection for optimal performance.
+                            Navigate to the Saiyan Name Generator on our <a href="/"><b> Name Idea Generator</b></a> website. Ensure you have a stable internet connection for optimal performance.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
