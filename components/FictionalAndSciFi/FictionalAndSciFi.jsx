@@ -4,12 +4,7 @@ import Link from "next/link";
 import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
 
-export const metadata = {
 
-  alternates:{
-    canonical:"https://www.nameideagenerator.com/categories/fictional-and-scifi"
-  },
-}
 const Data = [
   {
     name: "Alien Name Generator",
