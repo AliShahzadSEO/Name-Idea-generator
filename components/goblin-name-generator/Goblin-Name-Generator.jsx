@@ -324,7 +324,7 @@ function getRandomDemon(gender, type, demonNames) {
 }
 const Category1 = [
     {
-        name: "Alien Name Generator",
+        name: "Alien Name Generator" ,
         pic: "/alien.webp",
         link: "https://www.nameideagenerator.com/alien-name-generator",
     },
