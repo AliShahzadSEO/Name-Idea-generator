@@ -595,12 +595,12 @@ const GreekNameGenerator = () => {
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                         Greek names are deeply intertwined with historical and mythological narratives, often embodying heroic legends, deities, and ancient customs. 
-                        Our tool captures this depth so it delivers names that reflect the grandeur and heritage of Greek traditions. 
+                        Our ancient greek name generator tool captures this depth so it delivers names that reflect the grandeur and heritage of Greek traditions. 
                         It ensures that each generated name resonates with the cultural and historical richness of Greek mythology.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                         The generator's precision and extensive database enable you to access a diverse range of names. 
-                        Our tool is an essential resource for writers, game developers, and cultural enthusiasts seeking names that align with the storied legacy of Greece.
+                        Our greek names generator tool is an essential resource for writers, game developers, and cultural enthusiasts seeking names that align with the storied legacy of Greece.
                         </p>
                     </div>
                 </div>
@@ -659,7 +659,7 @@ const GreekNameGenerator = () => {
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/greek name generator bg.png")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
@@ -667,7 +667,7 @@ const GreekNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Greek-Name-Generator
+                    Related to Greek Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category2.map((item, index) => (
@@ -702,7 +702,7 @@ const GreekNameGenerator = () => {
                     Why Use Our Greek Name Generator?
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Our Greek Name Generator is a fast, online tool that generates Greek names in seconds. 
+                    Our Greek Name Generator ancient is a fast, online tool that generates Greek names in seconds. 
                     It offers numerous benefits, making it an essential resource for anyone looking to add authentic Greek names to their projects.
                     </p>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
@@ -728,7 +728,7 @@ const GreekNameGenerator = () => {
                                 Time-Saving Tool
                                 </h3>
                                 <p>
-                                Our tool quickly produces a variety of Greek names without extensive brainstorming. 
+                                Our ancient greek names generator tool quickly produces a variety of Greek names without extensive brainstorming. 
                                 Our generator offers instant results, allowing you to focus on other aspects of your project and save valuable time.
                                 </p>
                             </div>
@@ -737,7 +737,7 @@ const GreekNameGenerator = () => {
                                 Versatility in Applications
                                 </h3>
                                 <p>
-                                Our tool meets different needs. Use it to add Greek names to your stories for more depth, come up with cool names for RPG and strategy game characters, or learn about Greek culture and mythology. 
+                                Our greek word generator tool meets different needs. Use it to add Greek names to your stories for more depth, come up with cool names for RPG and strategy game characters, or learn about Greek culture and mythology. 
                                 It’s flexible, so it works well for all your creative and educational projects.                         
                                  </p>
                             </div>
@@ -756,7 +756,7 @@ const GreekNameGenerator = () => {
                                 </h3>
                                 <p>
                                 Achieve high-quality, culturally significant names that meet professional standards. 
-                                Our tool ensures names that add credibility and depth, impressing readers, players, or educational audiences.                              
+                                Our greek surname generator tool ensures names that add credibility and depth, impressing readers, players, or educational audiences.                              
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
