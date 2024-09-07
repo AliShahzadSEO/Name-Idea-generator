@@ -393,7 +393,7 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
             </select>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
-            <p className="text-center text-[#343a40]">Types of Orc</p>
+            <p className="text-center text-[#343a40]">Types of Orc Names</p>
             <select
               className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
               id="type"
@@ -458,17 +458,17 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
             </h2>
             <hr />
             <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-            Our Orc Name Generator provides a quick and efficient solution for creating distinctive orc names. 
+            Our Half Orc Name Generator provides a quick and efficient solution for creating distinctive orc names. 
             Designed with simplicity in mind, this tool allows you to generate names instantly with just a click. 
             Enter your preferences, and let our tool handle the rest, delivering names that fit your exact needs.            
             </p>
             <p className="text-center py-[10px] text-[#343a40]">
-            The generator utilizes advanced algorithms to ensure each name is unique and fitting for orc characters. 
+            The DnD Half ORC Name Generator utilizes advanced algorithms to ensure each name is unique and fitting for orc characters. 
             Use it to enhance the authenticity and depth of your orc characters for games, stories, or any creative project.
             </p>
             <p className="text-center py-[10px] text-[#343a40]">
             Experience the ease of crafting the perfect orc name without hassle. 
-            Our Orc Name Generator is user-friendly and requires no complex inputs. 
+            Our Orc Names Generator is user-friendly and requires no complex inputs. 
             Try it now and effortlessly bring your orc characters to life.
             </p>
           </div>
@@ -480,7 +480,7 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
           How to Use the Orc Name Generator?
           </h2>
           <p className="sm:text-[16px] text-[16px] text-center">
-          Our Orc Name Generator is a valuable tool for anyone who wants to create realistic and engage Orc names effortlessly. 
+          Our Orc Name Gene is a valuable tool for anyone who wants to create realistic and engage Orc names effortlessly. 
           Explore its capabilities today and bring your Orc characters to life with names that resonate with authenticity and creativity.
           <br /> <br />
           <b>You can follow these easy and quick steps to create your perfect Orc name for your project. </b>
@@ -543,7 +543,7 @@ Our responsibility to confidentiality is at the core of what we do and ensures t
       <div
         className="py-[100px]"
         style={{
-          backgroundImage: 'url("/generatorbg.jpg")',
+          backgroundImage: 'url("/orc name generator bg.png")',
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
