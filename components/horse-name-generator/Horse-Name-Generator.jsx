@@ -534,7 +534,7 @@ const HorseNameGenerator = () => {
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Horse Name Generator
+                            Random Horse Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -551,7 +551,7 @@ const HorseNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Horse</p>
+                        <p className="text-center text-[#343a40]">Types of Horse Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -616,14 +616,14 @@ const HorseNameGenerator = () => {
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        The Horse Name Generator is a specialized tool designed to help you create unique and fitting names for horses in various contexts. Whether you’re an equestrian enthusiast, a writer crafting a novel, 
+                        The Race Horse Name Generator is a specialized tool designed to help you create unique and fitting names for horses in various contexts. Whether you’re an equestrian enthusiast, a writer crafting a novel, 
                         a game developer, or someone who needs an interesting name for a fictional horse, this tool offers an extensive range of options tailored to your specific needs. 
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        This Horse Name Generator is more than just a random name generator; it considers the characteristics, breed, and personality of the horse to deliver names that are both meaningful and memorable.  
+                        This Horse Names Generator is more than just a random name generator; it considers the characteristics, breed, and personality of the horse to deliver names that are both meaningful and memorable.  
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        Now, users can generate a name that perfectly aligns with the horse's identity, making it an essential tool for anyone involved in equine-related projects.
+                        Now, users can generate a name that perfectly aligns with the horse's identity, making our race horse name generator tool an essential tool for anyone involved in equine-related projects.
                         </p>
                     </div>
                 </div>
@@ -634,7 +634,7 @@ const HorseNameGenerator = () => {
                     How to Use the Horse Name Generator?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                    Using our Horse Name Generator is easy and fun. Follow these simple steps to create the perfect name for your horse. 
+                    Using our Horse Race Name Generator is easy and fun. Follow these simple steps to create the perfect name for your horse. 
                     </p>
                 </div>
                 <hr />
@@ -682,7 +682,7 @@ const HorseNameGenerator = () => {
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/horse name generator bg.png")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
@@ -690,7 +690,7 @@ const HorseNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Horse-Name-Generator
+                    Related to Horse Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
@@ -725,7 +725,7 @@ const HorseNameGenerator = () => {
                     Why Use Our Horse Name Generator?
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Our Horse Name Generator offers a seamless and enjoyable experience with plenty of options to find the perfect name. 
+                    Our race horse names generator offers a seamless and enjoyable experience with plenty of options to find the perfect name. 
                     This Horse Name Generator is an invaluable tool for anyone looking to name a horse, whether for personal, professional, or creative purposes. 
                     </p>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
@@ -743,7 +743,7 @@ const HorseNameGenerator = () => {
                                 </h3>
                                 <p>
                                 Naming a horse can be a time-consuming process, especially when you want a name that stands out and is meaningful. 
-                                The Horse Name Generator streamlines this process by providing a list of well-considered names in just a few clicks.
+                                The name generator for horses tool streamlines this process by providing a list of well-considered names in just a few clicks.
                                 </p>
                             </div>
                             <div class="py-[5px] flex flex-col gap-2">
@@ -751,7 +751,7 @@ const HorseNameGenerator = () => {
                                 Customization
                                 </h3>
                                 <p>
-                                Unlike generic name generators, this tool allows you to customize the generated names based on specific criteria such as breed, color, and temperament. 
+                                Unlike generic name generators, this name generator horse tool allows you to customize the generated names based on specific criteria such as breed, color, and temperament. 
                                 This ensures that the name is not just random but aligns with the horse’s characteristics and the context in which it will be used.
                                 </p>
                             </div>
@@ -761,7 +761,7 @@ const HorseNameGenerator = () => {
                                 </h3>
                                 <p>
                                 Whether you’re naming a real horse, a fictional character in a novel, or a horse in a game, the tool offers versatile naming options. 
-                                It caters to various styles, from classic and elegant names to fun and imaginative ones, making it suitable for different projects.                            
+                                Our horse name gen tool caters to various styles, from classic and elegant names to fun and imaginative ones, making it suitable for different projects.                            
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
@@ -778,7 +778,7 @@ const HorseNameGenerator = () => {
                                 Reliable Results
                                 </h3>
                                 <p>
-                                The names generated by this tool are not only creative but also reliable. They are derived from a vast database of equine names and cultural references, 
+                                The names generated by our racing horse names generator tool are not only creative but also reliable. They are derived from a vast database of equine names and cultural references, 
                                 ensuring that each name is unique, culturally appropriate, and fitting for the intended use.                              
                                  </p>
                             </div>
