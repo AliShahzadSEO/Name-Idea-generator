@@ -79,7 +79,7 @@ const CatergorySection = () => {
         </div>
         {/* Category 1 */}
         <div>
-          <h1 className="text-[28px] py-[20px]">Fantasy and Mythical</h1>
+          <h2 className="text-[28px] py-[20px]">Fantasy and Mythical</h2>
           <div className="grid sm:grid-cols-4 grid-cols-1  sm:gap-2 gap-4">
             {Category1.map((item, index) => (
               <Link key={index} href={item.link}>
@@ -113,7 +113,7 @@ const CatergorySection = () => {
         </div>
         {/* Category 2 */}
         <div>
-          <h1 className="text-[28px] py-[20px]">Cultural and Historical</h1>
+          <h2 className="text-[28px] py-[20px]">Cultural and Historical</h2>
           <div className="grid sm:grid-cols-4 grid-cols-1 sm:gap-2 gap-4">
             {Category2.map((item, index) => (
               <Link key={index} href={item.link}>
@@ -147,7 +147,7 @@ const CatergorySection = () => {
         </div>
         {/* Category 3 */}
         <div>
-          <h1 className="text-[28px] py-[20px]">Fictional and Sci-Fi</h1>
+          <h2 className="text-[28px] py-[20px]">Fictional and Sci-Fi</h2>
           <div className="grid sm:grid-cols-4 grid-cols-1 sm:gap-2 gap-4">
             {Category3.map((item, index) => (
               <Link key={index} href={item.link}>
