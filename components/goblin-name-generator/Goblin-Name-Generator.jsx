@@ -424,7 +424,7 @@ const GoblinNameGenerator = () => {
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Goblin Name Generator
+                            Random Goblin Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -441,7 +441,7 @@ const GoblinNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Goblin</p>
+                        <p className="text-center text-[#343a40]">Types of Goblin Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -452,7 +452,7 @@ const GoblinNameGenerator = () => {
                             <option value="sneaky_goblin">Sneaky Goblin</option>
                             <option value="crafty_goblin">Crafty Goblin</option>
                             <option value="cunning_goblin">Cunning Goblin</option>
-                            <option value="tough_goblin">Tough Goblin Names</option>
+                            <option value="tough_goblin">Tough Goblin</option>
 
                         </select>
                     </div>
@@ -510,10 +510,10 @@ const GoblinNameGenerator = () => {
                         Whether you're crafting a fantasy story or developing a game, our tool enhances your creativity with names that capture the essence of goblin mischief and greed.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        This generator produces names with a distinct, guttural quality, featuring sharp consonants that evoke the mischievous and magical nature of goblins. 
+                        This goblin names generator produces names with a distinct, guttural quality, featuring sharp consonants that evoke the mischievous and magical nature of goblins. 
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        With our tool, you can quickly and easily generate names that add depth and personality to your projects, ensuring your goblin characters truly stand out in any fictional universe.
+                        With our funny goblin name generator tool, you can quickly and easily generate names that add depth and personality to your projects, ensuring your goblin characters truly stand out in any fictional universe.
                         </p>
                     </div>
                 </div>
@@ -572,7 +572,7 @@ const GoblinNameGenerator = () => {
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/goblin name generator bg.png")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
@@ -580,7 +580,7 @@ const GoblinNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Goblin-Name-Generator
+                    Related to Goblin Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
