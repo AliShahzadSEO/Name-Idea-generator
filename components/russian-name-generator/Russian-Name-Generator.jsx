@@ -680,7 +680,7 @@ const RussianNameGenerator = () => {
             backgroundAttachment: "fixed",
         }}
     ></div>
-                <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white relative z-10">
+                <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
                     Related to Russian Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
