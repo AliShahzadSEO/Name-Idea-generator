@@ -27,8 +27,9 @@ export const metadata = {
 
   keywords: ['wood elf name generator', 'wood elf name generator dnd', 'female wood elf name generator', 'dnd wood elf name generator',
      'wood elf name generator skyrim', 'skyrim wood elf name generator', 'half wood elf name generator', 'random wood elf name generator'],
-  canonical: 'http://nameideagenerator.com/wood-elf-name-generator',
-  
+     alternates:{
+      canonical:"https://www.nameideagenerator.com/wood-elf-name-generator"
+    },
 }
 
 const page = () => {
