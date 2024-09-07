@@ -670,15 +670,19 @@ const RussianNameGenerator = () => {
                 </div>
             </div>
             <div
-                className="py-[100px]"
-                style={{
-                    backgroundImage: 'url("/Russian.webp")',
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "cover",
-                    backgroundAttachment: "fixed",
-                }}
-            >
+    className="relative py-[100px]"
+    style={{
+        backgroundImage: 'url("/Russian.webp")',
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundAttachment: "fixed",
+    }}
+>
+    {/* Overlay */}
+    <div
+        className="absolute inset-0 bg-black opacity-50 z-0"
+    ></div>
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
                     Related to Russian Name Generator
                 </p>
