@@ -494,7 +494,7 @@ const HalfElfNameGenerator = () => {
 
     const bgImage = "/half-demon.webp"
     const context = " Half Elf Name Generator"
-    const Q1 = "How does the Half-Elf Name Generator work?"
+    const Q1 = "How does the Half Elf Name Generator work?"
     const A1 = "The Half-Elf Name Generator uses a database of carefully curated names inspired by both human and elven cultures. It combines elements from both to create unique and fitting names for half-elves."
     const Q2 = "Are the generated names suitable for a fantasy world?"
     const A2 = "Yes, names are tailor-made to fit seamlessly within the realms of fantasy, especially when half-elves become part of the lore. Whether it is literature, gaming, or just plain creative writing, the names will evoke the right atmosphere."
@@ -518,7 +518,7 @@ const HalfElfNameGenerator = () => {
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Half Elf Name Generator
+                            Random Half Elf Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -535,7 +535,7 @@ const HalfElfNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Half Elf</p>
+                        <p className="text-center text-[#343a40]">Types of Half Elf Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -601,14 +601,14 @@ const HalfElfNameGenerator = () => {
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
                         This Half-Elf Name Generator is a specialized tool designed to help you effortlessly create unique and culturally rich names for Half-Elf characters. Whether you're working on a game, story, 
-                        or any other creative project, this tool simplifies the process by generating imaginative names based on your preferences.
+                        or any other creative project, our elven name generator tool simplifies the process by generating imaginative names based on your preferences.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                         By inputting your desired criteria, such as cultural influences or stylistic preferences, the generator provides a tailored list of names that are both accurate and meaningful. 
-                        This ensures that you can find the perfect name for your character with ease, saving you time and effort.
+                        Our elven name generator with meaning tool ensures that you can find the perfect name for your character with ease, saving you time and effort.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        Additionally, our tool is built with robust security features, including encryption technology, to protect your data and ensure the privacy of your saved lists and personal information.
+                        Additionally, our elf name generator dnd tool is built with robust security features, including encryption technology, to protect your data and ensure the privacy of your saved lists and personal information.
                         </p>
                     </div>
                 </div>
@@ -616,7 +616,7 @@ const HalfElfNameGenerator = () => {
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Half-Elf Name Generator?
+                    How to Use the Half Elf Name Generator?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
                     Follow these steps to generate unique Half-Elf names:
@@ -630,7 +630,7 @@ const HalfElfNameGenerator = () => {
                             Step 1: Provide Input
                             </h3>
                             <p>
-                            Specify your desired name gender and any other requirements that the tool demands from you to generate the names. 
+                            Specify your desired name gender and any other requirements that our dnd half elf names tool demands from you to generate the names. 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
@@ -638,7 +638,7 @@ const HalfElfNameGenerator = () => {
                             Step 2: Generate Names
                             </h3>
                             <p>
-                            Click the <b> "Generate"</b> button to produce a list of names tailored to your preferences. It will quickly process your list and give it to you.
+                            Click the <b> "Generate"</b> button to produce a list of half elf names tailored to your preferences. It will quickly process your list and give it to you.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -667,7 +667,7 @@ const HalfElfNameGenerator = () => {
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/half elf name generator bg.png")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
@@ -675,7 +675,7 @@ const HalfElfNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Half-Elf-Name-Generator
+                    Related to Half Elf Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
@@ -707,7 +707,7 @@ const HalfElfNameGenerator = () => {
             <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
                 <div class="text-center mb-[10px]">
                     <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    Why Should You Opt For Our Half-Elf Name Generator?
+                    Why Should You Opt For Our DnD Half Elf Name Generator?
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
                     Your convenience is our top priority, and nothing matters more to us. That’s why we’ve meticulously designed our tool to be the ideal choice for all our users.  
@@ -725,7 +725,7 @@ const HalfElfNameGenerator = () => {
                                 Vast Name Database
                                 </h3>
                                 <p>
-                                Our Half-Elf Name Generator taps into an extensive database filled with thousands of unique and culturally rich names. 
+                                Our High Half Elf Name Generator taps into an extensive database filled with thousands of unique and culturally rich names. 
                                 Each name is designed to resonate with the mystical essence of Half-Elves, ensuring your characters have names that stand out in any narrative or game.
                                 </p>
                             </div>
