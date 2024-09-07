@@ -25,7 +25,7 @@ export const metadata = {
     images: ['vikings.jpg'],
   },
 
-  keywords: ['Viking name generator', 'viking name generator male', 'random viking name generator', 'viking name generator with meaning',
+  keywords: ['Viking name generator', 'viking name generator male','viking name generator female' , 'random viking name generator', 'viking name generator with meaning',
      'female viking name generator', 'httyd viking name generator', 'viking name generator from your name', 'badass viking name generator'],
      alternates:{
       canonical:"https://www.nameideagenerator.com/viking-name-generator"
