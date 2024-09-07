@@ -1,26 +1,26 @@
 import VikingNameGenerator from "@/components/viking-name-generator/Viking-Name-Generator"
 
 export const metadata = {
-  title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning | Name Idea Generator ',
+  title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning',
   description: "Generate unique Viking names with meanings using our Old Norse Name Generator. Ideal for characters, stories, and Viking-themed projects!",
   
   openGraph: {
-    title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning | Name Idea Generator',
+    title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning',
     description: "Generate unique Viking names with meanings using our Old Norse Name Generator. Ideal for characters, stories, and Viking-themed projects!",
-    url: 'http://nameideagenerator.com/viking-name-generator',
+    url: 'https://nameideagenerator.com/viking-name-generator',
     images: [
       {
         url: 'vikings.jpg',
         width: 800,
         height: 600,
-        alt: 'Viking Name Generator | (Old Norse) Name Generator With Meaning | Name Idea Generator',
+        alt: 'Viking Name Generator | (Old Norse) Name Generator With Meaning',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning | Name Idea Generator',
+    title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning',
     description: "Generate unique Viking names with meanings using our Old Norse Name Generator. Ideal for characters, stories, and Viking-themed projects!",
     images: ['vikings.jpg'],
   },

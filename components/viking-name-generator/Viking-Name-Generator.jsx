@@ -370,7 +370,7 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Viking Name Generator
+                            Random Viking Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -387,7 +387,7 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Viking</p>
+                        <p className="text-center text-[#343a40]">Types of Viking Names </p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -452,17 +452,17 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        Our Viking Name Generator is an efficient tool designed to produce distinct and original names for Viking characters. 
+                        Our Viking Names Generator is an efficient tool designed to produce distinct and original names for Viking characters. 
                         The user-friendly interface allows for quick and seamless name generation, 
                         ensuring that each name is both strong and historically resonant.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                         Whether you're crafting characters for stories, games, or campaigns, this generator simplifies the naming process. 
-                        With a single click, it delivers names that evoke the essence of Viking culture, fitting perfectly into any creative project.            
+                        With a single click, our viking clan names generator delivers names that evoke the essence of Viking culture, fitting perfectly into any creative project.            
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                         The Viking Name Generator is tailored to meet your specific needs, ensuring you consistently receive a suitable name for your character. 
-                        This tool offers a reliable solution for creating powerful, authentic Viking names every time. 
+                        Our norse name generator tool offers a reliable solution for creating powerful, authentic Viking names every time. 
                         </p>
                     </div>
                 </div>
@@ -525,7 +525,7 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/viking name generator bg.png")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
@@ -568,7 +568,7 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                     Why Do You Need an Island Name Generator? 
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Our Viking Name Generator makes it easy to find cool and authentic Viking names. 
+                    Our viking last name generator makes it easy to find cool and authentic Viking names. 
                     Perfect for writers and gamers, it helps you create strong, memorable names for your characters quickly and effortlessly.
                     </p> <br /> <br />
                     <p class="sm:text-[16px] text-left text-[22px] font-semibold">
