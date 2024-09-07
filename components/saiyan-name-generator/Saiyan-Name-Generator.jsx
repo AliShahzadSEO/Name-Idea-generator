@@ -542,7 +542,7 @@ const SaiyanNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Saiyan</p>
+                        <p className="text-center text-[#343a40]">Types of Saiyan Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -607,16 +607,16 @@ const SaiyanNameGenerator = () => {
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        This tool is designed to immerse users in the Dragon Ball universe. It provides a streamlined process for generating names that capture the essence of these powerful characters. 
+                        Our saiyan names generator tool is designed to immerse users in the Dragon Ball universe. It provides a streamlined process for generating names that capture the essence of these powerful characters. 
                         Ideal for fans of Akira Toriyama's series, the generator caters to those creating names for fan fiction, games, or role-playing scenarios.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                         Our Saiyan Name Generator produces names that reflect the extraordinary strength and combat skills characteristic of Saiyan warriors. 
                         Originating from the planet Vegeta, Saiyans are known for their ability to transform into more powerful forms, such as Super Saiyan, driven by intense emotions. 
-                        The tool ensures that each generated name aligns with the warrior heritage and nature of Saiyans.
+                        Our dragon ball name generator tool ensures that each generated name aligns with the warrior heritage and nature of Saiyans.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        By using this generator, you gain access to a diverse range of names that enhance character development and storytelling. 
+                        By using this super saiyan name generator, you gain access to a diverse range of names that enhance character development and storytelling. 
                         Whether you are crafting new characters or enriching existing ones, the names provided will integrate seamlessly into the Dragon Ball.
                         </p>
                     </div>
@@ -639,7 +639,7 @@ const SaiyanNameGenerator = () => {
                             Step 1- Access the Tool
                             </h3>
                             <p>
-                            Navigate to the Saiyan Name Generator on our website. Ensure you have a stable internet connection for optimal performance.
+                            Navigate to the Saiyan Name Generator on our <a href="/">Name Idea Generator</a> website. Ensure you have a stable internet connection for optimal performance.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
@@ -647,7 +647,7 @@ const SaiyanNameGenerator = () => {
                             Step 2 - Run the Tool
                             </h3>
                             <p>
-                            Click the <b> “Generate Names” </b>button to create a list of names. The tool will quickly provide options based on the Saiyan you need.
+                            Click the <b> “Generate Names” </b>button to create a list of Saiyan names. The tool will quickly provide options based on the Saiyan you need.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -655,7 +655,7 @@ const SaiyanNameGenerator = () => {
                             Step 3 - Find the Name That Suits Your Needs
                             </p>
                             <p>
-                            Review the generated names to select the one that best fits your requirements. Choose a name that aligns with your character or project.
+                            Review the generated Dragon ball names to select the one that best fits your requirements. Choose a name that aligns with your character or project.
                             </p>
                         </div>
                     </div>
@@ -684,7 +684,7 @@ const SaiyanNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Saiyan-Name-Generator
+                    Related to Saiyan Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {FictionalAndSciFi.map((item, index) => (
@@ -719,7 +719,7 @@ const SaiyanNameGenerator = () => {
                     Why Use Our Saiyan Name Generator?
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Our Saiyan name generator will unlock the power of Saiyan names for your next project with its working. 
+                    Our dbz name generator will unlock the power of Saiyan names for your next project with its working. 
                     Start now to find the perfect name that brings your Dragon Ball characters to life!
                     </p>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
@@ -736,7 +736,7 @@ const SaiyanNameGenerator = () => {
                                 Authentic Saiyan Names
                                 </h3>
                                 <p>
-                                Our tool generates names that are true to the Saiyan heritage found in the Dragon Ball universe. Each name reflects the powerful and dynamic nature of Saiyan characters. 
+                                Our male & female saiyan name generator tool generates names that are true to the Saiyan heritage found in the Dragon Ball universe. Each name reflects the powerful and dynamic nature of Saiyan characters. 
                                 By integrating elements from the lore and culture of Saiyans, the names ensure authenticity and relevance.
                                 </p>
                             </div>
@@ -745,7 +745,7 @@ const SaiyanNameGenerator = () => {
                                 Quick and Efficient Generation
                                 </h3>
                                 <p>
-                                The tool delivers names quickly and efficiently with a simple click. Users receive a list of generated names almost instantly, saving time and streamlining the creative process. 
+                                The dragon ball z name generator tool delivers names quickly and efficiently with a simple click. Users receive a list of generated names almost instantly, saving time and streamlining the creative process. 
                                 This efficiency supports rapid progress in projects. Whether it is for your fan fiction, games, or role-playing. 
                                 </p>
                             </div>
