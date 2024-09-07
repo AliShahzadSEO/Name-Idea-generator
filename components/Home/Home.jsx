@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 
 const HomeMain = () => {
   const bgImage= "/bg2.jpg"
-  const context = "Generate Unique Names for Your Characters!"
+  const context = "Name Idea Generator | Generate Unique Name Ideas For Your Character!"
   return (
     <div>
       <HeroSection bgImage={bgImage} context={context}/>
