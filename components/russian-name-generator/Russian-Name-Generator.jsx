@@ -520,7 +520,7 @@ const RussianNameGenerator = () => {
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Russian Name Generator
+                            Random Russian Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -602,15 +602,15 @@ const RussianNameGenerator = () => {
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                            Our tool enables you to generate authentic Russian names effortlessly. This tool simplifies the process of finding the perfect Russian name for a character and a project or personal use.
+                            Our soviet name generator tool enables you to generate authentic Russian names effortlessly. This tool simplifies the process of finding the perfect Russian name for a character and a project or personal use.
                             Just a few seconds the generator provides you with a list of culturally rich names.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                            This online Russian names Generator makes choosing your perfect name easier. You can use this tool for various purposes, including naming characters, creating usernames, or even for fun.
-                            It saves you time and ensures meaningful, pertinent names, not by flipping through tons of papers.
+                            This online russian name generator fantasy tool makes choosing your perfect name easier. You can use this tool for various purposes, including naming characters, creating usernames, or even for fun.
+                            Our russian name generator male tool saves your time and ensures meaningful, pertinent names, not by flipping through tons of papers.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                            We have designed and developed it with robust security features to keep user data safe and secure. It uses encryption technology to protect sensitive
+                            We have designed and developed our russian surname generator with robust security features to keep user data safe and secure. It uses encryption technology to protect sensitive
                             information such as user names, passwords, and saved lists. Everything will remain safe.
                         </p>
                     </div>
@@ -622,7 +622,7 @@ const RussianNameGenerator = () => {
                     How to Use the Russian Name Generator?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                        To use our Russian Name Generator effectively, follow these steps:
+                        To use our Russian Male & Female Name Generator effectively, follow these steps:
                     </p>
                 </div>
                 <hr />
@@ -633,7 +633,7 @@ const RussianNameGenerator = () => {
                                 Step 1: Access the Tool
                             </h3>
                             <p>
-                                Open the Viking Name Generator tool on your browser.
+                                Open Our Russia Name Generator tool on your browser.
                                 This will bring up the interface where you can start customizing your name search.
                             </p>
                         </div>
@@ -642,7 +642,7 @@ const RussianNameGenerator = () => {
                                 Step 2: Set Your Preferences
                             </h3>
                             <p>
-                                Enter your preferences for the Viking names, such as gender.
+                                Enter your preferences for the Russian names, such as gender.
                                 You can choose options that will open on your screen to give the tool your requirements.
                             </p>
                         </div>
@@ -651,7 +651,7 @@ const RussianNameGenerator = () => {
                                 Step 3: Generate Names
                             </p>
                             <p>
-                            Click the "Generate" button. The tool will produce a list of Viking names based on your preferences. Choose the one that suits your needs.
+                            Click the "Generate" button. The tool will produce a list of Russian names based on your preferences. Choose the one that suits your needs.
                             </p>
                         </div>
                     </div>
@@ -672,7 +672,7 @@ const RussianNameGenerator = () => {
             <div
                 className="py-[100px]"
                 style={{
-                    backgroundImage: 'url("/generatorbg.jpg")',
+                    backgroundImage: 'url("/Russian.webp")',
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "cover",
@@ -680,7 +680,7 @@ const RussianNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Russian-Name-Generator
+                    Related to Russian Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category2.map((item, index) => (
@@ -712,12 +712,12 @@ const RussianNameGenerator = () => {
             <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
                 <div class="text-center mb-[10px]">
                     <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    What Makes Our Russian Name Generator the Top Choice?
+                    What Makes Our Russian Name Generator Female the Top Choice?
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    The Russian Name Generator is a convenient way to find the perfect name quickly and accurately. It makes the process easier, saves time, and adds cultural authenticity to the names you choose. 
+                    The Russian Name Gene is a convenient way to find the perfect name quickly and accurately. It makes the process easier, saves time, and adds cultural authenticity to the names you choose. 
                     <br /> <br />
-                    There are several compelling reasons to use our tool, including for the following:
+                    There are several compelling reasons to use our russian surnames generator tool, including for the following:
 
                     </p>
                 </div>
@@ -741,7 +741,7 @@ const RussianNameGenerator = () => {
                                 Quick and Easy Use
                                 </h3>
                                 <p>
-                                Designed with a user-friendly interface, our tool allows you to generate names effortlessly. 
+                                Designed with a user-friendly interface, our russian nickname generator tool allows you to generate names effortlessly. 
                                 With just a few clicks, you can explore numerous options without any hassle, making the process efficient and enjoyable.
                                 </p>
                             </div>
@@ -759,7 +759,7 @@ const RussianNameGenerator = () => {
                                 Versatile Applications
                                 </h3>
                                 <p>
-                                Whether you need a name for a story character, a gaming avatar, or a personal project, our tool caters to various use cases. 
+                                Whether you need a name for a story character, a gaming avatar, or a personal project, our russian name maker tool caters to various use cases. 
                                 Its flexibility ensures that you can find a name suitable for any purpose.                               
                                  </p>
                             </div>
@@ -803,7 +803,7 @@ const RussianNameGenerator = () => {
                     <section class="w-[80%] mx-auto p-6 bg-white rounded-lg shadow-lg mt-10">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">Applications of the Russian Name Generator</h2>
                         <p class="text-gray-600 mb-4">
-                        The Russian Name Generator is a versatile tool that streamlines the process of finding the perfect name. Here are some key applications:
+                        My name in Russian Generator is a versatile tool that streamlines the process of finding the perfect name. Here are some key applications:
                         </p>
                         <div class="py-[10px] flex flex-col gap-2">
                             <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
