@@ -937,7 +937,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Select the Type
+              Step 2 - Select the Type 
               </p>
               <p>
               Choose the type of demon name you desire, such as ancient, modern, or mythical. 
