@@ -299,7 +299,7 @@ const HeroSection = ({ context, bgImage }) => {
           {context}
         </h1>
         <p className="text-white text-[20px]">
-        From mythical creatures to futuristic characters, we've got you covered.
+        The ultimate platform for writers, gamers, and creators looking to infuse authenticity and flair into their character development.
         </p>
 
 
