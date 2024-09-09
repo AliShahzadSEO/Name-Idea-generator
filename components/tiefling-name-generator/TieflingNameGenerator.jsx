@@ -487,7 +487,7 @@ const A5 = "No account is required to use the tool. Registering unlocks addition
         <div className="w-[95%] mx-auto py-[50px]">
           <div>
             <p className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-             Random Tiefling Name Generator
+             Random Tiefling Name Generator With Meaning
             </p>
           </div>
           <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -504,7 +504,7 @@ const A5 = "No account is required to use the tool. Registering unlocks addition
             </select>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
-            <p className="text-center text-[#343a40]">Types of Tiefling</p>
+            <p className="text-center text-[#343a40]">Types of Tiefling Names</p>
             <select
               className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
               id="type"
@@ -601,29 +601,34 @@ const A5 = "No account is required to use the tool. Registering unlocks addition
           <div className="sm:w-[50%]">
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1: Open the Tool
+              Step 1: Specify Gender
               </p>
               <p>
-              Access the Tiefling Name Generator tool on our website. 
-              This is where you will start the process of generating your unique name.
+              Choose a gender for the tiefling name, which helps in generating names that fit gender-specific naming conventions in fantasy settings.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2: Enter Your Preferences
+              Step 2: Select the Type
               </p>
               <p>
-              Specify the traits like the gender you want for your Tiefling name. 
-              Use the input fields to provide the details that will shape the generated names.
+              Decide on the type of tiefling name you want, such as traditional, exotic, or inspired by literature, to guide the name generation.
                </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
               <p className="sm:text-[28px] text-[20px] font-semibold ">
-              Step 3 - Choose Your Name
+              Step 3 - Click on Generate
               </p>
               <p>
-              Press the <b> “Generate” </b> button to receive a list of names. 
-              Select the one that best fits your character or project from the options provided.
+              Click the <b> "Generate"</b> button to produce a list of tiefling names that match your criteria.
+              </p>
+            </div>
+            <div className="py-[10px] flex flex-col gap-4">
+              <p className="sm:text-[28px] text-[20px] font-semibold ">
+              Step 4 - Review Names and Their Meanings
+              </p>
+              <p>
+              Names will appear on your screen. Hover over each to see details like meaning, cultural context, and any literary references associated with the name.
               </p>
             </div>
           </div>

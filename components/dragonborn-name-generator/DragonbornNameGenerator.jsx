@@ -1780,32 +1780,34 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
           <div className="sm:w-[50%]">
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1 - Access to Our Tool
+              Step 1 - Specify Gender
               </p>
               <p>
-              Open the Tiefling Name Generator to get started. This will give you access to our naming features
+              Select the gender to generate a dragonborn name, aligning with traditional dragonborn naming conventions in fantasy lore.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Input Your Requirements
+              Step 2 - Select the Type
               </p>
               <p>
-              Enter your preferences, such as gender to guide this online name generation tool. 
-              It has a customized mechanism to align with your creative vision. </p>
+              Pick the type of dragonborn name you are interested in, such as heroic, mystical, or ancient, to refine the style of names generated. </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
               <p className="sm:text-[28px] text-[20px] font-semibold ">
-                Step 3 - Generate the Name
+                Step 3 - Click on Generate
               </p>
               <p>
-              Click on the <b> “Generate” </b> button to get started.
-              This tool will create a unique Dragonborn name. You can trust the generated name to be original and fitting for your character.
+              Press the <b> "Generate"</b> button to start the creation of dragonborn names based on your inputs.
               </p>
-              <p className="">
-                <b>Remember</b>, these tools are often used for creative
-                writing, gaming, or entertainment purposes where unique and
-                fictional names are desired..
+            </div>
+            <div className="py-[10px] flex flex-col gap-4">
+              <p className="sm:text-[28px] text-[20px] font-semibold ">
+                Step 3 - Review Names and Their Meanings
+              </p>
+              <p>
+              The generated names will be displayed. 
+              Hover over each name to uncover detailed information like its meaning, background, and the mythology it's associated with.
               </p>
             </div>
           </div>
