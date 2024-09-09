@@ -5,3 +5,22 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /_next/
 Sitemap: https://www.nameideagenerator.com/sitemap.xml
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google*
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+ 
+ 
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
