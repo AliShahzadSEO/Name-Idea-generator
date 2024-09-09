@@ -928,45 +928,49 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
           <div className="sm:w-[50%]">
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1 - Access the Generator
+              Step 1 - Specify Gender
               </p>
               <p>
-              Visit the official website of this tool where the demon name generator is found. Access the tool from there.
+              Select the gender for the demon name you wish to generate, if applicable. 
+              This choice helps in generating names that align with specific gender characteristics in demonology.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Generate Names
+              Step 2 - Select the Type
               </p>
               <p>
-              Once on the tool's page, look for the input fields or options to customize your search. 
-              Some tools allow you to specify preferences like gender.
+              Choose the type of demon name you desire, such as ancient, modern, or mythical. 
+              This helps in narrowing down the style and origin of the names.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
               <p className="sm:text-[28px] text-[20px] font-semibold ">
-              Step 3 - Get Your Names
+              Step 3 - Click on Generate
               </p>
               <p>
-              Click on the <b> "Generate"</b> button or similar action to see the generated demon names. 
-              Browse through the list until you find a name that fits your needs or preferences.
+              Hit the <b> "Generate"</b> button to create a list of demon names based on your selections.
               </p>
-              <p className="">
-                <b>Remember</b>, these tools are often used for creative
-                writing, gaming, or entertainment purposes where unique and
-                fictional names are desired..
+            </div>
+            <div className="py-[10px] flex flex-col gap-2">
+              <p className="sm:text-[28px] text-[20px] font-semibold">
+              Step 4 - Review Names and Their Meanings
+              </p>
+              <p>
+              The names will be displayed on your screen. 
+              Hover over each name to get more details like its meaning, origin, and the mythology behind it, aiding in your selection process.
               </p>
             </div>
           </div>
           <div className="sm:w-[47%] relative ">
             <img
               src="motherdragon.jpg"
-              alt=""
+              alt="demon name generator"
               className="w-[300px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="dragon.png"
-              alt=""
+              alt="devil name generator"
               className="w-[300px] h-[300px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
@@ -975,7 +979,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       <div
         className="py-[100px]"
         style={{
-          backgroundImage: 'url("/generatorbg.jpg")',
+          backgroundImage: 'url("/generatorbg.jpg")', alt:"demon name generator",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -983,7 +987,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
         }}
       >
         <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-          Related to Demon-Name-Generator
+          Related to Demon Name Generator
         </p>
         <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
           {Category1.map((item, index) => (
