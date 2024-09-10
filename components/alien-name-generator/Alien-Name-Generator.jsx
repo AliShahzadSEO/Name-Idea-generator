@@ -105,7 +105,7 @@ const demonNames = [
     { name: "Vortessa", detail: "The galaxy reaper.", status: false, gender: "female", type: "zarkonian alien" },
     { name: "Xaroka", detail: "The star huntress.", status: false, gender: "female", type: "zarkonian alien" },
     { name: "Zynthariona", detail: "The galactic warlord.", status: false, gender: "female", type: "zarkonian alien" },
-    { name: "Xyloria", detail: "The cosmic sage.", status: false, gender: "female", type: "zarkonian alien" }, 
+    { name: "Xyloria", detail: "The cosmic sage.", status: false, gender: "female", type: "zarkonian alien" },
     { name: "Aeon", detail: "The timeless one.", status: false, gender: "male", type: "aetherian alien" },
     { name: "Cyron", detail: "The light bearer.", status: false, gender: "male", type: "aetherian alien" },
     { name: "Lumin", detail: "The radiant star.", status: false, gender: "male", type: "aetherian alien" },
@@ -502,15 +502,15 @@ const AlienNameGenerator = () => {
     const bgImage = "/alien.webp"
     const context = "Alien Name Generator"
     const Q1 = "What is the Alien Name Generator?"
-const A1 = "This Alien Name Generator is used to create random names for alien characters in a science fiction setting. This generator creates ten names at a time. It really captures the feel of different alien species."
-const Q2 = "How do I generate names with the online Alien Name Generator?"
-const A2 = "Simply click the 'Generate Names' button to produce a name. You will get a list of 10 random alien names. And if none of the displayed names satisfies you, just hit again to generate a new set."
-const Q3 = "Can I save the names I like?"
-const A3 = "Yes, you can save all your favorite names. Click a name, and it gets added to the list of saved names. You can view the names that you have saved earlier. "
-const Q4 = "What kind of names does the generator create?"
-const A4 = "It draws from the sleek and futuristic to the ancient, mysterious, and eerie Alien names for a range of different types of Alien species and settings that might feature in science fiction stories or games."
-const Q5 = "Is there a cost to use the Alien Name Generator?"
-const A5 = "The current manual does not specify any costs associated with using the Alien Name Generator. This tool's website or platform for the most accurate and up-to-date information regarding any potential costs."
+    const A1 = "This Alien Name Generator is used to create random names for alien characters in a science fiction setting. This generator creates ten names at a time. It really captures the feel of different alien species."
+    const Q2 = "How do I generate names with the online Alien Name Generator?"
+    const A2 = "Simply click the 'Generate Names' button to produce a name. You will get a list of 10 random alien names. And if none of the displayed names satisfies you, just hit again to generate a new set."
+    const Q3 = "Can I save the names I like?"
+    const A3 = "Yes, you can save all your favorite names. Click a name, and it gets added to the list of saved names. You can view the names that you have saved earlier. "
+    const Q4 = "What kind of names does the generator create?"
+    const A4 = "It draws from the sleek and futuristic to the ancient, mysterious, and eerie Alien names for a range of different types of Alien species and settings that might feature in science fiction stories or games."
+    const Q5 = "Is there a cost to use the Alien Name Generator?"
+    const A5 = "The current manual does not specify any costs associated with using the Alien Name Generator. This tool's website or platform for the most accurate and up-to-date information regarding any potential costs."
     return (
         <motion.div
             initial={{ opacity: 0, x: 1200 }}
@@ -605,20 +605,20 @@ const A5 = "The current manual does not specify any costs associated with using 
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        Our Alien Name Generator is a tool designed to help you craft unique, 
-                        imaginative names for alien characters in science fiction stories, games, and other creative projects. 
-                        Whether you're building a universe or just need a standout name, this generator offers a wide array of possibilities to suit your needs.
-                       </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                        The tool captures the exoticism and otherworldliness that define alien species, 
-                        allowing you to bring your characters and worlds to life with names that resonate. 
-                        It provides the necessary inspiration to add depth and authenticity to your creative endeavors.
+                            Our Alien Name Generator is a tool designed to help you craft unique,
+                            imaginative names for alien characters in science fiction stories, games, and other creative projects.
+                            Whether you're building a universe or just need a standout name, this generator offers a wide array of possibilities to suit your needs.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        Whether you're naming a peaceful alien diplomat or a fearsome space warrior, 
-                        our Alien Name Generator is equipped to deliver versatile and fitting names. 
-                        The generator draws from a vast pool of science fiction influences, ensuring that every name 
-                        generated can seamlessly fit into a wide range of adventures.
+                            The tool captures the exoticism and otherworldliness that define alien species,
+                            allowing you to bring your characters and worlds to life with names that resonate.
+                            It provides the necessary inspiration to add depth and authenticity to your creative endeavors.
+                        </p>
+                        <p className="text-center py-[10px] text-[#343a40]">
+                            Whether you're naming a peaceful alien diplomat or a fearsome space warrior,
+                            our Alien Name Generator is equipped to deliver versatile and fitting names.
+                            The generator draws from a vast pool of science fiction influences, ensuring that every name
+                            generated can seamlessly fit into a wide range of adventures.
                         </p>
                     </div>
                 </div>
@@ -626,10 +626,10 @@ const A5 = "The current manual does not specify any costs associated with using 
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Alien Name Generator?
+                        How to Use the Alien Name Generator?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                    We hope it enhances your creative projects and helps you bring your alien characters to life with distinctive and memorable names.
+                        We hope it enhances your creative projects and helps you bring your alien characters to life with distinctive and memorable names.
                         <br /> <br />
                         <b>Let us guide you through the simple steps to generate some amazing Alien names for your adventure.</b>
                     </p>
@@ -639,30 +639,30 @@ const A5 = "The current manual does not specify any costs associated with using 
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Access the Tool
+                                Step 1 - Access the Tool
                             </h3>
                             <p>
-                            Open the Alien Name Generator to begin the name creation process. It’s easy to navigate and quick to use.
+                                Open the Alien Name Generator to begin the name creation process. It’s easy to navigate and quick to use.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Enter Your Criteria
+                                Step 2 - Enter Your Criteria
                             </h3>
                             <p>
-                            Specify any details or preferences for the names you want to generate. This helps tailor the results to fit your vision.
+                                Specify any details or preferences for the names you want to generate. This helps tailor the results to fit your vision.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Generate Names
+                                Step 3 - Generate Names
                             </p>
                             <p>
-                            Click the <b> "Generate"</b> button to instantly create a list of unique alien names. Choose the one that best suits your project.
+                                Click the <b> "Generate"</b> button to instantly create a list of unique alien names. Choose the one that best suits your project.
                             </p>
-<p>
-    Experiment with our tool to generate names that perfectly match your vision for your alien characters.
-   </p>                         
+                            <p>
+                                Experiment with our tool to generate names that perfectly match your vision for your alien characters.
+                            </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
@@ -722,11 +722,11 @@ const A5 = "The current manual does not specify any costs associated with using 
             <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
                 <div class="text-center mb-[10px]">
                     <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    Why Do You Need the Alien Name Generator?
+                        Why Do You Need the Alien Name Generator?
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Unlock the full potential of your creativity with our Alien Name Generator. 
-                    Here’s why you need this tool to enjoy the following features.
+                        Unlock the full potential of your creativity with our Alien Name Generator.
+                        Here’s why you need this tool to enjoy the following features.
                     </p>
                 </div>
 
@@ -736,56 +736,56 @@ const A5 = "The current manual does not specify any costs associated with using 
                         <div class="py-[10px]">
                             <div class="py-[5px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Unlock Your Creativity
+                                    Unlock Your Creativity
                                 </h3>
                                 <p>
-                                You can create truly unique and unforgettable names for Alien characters. 
-                                You want to be original and cover a wide variety of species with cultures in your science fiction universe. 
-                                Our Alien Name Generator and this task is simplified into a constant source of great inspiration. 
-                                You can focus on rich narratives and complex characters.                               
-                                 </p>
+                                    You can create truly unique and unforgettable names for Alien characters.
+                                    You want to be original and cover a wide variety of species with cultures in your science fiction universe.
+                                    Our Alien Name Generator and this task is simplified into a constant source of great inspiration.
+                                    You can focus on rich narratives and complex characters.
+                                </p>
                             </div>
                             <div class="py-[5px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Save Time and Effort
+                                    Save Time and Effort
                                 </h3>
                                 <p>
-                                Character names are a really time-saver process.  
-                                Especially when you try to create something that will seem really authentic and appropriate for an alien race. 
-                                This Alien Name Generator helps save your precious time with the generation of ten random names at the click of your mouse. 
-                                You can quickly find the perfect name and move on to other important aspects of your project                                
+                                    Character names are a really time-saver process.
+                                    Especially when you try to create something that will seem really authentic and appropriate for an alien race.
+                                    This Alien Name Generator helps save your precious time with the generation of ten random names at the click of your mouse.
+                                    You can quickly find the perfect name and move on to other important aspects of your project
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Ensure Consistency
+                                    Ensure Consistency
                                 </h3>
                                 <p>
-                                A large roster of characters that maintain consistency in the style and feel of names is crucial. 
-                                This Alien Name Generator ensures that all generated names align with the thematic elements of your science fiction world. 
-                                It helps to maintain a coherent and believable universe to enhance the overall quality of your work.                                
+                                    A large roster of characters that maintain consistency in the style and feel of names is crucial.
+                                    This Alien Name Generator ensures that all generated names align with the thematic elements of your science fiction world.
+                                    It helps to maintain a coherent and believable universe to enhance the overall quality of your work.
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <p class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Boost Your Storytelling
+                                    Boost Your Storytelling
                                 </p>
                                 <p>
-                                A well–chosen name can add depth and personality to your characters. 
-                                It makes them more memorable and engaging. 
-                                This Alien Name Generator is a great deal of names that signify exotic, extraterrestrial characteristics. 
-                                You can give life to your characters in a way that will really strike users.                                
+                                    A well–chosen name can add depth and personality to your characters.
+                                    It makes them more memorable and engaging.
+                                    This Alien Name Generator is a great deal of names that signify exotic, extraterrestrial characteristics.
+                                    You can give life to your characters in a way that will really strike users.
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Versatility                               
-                                 </h3>
+                                    Versatility
+                                </h3>
                                 <p>
-                                Our Alien Name Generator is not limited to some predetermined type of alien species or setting. 
-                                It gives names versatile and adaptive enough to fit most situations.  
-                                You are into writing futuristic space opera and create an alien species for role-playing games or developing 
-                                characters for a science fiction movie.                                
+                                    Our Alien Name Generator is not limited to some predetermined type of alien species or setting.
+                                    It gives names versatile and adaptive enough to fit most situations.
+                                    You are into writing futuristic space opera and create an alien species for role-playing games or developing
+                                    characters for a science fiction movie.
                                 </p>
                             </div>
                         </div>
@@ -810,27 +810,27 @@ const A5 = "The current manual does not specify any costs associated with using 
                     <section class="w-[80%] mx-auto p-6 bg-white rounded-lg shadow-lg mt-10">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">Inspiration for World-Building</h2>
                         <p class="text-gray-600 mb-4">
-                        Names often reflect the culture, history, and environment of a species. 
-                        Our Alien Name Generator can spark ideas for world-building to provide names that evoke specific imagery and themes. 
-                        You flesh out the background and lore of your alien species to add depth and richness to your science fiction universe.
+                            Names often reflect the culture, history, and environment of a species.
+                            Our Alien Name Generator can spark ideas for world-building to provide names that evoke specific imagery and themes.
+                            You flesh out the background and lore of your alien species to add depth and richness to your science fiction universe.
                         </p>
                         <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Professional Quality                              
-                                 </h3>
-                                <p class="text-gray-600 mb-4">
-                                You want to look for names for a novel, a game, or even movie characters. 
-                                This Alien name generator is bound to deliver professional quality that lends a touch of realism and interest to the work. 
-                                Give a special with unique and nice names—the sort that shows a little more creativity. 
-                                It really matches the hard work you put into this.                               
-                                </p>
-                                <p class="text-gray-600 mb-4">
-                                Alien Name Generator is an essential tool for anyone involved in creating science fiction content. 
-                                It streamlines the naming process, enhances creativity and ensures consistency. 
-                                Also adds depth to your characters and world-building efforts. 
-                                Save time and boost your storytelling. It creates unforgettable alien names with ease.                             
-                                </p>
-                            </div>
+                            <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
+                                Professional Quality
+                            </h3>
+                            <p class="text-gray-600 mb-4">
+                                You want to look for names for a novel, a game, or even movie characters.
+                                This Alien name generator is bound to deliver professional quality that lends a touch of realism and interest to the work.
+                                Give a special with unique and nice names—the sort that shows a little more creativity.
+                                It really matches the hard work you put into this.
+                            </p>
+                            <p class="text-gray-600 mb-4">
+                                Alien Name Generator is an essential tool for anyone involved in creating science fiction content.
+                                It streamlines the naming process, enhances creativity and ensures consistency.
+                                Also adds depth to your characters and world-building efforts.
+                                Save time and boost your storytelling. It creates unforgettable alien names with ease.
+                            </p>
+                        </div>
                     </section>
                 </div>
 
@@ -875,7 +875,7 @@ const A5 = "The current manual does not specify any costs associated with using 
                     </div>
                 </motion.div>
             </div>
-            <FAQSection Q1={Q1} A1={A1} Q2={Q2} A2={A2} Q3={Q3} A3={A3} Q4={Q4} A4={A4} Q5={Q5} A5={A5}/>
+            <FAQSection Q1={Q1} A1={A1} Q2={Q2} A2={A2} Q3={Q3} A3={A3} Q4={Q4} A4={A4} Q5={Q5} A5={A5} />
             <Footer />
         </motion.div>
     );

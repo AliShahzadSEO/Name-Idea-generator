@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
+import Head from "next/head"; // Import Head from next/head
 const Data = [
   {
     name: "Viking Name Generator",
@@ -87,6 +88,9 @@ const bgImage = "/category2bg.jpg"
       transition={{ duration: 0.25 }}
       className="bg-[#f8f9fa] w-[100%]"
     >
+      <Head>
+      <title>Cultural and Historical Name Generator</title>
+      </Head>
       <HeroSection bgImage={bgImage} context={context}/>
       <div className="w-[90%] mx-auto">
         <div className="py-[16px]">
