@@ -19,7 +19,7 @@ export const metadata={
   },
 }
 
-const Page = () => {  // Renamed 'page' to 'Page'
+const Page = () => { 
   return (
     <>
       <Head>
