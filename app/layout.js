@@ -38,6 +38,8 @@ export const metadata = {
       "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!",
     images: ["bg2.jpg"],
   },
+  keywords: ['name generator', 'Name Idea Generator', 'Idea name generator ', ' name maker',
+    'Special name generator', 'fantasy name generator ', ' name generator fantasy', 'name crafter', 'common name generator'],
 };
 
 export default function RootLayout({ children }) {
