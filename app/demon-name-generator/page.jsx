@@ -33,16 +33,6 @@ export const metadata = {
   },
   
   robots:{index:true, follow: true},
-
-  schema: {
-    '@type': "WebApplication",
-    name: "Demon Name Generator With Meaning | Devil Name Generator",
-    description: "Create unique demon names with meanings using our demon name generator. Ideal for stories, games, and creative projects!",
-    url: "https://www.nameideagenerator.com/demon-name-generator",
-    image: "demonpic.jpg",
-    applicationCategory: "Entertainment",
-    operatingSystem: "Online",
-  },
 }
 
 const page = () => {
