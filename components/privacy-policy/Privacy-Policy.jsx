@@ -22,7 +22,7 @@ function getRandomDemon(gender, type, demonNames) {
     const randomIndex = Math.floor(Math.random() * filteredDemons.length);
     return filteredDemons[randomIndex];
 }
-const NorseNameGenerator = () => {
+const PrivacyPolicy = () => {
     const [lockedDemonList, setLockedDemonList] = useState([
         null,
         null,
