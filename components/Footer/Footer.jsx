@@ -21,9 +21,7 @@ const Footer = () => {
           </div>
           <div className="py-[10px]">
             <p className="font-semibold text-[14px] text-white">
-              Subscribe to the newsletter, so you can get notified about
-              important news and content updates. Subscribe to the newsletter,
-              so you can get notified about important news and content updates.
+            The ultimate platform for writers, gamers, and creators looking to infuse authenticity and flair into their character development.
             </p>
             <div className="flex gap-2 py-[20px]">
               <input
