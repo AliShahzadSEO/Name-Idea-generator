@@ -627,26 +627,34 @@ const HalfElfNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Provide Input
+                            Step 1: Specify Gender
                             </h3>
                             <p>
-                            Specify your desired name gender and any other requirements that our dnd half elf names tool demands from you to generate the names. 
+                            Select the gender for the half-elf name, which helps in generating names that fit gender-specific naming conventions in elven cultures. 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Generate Names
+                            Step 2: Select the Type
                             </h3>
                             <p>
-                            Click the <b> "Generate"</b> button to produce a list of half elf names tailored to your preferences. It will quickly process your list and give it to you.
+                            Choose the type of half-elf name you desire, such as mystical, traditional, or modern, to refine the style of names generated.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Review and Select
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3: Click on Generate
+                            </h3>
                             <p>
-                            Browse through the generated names list and choose the one that best fits your needs. You can also save the one that you want to access later.
+                            Hit the "Generate" button to create a list of half-elf names based on your preferences.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            Names will appear on your screen. Hover over each to see details like meaning, origin, and the lore behind the name.
                             </p>
                         </div>
                     </div>

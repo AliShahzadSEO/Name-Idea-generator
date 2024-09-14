@@ -532,26 +532,34 @@ const GoblinNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Access the Generator
+                            Step 1: Specify Characteristics
                             </h3>
                             <p>
-                            Navigate to the website hosting the Goblin Name Generator tool using your preferred web browser.
+                            Choose characteristics for the goblin name, such as sneaky, brutish, or clever, to guide the name generation process.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Input Your Requirements
+                            Step 2: Select the Type
                             </h3>
                             <p>
-                            Enter the required criteria into the tool’s input fields. This may include preferences for gender or any particular characteristics the tool demands.
+                            Pick the type of goblin name you are interested in, such as comical, fearsome, or traditional.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Generate Goblin Names
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3: Click on Generate
+                            </h3>
                             <p>
-                            Click the <b> "Generate"</b> button to initiate the name-generation. The tool will display a list of goblin names based on your input. Review the list and select the name that best meets your needs.
+                            Press the <b> "Generate"</b> button to start the creation of goblin names based on your inputs.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The generated names will be displayed. Hover over each name to uncover detailed information like its meaning, background, and the culture it's associated with.
                             </p>
                         </div>
                     </div>

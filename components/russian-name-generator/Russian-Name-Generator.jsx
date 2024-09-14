@@ -630,29 +630,34 @@ const RussianNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                                Step 1: Access the Tool
+                                Step 1: Specify Gender
                             </h3>
                             <p>
-                                Open Our Russia Name Generator tool on your browser.
-                                This will bring up the interface where you can start customizing your name search.
+                            Choose a gender for the Russian name you wish to generate, helping tailor the names to fit gender-specific characteristics common in Russian culture.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                                Step 2: Set Your Preferences
+                                Step 2: Select the Type
                             </h3>
                             <p>
-                                Enter your preferences for the Russian names, such as gender.
-                                You can choose options that will open on your screen to give the tool your requirements.
+                            Decide on the type of Russian name you want, such as traditional, modern, or influenced by famous Russian figures.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                                Step 3: Generate Names
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                                Step 3: Click on Generate
+                            </h3>
                             <p>
-                            Click the "Generate" button. The tool will produce a list of Russian names based on your preferences. Choose the one that suits your needs.
+                            Click the <b> "Generate"</b> button to produce a list of Russian names based on your selections.
                             </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                                Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The names will be displayed on your screen. Hover over each name to get more details like its meaning, origin, and any cultural significance, aiding in your selection process.                            </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
