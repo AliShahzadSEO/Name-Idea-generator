@@ -544,7 +544,7 @@ const WOWNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of WoW</p>
+                        <p className="text-center text-[#343a40]">Types of World Of Warcraft Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -637,28 +637,34 @@ const WOWNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            1- Access the Tool
+                           Step 1- Specify Faction
                             </h3>
                             <p>
-                            Begin by navigating to the WoW Name Generator on our website. 
-                            Ensure you have a stable internet connection to access the tool. This step involves opening the tool in your web browser.
+                            Choose a faction for the WoW name, like Alliance or Horde, to guide the cultural and racial characteristics of the names.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            2- Run the Tool
+                           Step 2- Select the Race
                             </h3>
                             <p>
-                            Review the list of generated names. Browse through the options like uniqueness and relevance to your character. 
-                            Select the name that best aligns with your needs and preferences.
+                            Pick a race within the chosen faction, such as Orc, Human, Elf, or Undead, to further tailor the name generation.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            3- Find the Name That Suits Your Needs
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                          Step 3- Click on Generate
+                            </h3>
                             <p>
-                            Review the list of generated names. Browse through the options like uniqueness and relevance to your character. Select the name that best aligns with your needs and preferences.
+                            Hit the "Generate" button to start the creation of WoW names based on your inputs
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4- Review Names and Their Lore
+                            </h3>
+                            <p>
+                            The generated names will be displayed. Hover over each name to uncover details about its meaning, race, and the lore behind it in the World of Warcraft universe
                             </p>
                         </div>
                     </div>

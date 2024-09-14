@@ -551,7 +551,7 @@ const TabaxiNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Tabaxi</p>
+                        <p className="text-center text-[#343a40]">Types of Tabaxi Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -644,26 +644,34 @@ const TabaxiNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Access the Tool
+                            Step 1 - Specify Traits
                             </h3>
                             <p>
-                            Visit our Name Generator website and open the Tabaxi Name Generator tool. The interface is straightforward, allowing you to start the name-generation process immediately.
+                            Choose specific traits for the Tabaxi name, like adventurous, mysterious, or playful, to reflect the characteristics of the Tabaxi culture in fantasy settings.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Run the Tool
+                            Step 2 - Select the Type
                             </h3>
                             <p>
-                            Click on the <b> “Generate Names” </b>button to produce a list of names. The tool will quickly generate a selection of names that fit the Tabaxi theme.
+                            Decide on the type of Tabaxi name you want, such as lyrical, descriptive, or influenced by their nomadic lifestyle.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Choose Your Name
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3 - Click on Generate
+                            </h3>
                             <p>
-                            Browse the list of generated names and select the one that best suits your needs. You can save your choice for easy reference or generate new options if needed.
+                            Hit the "Generate" button to create a list of Tabaxi names based on your preferences.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4 - Review Names and Their Descriptions
+                            </h3>
+                            <p>
+                            Names will appear on your screen. Hover over each to see details about the name's meaning, cultural background, and the role it might play in Tabaxi lore.
                             </p>
                         </div>
                     </div>

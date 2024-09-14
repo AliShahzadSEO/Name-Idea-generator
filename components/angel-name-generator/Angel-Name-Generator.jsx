@@ -431,7 +431,7 @@ const AngleNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Angel</p>
+                        <p className="text-center text-[#343a40]">Types of Angel Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -524,38 +524,46 @@ const AngleNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Access the Tool
+                            Step 1: Specify Order
                             </h3>
                             <p>
-                            Open the Angel Name Generator tool to begin. The interface is straightforward, allowing you to start generating names immediately.
+                            Choose an order or rank for the angel name, which helps in generating names that fit specific roles or hierarchies in angelic lore.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Select Name Type
+                            Step 2: Select the Type
                             </h3>
                             <p>
-                            Choose from various options for name types to match the celestial qualities you’re seeking. This includes selecting the gender for the angelic names.
+                            Decide on the type of angel name you want, such as biblical, apocryphal, or inspired by literature.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Generate and Review Names
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3: Click on Generate
+                            </h3>
                             <p>
-                            Click the <b> "Generate"</b> button to receive a list of angelic names. Browse through the names provided and select the ones that best fit your needs for your creative project.
+                            Click the <b> "Generate"</b> button to produce a list of angel names that match your criteria.
                             </p>
                         </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            Names will be displayed on your screen. Hover over each to see details like meaning, origin, and the spiritual significance associated with the name.
+                            </p>
+                        </div> 
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="angel1.jpg"
-                            alt=""
+                            alt="angel name generator"
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="angel2.avif"
-                            alt=""
+                            alt="angel name generator"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -681,12 +689,12 @@ const AngleNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="jejus.webp"
-                            alt=""
+                            alt="angel name generator with meaning"
                             class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="angel4.webp"
-                            alt=""
+                            alt="angel name generator with meaning"
                             class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

@@ -541,7 +541,7 @@ const WoodElfNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Wood Elf</p>
+                        <p className="text-center text-[#343a40]">Types of Wood Elf Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -634,26 +634,34 @@ const WoodElfNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 1: Generate Names
+                            STEP 1: Specify Gender
                             </h3>
                             <p>
-                            Click the <b> "Generate Names" </b> button to create a list of random wood elf names. If the names don’t fit your needs, click the button again to generate a new set.
+                            Start by choosing the gender for the wood elf name you want to generate, aligning with traditional elf naming conventions.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 2: Save Names
+                            STEP 2: Select the Type
                             </h3>
                             <p>
-                            Click on any name you like to save it. The saved names will appear in the "Saved Names" section. 
+                            Choose the type of wood elf name you are interested in, such as ancient, modern, or inspired by forest lore. 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
                             STEP 3: Get Your Required Name
-                            </p>
+                            </h3>
                             <p>
-                            Review the names you saved from previous attempts. You can remove any names you don’t want and rerun the generator if you’re not satisfied with the options.
+                            Press the "Generate" button to create a list of wood elf names based on your specified preferences.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            STEP 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The generated names will appear on your screen. You can hover over each name to see detailed information, including its meaning and any cultural or historical significance.
                             </p>
                         </div>
                     </div>

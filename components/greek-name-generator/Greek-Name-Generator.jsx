@@ -619,26 +619,34 @@ const GreekNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Access the Tool
+                            Step 1: Specify Gender
                             </h3>
                             <p>
-                            Open the Greek Name Generator and click the <b> "Generate Names"</b> button. This action will produce a list of random Greek names for your consideration.
+                            Start by selecting the gender for the Greek name you wish to generate, aligning with traditional Greek naming conventions.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Select Your Name
+                            Step 2: Select the Type
                             </h3>
                             <p>
-                            Browse through the generated names and choose the one that fits your needs. Click on the name to save it to your list.
+                            Choose the type of Greek name you are interested in, such as mythological, historical, or modern.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Review and Choose
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3: Click on Generate
+                            </h3>
                             <p>
-                            You can save any name on the website and keep them for future use. This feature allows you to revisit and use your selcted names whenever needed.
+                            Press the <b> "Generate"</b> button to create a list of Greek names based on your specified preferences.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The generated names will appear on your screen. You can hover over each name to see detailed information, including its meaning and any cultural or historical significance.
                             </p>
                         </div>
                     </div>

@@ -534,7 +534,7 @@ const SongNameGenerator = () => {
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Song Name Generator
+                            Random Song Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -551,7 +551,7 @@ const SongNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Songs</p>
+                        <p className="text-center text-[#343a40]">Types of Songs Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -644,39 +644,46 @@ const SongNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Access the Tool
+                            Step 1 - Specify Genre
                             </h3>
                             <p>
-                            Open the Song Generator tool and familiarize yourself with its interface. Explore the different options for generating melodies, like genre and others. 
-                            Take note of any customization features or settings that allow you to tailor the song to your preferences.
+                            Choose a music genre for the song name, which helps in generating names that are genre-specific like rock, pop, Romantic, or electronic.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Choose Voice and Genre
+                            Step 2 - Select the Mood
                             </h3>
                             <p>
-                            Select the desired vocal style <b> (male or female) </b> and choose your preferred music genre. This ensures that the generated song fits the style and mood you envision.
+                            Pick a mood for the song, such as happy, sad, energetic, or relaxing, to guide the emotional tone of the names generated.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Generate Songs
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3 - Click on Generate
+                            </h3>
                             <p>
-                            Click the <b> “Generate Songs” </b>button to receive a list of song ideas based on your selections. Review the generated options and choose the one that best fits your needs.
+                            Press the <b> "Generate"</b> button to start the creation of song names based on your inputs.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Potential Themes
+                            </h3>
+                            <p>
+                            The generated song names will be displayed. Hover over each name to uncover possible themes or the emotions they might evoke.
                             </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="pop.avif"
-                            alt=""
+                            alt="song name generator"
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="pop1.avif"
-                            alt=""
+                            alt="song name generator"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -799,12 +806,12 @@ const SongNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="pop1.jpg"
-                            alt="Half-Elf"
+                            alt="song name generator"
                             class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="pop3.jpg"
-                            alt="Tiefling Image 2"
+                            alt="song name generator"
                             class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>
