@@ -563,38 +563,46 @@ const RobotNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Access the Tool
+                            Step 1: Specify Function
                             </h3>
                             <p>
-                            Visit our Robot Name Generator on our Name Generator website to start the process. This is where you'll begin generating names for your robotic characters.
+                            Choose a primary function for the robot, such as domestic, industrial, or exploratory, to influence the style of names generated.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Run the Tool
+                            Step 2: Select the Type
                             </h3>
                             <p>
-                            Click the <b> "Generate Names"</b> button to start the name generation. The tool will produce a list of names based on futuristic and technological themes.
+                            Decide on the type of robot name you want, such as futuristic, functional, or whimsical.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Select Your Name
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3: Click on Generate
+                            </h3>
                             <p>
-                            Examine the generated names and choose the one that best fits your robotic creation. Use the selected name to add personality and distinction to your robots in your projects.
+                            Hit the <b> "Generate"</b> button to create a list of robot names based on your preferences.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Descriptions
+                            </h3>
+                            <p>
+                            Names will appear on your screen. Hover over each to see details about the name's intended function, design inspiration, and potential uses.
                             </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="robot1.jpg"
-                            alt=""
+                            alt="robot name generator with meaning"
                             className="w-[250px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="robot2.jpg"
-                            alt=""
+                            alt="robot name generator with meaning"
                             className="w-[260px] h-[300px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -611,7 +619,7 @@ const RobotNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Robot-Name-Generator
+                    Related to Robot Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {FictionalAndSciFi.map((item, index) => (
@@ -722,12 +730,12 @@ const RobotNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="robot3.jpg"
-                            alt=""
+                            alt="robot name generator"
                             class="w-[320px] my-[30px] h-[450px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="robot4.jpg"
-                            alt=""
+                            alt="robot name generator"
                             class="w-[320px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

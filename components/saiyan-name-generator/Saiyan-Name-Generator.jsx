@@ -636,26 +636,34 @@ const SaiyanNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1- Access the Tool
+                            Step 1- Specify Power Level
                             </h3>
                             <p>
-                            Navigate to the Saiyan Name Generator on our <a href="/"><b> Name Idea Generator</b></a> website. Ensure you have a stable internet connection for optimal performance.
+                            Choose a power level for the Saiyan name, which can range from low to elite, reflecting the combat prowess and status within Saiyan society.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Run the Tool
+                            Step 2 - Select the Type
                             </h3>
                             <p>
-                            Click the <b> “Generate Names” </b>button to create a list of Saiyan names. The tool will quickly provide options based on the Saiyan you need.
+                            Decide on the type of Saiyan name you want, such as warrior, royal, or legendary.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Find the Name That Suits Your Needs
+                            Step 3 - Click on Generate
                             </p>
                             <p>
-                            Review the generated Dragon ball names to select the one that best fits your requirements. Choose a name that aligns with your character or project.
+                            Press the "Generate" button to create a list of Saiyan names based on your preferences.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <p className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4- Review Names and Their Significance
+                            </p>
+                            <p>
+                            Names will appear on your screen. Hover over each to see details about the name's meaning, origin, and its significance within the Saiyan culture.
                             </p>
                         </div>
                     </div>

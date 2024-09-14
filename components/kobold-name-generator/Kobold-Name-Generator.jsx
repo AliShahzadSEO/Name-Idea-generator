@@ -533,7 +533,7 @@ const KoboldNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Kobold</p>
+                        <p className="text-center text-[#343a40]">Types of Kobold Name</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -627,38 +627,46 @@ const KoboldNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Access the Tool
+                            Step 1: Specify Traits
                             </h3>
                             <p>
-                            Open our Kobold Name Generator by visiting our Name Generator website. This is where you will begin the process of finding the perfect name for your Kobold characters.
+                            Choose traits for the kobold name, such as sneaky, miner, or warrior, to reflect the characteristics typical of kobolds in fantasy settings.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Run the Tool
+                            Step 2: Select the Type
                             </h3>
                             <p>
-                            Click on the <b> "Generate Names"</b> button to initiate the name generation process. The tool will provide you with a list of names inspired by Kobold culture and characteristics.
+                            Pick the type of kobold name you are interested in, such as traditional, exotic, or inspired by their underground lifestyle.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Choose Your Name
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3: Click on Generate
+                            </h3>
                             <p>
-                            Review the generated names and select the one that best fits your creative needs. Use the chosen name to enhance your project.
+                            Press the <b> "Generate"</b> button to start the creation of kobold names based on your inputs.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The generated names will be displayed. Hover over each name to uncover detailed information like its meaning, role in kobold society, and the lore behind it.
                             </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="kobold1.jpg"
-                            alt=""
+                            alt="kobold name generator"
                             className="w-[250px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="kobold2.jpg"
-                            alt=""
+                            alt="kobold name generator"
                             className="w-[280px] h-[300px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -675,7 +683,7 @@ const KoboldNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Kobold-Name-Generator
+                    Related to Kobold Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
@@ -787,12 +795,12 @@ const KoboldNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="kobold3.avif"
-                            alt=""
+                            alt="kobold name generator with meaning"
                             class="w-[320px] my-[30px] h-[450px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="kobold4.jpeg"
-                            alt=""
+                            alt="kobold name generator with meaning"
                             class="w-[320px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

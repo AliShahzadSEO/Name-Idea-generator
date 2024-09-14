@@ -623,38 +623,46 @@ const NorseNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Open the Tool
+                            Step 1 - Specify Gender
                             </h3>
                             <p>
-                            Access our Norse Name Generator by navigating to the tool's page. Ensure you are ready to input your preferences for generating names.
+                            Select the gender for the Norse name, aligning with traditional Norse naming conventions.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Run the Tool
+                            Step 2 - Select the Type
                             </h3>
                             <p>
-                            Initiate the name-generation process by using the tool’s interface. Follow the prompts to start the name generation.
+                            Choose the type of Norse name you are interested in, such as historical, mythological, or inspired by Viking lore.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Generate Names
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3 - Click on Generate
+                            </h3>
                             <p>
-                            Receive a list of names based on Norse mythology. Review the generated names and choose the one that best fits your project needs.
+                            Click the <b> "Generate"</b> button to produce a list of Norse names that match your criteria.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4 - Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The names will be displayed on your screen. Hover over each name to get more details like its meaning, origin, and any historical or mythological significance.
                             </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="Norse1.webp"
-                            alt=""
+                            alt="norse name generator"
                             className="w-[250px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="Norse2.jpg"
-                            alt=""
+                            alt="norse name generator"
                             className="w-[260px] h-[300px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -671,7 +679,7 @@ const NorseNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Norse-Name-Generator
+                    Related to Norse Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category2.map((item, index) => (
@@ -784,12 +792,12 @@ const NorseNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="norse4.jpg"
-                            alt=""
+                            alt="norse name generator with meaning"
                             class="w-[320px] my-[30px] h-[450px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="norse5.jpg"
-                            alt=""
+                            alt="norse name generator with meaning"
                             class="w-[320px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>
