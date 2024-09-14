@@ -278,31 +278,7 @@ const PrivacyPolicy = () => {
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
                     Related to Norse Name Generator
                 </p>
-                <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
-                    {Category2.map((item, index) => (
-                        <Link key={index} href={item.link}>
-                            <motion.div
-                                variants={{
-                                    hidden: { opacity: 0, y: 75 },
-                                    visible: { opacity: 1, y: 0 },
-                                }}
-                                initial="hidden"
-                                whileInView="visible"
-                                transition={{ duration: 0.5, delay: index * 0.25 }}
-                                className="border rounded-lg shadow-lg overflow-hidden cursor-pointer bg-white"
-                            >
-                                <img
-                                    src={item.pic}
-                                    alt={item.name}
-                                    className="w-full h-48 object-cover"
-                                />
-                                <div className="p-4">
-                                    <h2 className="text-lg font-semibold">{item.name}</h2>
-                                </div>
-                            </motion.div>
-                        </Link>
-                    ))}
-                </div>
+
             </div>
 
             <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
