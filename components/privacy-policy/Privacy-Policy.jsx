@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import FAQSection from "../FAQSection/FAQSection";
 import Footer from "../Footer/Footer";
