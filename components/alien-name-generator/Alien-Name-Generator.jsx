@@ -540,7 +540,7 @@ const AlienNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Alien</p>
+                        <p className="text-center text-[#343a40]">Types of Alien Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -639,29 +639,34 @@ const AlienNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                                Step 1 - Access the Tool
+                                Step 1 - Specify Species
                             </h3>
                             <p>
-                                Open the Alien Name Generator to begin the name creation process. It’s easy to navigate and quick to use.
+                            Choose a species for the alien name, which can help in generating names that are specific to certain alien characteristics and cultures.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                                Step 2 - Enter Your Criteria
+                                Step 2 - Select the Type
                             </h3>
                             <p>
-                                Specify any details or preferences for the names you want to generate. This helps tailor the results to fit your vision.
+                            Decide on the type of alien name you want, such as scientific, fantastical, or intimidating, to guide the name generation.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <p className="sm:text-[28px] text-[20px] font-semibold ">
-                                Step 3 - Generate Names
+                                Step 3 - Click on Generate
                             </p>
                             <p>
-                                Click the <b> "Generate"</b> button to instantly create a list of unique alien names. Choose the one that best suits your project.
+                            Click the <b> "Generate"</b> button to produce a list of alien names that match your criteria.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <p className="sm:text-[28px] text-[20px] font-semibold ">
+                                Step 4: Review Names and Their Meanings
                             </p>
                             <p>
-                                Experiment with our tool to generate names that perfectly match your vision for your alien characters.
+                            Names will appear on your screen. Hover over each to see details like meaning, origin, and the story behind the name.
                             </p>
                         </div>
                     </div>

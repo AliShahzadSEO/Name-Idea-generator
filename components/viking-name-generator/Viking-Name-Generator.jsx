@@ -481,31 +481,35 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 1 - Input Your Preferences
+                            STEP 1 - Specify Gender
                             </h3>
                             <p>
-                            Choose the type of Viking names you want, specifying gender or letting the tool decide randomly. 
-                            Indicate how many names you want generated at once, up to four.
+                            Start by choosing the gender for the Viking name you want to generate, if relevant, to align with historical naming conventions.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 2 - Generate Names
+                            STEP 2 - Select the Type
                             </h3>
                             <p>
-                            Click the "Generate Names" button to produce a list based on your preferences. 
-                            The tool instantly provides a selection of names.                            
+                            Choose the type of Viking name you are interested in, such as historical, legendary, or inspired by Viking gods and heroes.                            
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            STEP 3 - Select and Save
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            STEP 3 - Click on Generate
+                            </h3>
+                            <p>
+                            Press the <b> "Generate"</b> button to create a list of Viking names based on your specified preferences.                            
                             </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            STEP  4: Review Names and Their Meanings
+                            </h3>
                             <p>
-                            Pick the names that suit your needs best. You can generate more names if needed until you find the perfect fit.                            
-                            </p> 
-                            <p>
-                         <b>   Remember,</b> these tools are often used for creative writing, gaming, or entertainment purposes where unique and fictional names are desired..</p>                      
+                            The generated names will appear on your screen. You can hover over each name to see detailed information, including its meaning and any cultural or historical significance.                            
+                            </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">

@@ -538,7 +538,7 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Halfling</p>
+                        <p className="text-center text-[#343a40]">Types of Halfling Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -631,26 +631,34 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Access the Tool
+                            Step 1 - Specify Gender
                             </h3>
                             <p>
-                            Visit our Halfling Name Generator on our website. Open the tool to start creating your unique halfing names.
+                            Select the gender to generate a halfling name, aligning with traditional halfling naming conventions in fantasy settings.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Run the Tool
+                            Step 2 - Select the Type
                             </h3>
                             <p>
-                            Click the <b> "Generate Names"</b> button to instantly produce a list of halfing names. Each click gives you a fresh, random name to consider.                           
+                            Pick the type of halfling name you are interested in, such as cheerful, rustic, or noble, to refine the style of names generated.                           
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Access Saved Names
-                            </p>
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 3 - Click on Generate
+                            </h3>
                             <p>
-                            Choose any name from the list and save it for future use. The saved names will be securely stored for your convenience.                            
+                            Hit the <b> "Generate"</b> button to start the creation of halfling names based on your inputs.                            
+                            </p>                       
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            Step 4: Review Names and Their Meanings
+                            </h3>
+                            <p>
+                            The generated names will appear on your screen. Hover over each name to see detailed information like its meaning, cultural context, and any historical references.                            
                             </p>                       
                         </div>
                     </div>
