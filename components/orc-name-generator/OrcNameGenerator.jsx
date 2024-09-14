@@ -491,26 +491,34 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
           <div className="sm:w-[50%]">
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1- Enter the Parameters
+              Step 1- Specify Gender
               </h3>
               <p>
-              Specify your desired characteristics for the Orc names, such as , complexity, and thematic elements.
+              Choose a gender for the orc name, which helps in generating names that fit gender-specific naming conventions in orcish cultures.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Generate Names
+              Step 2 - Select the Type
               </h3>
               <p>
-              Click the <b>generate</b> button to produce a list of names that match your criteria
+              Decide on the type of orc name you want, such as warlike, tribal, or fantastical, to guide the name generation.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <p className="sm:text-[28px] text-[20px] font-semibold ">
-              Step 3 - Select and Customize 
-              </p>
+              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              Step 3 - Click on Generate 
+              </h3>
               <p>
-              Select the ones generated names that best suit your needs. You can further customize the names to enhance their uniqueness.
+              Click the <b> "Generate"</b> button to produce a list of orc names that match your criteria.
+              </p>
+            </div>
+            <div className="py-[10px] flex flex-col gap-4">
+              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              Step 4: Review Names and Their Meanings
+              </h3>
+              <p>
+              Names will appear on your screen. Hover over each to see details like meaning, origin, and cultural significance, aiding in your selection process.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">

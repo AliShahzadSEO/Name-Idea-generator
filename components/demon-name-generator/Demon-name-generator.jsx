@@ -928,33 +928,34 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
           <div className="sm:w-[50%]">
             <div className="py-[10px] flex flex-col gap-2">
               <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1 - Access the Generator
+              Step 1: Specify Gender
               </p>
               <p>
-              Visit the official website <a href="/"><b>Name Idea Generator </b></a> for this tool where the demon name generator is found. Access the demonic names generator tool from there.
+              Select the gender for the demon name you wish to generate, if applicable. This choice helps in generating names that align with specific gender characteristics in demonology.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
-              <p className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Generate Names
-              </p>
+              <h3 className="sm:text-[28px] text-[20px] font-semibold">
+              Step 2: Select the Type
+              </h3>
               <p>
-              Once on the tool's page, look for the input fields or options to customize your search. 
-              Some tools allow you to specify preferences like gender.
+              Choose the type of demon name you desire, such as ancient, modern, or mythical. This helps in narrowing down the style and origin of the names.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <p className="sm:text-[28px] text-[20px] font-semibold ">
-              Step 3 - Get Your Names
-              </p>
+              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              Step 3: Click on Generate
+              </h3>
               <p>
-              Click on the <b> "Generate"</b> button or similar action to see the generated demon names. 
-              Browse through the list until you find a name that fits your needs or preferences.
+              Hit the <b> "Generate"</b> button to create a list of demon names based on your selections.
               </p>
-              <p className="">
-                <b>Remember</b>, these tools are often used for creative
-                writing, gaming, or entertainment purposes where unique and
-                fictional names are desired..
+            </div>
+            <div className="py-[10px] flex flex-col gap-2">
+              <h3 className="sm:text-[28px] text-[20px] font-semibold">
+              Step 4: Review Names and Their Meanings
+              </h3>
+              <p>
+              The names will be displayed on your screen. Hover over each name to get more details like its meaning, origin, and the mythology behind it, aiding in your selection process.
               </p>
             </div>
           </div>
