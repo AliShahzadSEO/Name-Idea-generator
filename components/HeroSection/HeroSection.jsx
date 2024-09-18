@@ -80,7 +80,7 @@ const HeroSection = ({ context, bgImage }) => {
                 onMouseLeave={() => setFirstArrow(false)}
               >
                 <div className="flex items-center hover:text-[#007bff] text-white gap-[2px] cursor-pointer relative">
-                <Link href="/categories/fantasy-and-mythicalcreatures">
+                <Link href="/categories/fantasy-and-mythical-creatures">
                   <p className="font-medium text-[13px] hover:border-b hover:border-solid">
                     Fantasy and Mythical Creatures
                   </p>

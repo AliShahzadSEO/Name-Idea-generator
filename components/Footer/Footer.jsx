@@ -62,7 +62,7 @@ const Footer = () => {
             <p className="text-[26px] font-bold text-white">Categories</p>
           </div>
           <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
-          <Link href={"/categories/fantasy-and-mythicalcreatures"}>
+          <Link href={"/categories/fantasy-and-mythical-creatures"}>
             <p>Fantasy and Mythical</p>
           </Link>
           <Link href={"/categories/cultural-and-historical"}>
