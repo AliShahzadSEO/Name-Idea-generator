@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
+import Script from "next/script";
+import {GoogleAnalytics, } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,7 +46,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842"
+     crossOrigin="anonymous"></Script>
+      </head>
 
       <body className={inter.className}>
         {/* <NavBar /> */}
