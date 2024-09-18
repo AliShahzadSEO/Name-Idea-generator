@@ -1,6 +1,5 @@
 import Category1 from '@/components/Fantasy-and-Mythical-Creatures/Category1'
 import React from 'react'
-import Head from "next/head";
 
 export const metadata = {
   title: 'Fantasy and Mythical Creatures Name Ideas Generator',
