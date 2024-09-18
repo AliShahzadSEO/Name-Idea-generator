@@ -98,6 +98,11 @@ const PrivacyPolicy = () => {
                     </div>
                     
                 </div>
+                <div className="text-center">
+                    <a href="https://nameideagenerator.com" className="inline-block px-6 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
+                        Generate Now
+                    </a>
+                </div>
             </div>
 
 
