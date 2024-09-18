@@ -103,6 +103,7 @@ const PrivacyPolicy = () => {
                         Generate Now
                     </a>
                 </div>
+                <br />
             </div>
 
 
