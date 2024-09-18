@@ -85,7 +85,7 @@ const Footer = () => {
           <Link href={"/privacy-policy"}>
             <p className="cursor-pointer">Privacy Policy</p>
           </Link>
-          <Link href={"#"}>
+          <Link href={"/"}>
             <p className="cursor-pointer">Contact Us</p>
           </Link>
           </div>
