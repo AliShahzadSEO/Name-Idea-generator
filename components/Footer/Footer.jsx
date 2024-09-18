@@ -75,7 +75,20 @@ const Footer = () => {
           </div>
 
         </div>
-        <div className="sm:w-[25%]"></div>
+        <div className="sm:w-[25%]">
+        <p className="text-[26px] font-bold text-white">Quick Links</p>
+          </div>
+          <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
+          <Link href={"/about-us"}>
+            <p>About Us</p>
+          </Link>
+          <Link href={"/privacy-policy"}>
+            <p className="cursor-pointer">Privacy Policy</p>
+          </Link>
+          <Link href={"#"}>
+            <p className="cursor-pointer">Contact Us</p>
+          </Link>
+        </div>
       </div>
     </div>
   );
