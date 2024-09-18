@@ -31,7 +31,7 @@ const NavBar = () => {
               onMouseLeave={() => setFirstArrow(false)}
             >
               <div className="flex items-center hover:text-[#007bff] gap-[2px] cursor-pointer relative">
-                <a href="https://www.nameideagenerator.com/categories/fantasy-and-mythicalcreatures">  <p className="font-medium text-[14px] hover:border-b hover:border-solid">
+                <a href="https://www.nameideagenerator.com/categories/fantasy-and-mythical-creatures">  <p className="font-medium text-[14px] hover:border-b hover:border-solid">
                   Fantasy and Mythical Creatures
                 </p>
                 </a>
@@ -170,7 +170,7 @@ const NavBar = () => {
             </div>
             <div className="flex flex-col gap-4 mt-[30px] font-semibold">
               <Link
-                href={"/categories/fantasy-and-mythicalcreatures"}
+                href={"/categories/fantasy-and-mythical-creatures"}
                 onClick={() => setOpen(false)}
               >
                 <p>Fantasy and Mythical Creatures</p>

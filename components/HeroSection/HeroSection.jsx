@@ -271,7 +271,7 @@ const HeroSection = ({ context, bgImage }) => {
               </div>
               <div className="flex flex-col gap-4 mt-[30px] font-semibold">
                 <Link
-                  href={"/categories/fantasy-and-mythicalcreatures"}
+                  href={"/categories/fantasy-and-mythical-creatures"}
                   onClick={() => setOpen(false)}
                 >
                   <p>Fantasy and Mythical Creatures</p>

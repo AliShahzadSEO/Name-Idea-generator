@@ -106,7 +106,7 @@ const CatergorySection = () => {
             ))}
           </div>
           <div className="flex justify-end py-[20px] border-b border-solid">
-            <Link href={"/categories/fantasy-and-mythicalcreatures"}>
+            <Link href={"/categories/fantasy-and-mythical-creatures"}>
               <p className="text-[#007bff] font-semibold">View all</p>
             </Link>
           </div>
