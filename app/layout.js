@@ -43,6 +43,31 @@ export const metadata = {
     'Special name generator', 'fantasy name generator ', ' name generator fantasy', 'name crafter', 'common name generator'],
 };
 
+
+const jsonLdData = {
+  "@context": "https://schema.org",
+  "@type": "Website",
+  name: "Name Idea Generator",
+  url: "https://www.nameideagenerator.com/",
+  description: "A platform for generating unique name ideas for characters, covering fantasy, cultural, and sci-fi categories.",
+  creator: {
+    "@type": "Person",
+    name: "Ali Shahzad"
+  },
+  mainEntity: {
+    "@type": "WebPage",
+    name: "Generate Unique Name Ideas",
+    url: "https://www.nameideagenerator.com/",
+    about: {
+      "@type": "Thing",
+      name: "Name Generators"
+    }
+  }
+};
+
+<Script type="application/ld+json" json={jsonLdData} />;
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
