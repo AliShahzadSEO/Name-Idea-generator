@@ -51,7 +51,7 @@ const Footer = () => {
               Enjoying my work and free to use content? You can support me with
               donations. Thank you!
             </p>
-            
+            <br />
           <a href="mailto:nameideag@gmail.com" className="font-semibold text-[14px] text-white">nameideag@gmail.com</a>
             <div className="flex  py-[16px]">
               <button className="bg-red-500 text-white p-[8px] rounded-[10px] text-[14px]">DONATE</button>
