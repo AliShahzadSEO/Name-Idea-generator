@@ -15,7 +15,7 @@ const Footer = () => {
         {/* First section */}
         <div className="sm:w-[25%]">
           <div>
-          <Link href="">
+          <Link href="https://www.nameideagenerator.com/">
           <p className="text-[26px] font-bold text-white">Name Idea Generator</p>
                   </Link>
           </div>
