@@ -515,12 +515,12 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="Viking1.jpg"
-                            alt=""
+                            alt="Viking Name Generator | (Old Norse) Name Generator With Meaning"
                             className="w-[270px] my-[10px] h-[320px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="viking2.webp"
-                            alt=""
+                            alt="Viking Name Generator | (Old Norse) Name Generator With Meaning"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>

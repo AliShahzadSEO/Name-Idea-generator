@@ -657,12 +657,12 @@ const NorseNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="Norse1.webp"
-                            alt="norse name generator"
+                            alt="Norse Name Generator | Random Old Norse Name Generator With Meaning"
                             className="w-[250px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="Norse2.jpg"
-                            alt="norse name generator"
+                            alt="Norse Name Generator | Random Old Norse Name Generator With Meaning"
                             className="w-[260px] h-[300px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -792,12 +792,12 @@ const NorseNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="norse4.jpg"
-                            alt="norse name generator with meaning"
+                            alt="Norse Name Generator | Random Old Norse Name Generator With Meaning"
                             class="w-[320px] my-[30px] h-[450px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="norse5.jpg"
-                            alt="norse name generator with meaning"
+                            alt="Norse Name Generator | Random Old Norse Name Generator With Meaning"
                             class="w-[320px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

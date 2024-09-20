@@ -673,12 +673,12 @@ const AlienNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="dragonborn.jpg"
-                            alt=""
+                            alt="Alien Name Generator | Random Alien Name Generator With Meaning"
                             className="w-[280px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
                         />
                         <img
                             src="dragonborn1.jpg"
-                            alt=""
+                            alt="Alien Name Generator | Random Alien Name Generator With Meaning"
                             className="w-[280px] h-[320px] my-[30px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>

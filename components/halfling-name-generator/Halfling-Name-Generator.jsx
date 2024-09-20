@@ -665,12 +665,12 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="dragonborn.jpg"
-                            alt=""
+                            alt="Halfling Name Generator | DnD Halfling Name Generator With Meaning"
                             className="w-[270px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="dragonborn1.jpg"
-                            alt=""
+                            alt="Halfling Name Generator | DnD Halfling Name Generator With Meaning"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>

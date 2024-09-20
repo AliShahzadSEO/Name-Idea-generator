@@ -833,7 +833,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
             </select>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
-            <p className="text-center text-[#343a40]">Types of Demons Name</p>
+            <p className="text-center text-[#343a40]">Types of Demons Names</p>
             <select
               className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
               id="type"
@@ -917,7 +917,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
-            How to use Demone Name Generator?
+            How to use Demon Name Generator?
           </h2>
           <p className="sm:text-[16px] text-[16px] text-center">
           Let’s show you how to use our online devil name generator to follow some simple steps.
@@ -962,12 +962,12 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
           <div className="sm:w-[47%] relative ">
             <img
               src="motherdragon.jpg"
-              alt=""
+              alt="Demon Name Generator With Meaning | Devil Name Generator"
               className="w-[300px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="dragon.png"
-              alt=""
+              alt="Demon Name Generator With Meaning | Devil Name Generator"
               className="w-[300px] h-[300px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>

@@ -668,12 +668,12 @@ const WoodElfNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="Wood_Elf.jpg"
-                            alt=""
+                            alt="Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning"
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="Wood_Elf1.jpg"
-                            alt=""
+                            alt="Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>

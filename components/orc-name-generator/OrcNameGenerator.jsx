@@ -537,12 +537,12 @@ Our responsibility to confidentiality is at the core of what we do and ensures t
           <div className="sm:w-[47%] relative ">
             <img
               src="orc-demon.jpg"
-              alt=""
+              alt="Orc Name Generator | Random Orc Name Generator With Meaning"
               className="w-[280px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
             />
             <img
               src="orc2.jpg"
-              alt=""
+              alt="Orc Name Generator | Random Orc Name Generator With Meaning"
               className="w-[280px] h-[320px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>

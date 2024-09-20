@@ -671,12 +671,12 @@ const WOWNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="wow1.jpg"
-                            alt=""
+                            alt="WoW Name Generator | Random Wow Name Generator | Name Idea Generator"
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="wow2.jpg"
-                            alt=""
+                            alt="WoW Name Generator | Random Wow Name Generator | Name Idea Generator"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -802,12 +802,12 @@ const WOWNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="wow1.webp"
-                            alt=""
+                            alt="WoW Name Generator | Random Wow Name Generator | Name Idea Generator"
                             class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="wow3.jpg"
-                            alt=""
+                            alt="WoW Name Generator | Random Wow Name Generator | Name Idea Generator"
                             class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

@@ -635,12 +635,12 @@ const A5 = "No account is required to use the tool. Registering unlocks addition
           <div className="sm:w-[40%] relative ">
             <img
               src="tiffling.webp"
-              alt=""
+              alt="Tiefling Name Generator | Get Random Tiefling Name With Meaning"
               className="w-[250px] my-[10px] h-[250px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="tiffing.webp"
-              alt=""
+              alt="Tiefling Name Generator | Get Random Tiefling Name With Meaning"
               className="w-[250px] h-[250px] my-[-10px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>

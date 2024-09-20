@@ -1813,12 +1813,12 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
           <div className="sm:w-[47%] relative ">
             <img
               src="dragonborn.jpg"
-              alt=""
+              alt="Dragonborn Name Generator | DND Dragonborn Names With Meaning"
               className="w-[280px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
             />
             <img
               src="dragonborn1.jpg"
-              alt=""
+              alt="Dragonborn Name Generator | DND Dragonborn Names With Meaning"
               className="w-[280px] h-[310px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>

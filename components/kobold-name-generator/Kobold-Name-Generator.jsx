@@ -661,12 +661,12 @@ const KoboldNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="kobold1.jpg"
-                            alt="kobold name generator"
+                            alt="Kobold Name Generator | Random Kobold Name Generator With Meaning"
                             className="w-[250px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="kobold2.jpg"
-                            alt="kobold name generator"
+                            alt="Kobold Name Generator | Random Kobold Name Generator With Meaning"
                             className="w-[280px] h-[300px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -795,12 +795,12 @@ const KoboldNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="kobold3.avif"
-                            alt="kobold name generator with meaning"
+                            alt="Kobold Name Generator | Random Kobold Name Generator With Meaning"
                             class="w-[320px] my-[30px] h-[450px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="kobold4.jpeg"
-                            alt="kobold name generator with meaning"
+                            alt="Kobold Name Generator | Random Kobold Name Generator With Meaning"
                             class="w-[320px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>

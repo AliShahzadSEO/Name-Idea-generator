@@ -663,12 +663,12 @@ const RussianNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="russian2.webp"
-                            alt=""
+                            alt="Russian Name Generator | Random Russian Name Generator With Meaning"
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="russian4.jpeg"
-                            alt=""
+                            alt="Russian Name Generator | Random Russian Name Generator With Meaning"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>

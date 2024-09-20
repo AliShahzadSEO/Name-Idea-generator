@@ -558,12 +558,12 @@ const AngleNameGenerator = () => {
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="angel1.jpg"
-                            alt="angel name generator"
+                            alt="Angel Name Generator | Random Fallen Angel Name Generator With Meaning"
                             className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="angel2.avif"
-                            alt="angel name generator"
+                            alt="Angel Name Generator | Random Fallen Angel Name Generator With Meaning"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
@@ -689,12 +689,12 @@ const AngleNameGenerator = () => {
                     <div class="sm:w-[40%] relative">
                         <img
                             src="jejus.webp"
-                            alt="angel name generator with meaning"
+                            alt="Angel Name Generator | Random Fallen Angel Name Generator With Meaning"
                             class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="angel4.webp"
-                            alt="angel name generator with meaning"
+                            alt="Angel Name Generator | Random Fallen Angel Name Generator With Meaning"
                             class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>
