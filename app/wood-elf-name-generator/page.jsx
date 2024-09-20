@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
     description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
-    url: 'http://nameideagenerator.com/wood-elf-name-generator',
+    url: 'https://www.nameideagenerator.com/wood-elf-name-generator',
     images: [
       {
         url: 'Wood_Elf.webp',

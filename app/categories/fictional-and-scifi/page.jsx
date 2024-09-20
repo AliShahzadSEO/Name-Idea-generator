@@ -15,6 +15,19 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.nameideagenerator.com/categories/fictional-and-scifi'
   },
+  openGraph: {
+    title: 'Fictional and Sci-Fi Name Ideas Generator',
+    description: "Discover an array of name generators inspired by fictional and science fiction themes, including alien, fantasy, and futuristic names.",
+    url: 'https://www.nameideagenerator.com/categories/cultural-and-historical',
+    images: [
+      {
+        url: 'category3bg.png',
+        width: 800,
+        height: 600,
+        alt: 'Fictional and Sci-Fi Name Ideas Generator',
+      },
+    ],
+  },
 }
 
 const page = () => {

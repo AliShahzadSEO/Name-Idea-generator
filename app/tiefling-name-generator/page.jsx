@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
     description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
-    url: 'https://nameideagenerator.com/tiefling-name-generator',
+    url: 'https://www.nameideagenerator.com/tiefling-name-generator',
     images: [
       {
         url: 'female.jpg',
