@@ -2,11 +2,11 @@
 import HalfElfNameGenerator from "@/components/half-elf-name-generator/Half-Elf-Name-Generator"
 
 export const metadata = {
-  title: 'Half Elf Name Generator | DnD Half Elf Name Generator With Meaning | Name Idea Generator ',
+  title: 'Half Elf Name Generator | DnD Half Elf Name Generator With Meaning',
   description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
   
   openGraph: {
-    title: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
+    title: 'Half Elf Name Generator | DnD half elf name generator With Meaning',
     description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
     url: 'https://www.nameideagenerator.com/half-elf-name-generator',
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
+    title: 'Half Elf Name Generator | DnD half elf name generator With Meaning',
     description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
     images: ['half-demon.webp'],
     type: 'image/webp'  // Added twitter:image:type

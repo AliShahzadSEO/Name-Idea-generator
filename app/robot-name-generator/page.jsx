@@ -1,11 +1,11 @@
 import RobotNameGenerator from "@/components/robot-name-generator/Robot-Name-Generator"
 
 export const metadata = {
-  title: 'Robot Name Generator | Random Robot Name Generator With Meaning | Name Idea Generator ',
+  title: 'Robot Name Generator | Random Robot Name Generator With Meaning',
   description: "Create futuristic names with our Robot Name Generator! Generate random robot names with meanings that highlight innovation and technology. Find the perfect name idea for your robot character in no time.",
   
   openGraph: {
-    title: 'Robot Name Generator | Random Robot Name Generator With Meaning | Name Idea Generator',
+    title: 'Robot Name Generator | Random Robot Name Generator With Meaning',
     description: "Create futuristic names with our Robot Name Generator! Generate random robot names with meanings that highlight innovation and technology. Find the perfect name idea for your robot character in no time.",
     url: 'https://www.nameideagenerator.com/robot-name-generator',
     images: [
@@ -24,7 +24,7 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Robot Name Generator | Random Robot Name Generator With Meaning | Name Idea Generator',
+    title: 'Robot Name Generator | Random Robot Name Generator With Meaning',
     description: "Create futuristic names with our Robot Name Generator! Generate random robot names with meanings that highlight innovation and technology. Find the perfect name idea for your robot character in no time.",
     images: ['robot.jpg'],
     type: 'image/jpg'  // Added twitter:image:type

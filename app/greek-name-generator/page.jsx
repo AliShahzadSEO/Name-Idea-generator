@@ -1,11 +1,11 @@
 import GreekNameGenerator from "@/components/greek-name-generator/Greek-Name-Generator"
 
 export const metadata = {
-  title: 'Greek Name Generator | Random Greek Name Generator With Meaning | Name Idea Generator ',
+  title: 'Greek Name Generator | Random Greek Name Generator With Meaning',
   description: "Discover random ancient, modern, and old Greek names with meanings using our Greek Name Generator. Perfect for stories, games, and more!",
   
   openGraph: {
-    title: 'Greek Name Generator | Random Greek Name Generator With Meaning | Name Idea Generator',
+    title: 'Greek Name Generator | Random Greek Name Generator With Meaning',
     description: "Discover random ancient, modern, and old Greek names with meanings using our Greek Name Generator. Perfect for stories, games, and more!",
     url: 'https://www.nameideagenerator.com/greek-name-generator',
     images: [
@@ -24,7 +24,7 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Greek Name Generator | Random Greek Name Generator With Meaning | Name Idea Generator',
+    title: 'Greek Name Generator | Random Greek Name Generator With Meaning',
     description: "Discover random ancient, modern, and old Greek names with meanings using our Greek Name Generator. Perfect for stories, games, and more!",
     images: ['greek.webp'],
     type: 'image/webp'  // Added twitter:image:type
