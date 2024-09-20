@@ -27,8 +27,19 @@ export const metadata={
         width: 800,
         height: 600,
         alt: 'Cultural and Historical Name Ideas Generator',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cultural and Historical Name Ideas Generator',
+    description: "Explore a variety of name generators based on different cultural and historical themes, including Viking, Greek, Roman, and more.",
+    images: ['category2bg.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 }
 

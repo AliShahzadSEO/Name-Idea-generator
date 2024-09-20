@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Song Name Generator | Random Song Name Generator With Meaning',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Song Name Generator | Random Song Name Generator With Meaning',
     description: "Generate unique and catchy song names with meanings using our Song Name Generator. Ideal for songwriters, musicians, and creative projects looking for inspiration!",
     images: ['pop.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 
   keywords: ['Song Name Generator', ' random song name generator', 'rap song name generator', 'ai song name generator',

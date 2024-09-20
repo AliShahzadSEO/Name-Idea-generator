@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Greek Name Generator | Random Greek Name Generator With Meaning | Name Idea Generator',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Greek Name Generator | Random Greek Name Generator With Meaning | Name Idea Generator',
     description: "Discover random ancient, modern, and old Greek names with meanings using our Greek Name Generator. Perfect for stories, games, and more!",
     images: ['greek.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['greek name generator', 'ancient greek name generator', 'random greek name generator', 'greek name generator with meaning',

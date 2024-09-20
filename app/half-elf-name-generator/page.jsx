@@ -15,8 +15,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -24,6 +28,7 @@ export const metadata = {
     title: 'Half Elf Name Generator | DnD half elf name generator With Meaning | Name Idea Generator',
     description: "Generate unique and meaningful half-elf names with our DnD Half-Elf Name Generator at Name Idea Generator. Perfect for finding the ideal name for your character!",
     images: ['half-demon.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['half elf name generator', 'dnd half elf name generator', 'high half elf name generator', 'wood half elf name generator',

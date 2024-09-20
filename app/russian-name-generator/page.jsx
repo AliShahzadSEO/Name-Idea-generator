@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Russian Name Generator | Random Russian Name Generator With Meaning | Name Idea Generator',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Russian Name Generator | Random Russian Name Generator With Meaning | Name Idea Generator',
     description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
     images: ['Russian.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['russian Name Generator', ' russian name generator male ', 'russian name generator fantasy', 'random russian name generator',

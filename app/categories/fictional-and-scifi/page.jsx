@@ -25,8 +25,19 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Fictional and Sci-Fi Name Ideas Generator',
+        type: 'image/png'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Fictional and Sci-Fi Name Ideas Generator',
+    description: "Discover an array of name generators inspired by fictional and science fiction themes, including alien, fantasy, and futuristic names.",
+    images: ['category3bg.png'],
+    type: 'image/png'  // Added twitter:image:type
   },
 }
 

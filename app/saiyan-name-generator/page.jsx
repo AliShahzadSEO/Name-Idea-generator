@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Saiyan Name Generator | Dragon Ball Name Generator With Meaning',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Saiyan Name Generator | Dragon Ball Name Generator With Meaning',
     description: "Channel your inner warrior with our Saiyan Name Generator! Generate DBZ Saiyan names with powerful meanings that embody strength and determination. Find the perfect name idea for your Saiyan character in a flash!",
     images: ['saiyan3.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 
   keywords: ['Saiyan Name Generator', ' female saiyan name generator', 'male saiyan name generator', 'random saiyan name generator',

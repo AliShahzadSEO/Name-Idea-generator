@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Dragonborn Name Generator | Create Unique Demon Names | Name Idea Generator ',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Dragonborn Name Generator | DND Dragonborn Names With Meaning | Name Idea Generator',
     description: "Create powerful and meaningful names with our Dragonborn Name Generator. Perfect for generating random Dragonborn names with deep meanings for your characters!",
     images: ['bg-dragonborn.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['demon name generator', 'dnd dragonborn name generator', 'dragonborn name generator dnd', 'random dragonborn name generator', 'bg3 dragonborn name generator', 'female dragonborn name generator', 'dragonborn name generator bg3', 'dragonborn name generator 5e', '5e dragonborn name generator'],

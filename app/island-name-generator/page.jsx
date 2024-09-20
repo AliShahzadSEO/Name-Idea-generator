@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Island Name Generator | Random Island Name Generator With Meaning | Name Idea Generator',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Island Name Generator | Random Island Name Generator With Meaning | Name Idea Generator',
     description: "Create the perfect name for your island with our Island Name Generator! Explore random island names with meanings that evoke mystery and adventure. Find the ideal name idea for your island in just a few clicks.",
     images: ['horse.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['Horse name generator', 'animal crossing island name generator', 'acnh island name generator ', 'random island name generator',

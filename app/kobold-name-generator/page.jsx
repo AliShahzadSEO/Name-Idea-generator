@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Kobold Name Generator | Random Kobold Name Generator With Meaning',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Kobold Name Generator | Random Kobold Name Generator With Meaning',
     description: "Generate random Kobold names with meanings using our Kobold Name Generator. Perfect for DnD, games, and fantasy projects!",
     images: ['kobold.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 
   keywords: ['Kobold Name Generator', 'kobold name generator pathfinder', 'dnd kobold name generator ', 'random kobold name generator',

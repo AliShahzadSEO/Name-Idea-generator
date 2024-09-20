@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Viking Name Generator | (Old Norse) Name Generator With Meaning',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Viking Name Generator | (Old Norse) Name Generator With Meaning',
     description: "Generate unique Viking names with meanings using our Old Norse Name Generator. Ideal for characters, stories, and Viking-themed projects!",
     images: ['vikings.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 
   keywords: ['Viking name generator', 'viking name generator male','viking name generator female' , 'random viking name generator', 'viking name generator with meaning',

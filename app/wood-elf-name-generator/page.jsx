@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning',
     description: "Bring your Wood Elf characters to life with our Wood Elf Name Generator! Generate random names that reflect their enchanting nature and connection to the forest. Find the perfect name idea for your Wood Elf in no time.",
     images: ['Wood_Elf.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['wood elf name generator', 'wood elf name generator dnd', 'female wood elf name generator', 'dnd wood elf name generator',

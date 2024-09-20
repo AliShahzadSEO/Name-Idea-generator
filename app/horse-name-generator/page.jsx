@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Horse Name Generator | Race Horse Name Generator With Meaning',
+        type: 'image/webp'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Horse Name Generator | Race Horse Name Generator With Meaning',
     description: "Create unique race horse names with meanings using our Horse Name Generator. Perfect for naming racehorses, pets, and more!",
     images: ['horse.webp'],
+    type: 'image/webp'  // Added twitter:image:type
   },
 
   keywords: ['Horse name generator', 'race horse name generator', 'random horse name generator ', 'horse name generator rdr2',

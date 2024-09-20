@@ -15,8 +15,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -24,6 +28,7 @@ export const metadata = {
     title: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
     description: "Generate random goblin names with meanings using our Goblin Name Generator. Perfect for DnD, games, and creative projects!",
     images: ['Goblin.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 
   keywords: ['Goblin name generator', 'dnd goblin name generator', 'goblin name generator dnd', 'goblin name generator wow',

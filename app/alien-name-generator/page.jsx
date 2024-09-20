@@ -14,16 +14,26 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Alien Name Generator | Create Random Alien Name Generator Male & Female',
+        type: 'image/webp',  // Added og:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
-
+  
   twitter: {
     card: 'summary_large_image',
     title: 'Alien Name Generator | Create Random Alien Name Generator Male & Female',
     description: "Generate unique alien names for male and female characters with meanings. Perfect for sci-fi, games, and alien name generator needs!",
-    images: ['alien.webp'],
+    images: [
+      {
+        url: 'alien.webp',
+        type: 'image/webp'  // Added twitter:image:type
+      }
+    ],
   },
+  
   robots:{index:true, follow: true},
 
   keywords: ['alien name generator', 'random alien name generator', 'alien name generator male', 'alien name generator female', 'alien name generator girl', 'alien name generator fantasy'],

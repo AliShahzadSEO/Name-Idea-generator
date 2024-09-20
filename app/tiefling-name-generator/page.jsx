@@ -14,8 +14,12 @@ export const metadata = {
         width: 800,
         height: 600,
         alt: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
+        type: 'image/jpg'  // Added twitter:image:type
       },
     ],
+    locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
   },
 
   twitter: {
@@ -23,6 +27,7 @@ export const metadata = {
     title: 'Tiefling Name Generator | Get Random Tiefling Name With Meaning',
     description: "Summon a unique name for your Tiefling character with our Tiefling Name Generator! Get random names that capture the mystique and fiery essence of Tieflings. Find the perfect name idea effortlessly!",
     images: ['female.jpg'],
+    type: 'image/jpg'  // Added twitter:image:type
   },
 
   keywords: ['Tiefling name generator', 'tiefling name generator 5e', 'tiefling name generator dnd', 'dnd tiefling name generator',

@@ -22,6 +22,9 @@ export const metadata = {
     description: "Discover unique and creative names with Name Idea Generator. Perfect for writers, gamers, and creators looking for fantasy, cultural, or historical name ideas. Free, easy, and secure!",
   
   },
+  locale: 'en_US',  // Added og:locale
+    type: 'website',  // Added og:type
+    site_name: 'Name Idea Generator',  // Added og:site_name
 }
 
 
