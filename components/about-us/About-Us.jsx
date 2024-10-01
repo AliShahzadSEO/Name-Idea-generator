@@ -37,7 +37,7 @@ const AboutUs = () => {
                     We believe in simplicity and creativity. Our platform is free, accessible, and secure, making it easy for you to focus on your project. Explore endless possibilities and take your creations to the next level with Name Idea Generator!
                 </p>
                 <div className="text-center">
-                    <a href="https://nameideagenerator.com" className="inline-block px-6 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
+                    <a href="https://www.nameideagenerator.com/" className="inline-block px-6 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
                         Generate Now
                     </a>
                 </div>

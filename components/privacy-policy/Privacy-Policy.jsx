@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
                     </h2>
                     <p className="sm:text-[16px] text-[16px] ">
                     We respect your privacy and protect your data. This policy explains how we collect, use, and safeguard information when 
-                    you use our <a href="nameideagenerator.com"> Name Generator tools </a> on our site.
+                    you use our <a href="https://www.nameideagenerator.com/"> Name Generator tools </a> on our site.
                     </p>
                     <br />
                 </div>
@@ -99,7 +99,7 @@ const PrivacyPolicy = () => {
                     
                 </div>
                 <div className="text-center">
-                    <a href="https://nameideagenerator.com" className="inline-block px-6 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
+                    <a href="https://www.nameideagenerator.com/" className="inline-block px-6 py-3 mt-4 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300">
                         Generate Now
                     </a>
                 </div>

@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: 'Fictional and Sci-Fi Name Ideas Generator',
     description: "Discover an array of name generators inspired by fictional and science fiction themes, including alien, fantasy, and futuristic names.",
-    url: 'https://www.nameideagenerator.com/categories/cultural-and-historical',
+    url: 'https://www.nameideagenerator.com/categories/fictional-and-scifi',
     images: [
       {
         url: 'category3bg.png',
