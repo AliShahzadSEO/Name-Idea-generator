@@ -824,7 +824,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
         </svg>
       </li>
       <li className="flex items-center">
-        <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40]">Fictional and Sci-Fi Names</a>
+        <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40]">Fantasy and Mythical Creatures Names</a>
       </li>
       <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M10 19l7-7-7-7"></path>
