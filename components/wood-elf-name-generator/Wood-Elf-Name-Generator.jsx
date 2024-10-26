@@ -523,8 +523,27 @@ const WoodElfNameGenerator = () => {
             <div className="w-[90%] my-[50px] bg-white mx-auto rounded-[10px] border border-solid shadow-lg">
                 <div className="w-[95%] mx-auto py-[50px]">
                     <div>
+                    <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+    <ol className="list-none p-0 inline-flex">
+      <li className="flex items-center">
+        <a href="/" className="hover:underline text-[#343a40]">Home</a>
+        <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M10 19l7-7-7-7"></path>
+        </svg>
+      </li>
+      <li className="flex items-center">
+        <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40]">Fantasy and Mythical Creatures Name</a>
+      </li>
+      <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M10 19l7-7-7-7"></path>
+        </svg>
+      <li className="flex items-center">
+        <a href="/wood-name-generator" className="hover:underline text-[#343a40]">Wood Name Generator</a>
+      </li>
+    </ol>
+  </nav>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Wood Elf Name Generator
+                            Random Wood Elf Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
