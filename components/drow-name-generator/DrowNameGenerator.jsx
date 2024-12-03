@@ -170,24 +170,24 @@ function getRandomDemon(gender, type, demonNames) {
 }
 const Category1 = [
   {
-    name: "Alien Name Generator",
-    pic: "/alien.webp",
-    link: "https://www.nameideagenerator.com/alien-name-generator",
+    name: "Tiefling Name Generator",
+    pic: "/female.jpg",
+    link: "https://www.nameideagenerator.com/tiefling-name-generator",
 },
 {
-    name: "Angel Name Generator",
-    pic: "/angel.jpg",
-    link: "https://www.nameideagenerator.com/angel-name-generator",
+    name: "Dragonborn Name Generator",
+    pic: "/bg-dragonborn.webp",
+    link: "https://www.nameideagenerator.com/dragonborn-name-generator",
 },
 {
-    name: "WoW (World of Warcraft) Name Generator",
-    pic: "/wow.jpg",
-    link: "https://www.nameideagenerator.com/wow-name-generator",
+    name: "Half Elf Name Generator",
+    pic: "/half-demon.webp",
+    link: "https://www.nameideagenerator.com/half-elf-name-generator",
 },
 {
-    name: "Horse Name Generator",
-    pic: "horse.webp",
-    link: "https://www.nameideagenerator.com/horse-name-generator",
+    name: "Wood Elf Name Generator",
+    pic: "/Wood_Elf.webp",
+    link: "https://www.nameideagenerator.com/wood-elf-name-generator",
 },
 ];
 

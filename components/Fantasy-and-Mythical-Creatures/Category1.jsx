@@ -56,25 +56,11 @@ const Data = [
     link: "/kobold-name-generator",
   },
   {
-    name: "Fairy Name Generator",
-    pic: "/demonpic.jpg",
-    link: "#",
+    name: "Drow Name Generator",
+    pic: "/drowname.webp",
+    link: "/drow-name-generator",
   },
-  {
-    name: "Vampire Name Generator",
-    pic: "/demonpic.jpg",
-    link: "#",
-  },
-  {
-    name: "Werewolf Name Generator",
-    pic: "/demonpic.jpg",
-    link: "#",
-  },
-  {
-    name: "Merfolk Name Generator",
-    pic: "/demonpic.jpg",
-    link: "#",
-  },
+  
 ];
 
 const Category1 = () => {
