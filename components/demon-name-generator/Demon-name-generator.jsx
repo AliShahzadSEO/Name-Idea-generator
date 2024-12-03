@@ -912,7 +912,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
         <div className="w-[80%] mx-auto pb-[20px]">
           <div className="py-[50px]">
             <p className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-              About US
+              About Us
             </p>
             <hr />
             <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
