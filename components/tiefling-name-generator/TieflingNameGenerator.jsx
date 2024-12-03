@@ -620,7 +620,7 @@ const A5 = "No account is required to use the tool. Registering unlocks addition
               Step 3 - Click on Generate
               </p>
               <p>
-              Click the <b> "Generate"</b> button to produce a list of tiefling names that match your criteria.
+              Click the <b> "Generate "</b> button to produce a list of tiefling names that match your criteria.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
