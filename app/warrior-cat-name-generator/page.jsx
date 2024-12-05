@@ -35,7 +35,7 @@ export const metadata = {
   robots:{index:true, follow: true},
   
   alternates:{
-    canonical:"https://www.nameideagenerator.com/ship-name-generator"
+    canonical:"https://www.nameideagenerator.com/warrior-cat-name-generator"
   },
 }
 

@@ -61,6 +61,16 @@ const Data = [
     link: "/drow-name-generator",
   },
   
+  {
+    name: "Warrior Cat Name Generator",
+    pic: "/cat.jpg",
+    link: "/warrior-cat-name-generator",
+  },
+  {
+    name: "ship Name Generator",
+    pic: "/An-ornate-ship-with-mystical-symbols.jpg",
+    link: "/ship-name-generator",
+  },
 ];
 
 const Category1 = () => {
