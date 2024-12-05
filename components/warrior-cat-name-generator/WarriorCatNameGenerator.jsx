@@ -468,7 +468,7 @@ const A5 = "Yes, the Warrior Cat Name Generator is completely free to use with n
               <option value="">Random</option>
               <option value="Leader">Leader Cat</option>
               <option value="Warrior">Warrior Cat</option>
-              <option value="Medicine">Mythical Cat</option>
+              <option value="Medicine Cat">Mythical Cat</option>
             </select>
           </div>
           <div className="flex justify-center items-center py-[30px]">
