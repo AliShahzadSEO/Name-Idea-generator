@@ -1,19 +1,19 @@
 import KingdomNameGenerator from "@/components/kingdom-name-generator/KingdomNameGenerator"
 
 export const metadata = {
-  title: 'Drow Name Generator With Meaning | Dungeons & Dragons Name Generator',
-  description: "Discover unique Drow names with meanings using our Drow Name Generator. Perfect for your next campaign! Visit Name Idea Generator for inspiration.",
+  title: 'Kingdom Name Generator With Meaning | Create the Ideal Realm Name!',
+  description: "Use our Kingdom Name Generator to create unique names with meanings. Find your perfect realm name at Name Idea Generator!",
   
   openGraph: {
-    title: 'Drow Name Generator With Meaning | Dungeons & Dragons Name Generator',
-    description: "Discover unique Drow names with meanings using our Drow Name Generator. Perfect for your next campaign! Visit Name Idea Generator for inspiration.",
+    title: 'Kingdom Name Generator With Meaning | Create the Ideal Realm Name!',
+    description: "Use our Kingdom Name Generator to create unique names with meanings. Find your perfect realm name at Name Idea Generator!",
     url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
     images: [
       {
         url: '/drowname.webp',
         width: 800,
         height: 600,
-        alt: 'Drow Name Generator With Meaning | Dungeons & Dragons Name Generator',
+        alt: 'Kingdom Name Generator With Meaning | Create the Ideal Realm Name!',
         type: 'image/webp'  // Added twitter:image:type
       },
     ],
@@ -24,13 +24,13 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Drow Name Generator With Meaning | Dungeons & Dragons Name Generator',
-    description: "Discover unique Drow names with meanings using our Drow Name Generator. Perfect for your next campaign! Visit Name Idea Generator for inspiration.",
+    title: 'Kingdom Name Generator With Meaning | Create the Ideal Realm Name!',
+    description: "Use our Kingdom Name Generator to create unique names with meanings. Find your perfect realm name at Name Idea Generator!",
     images: ['/drowname.webp'],
     type: 'image/webp'  // Added twitter:image:type
   },
 
-  keywords: ['drow name generator', 'drow names', 'female drow names', 'drow elf names', 'drow names 5e', 'drow female names', 'drow male names', 'male drow names', 'DnD names'],
+  keywords: ['kingdom name generator', 'kingdom names', 'fantasy kingdom name generator', 'fantasy kingdom names', 'kingdom names generator', 'Kingdom Name Generator With Meaning', 'Elegant Kingdom Names', 'Power Kingdom Name', 'Mythical Kingdom Names', 'good kingdom names'],
   
   robots:{index:true, follow: true},
   

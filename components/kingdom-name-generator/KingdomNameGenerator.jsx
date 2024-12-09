@@ -360,19 +360,19 @@ function getRandomDemon(gender, type, demonNames) {
 }
   const Category1 = [
     {
-      name: "Tiefling Name Generator",
-      pic: "/female.jpg",
-      link: "https://www.nameideagenerator.com/tiefling-name-generator",
+      name: "Orc Name Generator",
+      pic: "/orc-name-generator.jpg",
+      link: "https://www.nameideagenerator.com/Orc-name-generator",
   },
   {
-      name: "Dragonborn Name Generator",
-      pic: "/bg-dragonborn.webp",
-      link: "https://www.nameideagenerator.com/dragonborn-name-generator",
+      name: "Viking Name Generator",
+      pic: "/vikings.jpg",
+      link: "https://www.nameideagenerator.com/viking-name-generator",
   },
   {
-      name: "Half Elf Name Generator",
-      pic: "/half-demon.webp",
-      link: "https://www.nameideagenerator.com/half-elf-name-generator",
+      name: "Drow Name Generator",
+      pic: "/drowname.webp",
+      link: "https://www.nameideagenerator.com/drow-name-generator",
   },
   {
       name: "Wood Elf Name Generator",
@@ -434,7 +434,7 @@ function getRandomDemon(gender, type, demonNames) {
       setLockedDemonList(newLockedList);
     };
   
-const bgImage = "/cat.jpg"
+const bgImage = "/kingdom-name-generator.jpeg"
 const context = "Kingdom Name Generator with Meaning – Find the Perfect Kingdom Name"
 const Q1 = "What Does a Kingdom Name Generator Do?"
 const A1 = "A Kingdom Name Generator creates unique and meaningful names for fantasy realms, perfect for stories, games, or world-building projects."
@@ -472,7 +472,7 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
           <path d="M10 19l7-7-7-7"></path>
         </svg>
       <li className="flex items-center">
-        <a href="/ship-name-generator" className="hover:underline text-[#343a40]">Warrior Cat Name Generator</a>
+        <a href="/kingdom-name-generator" className="hover:underline text-[#343a40]">Kingdom Name Generator</a>
       </li>
     </ol>
   </nav>
@@ -656,12 +656,12 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
           </div>
           <div className="sm:w-[47%] relative ">
             <img
-              src="warrior-cats-dark-cat1.jpg"
+              src="kingdom-name-generator-1.webp"
               alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
               className="w-[300px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
-              src="warrior-cat-dark3.jpg"
+              src="fantasy-kingdom.webp"
               alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
               className="w-[300px] h-[300px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
@@ -671,7 +671,7 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
       <div
         className="py-[100px]"
         style={{
-          backgroundImage: 'url("/warrior-cat-name-generator.webp")',
+          backgroundImage: 'url("/Asian-Empire.jpg")',
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -679,7 +679,7 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
         }}
       >
         <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-          Related to Warrior Cat Name Generator
+          Related to Kingdom Name Generator
         </p>
         <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
           {Category1.map((item, index) => (
@@ -809,20 +809,20 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
           </div>
           <div className="sm:w-[47%] relative ">
             <img
-              src="cat-name-generator.jpg"
-              alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
+              src="kingdom-name-generator.webp"
+              alt="Kingdom Name Generator With Meaning"
               className="w-[300px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
-              src="powerful-warrior-cats.webp"
-              alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
+              src="doug-hyun-ancient-temple.jpg"
+              alt="Kingdom Name Generator With Meaning"
               className="w-[300px] h-[300px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
       </div>
       </div>
-      <div className="w-[80%] mx-auto text-[#343a40] my-[50px] h-[80vh]">
+      <div className="w-[80%] mx-auto text-[#343a40] my-[50px] h-[100vh]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
           Where to Use the Kingdom Name Generator
@@ -856,15 +856,6 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[20px] text-[16px] font-semibold">
-              Tabletop Games and Dungeons & Dragons Campaigns
-              </h3>
-              <p>
-              Tabletop gamers can use the generator to name realms in D&D campaigns or other role-playing adventures. 
-              A captivating kingdom name adds to the lore and makes the game more engaging.
-              </p>
-            </div> 
-            <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[20px] text-[16px] font-semibold">
               Creative Writing Projects and World-Building
               </h3>
               <p>
@@ -893,8 +884,8 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
           </div>
           <div className="sm:w-[40%] relative ">
             <img
-              src="warroir-cat-generator2.jpg"
-              alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
+              src="Fallen-kingdom.jpg"
+              alt="Kingdom Name Generator With Meaning"
               className="w-[380px] my-[20px] h-[360px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
           </div>
@@ -974,7 +965,7 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
             </p>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
-            <h3 className="sm:text-[10px] text-[16px] sm:font-normal font-semibold">
+            <h3 className="sm:text-[16px] text-[22px] sm:font-normal font-semibold">
             - Easy to Use and Free for Everyone
             </h3>
             <p>
@@ -982,7 +973,7 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
             </p>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
-            <h3 className="sm:text-[10px] text-[16px] sm:font-normal font-semibold">
+            <h3 className="sm:text-[16px] text-[22px] sm:font-normal font-semibold">
             -  Unique, Creative, and Meaningful Names
             </h3>
             <p>
@@ -990,7 +981,7 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
             </p>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
-            <h3 className="sm:text-[10px] text-[16px] sm:font-normal font-semibold">
+            <h3 className="sm:text-[16px] text-[22px] sm:font-normal font-semibold">
             - Trusted by Writers, Gamers, and Fantasy Enthusiasts
             </h3>
             <p>
