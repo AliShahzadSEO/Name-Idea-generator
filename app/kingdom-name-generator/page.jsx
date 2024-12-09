@@ -10,7 +10,7 @@ export const metadata = {
     url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
     images: [
       {
-        url: '/drowname.webp',
+        url: '/kingdom-name-generator.jpeg',
         width: 800,
         height: 600,
         alt: 'Kingdom Name Generator With Meaning | Create the Ideal Realm Name!',
@@ -26,7 +26,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Kingdom Name Generator With Meaning | Create the Ideal Realm Name!',
     description: "Use our Kingdom Name Generator to create unique names with meanings. Find your perfect realm name at Name Idea Generator!",
-    images: ['/drowname.webp'],
+    images: ['/kingdom-name-generator.jpeg'],
     type: 'image/webp'  // Added twitter:image:type
   },
 
