@@ -10,7 +10,7 @@ export const metadata = {
     url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
     images: [
       {
-        url: '/An-ornate-ship-with-mystical-symbols.jpg',
+        url: '/wizards-wizard-name-ideas.webp',
         width: 800,
         height: 600,
         alt: 'Wizard Name Generator Tool | Generate Names with Meaning',
@@ -26,7 +26,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Wizard Name Generator Tool | Generate Names with Meaning',
     description: "Generate magical wizard names with our Wizard Name Generator. Personalize by choosing a kingdom, selecting a style, and uncovering the meaning behind each name.",
-    images: ['/An-ornate-ship-with-mystical-symbols.jpg'],
+    images: ['/wizards-wizard-name-ideas.webp'],
     type: 'image/jpg'  // Added twitter:image:type
   },
 
