@@ -436,7 +436,7 @@ const A5 = "Yes, the Warrior Cat Name Generator is completely free to use with n
           <path d="M10 19l7-7-7-7"></path>
         </svg>
       <li className="flex items-center">
-        <a href="/ship-name-generator" className="hover:underline text-[#343a40]">Warrior Cat Name Generator</a>
+        <a href="/warrior-cat-name-generator" className="hover:underline text-[#343a40]">Warrior Cat Name Generator</a>
       </li>
     </ol>
   </nav>
