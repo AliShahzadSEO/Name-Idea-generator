@@ -48,47 +48,47 @@ const Data = [
   },
   {
     name: "Pirate Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Cowbody Elf Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Royalty Elf Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Adventurer American Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Fastasy Tavern Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Fantasy City Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Pet Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Ship Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
   {
     name: "Clan Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
 ];
