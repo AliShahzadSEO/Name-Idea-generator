@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Chinese Name Generator Tool | Generate Names with Meaning',
     description: "Generate unique Chinese names with meanings using our Chinese Name Generator. Find the perfect name quickly at Name Idea Generator!",
-    url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
+    url: 'https://www.nameideagenerator.com/chinese-name-generator',
     images: [
       {
         url: '/wizards-wizard-name-ideas.webp',

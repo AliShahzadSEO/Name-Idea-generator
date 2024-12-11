@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Drow Name Generator With Meaning | Dungeons & Dragons Name Generator',
     description: "Discover unique Drow names with meanings using our Drow Name Generator. Perfect for your next campaign! Visit Name Idea Generator for inspiration.",
-    url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
+    url: 'https://www.nameideagenerator.com/drow-name-generator',
     images: [
       {
         url: '/drowname.webp',

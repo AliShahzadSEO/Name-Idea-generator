@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Wizard Name Generator Tool | Generate Names with Meaning',
     description: "Generate magical wizard names with our Wizard Name Generator. Personalize by choosing a kingdom, selecting a style, and uncovering the meaning behind each name.",
-    url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
+    url: 'https://www.nameideagenerator.com/wizard-name-generator',
     images: [
       {
         url: '/wizards-wizard-name-ideas.webp',

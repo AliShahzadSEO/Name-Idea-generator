@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Free Warrior Cat Name Generator with Meaning | Name Idea Generator',
     description: "Generate unique and meaningful Warrior Cat names instantly with our free name generator. Perfect for writers, gamers, and fans of the Warrior Cats universe!",
-    url: 'https://www.nameideagenerator.com/dragonborn-name-generator',
+    url: 'https://www.nameideagenerator.com/warrior-cat-name-generator',
     images: [
       {
         url: '/An-ornate-ship-with-mystical-symbols.jpg',
