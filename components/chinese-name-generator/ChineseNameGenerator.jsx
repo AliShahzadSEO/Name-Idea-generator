@@ -474,7 +474,7 @@ const A5 = "Yes, the Chinese Name Generator is perfect for character creation in
       <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
-          How to Use the Chinese Name Generator?
+          How to Use Our Chinese Name Generator?
           </h2>
         </div>
         <br />
