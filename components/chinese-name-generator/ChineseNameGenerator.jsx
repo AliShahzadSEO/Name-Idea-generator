@@ -519,12 +519,12 @@ const A5 = "Yes, the Chinese Name Generator is perfect for character creation in
           <div className="sm:w-[47%] relative ">
             <img
               src="japanese-name-generator.jpg"
-              alt="Wizard Name Generator Tool"
+              alt="Chinese Name Generator Tool"
               className="w-[300px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="chinese-name.webp"
-              alt="Wizard Name Generator Tool"
+              alt="Chinese Name Generator Tool"
               className="w-[300px] h-[300px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
@@ -764,7 +764,7 @@ const A5 = "Yes, the Chinese Name Generator is perfect for character creation in
           <div className="sm:w-[40%] relative ">
             <img
               src="v2-iyi5f-tnbe8.jpg"
-              alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
+              alt="Chinese Name Generator Tool"
               className="w-[380px] my-[20px] h-[360px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
           </div>
