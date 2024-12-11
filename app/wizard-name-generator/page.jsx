@@ -30,7 +30,7 @@ export const metadata = {
     type: 'image/jpg'  // Added twitter:image:type
   },
 
-  keywords: ['warrior cat name generator', 'warrior cats name generator', 'wcue name generator', 'random warrior cat name generator', 'warrior cat names generator', 'male cat names generator', 'female cat names generator', 'leader cat names generator', 'mythical cat names generator', 'DnD names'],
+  keywords: ['name a wizard', 'best wizard names', 'human wizard name generator', 'dnd wizard name generator', 'wizard name generator based on your name', 'wizard names generator', 'female wizard names generator', 'water wizard names generator', 'fire wizard names generator', 'DnD names'],
   
   robots:{index:true, follow: true},
   
