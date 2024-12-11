@@ -246,22 +246,22 @@ function getRandomDemon(gender, type, demonNames) {
   const Category1 = [
     {
       name: "Russian Name Generator",
-      pic: "/female.jpg",
+      pic: "/Russian.webp",
       link: "https://www.nameideagenerator.com/ussian-name-generator",
   },
   {
       name: "Greek Name Generator",
-      pic: "/bg-dragonborn.webp",
+      pic: "/greek.webp",
       link: "https://www.nameideagenerator.com/greek-name-generator",
   },
   {
       name: "Norse Name Generator",
-      pic: "/half-demon.webp",
+      pic: "/Norse.jpg",
       link: "https://www.nameideagenerator.com/norse-name-generator",
   },
   {
       name: "Viking Name Generator",
-      pic: "/Wood_Elf.webp",
+      pic: "/vikings.jpg",
       link: "https://www.nameideagenerator.com/viking-name-generator",
   },
   ];
