@@ -30,7 +30,7 @@ export const metadata = {
     type: 'image/webp'  // Added twitter:image:type
   },
 
-  keywords: ['drow name generator', 'drow names', 'female drow names', 'drow elf names', 'drow names 5e', 'drow female names', 'drow male names', 'male drow names', 'DnD names'],
+  keywords: ['ff guild name', 'guild name style', 'guild name generator', 'faction name generator', 'guild names generator', 'guild names', 'guild male names', 'male guild names', 'female guild names'],
   
   robots:{index:true, follow: true},
   
