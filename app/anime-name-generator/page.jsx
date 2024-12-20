@@ -31,10 +31,10 @@ export const metadata = {
   },
   robots:{index:true, follow: true},
 
-  keywords: ['angel name generator', 'fallen angel name generator', 'dark angel name generator', 'blood angel name generator', 'angel name generator dnd', 'random angel name generator', 'angel name generator with meaning', 'female fallen angel name generator', 'fantasy angel name generator', 'female angel name generator'],
+  keywords: ['anime name generator', 'jjk name generator', 'anime names', 'anime girl name generator', 'anime girl names', 'random anime name generator', 'anime name generator with meaning', 'female anime name generator', 'fantasy anime name generator', 'anime female name generator'],
  
   alternates:{
-    canonical:"https://www.nameideagenerator.com/angel-name-generator"
+    canonical:"https://www.nameideagenerator.com/anime-name-generator"
   },
 }
 
