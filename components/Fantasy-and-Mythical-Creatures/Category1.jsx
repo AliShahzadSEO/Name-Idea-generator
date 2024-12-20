@@ -91,6 +91,11 @@ const Data = [
     pic: "/guild-name-generator.jpg",
     link: "/guild-name-generator",
   },
+  {
+    name: "Anime Name Generator",
+    pic: "/anime-name-generator.jpg",
+    link: "/anime-name-generator",
+  },
 ];
 
 const Category1 = () => {

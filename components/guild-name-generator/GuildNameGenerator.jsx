@@ -385,7 +385,7 @@ const A5 = "Yes, the generator is versatile and can be used to create names for 
               <option value="">Random</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
-              <option value="female">bisexual</option>
+              <option value="Unisex">bisexual</option>
             </select>
           </div>
           <div className="py-[10px] flex flex-col gap-2">
