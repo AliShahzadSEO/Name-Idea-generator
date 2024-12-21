@@ -96,6 +96,11 @@ const Data = [
     pic: "/anime-name-generator.jpg",
     link: "/anime-name-generator",
   },
+  {
+    name: "Khajiit Name Generator",
+    pic: "/Khajiit-name-genrator.jpg",
+    link: "/khajiit-name-generator",
+  },
 ];
 
 const Category1 = () => {
