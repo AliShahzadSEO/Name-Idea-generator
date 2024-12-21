@@ -541,12 +541,12 @@ const A5 = "Yes! While the names are inspired by Elder Scrolls, they are versati
           <div className="sm:w-[47%] relative ">
             <img
               src="male-Khajiit-name-genrator.jpg"
-              alt="Anime Name Generator with Meaning | Unique Anime Names for Characters"
+              alt="Khajiit Name Generator"
               className="w-[300px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="female-Khajiit-name-genrator.webp"
-              alt="Anime Name Generator with Meaning | Unique Anime Names for Characters"
+              alt="Khajiit Name Generator"
               className="w-[300px] h-[300px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
@@ -810,7 +810,7 @@ const A5 = "Yes! While the names are inspired by Elder Scrolls, they are versati
           <div className="sm:w-[50%] relative ">
             <img
               src="HD-wallpaper-khajiit-alenaekaterinburg-frumusete-luminos-cat-fantasy-green-skyrim-lynx-pisica.jpg"
-              alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
+              alt="Khajiit Name Generator"
               className="w-[320px] my-[20px] h-[350px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
           </div>
@@ -848,7 +848,7 @@ const A5 = "Yes! While the names are inspired by Elder Scrolls, they are versati
           <div className="sm:w-[50%] relative ">
             <img
               src="female-name-generator.png"
-              alt="Drow Name Generator With Meaning | Dungeons & Dragons Name Generator"
+              alt="Khajiit Name Generator"
               className="w-[320px] my-[20px] h-[350px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
           </div>
