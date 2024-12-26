@@ -101,6 +101,11 @@ const Data = [
     pic: "/Khajiit-name-genrator.jpg",
     link: "/khajiit-name-generator",
   },
+  {
+    name: "Githyanki Name Generator",
+    pic: "/githyanki-name-genrator.jpg",
+    link: "/githyanki-name-generator",
+  },
 ];
 
 const Category1 = () => {
