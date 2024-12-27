@@ -269,8 +269,9 @@ const HeroSection = ({ context, bgImage }) => {
               
             </div>
             <div>
-              <RxHamburgerMenu onClick={() => setOpen(true)} />
-            </div>
+  <RxHamburgerMenu onClick={() => setOpen(true)} color="white" />
+</div>
+
           </div>
         )}
         {/* {open&&<Drawer setOpen={setOpen}/>} */}
@@ -288,7 +289,13 @@ const HeroSection = ({ context, bgImage }) => {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex justify-between items-center">
-                <p className="font-bold text-[24px] text-[#007bff]">NIG</p>
+              <Link href="/">
+                  <img
+                    src="Logo.png"
+                    alt="Name idea generator Logo"
+                    className="w-10 h-10"
+                  />
+                </Link>
                 <div>
                   <IoClose
                     className="text-[24px] "
