@@ -352,30 +352,31 @@ const A5 = "Yes, the generator is versatile and can be used to create names for 
         <div className="w-[95%] mx-auto py-[50px]">
           <div>
           <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
-    <ol className="list-none p-0 inline-flex">
-      <li className="flex items-center">
-        <a href="/" className="hover:underline text-[#343a40]">Home</a>
-        <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      </li>
-      <li className="flex items-center">
-        <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40]">Fantasy and Mythical Creatures Names</a>
-      </li>
+  <ol className="list-none p-0 inline-flex flex-wrap">
+    <li className="flex items-center">
+      <a href="/" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Home</a>
       <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      <li className="flex items-center">
-        <a href="/guild-name-generator" className="hover:underline text-[#343a40]">Guild Name Generator</a>
-      </li>
-    </ol>
-  </nav>
+        <path d="M10 19l7-7-7-7"></path>
+      </svg>
+    </li>
+    <li className="flex items-center">
+      <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Fantasy and Mythical Creatures Names</a>
+    </li>
+    <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M10 19l7-7-7-7"></path>
+    </svg>
+    <li className="flex items-center">
+      <a href="/guild-name-generator" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Guild Name Generator</a>
+    </li>
+  </ol>
+</nav>
+
             <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
             Guild Name Generator With Meaning
             </h2>
           </div>
           <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
-            <p className="text-center text-[#343a40]">Gender</p>
+          <p className="text-center text-[#343a40] text-sm sm:text-base md:text-lg">Gender</p>
             <select
               className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
               id="gender"
@@ -748,7 +749,7 @@ const A5 = "Yes, the generator is versatile and can be used to create names for 
           </div>
         </div>
       </div>
-      <div className="w-[80%] mx-auto text-[#343a40] my-[50px] h-[60vh]">
+      <div className="w-[80%] mx-auto text-[#343a40] my-[50px] ">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
           Guild Name Ideas by Gender and Category
@@ -756,7 +757,7 @@ const A5 = "Yes, the generator is versatile and can be used to create names for 
         </div>
         <hr />
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-          <div className="sm:w-[70%]">
+          <div className="sm:w-[80%]">
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[20px] text-[16px] font-semibold">
               Male Drow Names
@@ -800,9 +801,8 @@ const A5 = "Yes, the generator is versatile and can be used to create names for 
           </div>
         </div>
       </div>
-      <br />
       <hr /> 
-      <div className="w-[80%] mx-auto text-[#343a40] my-[40px] h-[60vh]">
+      <div className="w-[80%] mx-auto text-[#343a40] my-[10px] ">
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
           <div className="sm:w-[70%]">
             <div className="py-[10px] flex flex-col gap-2">
@@ -866,7 +866,7 @@ const A5 = "Yes, the generator is versatile and can be used to create names for 
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.5, delay:  0.25 }}
-          className="flex items-center flex-col gap-6"
+          className="flex items-center flex-col gap-6 px-4"
         >
           <div>
             <p className="text-[36px] font-semibold text-white">

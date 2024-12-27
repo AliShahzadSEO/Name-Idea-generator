@@ -524,24 +524,24 @@ const AlienNameGenerator = () => {
                 <div className="container mx-auto py-4">
   {/* Breadcrumbs */}
   <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
-    <ol className="list-none p-0 inline-flex">
-      <li className="flex items-center">
-        <a href="/" className="hover:underline text-[#343a40]">Home</a>
-        <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      </li>
-      <li className="flex items-center">
-        <a href="/categories/fictional-and-scifi" className="hover:underline text-[#343a40]">Fictional and Sci-Fi Names</a>
-      </li>
+  <ol className="list-none p-0 inline-flex flex-wrap">
+    <li className="flex items-center">
+      <a href="/" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Home</a>
       <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      <li className="flex items-center">
-        <a href="/alien-name-generator" className="hover:underline text-[#343a40]">Alien Name Generator</a>
-      </li>
-    </ol>
-  </nav>
+        <path d="M10 19l7-7-7-7"></path>
+      </svg>
+    </li>
+    <li className="flex items-center">
+      <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Fantasy and Mythical Creatures Names</a>
+    </li>
+    <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M10 19l7-7-7-7"></path>
+    </svg>
+    <li className="flex items-center">
+      <a href="/drow-name-generator" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Alien Name Generator</a>
+    </li>
+  </ol>
+</nav>
 
   {/* Title */}
   <div>

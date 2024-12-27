@@ -352,24 +352,24 @@ const A5 = "Examples include Faelan, Eldrin, Branwen, or Aeris, all with nature 
         <div className="w-[95%] mx-auto py-[50px]">
           <div>
           <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
-    <ol className="list-none p-0 inline-flex">
-      <li className="flex items-center">
-        <a href="/" className="hover:underline text-[#343a40]">Home</a>
-        <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      </li>
-      <li className="flex items-center">
-        <a href="/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40]">Fanstasy and Mythical Creatures Names</a>
-      </li>
+  <ol className="list-none p-0 inline-flex flex-wrap">
+    <li className="flex items-center">
+      <a href="/" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Home</a>
       <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      <li className="flex items-center">
-        <a href="/druid-name-generator" className="hover:underline text-[#343a40]">Druid Name Generator with Meaning</a>
-      </li>
-    </ol>
-  </nav>
+        <path d="M10 19l7-7-7-7"></path>
+      </svg>
+    </li>
+    <li className="flex items-center">
+      <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Fantasy and Mythical Creatures Names</a>
+    </li>
+    <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M10 19l7-7-7-7"></path>
+    </svg>
+    <li className="flex items-center">
+      <a href="/druid-name-generator" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Druid Name Generator</a>
+    </li>
+  </ol>
+</nav>
             <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
             Druid Name Generator Tool with Meaning
             </h2>
@@ -789,7 +789,7 @@ const A5 = "Examples include Faelan, Eldrin, Branwen, or Aeris, all with nature 
         </div>
       </div>
       </div>
-      <div className="w-[85%] mx-auto text-[#343a40] my-[50px] h-[80vh]">
+      <div className="w-[85%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
         <b>  Druid Name Inspiration</b>
@@ -863,7 +863,7 @@ const A5 = "Examples include Faelan, Eldrin, Branwen, or Aeris, all with nature 
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.5, delay:  0.25 }}
-          className="flex items-center flex-col gap-6"
+          className="flex items-center flex-col gap-6 px-4"
         >
           <div>
             <p className="text-[36px] font-semibold text-white">
