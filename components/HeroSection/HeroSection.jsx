@@ -259,9 +259,14 @@ const HeroSection = ({ context, bgImage }) => {
         ) : (
           <div className="w-[90%] mx-auto flex justify-between items-center py-[20px]">
             <div>
-              <p className="font-bold text-[20px] text-[#007bff]">
-                Name Idea Generator
-              </p>
+            <Link href="/">
+                  <img
+                    src="Logo.png"
+                    alt="Name idea generator Logo"
+                    className="w-10 h-10"
+                  />
+                </Link>
+              
             </div>
             <div>
               <RxHamburgerMenu onClick={() => setOpen(true)} />
@@ -318,7 +323,7 @@ const HeroSection = ({ context, bgImage }) => {
       </div>
       <Breadcrumbs className={"text-white px-4 pt-4"} />
       <div className="text-center w-[80%] mx-auto flex flex-col gap-4 items-center justify-center h-[80vh]">
-        <h1 className="text-[40px] text-white font-bold tracking-[4px]">
+        <h1 className="text-[28px] text-white font-bold tracking-[4px]">
           {context}
         </h1>
         <p className="text-white text-[20px]">
