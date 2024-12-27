@@ -103,7 +103,7 @@ const Data = [
   },
   {
     name: "Githyanki Name Generator",
-    pic: "/githyanki-name-genrator.jpg",
+    pic: "/githyanki-name-generator.jpg",
     link: "/githyanki-name-generator",
   },
 ];
