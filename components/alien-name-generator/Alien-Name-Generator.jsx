@@ -877,33 +877,33 @@ const AlienNameGenerator = () => {
                     backgroundAttachment: "fixed",
                 }}
             >
-                <motion.div
-                    variants={{
-                        hidden: { opacity: 0, y: 75 },
-                        visible: { opacity: 1, y: 0 },
-                    }}
-                    initial="hidden"
-                    whileInView="visible"
-                    transition={{ duration: 0.5, delay: 0.25 }}
-                    className="flex items-center flex-col gap-6"
-                >
-                    <div>
-                        <p className="text-[36px] font-semibold text-white">
-                            Do you have a request
-                        </p>
-                    </div>
-                    <div>
-                        <p className="text-white">
-                            Commissions are available! Visit my contact page and send an
-                            inquiry with the details of your request.
-                        </p>
-                    </div>
-                    <div>
-                        <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
-                            Request
-                        </button>
-                    </div>
-                </motion.div>
+                 <motion.div
+          variants={{
+            hidden: { opacity: 0, y: 75 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.5, delay:  0.25 }}
+          className="flex items-center flex-col gap-6 px-4"
+        >
+          <div>
+            <p className="text-[36px] font-semibold text-white">
+              Do you have a request
+            </p>
+          </div>
+          <div>
+            <p className="text-white">
+              Commissions are available! Visit my contact page and send an
+              inquiry with the details of your request.
+            </p>
+          </div>
+          <div>
+            <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
+              Request
+            </button>
+          </div>
+        </motion.div>
             </div>
             <FAQSection Q1={Q1} A1={A1} Q2={Q2} A2={A2} Q3={Q3} A3={A3} Q4={Q4} A4={A4} Q5={Q5} A5={A5} />
             <Footer />

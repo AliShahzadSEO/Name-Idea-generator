@@ -347,24 +347,24 @@ const A5 = "Yes, the Korean Name Generator is free and easy to use, offering ins
         <div className="w-[95%] mx-auto py-[50px]">
           <div>
           <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
-    <ol className="list-none p-0 inline-flex">
-      <li className="flex items-center">
-        <a href="/" className="hover:underline text-[#343a40]">Home</a>
-        <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      </li>
-      <li className="flex items-center">
-        <a href="/categories/cultural-and-historical" className="hover:underline text-[#343a40]">Cultural and Historical Names</a>
-      </li>
+  <ol className="list-none p-0 inline-flex flex-wrap">
+    <li className="flex items-center">
+      <a href="/" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Home</a>
       <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M10 19l7-7-7-7"></path>
-        </svg>
-      <li className="flex items-center">
-        <a href="/korean-name-generator" className="hover:underline text-[#343a40]">Korean Name Generator with Meaning</a>
-      </li>
-    </ol>
-  </nav>
+        <path d="M10 19l7-7-7-7"></path>
+      </svg>
+    </li>
+    <li className="flex items-center">
+      <a href="/categories/cultural-and-historical" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Cultural and Historical Names</a>
+    </li>
+    <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M10 19l7-7-7-7"></path>
+    </svg>
+    <li className="flex items-center">
+      <a href="/korean-name-generator" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Korean Name Generator</a>
+    </li>
+  </ol>
+</nav>
             <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
             Korean Name Generator Tool with Meaning
             </h2>
@@ -774,7 +774,7 @@ const A5 = "Yes, the Korean Name Generator is free and easy to use, offering ins
         </div>
       </div>
       </div>
-      <div className="w-[85%] mx-auto text-[#343a40] my-[50px] h-[80vh]">
+      <div className="w-[85%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
           Famous Korean Names in History and Culture
@@ -836,7 +836,7 @@ const A5 = "Yes, the Korean Name Generator is free and easy to use, offering ins
           backgroundAttachment: "fixed",
         }}
       >
-        <motion.div
+         <motion.div
           variants={{
             hidden: { opacity: 0, y: 75 },
             visible: { opacity: 1, y: 0 },
@@ -844,7 +844,7 @@ const A5 = "Yes, the Korean Name Generator is free and easy to use, offering ins
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.5, delay:  0.25 }}
-          className="flex items-center flex-col gap-6"
+          className="flex items-center flex-col gap-6 px-4"
         >
           <div>
             <p className="text-[36px] font-semibold text-white">

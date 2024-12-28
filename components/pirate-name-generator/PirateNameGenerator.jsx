@@ -798,7 +798,7 @@ const A5 = "The names you generate can be used for a variety of purposes—RPG c
           backgroundAttachment: "fixed",
         }}
       >
-        <motion.div
+         <motion.div
           variants={{
             hidden: { opacity: 0, y: 75 },
             visible: { opacity: 1, y: 0 },
@@ -806,7 +806,7 @@ const A5 = "The names you generate can be used for a variety of purposes—RPG c
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.5, delay:  0.25 }}
-          className="flex items-center flex-col gap-6"
+          className="flex items-center flex-col gap-6 px-4"
         >
           <div>
             <p className="text-[36px] font-semibold text-white">

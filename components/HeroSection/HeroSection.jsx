@@ -333,8 +333,8 @@ const HeroSection = ({ context, bgImage }) => {
         <h1 className="text-[28px] text-white font-bold tracking-[4px]">
           {context}
         </h1>
-        <p className="text-white text-[20px]">
-          The ultimate platform for writers, gamers, and creators looking to
+        <p className="text-white text-[18px]">
+          The ultimate Name Generators platform for writers, gamers, and creators looking to
           infuse authenticity and flair into their character development.
         </p>
       </div>
