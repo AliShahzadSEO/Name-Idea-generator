@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
           <Link href="/">
                   <img
-                    src="Logo.png"
+                    src="/Logo.png"
                     alt="Name idea generator Logo"
                     className="w-14 h-14"
                   />
