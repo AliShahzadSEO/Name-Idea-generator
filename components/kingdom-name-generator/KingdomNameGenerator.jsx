@@ -362,7 +362,7 @@ function getRandomDemon(gender, type, demonNames) {
     {
       name: "Orc Name Generator",
       pic: "/orc-name-generator.jpg",
-      link: "https://www.nameideagenerator.com/Orc-name-generator",
+      link: "https://www.nameideagenerator.com/orc-name-generator",
   },
   {
       name: "Viking Name Generator",
