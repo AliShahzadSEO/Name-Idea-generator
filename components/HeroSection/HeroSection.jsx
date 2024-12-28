@@ -71,7 +71,7 @@ const HeroSection = ({ context, bgImage }) => {
               <div>
                 <Link href="/">
                   <img
-                    src="Logo.png"
+                    src="/Logo.png"
                     alt="Name idea generator Logo"
                     className="w-20 h-20"
                   />
@@ -249,9 +249,9 @@ const HeroSection = ({ context, bgImage }) => {
                   </ul>
                 </div>
                 <div className="flex items-center">
-                  <p className="hover:text-[#007bff] text-white font-medium text-[13px] cursor-pointer">
-                    Contact us
-                  </p>
+                 <a href="/contact-us" className="hover:text-[#007bff] text-white font-medium text-[13px] cursor-pointer">
+  <p>Contact us</p>
+</a>
                 </div>
               </div>
             </div>

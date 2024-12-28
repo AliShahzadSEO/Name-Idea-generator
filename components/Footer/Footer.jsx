@@ -15,23 +15,24 @@ const Footer = () => {
         {/* First section */}
         <div className="sm:w-[25%]">
           <div>
-          <Link href="https://www.nameideagenerator.com/">
-          <p className="text-[26px] font-bold text-white">Name Idea Generator</p>
-                  </Link>
+          <Link href="/">
+                  <img
+                    src="Logo.png"
+                    alt="Name idea generator Logo"
+                    className="w-14 h-14"
+                  />
+                </Link>
           </div>
           <div className="py-[10px]">
             <p className="font-semibold text-[14px] text-white">
             The ultimate platform for writers, gamers, and creators looking to infuse authenticity and flair into their character development.
             </p>
             <div className="flex gap-2 py-[20px]">
-              <input
-                type="email"
-                placeholder="abc@gmail.com"
-                className="border border-solid rounded-[10px] px-[4px]"
-              />
-              <button className="bg-[#007bff] text-white hover:bg-[#1a4e86] p-[5px] text-[14px] rounded-[10px]">
-                SEND
-              </button>
+            
+                <Link href="https://www.nameideagenerator.com/">
+          <p className="text-[26px] font-bold text-white">Name Idea Generator</p>
+                  </Link>
+              
             </div>
             {/* <div className=" flex gap-2">
               <input type="checkbox" />
@@ -54,7 +55,12 @@ const Footer = () => {
             <br />
           <a href="mailto:nameideag@gmail.com" className="font-semibold text-[14px] text-white">nameideag@gmail.com</a>
             <div className="flex  py-[16px]">
-              <button className="bg-red-500 text-white p-[8px] rounded-[10px] text-[14px]">DONATE</button>
+            <a href="https://donate.stripe.com/5kAg352Vd6cW5zyfYY" target="_blank" rel="noopener noreferrer">
+  <button className="bg-red-500 text-white p-[8px] rounded-[10px] text-[14px]">
+    DONATE
+  </button>
+</a>
+
             </div>
           </div>
         </div>
@@ -87,7 +93,7 @@ const Footer = () => {
           <Link href={"/privacy-policy"}>
             <p className="cursor-pointer">Privacy Policy</p>
           </Link>
-          <Link href={"/"}>
+          <Link href={"/contact-us"}>
             <p className="cursor-pointer">Contact Us</p>
           </Link>
           </div>
