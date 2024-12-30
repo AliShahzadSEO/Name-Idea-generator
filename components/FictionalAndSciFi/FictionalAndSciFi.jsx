@@ -88,8 +88,8 @@ const Data = [
   },
   {
     name: "Ship Name Generator",
-    pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
-    link: "",
+    pic: "/An-ornate-ship-with-mystical-symbols.jpg",
+    link: "/ship-name-generator",
   },
   {
     name: "Clan Name Generator",

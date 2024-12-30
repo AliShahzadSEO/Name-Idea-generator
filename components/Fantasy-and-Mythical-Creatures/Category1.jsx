@@ -66,11 +66,7 @@ const Data = [
     pic: "/cat.jpg",
     link: "/warrior-cat-name-generator",
   },
-  {
-    name: "Ship Name Generator",
-    pic: "/An-ornate-ship-with-mystical-symbols.jpg",
-    link: "/ship-name-generator",
-  },
+ 
   {
     name: "Wizard Name Generator",
     pic: "/wizards-wizard-name-ideas.webp",

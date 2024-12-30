@@ -155,14 +155,14 @@ function getRandomDemon(gender, type, demonNames) {
       link: "https://www.nameideagenerator.com/dragonborn-name-generator",
   },
   {
-      name: "Half Elf Name Generator",
-      pic: "/half-demon.webp",
-      link: "https://www.nameideagenerator.com/half-elf-name-generator",
+      name: "Alien Name Generator",
+      pic: "/alien.webp",
+      link: "https://www.nameideagenerator.com/alien-name-generator",
   },
   {
-      name: "Wood Elf Name Generator",
-      pic: "/Wood_Elf.webp",
-      link: "https://www.nameideagenerator.com/wood-elf-name-generator",
+      name: "Angel Name Generator",
+      pic: "/angel.jpg",
+      link: "https://www.nameideagenerator.com/angel-name-generator",
   },
   ];
   
@@ -251,7 +251,7 @@ const A5 = "The Ship Name Generator is designed to deliver results instantly. Wi
       </svg>
     </li>
     <li className="flex items-center">
-      <a href="/categories/fantasy-and-mythical-creatures" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Fantasy and Mythical Creatures Names</a>
+      <a href="/categories/fictional-and-scifi" className="hover:underline text-[#343a40] text-xs sm:text-sm md:text-base">Fictional and Sci-Fi Names</a>
     </li>
     <svg className="w-4 h-4 mx-2 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
       <path d="M10 19l7-7-7-7"></path>
