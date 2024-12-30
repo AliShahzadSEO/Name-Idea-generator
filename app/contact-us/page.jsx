@@ -7,19 +7,19 @@ export const metadata = {
     canonical:"https://www.nameideagenerator.com/contact-us"
   },
 
-  title: 'About Us | Name Idea Generator',
-  description: "Discover unique and creative names with Name Idea Generator. Perfect for writers, gamers, and creators looking for fantasy, cultural, or historical name ideas. Free, easy, and secure!",
+  title: 'Contact Us | Name Idea Generator',
+  description: "Get in touch with Name Idea Generator for any inquiries, feedback, or support. We're here to help with all your name-generating needs. Contact us today!",
   
   openGraph: {
-    title: 'About Us | Name Idea Generator',
-    description: "Discover unique and creative names with Name Idea Generator. Perfect for writers, gamers, and creators looking for fantasy, cultural, or historical name ideas. Free, easy, and secure!",
+    title: 'Contact Us | Name Idea Generator',
+    description: "Get in touch with Name Idea Generator for any inquiries, feedback, or support. We're here to help with all your name-generating needs. Contact us today!",
     url: 'https://www.nameideagenerator.com/contact-us',
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'About Us | Name Idea Generator',
-    description: "Discover unique and creative names with Name Idea Generator. Perfect for writers, gamers, and creators looking for fantasy, cultural, or historical name ideas. Free, easy, and secure!",
+    title: 'Contact Us | Name Idea Generator',
+    description: "Get in touch with Name Idea Generator for any inquiries, feedback, or support. We're here to help with all your name-generating needs. Contact us today!",
   
   },
   locale: 'en_US',  // Added og:locale
