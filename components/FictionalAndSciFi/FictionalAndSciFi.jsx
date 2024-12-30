@@ -52,6 +52,11 @@ const Data = [
     link: "/pirate-name-generator",
   },
   {
+    name: "Paladin Name Generator",
+    pic: "/paladin-name-generator.jpg",
+    link: "/paladin-name-generator",
+  },
+  {
     name: "Cowbody Elf Name Generator",
     pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
