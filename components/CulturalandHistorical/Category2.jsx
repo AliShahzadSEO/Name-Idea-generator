@@ -46,6 +46,11 @@ const Data = [
     link: "/french-name-generator",
   },
   {
+    name: "Continent Name Generator",
+    pic: "/continent-name-generator.webp",
+    link: "/continent-name-generator",
+  },
+  {
     name: "Egyptian Elf Name Generator",
     pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
