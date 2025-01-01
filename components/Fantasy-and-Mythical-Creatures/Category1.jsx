@@ -102,6 +102,11 @@ const Data = [
     pic: "/githyanki-name-generator.jpg",
     link: "/githyanki-name-generator",
   },
+  {
+    name: "Aasimar Name Generator",
+    pic: "/aasimar-name-generator.webp",
+    link: "/aasimar-name-generator",
+  },
 ];
 
 const Category1 = () => {
