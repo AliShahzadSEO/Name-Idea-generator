@@ -10,7 +10,7 @@ export const metadata = {
     url: 'https://www.nameideagenerator.com/drow-name-generator',
     images: [
       {
-        url: '/githyanki-name-generator.jpg',
+        url: '/continent-name-generator.webp',
         width: 800,
         height: 600,
         alt: 'Continent Name Generator With Meaning | Unique Names With Your Imaginary Continents',
@@ -26,7 +26,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Continent Name Generator With Meaning | Unique Names With Your Imaginary Continents',
     description: "Continent Name Generator: Generate unique continent names with meaning for your fantasy, realistic, or mythical worlds. Perfect for writers, gamers, and creators!",
-    images: ['/githyanki-name-generator.jpg'],
+    images: ['/continent-name-generator.webp'],
     type: 'image/webp'  // Added twitter:image:type
   },
 
