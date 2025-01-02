@@ -1022,9 +1022,11 @@ const A5 = "You can create ancient, magical, or sci-fi-inspired kingdom names, e
             </p>
           </div>
           <div>
-            <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
-              Request
-            </button>
+          <a href="https://www.nameideagenerator.com/contact-us">
+  <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
+    Request
+  </button>
+</a>
           </div>
         </motion.div>
       </div>
