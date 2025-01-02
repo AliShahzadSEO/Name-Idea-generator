@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'Guild Name Generator with Meaning | Name Idea Generator',
     description: "Generate unique and meaningful guild names for your team, clan, or faction with our Guild Name Generator. Customize by gender, category, and theme to create the perfect name for your group.",
-    url: 'https://www.nameideagenerator.com/drow-name-generator',
+    url: 'https://www.nameideagenerator.com/guild-name-generator',
     images: [
       {
         url: '/guild-name-generator.jpg',

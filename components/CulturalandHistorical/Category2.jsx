@@ -51,6 +51,11 @@ const Data = [
     link: "/continent-name-generator",
   },
   {
+    name: "Victorian Name Generator",
+    pic: "/victorian-name-generator.jpg",
+    link: "/victorian-name-generator",
+  },
+  {
     name: "Egyptian Elf Name Generator",
     pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
@@ -86,6 +91,7 @@ const Data = [
     pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
   },
+  
 ];
 
 const Category2 = () => {
