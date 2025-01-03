@@ -56,6 +56,11 @@ const Data = [
     link: "/victorian-name-generator",
   },
   {
+    name: "Egyptian Name Generator",
+    pic: "/egyptian-name-generator.jpg",
+    link: "/egyptian-name-generator",
+  },
+  {
     name: "Egyptian Elf Name Generator",
     pic: "/coming-soon-background-illustration-template-design-free-vector.jpg",
     link: "",
