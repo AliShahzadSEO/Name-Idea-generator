@@ -1,0 +1,30 @@
+{
+  "name": "name-generator",
+  "homepage": "https://www.nameideagenerator.com/",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.9",
+    "@next/third-parties": "^14.2.7",
+    "@uidotdev/usehooks": "^2.4.1",
+    "framer-motion": "^11.3.17",
+    "next": "^14.2.7",
+    "next-seo": "^6.6.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "schema-dts": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
