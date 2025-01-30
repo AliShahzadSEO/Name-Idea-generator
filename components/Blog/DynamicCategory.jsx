@@ -4,12 +4,22 @@ import React, { useEffect, useState } from "react";
 import HeroSection from "../HeroSection/HeroSection";
 import { randomInt } from "crypto";
 import Link from "next/link";
+import Footer from "../Footer/Footer";
+import { usePathname } from "next/navigation";
+import path from "path";
 
 const DynamicCategory = ({ slug }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const[CategoryName,setCategoryName]= useState("")
+  const pathname = usePathname();
+  const isBlogPage = pathname.startsWith("/blog/category/");
+  function getLastSegment(url) {
+    return url.split("/").pop();
+  }
 
   useEffect(() => {
+    setCategoryName(getLastSegment(pathname))
     const fetchHygraphData = async () => {
       const endpoint =
         "https://ap-south-1.cdn.hygraph.com/content/cm5gp1k6r008v07uljwcl0fg0/master";
@@ -65,7 +75,7 @@ const DynamicCategory = ({ slug }) => {
   const randCoverContext = data[randomIndex]?.node.heading;
   return (
     <div>
-      <HeroSection context={randCoverContext} bgImage={randCoverImage} />
+      <HeroSection context={CategoryName} bgImage={randCoverImage} />
       <div className="py-4 w-[85%] mx-auto">
         <div className="mb-4">
           <span className="font-semibold text-xl">Category:</span>
@@ -103,6 +113,7 @@ const DynamicCategory = ({ slug }) => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

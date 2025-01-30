@@ -8,7 +8,7 @@ import Link from "next/link";
 import Breadcrumbs from "../breadcrumb/page";
 import { usePathname } from "next/navigation";
 
-const HeroSection = ({ context, bgImage }) => {
+const HeroSection = ({ context, bgImage, blogcontent }) => {
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
   const [firstarrow, setFirstArrow] = useState(false);
@@ -19,6 +19,8 @@ const HeroSection = ({ context, bgImage }) => {
   const pathname = usePathname();
 
   const islogorNot = pathname != "/blog";
+  const isBlogPage = pathname.startsWith("/blog/");
+  const isBlogCatery = pathname.startsWith("/blog/category/");
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -333,13 +335,22 @@ const HeroSection = ({ context, bgImage }) => {
         <h1 className="text-[40px] text-white font-bold tracking-[4px]">
           {context}
         </h1>
-        {islogorNot && (
+        {islogorNot && !isBlogPage && (
           <p className="text-white text-[20px]">
             The ultimate platform for writers, gamers, and creators looking to
             infuse authenticity and flair into their character development.
           </p>
         )}
+        {isBlogPage && !isBlogCatery&& <Link
+       href={`/blog/category/${blogcontent}`}
+      ><p className="text-white text-[20px]">Category: {blogcontent}</p>
+      </Link>
+      }
       </div>
+    
+
+
+   
     </div>
   );
 };

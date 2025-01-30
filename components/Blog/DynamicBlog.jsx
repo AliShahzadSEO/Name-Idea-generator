@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import HeroSection from "../HeroSection/HeroSection";
 import Footer from "../Footer/Footer";
 import Link from "next/link";
+import { RichText } from "@graphcms/rich-text-react-renderer";
 
 const DynamicBlog = ({ slug }) => {
   const [data, setData] = useState([]);
@@ -77,9 +78,15 @@ const DynamicBlog = ({ slug }) => {
 
   return (
     <>
-      <HeroSection context={data[0]?.slug} bgImage={data[0]?.coverImage.url} />
+      <HeroSection
+        context={data[0]?.heading}
+        bgImage={data[0]?.coverImage.url}
+        blogcontent={`${data[0].categories.map(
+          (value, index) => value.name
+        )} `}
+      />
       <div className="py-4 w-[85%] mx-auto">
-        <div className="text-3xl pb-4">{slug}</div>
+        {/* <div className="text-3xl pb-4">{slug}</div> */}
         <div className="flex items-center gap-2 mb-4">
           <span className="font-semibold text-xl">Categories:</span>
           {data[0].categories.map((value, index) => (
@@ -90,21 +97,21 @@ const DynamicBlog = ({ slug }) => {
             </>
           ))}
         </div>
-        <span className="text-xl font-semibold">Description:</span>
-        <div className="mb-4">{data[0]?.metaDescription}</div>
+        <div
+          className="prose lg:prose-xl max-w-none"
+          dangerouslySetInnerHTML={{ __html: data[0]?.content.html }}
+        />
 
-        <span className="text-xl font-semibold">Content:</span>
-        <div dangerouslySetInnerHTML={{ __html: data[0]?.content.html }} />
         {data[0].categories.map((value, index) => (
           <div
             key={index}
             className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12"
           >
-            {value.blogs.map((val, index) => (
+            {value.blogs.map((val, ind) => (
               <Link
                 href={`/blog/${val.slug}`}
                 className="py-2 flex flex-col shadow-md p-2 rounded-lg hover:scale-105 duration-300"
-                key={index}
+                key={ind}
               >
                 <div className="h-[300px]">
                   <img
