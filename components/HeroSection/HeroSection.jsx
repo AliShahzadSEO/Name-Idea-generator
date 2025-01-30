@@ -9,7 +9,6 @@ import Breadcrumbs from "../breadcrumb/page";
 import { usePathname } from "next/navigation";
 
 const HeroSection = ({ context, bgImage, blogcontent }) => {
-
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
   const [firstarrow, setFirstArrow] = useState(false);
