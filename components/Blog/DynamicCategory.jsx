@@ -13,7 +13,7 @@ const DynamicCategory = ({ slug }) => {
   const [loading, setLoading] = useState(true);
   const[CategoryName,setCategoryName]= useState("")
   const pathname = usePathname();
-  const isBlogPage = pathname.startsWith("/blog/category/");
+
   function getLastSegment(url) {
     return url.split("/").pop();
   }
