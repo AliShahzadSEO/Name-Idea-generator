@@ -101,13 +101,16 @@ const DynamicBlog = ({ slug }) => {
           className="prose lg:prose-xl max-w-none"
           dangerouslySetInnerHTML={{ __html: data[0]?.content.html }}
         />
+        <div className="text-[36px] font-bold py-6">
+          Related Blogs
+        </div>
 
         {data[0].categories.map((value, index) => (
           <div
             key={index}
-            className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-12"
+            className="grid grid-cols-1 md:grid-cols-3 gap-5 my-2"
           >
-            {value.blogs.map((val, ind) => (
+            {value.blogs.slice(0,3).map((val, ind) => (
               <Link
                 href={`/blog/${val.slug}`}
                 className="py-2 flex flex-col shadow-md p-2 rounded-lg hover:scale-105 duration-300"

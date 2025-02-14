@@ -77,7 +77,7 @@ const HeroSection = ({ context, bgImage, blogcontent }) => {
               <div>
                 <Link href="/">
                   <img
-                    src="Logo.png"
+                    src="/Logo.png"
                     alt="Name idea generator Logo"
                     className="w-20 h-20"
                   />
