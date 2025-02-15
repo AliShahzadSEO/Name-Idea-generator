@@ -466,20 +466,21 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
             >
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
-                        <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                        <h2 className="text-[36px] font-medium text-[#343a40] pb-[]">
+                        How Can You Generate Authentic Viking Names?
                         </h2>
                         <hr />
-                        <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        Our Viking Names Generator is an efficient tool designed to produce distinct and original names for Viking characters. 
-                        The user-friendly interface allows for quick and seamless name generation, 
-                        ensuring that each name is both strong and historically resonant.
+                        <p className="mt-[30px] py-[10px] text-[#343a40]">
+                        You need strong and historically accurate Viking names for your characters. A reliable tool makes the process easy. The Viking Name Generator helps you find the perfect name in seconds.
                         </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                        Whether you're crafting characters for stories, games, or campaigns, this generator simplifies the naming process. 
-                        With a single click, our viking clan names generator delivers names that evoke the essence of Viking culture, fitting perfectly into any creative project.            
+                        <hr />
+                        <h2 className="text-[36px] font-medium text-[#343a40] pb-[]">
+                        Why Should You Use the Viking Name Generator?
+                        </h2>
+                        <p className="py-[10px] text-[#343a40]">
+                        A Viking name gives your character a strong identity. Writers, gamers, and RPG players need names that match Viking history and culture. This tool provides names that feel real and meaningful.
                         </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
+                        <p className="py-[10px] text-[#343a40]">
                         The Viking Name Generator is tailored to meet your specific needs, ensuring you consistently receive a suitable name for your character. 
                         Our norse name generator tool offers a reliable solution for creating powerful, authentic Viking names every time. 
                         </p>
@@ -588,15 +589,11 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
             <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
                 <div class="text-center mb-[10px]">
                     <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    Why Do You Need an Island Name Generator? 
+                    What Makes Viking Name Generator Unique? 
                     </h2>
                     <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Our viking last name generator makes it easy to find cool and authentic Viking names. 
-                    Perfect for writers and gamers, it helps you create strong, memorable names for your characters quickly and effortlessly.
+                    You need more than just a random name. A Viking name should feel authentic, carrying the strength, history, and spirit of Norse warriors. This tool ensures that every name has meaning and depth.
                     </p> <br /> <br />
-                    <p class="sm:text-[16px] text-left text-[22px] font-semibold">
-                    There are many more advantages of this tool that are explained as below:
-                    </p>
                 </div>
 
                 <div class="flex flex-col lg:flex-row gap-8">
@@ -605,62 +602,88 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                         <div class="py-[10px]">
                             <div class="py-[5px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Extensive Name Database
+                                Authentic Norse Names
                                 </h3>
                                 <p>
-                                Our Viking Name Generator offers access to a comprehensive collection of historically accurate names. 
-                                With thousands of options at your disposal, you can find the ideal name that captures the spirit of the Viking era. 
-                                Each name in our database has been carefully selected to reflect the strength and authenticity of Viking culture.
+                                Real Viking names came from Old Norse traditions. Warriors, rulers, and legendary figures bore names that reflected their strength and heritage. This tool pulls from historical records, sagas, and mythology to give you names that feel real.
                                  </p>
                             </div>
                             <div class="py-[5px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                User-Centric Interface
+                                Instant Name Generation
                                 </h3>
                                 <p>
-                                Experience seamless name generation with our user-friendly interface. 
-                                Designed with simplicity in mind, our tool allows you to create names quickly and efficiently. 
-                                The intuitive layout ensures that even those new to name generators can easily navigate and generate the perfect Viking names.
+                                Some name generators create random words. This tool provides structured, culturally accurate Viking names with one click. No long forms, no unnecessary steps—just instant results.
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Quick and Efficient Generation
+                                Historical & Mythological Accuracy
                                 </h3>
                                 <p>
-                                Save time with our fast and reliable online name-generation tool. 
-                                With only one click on the generate option, our tool generates a list of unique and authentic Viking names, ready for use in your projects. 
-                                This quick process allows you to focus more on your creative work and less on name brainstorming.                          
+                                Viking names weren’t chosen randomly. They were influenced by Norse gods, elements, and warrior traditions. This generator includes names that:
+                                <li>
+                                Are derived from Old Norse words meaning warrior, storm, or battle.
+                                </li>
+                                <li>
+                                    Pay tribute to gods like Odin, Thor, and Freyja.
+                                </li>
+                                <li>
+                                    Have roots in real Viking clans and rulers.
+                                </li>
+                                
+                                Each name carries a meaning, giving your character a strong identity..                          
+                                
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Secure and Private
+                                Easy to Use
                                 </h3>
                                 <p>
-                                Your data security is one of our priorities. The Viking Name Generator operates entirely within your browser, 
-                                ensuring that your personal information and preferences remain confidential. 
-                                We use robust encryption to protect your data, providing you with a secure name-generation experience.                        
+                                Some name tools overwhelm you with settings and filters. This one keeps it simple.
+
+                                   <li> Choose a gender (optional).
+                                   </li><li>Pick a name type—historical, mythological, or fantasy-inspired.
+                                   </li><li> Click Generate and get a list of names instantly.
+                                   </li><li>You don’t waste time. You get the right name immediately</li>                 
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Versatile Applications
+                                Perfect for Writers & Gamers
                                 </h3>
                                 <p>
-                                Our Viking Name Generator adapts to various creative projects. Whether you are crafting a novel, 
-                                designing a game, or setting up a role-playing campaign, the tool provides names that fit a wide range of scenarios. 
-                                Its flexibility ensures that you have the right names for any creative endeavor.                        
+                                This tool isn’t just for fun. It’s designed for:
+
+                                   <li> <b>Writers</b> creating Viking characters for historical or fantasy fiction.                                   .
+                                   </li><li><b>Game developers</b> designing Viking warriors, clans, and NPCs.
+                                   </li><li> <b>RPG players</b> needing powerful names for DnD or tabletop adventures.
+                                   </li><li><b>Historians & enthusiasts</b> looking for authentic Norse names with meaning.</li>
+                                   Whether you’re writing a novel, crafting a game world, or naming your next RPG hero, this tool delivers names that fit the Viking era.                 
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
                                 <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Authentic Name Crafting
+                                Privacy-Focused & Secure
                                 </h3>
                                 <p>
-                                Our online Viking name generation tool specializes in generating names that reflect genuine Viking heritage. 
-                                Each name is designed to capture the essence and historical accuracy of Viking culture. 
-                                This focus on authenticity ensures that your characters are imbued with the true spirit of the Viking age.                     
+                                You don’t have to worry about data tracking. Unlike some generators, this tool:
+
+                                    <li>
+                                        Runs entirely in your browser—no data is sent or stored.
+                                    </li>
+                                    <li>
+                                        Doesn’t collect personal information—you generate names without logging in.
+                                    </li>
+                                    <li>
+                                        Keeps your experience private—your searches stay on your device.
+                                    </li>
+                                    <li>
+                                        Your creativity stays yours. Your data stays safe.
+                                    </li>
+
+                     
                                 </p>
                             </div>
                         </div>
