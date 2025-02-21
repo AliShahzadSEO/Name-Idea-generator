@@ -44,7 +44,7 @@ const page = () => {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Demon Name Generator",
-    "url": "https://www.nameideagenerator.com/demon-name-generator",
+    "url": "https://www.nameideagenerator.com/goblin-name-generator",
     "description":
       "Use our AI Goblin Name Generator to create random goblin names with deep meanings. Perfect for DnD, RPGs, and creative projects. Try it now and bring your goblin character to life!",
     "image": "https://www.nameideagenerator.com/demonpic.jpg",

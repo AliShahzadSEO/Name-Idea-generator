@@ -586,12 +586,12 @@ const GoblinNameGenerator = () => {
                         <img
                             src="gobline1.jpg"
                             alt="Goblin Name Generator | Random DnD Goblin Name With Meaning"
-                            className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[300px]  h-[340px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="gobline2.jpg"
                             alt="Goblin Name Generator | Random DnD Goblin Name With Meaning"
-                            className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[300px] h-[340px]  sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
