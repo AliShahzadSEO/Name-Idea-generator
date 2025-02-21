@@ -43,7 +43,7 @@ const page = () => {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Demon Name Generator",
+    "name": "Orc Name Generator",
     "url": "https://www.nameideagenerator.com/orc-name-generator",
     "description":
       "Use our AI Orc Name Generator to forge warrior-worthy names with deep meanings. Perfect for DnD, RPGs, and fantasy worlds. Generate unique orc names instantly—try it now!",

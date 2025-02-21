@@ -43,7 +43,7 @@ const page = () => {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Demon Name Generator",
+    "name": "Dragonborn Name Generator",
     "url": "https://www.nameideagenerator.com/dragonborn-name-generator",
     "description":
       "Use our AI Dragonborn Name Generator to forge powerful names with deep meanings. Perfect for DnD and fantasy characters. Generate unique Dragonborn names instantly—try it now!",
