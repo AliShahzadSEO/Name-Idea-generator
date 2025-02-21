@@ -6,9 +6,9 @@ import {GoogleAnalytics, } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Name Idea Generator | Generate Unique Name Ideas For Your Character",
+  title: "Name Idea Generator | AI-Powered Business, Brand & Fantasy Name Generator",
   description:
-    "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!",
+    "Find the perfect name for your business, brand, or project with our AI-powered Name Idea Generator. Get unique, creative, and SEO-friendly name suggestions for businesses, domains, fantasy worlds, and more in seconds.",
   robots: { index: true, follow: true },
 
   alternates: {
@@ -17,16 +17,16 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Name Idea Generator | Generate Unique Name Ideas For Your Character",
+      "Name Idea Generator | AI-Powered Business, Brand & Fantasy Name Generator",
     description:
-      "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!!",
+      "Find the perfect name for your business, brand, or project with our AI-powered Name Idea Generator. Get unique, creative, and SEO-friendly name suggestions for businesses, domains, fantasy worlds, and more in seconds.",
     url: "https://www.nameideagenerator.com",
     images: [
       {
         url: "bg2.jpg",
         width: 800,
         height: 600,
-        alt: "Dragonborn Name Generator | Create Unique Demon Names | Name Idea Generator ",
+        alt: "Name Idea Generator | AI-Powered Business, Brand & Fantasy Name Generator ",
       },
     ],
   },
@@ -34,39 +34,16 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Name Idea Generator | Generate Unique Name Ideas For Your Character",
+      "Name Idea Generator | AI-Powered Business, Brand & Fantasy Name Generator",
     description:
-      "Find the perfect name for your character with our Name Idea Generator. Whether it's for a fantasy world or a story, generate unique and creative names effortlessly!",
+      "Find the perfect name for your business, brand, or project with our AI-powered Name Idea Generator. Get unique, creative, and SEO-friendly name suggestions for businesses, domains, fantasy worlds, and more in seconds.",
     images: ["bg2.jpg"],
   },
   keywords: ['name generator', 'Name Idea Generator', 'Idea name generator ', ' name maker',
-    'Special name generator', 'fantasy name generator ', ' name generator fantasy', 'name crafter', 'common name generator'],
+    'Special name generator', 'fantasy name generator ', ' name generator fantasy', 'name crafter', 'common name generator',
+     ' name generators', ' Fantasy name generator ', ' dnd name generator',
+    'Sci-Fi name generator', 'Fictional name generator ', ' Historical name generator', 'Cultural name generator', 'Mythical name generator'],
 };
-
-
-const jsonLdData = {
-  "@context": "https://schema.org",
-  "@type": "Website",
-  name: "Name Idea Generator",
-  url: "https://www.nameideagenerator.com/",
-  description: "A platform for generating unique name ideas for characters, covering fantasy, cultural, and sci-fi categories.",
-  creator: {
-    "@type": "Person",
-    name: "Ali Shahzad"
-  },
-  mainEntity: {
-    "@type": "WebPage",
-    name: "Generate Unique Name Ideas",
-    url: "https://www.nameideagenerator.com/",
-    about: {
-      "@type": "Thing",
-      name: "Name Generators"
-    }
-  }
-};
-
-<Script type="application/ld+json" json={jsonLdData} />;
-
 
 export default function RootLayout({ children }) {
   return (
