@@ -1,19 +1,20 @@
 import ORCNameGenerator from "@/components/orc-name-generator/OrcNameGenerator"
+import Script from "next/script";
 
 export const metadata = {
-  title: 'Orc Name Generator | Random Orc Name Generator With Meaning',
-  description: "Forge fierce identities with our Orc Name Generator! Generate random orc names with meanings that reflect their strength and warrior spirit. Find the perfect name idea for your orc character quickly and easily.",
+  title: 'AI Orc Name Generator – Create Fierce & Powerful Orc Names Now',
+  description: "Use our AI Orc Name Generator to forge warrior-worthy names with deep meanings. Perfect for DnD, RPGs, and fantasy worlds. Generate unique orc names instantly—try it now!",
   
   openGraph: {
-    title: 'Orc Name Generator | Random Orc Name Generator With Meaning',
-    description: "Forge fierce identities with our Orc Name Generator! Generate random orc names with meanings that reflect their strength and warrior spirit. Find the perfect name idea for your orc character quickly and easily.",
+    title: 'AI Orc Name Generator – Create Fierce & Powerful Orc Names Now',
+    description: "Use our AI Orc Name Generator to forge warrior-worthy names with deep meanings. Perfect for DnD, RPGs, and fantasy worlds. Generate unique orc names instantly—try it now!",
     url: 'https://www.nameideagenerator.com/orc-name-generator',
     images: [
       {
         url: 'orc-name-generator.jpg',
         width: 800,
         height: 600,
-        alt: 'Orc Name Generator | Random Orc Name Generator With Meaning',
+        alt: 'AI Orc Name Generator – Create Fierce & Powerful Orc Names Now',
         type: 'image/jpg'  // Added twitter:image:type
       },
     ],
@@ -24,8 +25,8 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Orc Name Generator | Random Orc Name Generator With Meaning',
-    description: "Forge fierce identities with our Orc Name Generator! Generate random orc names with meanings that reflect their strength and warrior spirit. Find the perfect name idea for your orc character quickly and easily.",
+    title: 'AI Orc Name Generator – Create Fierce & Powerful Orc Names Now',
+    description: "Use our AI Orc Name Generator to forge warrior-worthy names with deep meanings. Perfect for DnD, RPGs, and fantasy worlds. Generate unique orc names instantly—try it now!",
     images: ['orc-name-generator.jpg'],
     type: 'image/jpg'  // Added twitter:image:type
   },
@@ -38,13 +39,62 @@ export const metadata = {
   },
 }
 
-
 const page = () => {
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Demon Name Generator",
+    "url": "https://www.nameideagenerator.com/orc-name-generator",
+    "description":
+      "Use our AI Orc Name Generator to forge warrior-worthy names with deep meanings. Perfect for DnD, RPGs, and fantasy worlds. Generate unique orc names instantly—try it now!",
+    "image": "https://www.nameideagenerator.com/orc-name-generator.jpg",
+    "keywords": [
+      "Orc Name Generator ",
+      "fantasy names",
+      "RPG names",
+      "half orc name generator",
+      "orc name generator skyrim",
+      "half-orc name generator",
+      "skyrim orc name generator",
+      "wow orc name generator",
+      "dnd orc name generator",
+      "orc name generator wow",
+      "orc name generator dnd",
+      "orc names generator",
+      "orc names",
+      "fucking orc names generator",
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.nameideagenerator.com/Logo.png",
+      },
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "Name Idea Generator",
+      "logo": "https://www.nameideagenerator.com/Logo.png",
+    },
+  };
+
   return (
     <div>
-        <ORCNameGenerator />
+      {/* Inject Optimized Schema Markup */}
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+      <ORCNameGenerator />
     </div>
-  )
-}
+  );
+};
 
 export default page
