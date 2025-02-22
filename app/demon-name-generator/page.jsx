@@ -49,6 +49,7 @@ const page = () => {
     "@type": "WebPage",
     "name": "Demon Name Generator",
     "url": "https://www.nameideagenerator.com/demon-name-generator",
+    "title": "AI Demon Name Generator – Create Dark & Powerful Names Instantly",
     "description":
       "Generate eerie, AI-powered demon names with deep meanings. Perfect for stories, games, and more. Try our advanced AI name generator now and summon the perfect name! What will your demon be called?",
     "image": "https://www.nameideagenerator.com/demonpic.jpg",

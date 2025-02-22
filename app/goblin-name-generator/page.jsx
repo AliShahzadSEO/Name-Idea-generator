@@ -6,7 +6,7 @@ export const metadata = {
   description: "Use our AI Goblin Name Generator to create random goblin names with deep meanings. Perfect for DnD, RPGs, and creative projects. Try it now and bring your goblin character to life!",
   
   openGraph: {
-    title: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+    title: 'AI Goblin Name Generator – Create Mischievous & Unique Names Now',
     description: "Use our AI Goblin Name Generator to create random goblin names with deep meanings. Perfect for DnD, RPGs, and creative projects. Try it now and bring your goblin character to life!",
     url: 'https://www.nameideagenerator.com/goblin-name-generator',
     images: [
@@ -14,7 +14,7 @@ export const metadata = {
         url: 'Goblin.jpg',
         width: 800,
         height: 600,
-        alt: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+        alt: 'AI Goblin Name Generator – Create Mischievous & Unique Names Now',
         type: 'image/jpg'  // Added twitter:image:type
       },
     ],
@@ -25,7 +25,7 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Goblin Name Generator | Random DnD Goblin Name With Meaning',
+    title: 'AI Goblin Name Generator – Create Mischievous & Unique Names Now',
     description: "Use our AI Goblin Name Generator to create random goblin names with deep meanings. Perfect for DnD, RPGs, and creative projects. Try it now and bring your goblin character to life!",
     images: ['Goblin.jpg'],
     type: 'image/jpg'  // Added twitter:image:type
@@ -45,6 +45,7 @@ const page = () => {
     "@type": "WebPage",
     "name": "Demon Name Generator",
     "url": "https://www.nameideagenerator.com/goblin-name-generator",
+    "title": "AI Goblin Name Generator – Create Mischievous & Unique Names Now",
     "description":
       "Use our AI Goblin Name Generator to create random goblin names with deep meanings. Perfect for DnD, RPGs, and creative projects. Try it now and bring your goblin character to life!",
     "image": "https://www.nameideagenerator.com/demonpic.jpg",

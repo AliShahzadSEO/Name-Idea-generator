@@ -45,6 +45,7 @@ const page = () => {
     "@type": "WebPage",
     "name": "Tiefling Name Generator",
     "url": "https://www.nameideagenerator.com/tiefling-name-generator",
+    "title": "AI Tiefling Name Generator – Create Fiery & Mysterious Names Now",
     "description":
       "Generate unique, AI-powered Tiefling names with deep meanings. Perfect for DnD, RPGs, and fantasy stories. Try it now and summon the perfect name instantly!",
     "image": "https://www.nameideagenerator.com/female.jpg",

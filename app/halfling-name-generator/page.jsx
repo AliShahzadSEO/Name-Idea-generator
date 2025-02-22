@@ -43,8 +43,9 @@ const page = () => {
   const schemaMarkup = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Demon Name Generator",
+    "name": "Halfling Name Generator",
     "url": "https://www.nameideagenerator.com/halfling-name-generator",
+    "title": "AI Halfling Name Generator – Create Charming DnD Halfling Names Now",
     "description":
       "Use our AI Halfling Name Generator to create unique Halfling names with deep meanings. Perfect for DnD, RPGs, and fantasy stories. Generate the perfect name instantly—try it now!",
     "image": "https://www.nameideagenerator.com/halfling.webp",
