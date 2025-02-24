@@ -1,19 +1,20 @@
 import IslandNameGenerator from "@/components/island-name-generator/Island-Name-Generator"
+import Script from "next/script";
 
 export const metadata = {
-  title: 'Island Name Generator | Random Island Name Generator With Meaning',
-  description: "Create the perfect name for your island with our Island Name Generator! Explore random island names with meanings that evoke mystery and adventure. Find the ideal name idea for your island in just a few clicks.",
+  title: 'AI Island Name Generator – Create Unique Island Names With Meaning',
+  description: "Use our AI Island Name Generator to discover island names with meaning that evoke mystery and adventure. Perfect for stories, maps, and world-building. Generate the perfect island name instantly—try it now for free!",
   
   openGraph: {
-    title: 'Island Name Generator | Random Island Name Generator With Meaning',
-    description: "Create the perfect name for your island with our Island Name Generator! Explore random island names with meanings that evoke mystery and adventure. Find the ideal name idea for your island in just a few clicks.",
+    title: 'AI Island Name Generator – Create Unique Island Names With Meaning',
+    description: "Use our AI Island Name Generator to discover island names with meaning that evoke mystery and adventure. Perfect for stories, maps, and world-building. Generate the perfect island name instantly—try it now for free!",
     url: 'https://www.nameideagenerator.com/island-name-generator',
     images: [
       {
-        url: 'horse.webp',
+        url: 'island1.jpg',
         width: 800,
         height: 600,
-        alt: 'Island Name Generator | Random Island Name Generator With Meaning | Name Idea Generator',
+        alt: 'AI Island Name Generator – Create Unique Island Names With Meaning',
         type: 'image/webp'  // Added twitter:image:type
       },
     ],
@@ -24,13 +25,13 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Island Name Generator | Random Island Name Generator With Meaning',
-    description: "Create the perfect name for your island with our Island Name Generator! Explore random island names with meanings that evoke mystery and adventure. Find the ideal name idea for your island in just a few clicks.",
-    images: ['horse.webp'],
+    title: 'AI Island Name Generator – Create Unique Island Names With Meaning',
+    description: "Use our AI Island Name Generator to discover island names with meaning that evoke mystery and adventure. Perfect for stories, maps, and world-building. Generate the perfect island name instantly—try it now for free!",
+    images: ['island1.jpg'],
     type: 'image/webp'  // Added twitter:image:type
   },
 
-  keywords: ['Horse name generator', 'animal crossing island name generator', 'acnh island name generator ', 'random island name generator',
+  keywords: ['island name generator', 'fantasy island names', 'acnh island name generator ', 'random island name generator',
      'island name generator animal crossing', 'fantasy island name generator ', 'island name generator fantasy', 'one piece island name generator', 'island name generator acnh'],
   robots:{index:true, follow: true},
   alternates:{
@@ -39,11 +40,59 @@ export const metadata = {
 }
 
 const page = () => {
-    return (
-      <div>
-          <IslandNameGenerator />
-      </div>
-    )
-  }
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Island Name Generator",
+    "url": "https://www.nameideagenerator.com/island-name-generator",
+    "title": "AI Island Name Generator – Create Unique Island Names With Meaning",
+    "description":
+      "Use our AI Island Name Generator to discover island names with meaning that evoke mystery and adventure. Perfect for stories, maps, and world-building. Generate the perfect island name instantly—try it now for free!",
+    "image": "https://www.nameideagenerator.com/island1.jpg",
+    "keywords": [
+      "island name generator",
+      "fantasy island names",
+      "acnh island name generator",
+      "random island name generator",
+      "island name generator animal crossing",
+      "fantasy island name generator",
+      "island name generator fantasy",
+      "one piece island name generator",
+      "island name generator acnh",
+      "island names generator",
+      "island names",
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.nameideagenerator.com/Logo.png",
+      },
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "Name Idea Generator",
+      "logo": "https://www.nameideagenerator.com/Logo.png",
+    },
+  };
+
+  return (
+    <div>
+      {/* Inject Optimized Schema Markup */}
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+      <IslandNameGenerator />
+    </div>
+  );
+};
   
   export default page
