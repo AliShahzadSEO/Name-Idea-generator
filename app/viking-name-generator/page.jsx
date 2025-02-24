@@ -55,6 +55,7 @@ const page = () => {
     "@type": "WebPage",
     "name": "Viking Name Generator",
     "url": "https://www.nameideagenerator.com/viking-name-generator",
+    "title": "Viking Name Generator | (Old Norse) Name Generator With Meaning",
     "description":
       "Generate unique Viking names with meanings using our Old Norse Name Generator. Ideal for characters, stories, and Viking-themed projects!",
     "image": "https://www.nameideagenerator.com/vikings.jpg",

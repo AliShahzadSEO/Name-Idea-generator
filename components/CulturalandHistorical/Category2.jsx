@@ -27,52 +27,52 @@ const Data = [
   },
   {
     name: "Celtic Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Roman Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Egyptian Elf Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Japanese Elf Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Native American Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Medieval Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "African Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Chinese Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Aztec Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Mayan Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
 ];

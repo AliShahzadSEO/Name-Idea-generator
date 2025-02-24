@@ -1,19 +1,20 @@
 import RussianNameGenerator from "@/components/russian-name-generator/Russian-Name-Generator"
+import Script from "next/script";
 
 export const metadata = {
-  title: 'Russian Name Generator | Random Russian Name Generator With Meaning',
-  description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
+  title: 'AI Russian Name Generator – Create Authentic Russian Names Instantly',
+  description: "Use our AI Russian Name Generator to create random Russian names with deep meanings. Perfect for characters, stories, and creative projects. Generate the perfect name now—try it for free!",
   
   openGraph: {
     title: 'Robot Name Generator | Random Robot Name Generator With Meaning',
-    description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
+    description: "Use our AI Russian Name Generator to create random Russian names with deep meanings. Perfect for characters, stories, and creative projects. Generate the perfect name now—try it for free!",
     url: 'https://www.nameideagenerator.com/russian-name-generator',
     images: [
       {
         url: 'Russian.webp',
         width: 800,
         height: 600,
-        alt: 'Russian Name Generator | Random Russian Name Generator With Meaning | Name Idea Generator',
+        alt: 'AI Russian Name Generator – Create Authentic Russian Names Instantly',
         type: 'image/webp'  // Added twitter:image:type
       },
     ],
@@ -24,8 +25,8 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Russian Name Generator | Random Russian Name Generator With Meaning',
-    description: "Create random Russian names with meanings using our Russian Name Generator. Ideal for characters, stories, and creative projects!",
+    title: 'AI Russian Name Generator – Create Authentic Russian Names Instantly',
+    description: "Use our AI Russian Name Generator to create random Russian names with deep meanings. Perfect for characters, stories, and creative projects. Generate the perfect name now—try it for free!",
     images: ['Russian.webp'],
     type: 'image/webp'  // Added twitter:image:type
   },
@@ -39,11 +40,62 @@ export const metadata = {
 }
 
 const page = () => {
-    return (
-      <div>
-        <RussianNameGenerator />
-      </div>
-    )
-  }
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "russian Name Generator",
+    "url": "https://www.nameideagenerator.com/russian-name-generator",
+    "title": "AI Russian Name Generator – Create Authentic Russian Names Instantly",
+    "description":
+      "Use our AI Russian Name Generator to create random Russian names with deep meanings. Perfect for characters, stories, and creative projects. Generate the perfect name now—try it for free!",
+    "image": "https://www.nameideagenerator.com/Russian.webp",
+    "keywords": [
+      "russian Name Generator",
+      "russian name generator male",
+      "russian name generator fantasy",
+      "random russian name generator",
+      "russian name generator female",
+      "russian name generator with meaning",
+      "english to russian name generator",
+      "female tiefling name generator",
+      "female russian name generator",
+      "old russian name generator",
+      "dnd russian name generator",
+      "fantasy russian name generator",
+      "biblical russian name generator",
+      "frost russian name generator",
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.nameideagenerator.com/Logo.png",
+      },
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "Name Idea Generator",
+      "logo": "https://www.nameideagenerator.com/Logo.png",
+    },
+  };
+
+  return (
+    <div>
+      {/* Inject Optimized Schema Markup */}
+      <Script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+      <RussianNameGenerator />
+    </div>
+  );
+};
   
   export default page

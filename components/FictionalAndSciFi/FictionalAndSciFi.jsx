@@ -48,47 +48,47 @@ const Data = [
   },
   {
     name: "Pirate Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Cowbody Elf Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Royalty Elf Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Adventurer American Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Fastasy Tavern Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Fantasy City Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Pet Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Ship Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
   {
     name: "Clan Name Generator",
-    pic: "/demonpic.jpg",
+    pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
   },
 ];
