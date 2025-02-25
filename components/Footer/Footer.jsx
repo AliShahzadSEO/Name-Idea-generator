@@ -77,6 +77,9 @@ const Footer = () => {
         <div className="sm:w-[25%]">
           <p className="text-2xl font-bold">Quick Links</p>
           <div className="mt-3 flex flex-col gap-2 text-sm text-gray-400">
+          <Link href="/blog">
+              <p className="hover:text-white cursor-pointer">Blogs</p>
+            </Link>
             <Link href="/about-us">
               <p className="hover:text-white cursor-pointer">About Us</p>
             </Link>

@@ -262,9 +262,11 @@ const HeroSection = ({ context, bgImage, blogcontent }) => {
                 </Link>
 
                 <div className="flex items-center">
+                <Link href={"/contact-us"} className="flex items-center">
                   <p className="hover:text-[#007bff] text-white font-medium text-[13px] cursor-pointer">
-                    Contact us
+                   Contact Us
                   </p>
+                </Link>
                 </div>
               </div>
             </div>
