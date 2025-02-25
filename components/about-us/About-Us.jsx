@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
 
- const context = "Name Idea Generator's About Us"
+ const context = "About Us"
 
 const AboutUs = () => {
 

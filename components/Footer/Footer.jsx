@@ -3,97 +3,98 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-[100%] border-t border-solid bg-black py-[40px] bg-overlay2"
-    style={{
-      backgroundImage: `url("/demonpic.jpg")`,
-      backgroundRepeat: "no-repeat",
-      backgroundPosition: "center",
-      backgroundSize: "cover",
-      backgroundAttachment: "fixed",
-    }}>
-      <div className="w-[90%] mx-auto flex sm:flex-row flex-col sm:justify-between gap-8">
-        {/* First section */}
+    <footer className="w-full border-t border-gray-700 bg-[#1f1f1f] py-12">
+      <div className="w-[90%] mx-auto flex flex-col sm:flex-row sm:justify-between gap-8 text-white">
+        
+        {/* First Section - Name Idea Generator */}
         <div className="sm:w-[25%]">
-          <div>
-          <Link href="https://www.nameideagenerator.com/">
-          <p className="text-[26px] font-bold text-white">Name Idea Generator</p>
-                  </Link>
-          </div>
-          <div className="py-[10px]">
-            <p className="font-semibold text-[14px] text-white">
-            The ultimate platform for writers, gamers, and creators looking to infuse authenticity and flair into their character development.
+          <Link href="/">
+            <p className="text-2xl font-bold hover:text-gray-400 cursor-pointer">
+              Name Idea Generator
             </p>
-            <div className="flex gap-2 py-[20px]">
-              <input
-                type="email"
-                placeholder="abc@gmail.com"
-                className="border border-solid rounded-[10px] px-[4px]"
-              />
-              <button className="bg-[#007bff] text-white hover:bg-[#1a4e86] p-[5px] text-[14px] rounded-[10px]">
-                SEND
-              </button>
-            </div>
-            {/* <div className=" flex gap-2">
-              <input type="checkbox" />
-              <span>
-                By checking this box, you are agreeing with the privacy policy.
-              </span>
-            </div> */}
+          </Link>
+          <p className="text-sm mt-3 text-gray-400">
+            Helping writers, gamers, and creators discover the perfect names
+            with creativity and authenticity.
+          </p>
+          <div className="mt-4">
+            <a
+              href="https://donate.stripe.com/test_5kA00Tgr72x41DW5kk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-red-500 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-red-600 transition duration-300"
+            >
+              DONATE
+            </a>
           </div>
         </div>
-        {/* Second section */}
-        <div className="sm:w-[25%]">
-          <div>
-            <p className="text-[26px] font-bold text-white">Support</p>
-          </div>
-          <div className="py-[10px]">
-            <p className="font-semibold text-[14px] text-white">
-              Enjoying my work and free to use content? You can support me with
-              donations. Thank you!
-            </p>
-            <br />
-          <a href="mailto:nameideag@gmail.com" className="font-semibold text-[14px] text-white">nameideag@gmail.com</a>
-            <div className="flex  py-[16px]">
-              <button className="bg-red-500 text-white p-[8px] rounded-[10px] text-[14px]">DONATE</button>
-            </div>
-          </div>
-        </div>
-        {/* Third section */}
-        <div className="sm:w-[25%]">
-        <div>
-            <p className="text-[26px] font-bold text-white">Categories</p>
-          </div>
-          <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
-          <Link href={"/categories/fantasy-and-mythical-creatures"}>
-            <p>Fantasy and Mythical</p>
-          </Link>
-          <Link href={"/categories/cultural-and-historical"}>
-            <p className="cursor-pointer">Cultural and Historical</p>
-          </Link>
-          <Link href={"/categories/fictional-and-scifi"}>
-            <p className="cursor-pointer">Fictional and Sci-Fi</p>
-          </Link>
 
-          </div>
-
-        </div>
+        {/* Second Section - Support */}
         <div className="sm:w-[25%]">
-        <p className="text-[26px] font-bold text-white">Quick Links</p>
-          
-          <div className="py-[10px] flex flex-col gap-2 text-[14px] font-semibold text-white">
-          <Link href={"/about-us"}>
-            <p>About Us</p>
-          </Link>
-          <Link href={"/privacy-policy"}>
-            <p className="cursor-pointer">Privacy Policy</p>
-          </Link>
-          <Link href={"/"}>
-            <p className="cursor-pointer">Contact Us</p>
-          </Link>
+          <p className="text-2xl font-bold">Support</p>
+          <p className="text-sm mt-3 text-gray-400">
+            Enjoying the platform? Support free content and development with a
+            donation.
+          </p>
+          <a
+            href="mailto:nameideag@gmail.com"
+            className="text-sm text-blue-400 mt-3 block hover:underline"
+          >
+            nameideag@gmail.com
+          </a>
+          <div className="mt-4">
+            <Link href="/contact">
+              <p className="text-sm font-semibold text-gray-300 hover:text-blue-400 cursor-pointer">
+                Get in Touch
+              </p>
+            </Link>
+          </div>
+        </div>
+
+        {/* Third Section - Categories */}
+        <div className="sm:w-[25%]">
+          <p className="text-2xl font-bold">Categories</p>
+          <div className="mt-3 flex flex-col gap-2 text-sm text-gray-400">
+            <Link href="/categories/fantasy-and-mythical-creatures">
+              <p className="hover:text-white cursor-pointer">
+                Fantasy and Mythical
+              </p>
+            </Link>
+            <Link href="/categories/cultural-and-historical">
+              <p className="hover:text-white cursor-pointer">
+                Cultural and Historical
+              </p>
+            </Link>
+            <Link href="/categories/fictional-and-scifi">
+              <p className="hover:text-white cursor-pointer">
+                Fictional and Sci-Fi
+              </p>
+            </Link>
+          </div>
+        </div>
+
+        {/* Fourth Section - Quick Links */}
+        <div className="sm:w-[25%]">
+          <p className="text-2xl font-bold">Quick Links</p>
+          <div className="mt-3 flex flex-col gap-2 text-sm text-gray-400">
+            <Link href="/about-us">
+              <p className="hover:text-white cursor-pointer">About Us</p>
+            </Link>
+            <Link href="/privacy-policy">
+              <p className="hover:text-white cursor-pointer">Privacy Policy</p>
+            </Link>
+            <Link href="/contact-us">
+              <p className="hover:text-white cursor-pointer">Contact Us</p>
+            </Link>
           </div>
         </div>
       </div>
-    </div>
+
+      {/* Bottom Footer */}
+      <div className="text-center text-sm text-gray-500 mt-10">
+        <p>&copy; {new Date().getFullYear()} Name Idea Generator. All rights reserved.</p>
+      </div>
+    </footer>
   );
 };
 
