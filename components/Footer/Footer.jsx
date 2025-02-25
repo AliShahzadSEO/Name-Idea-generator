@@ -43,7 +43,7 @@ const Footer = () => {
             nameideag@gmail.com
           </a>
           <div className="mt-4">
-            <Link href="/contact">
+            <Link href="/contact-us">
               <p className="text-sm font-semibold text-gray-300 hover:text-blue-400 cursor-pointer">
                 Get in Touch
               </p>
