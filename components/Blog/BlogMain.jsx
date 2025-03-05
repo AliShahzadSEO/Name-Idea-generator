@@ -27,7 +27,6 @@ const BlogMain = () => {
               url
             }
             heading
-            metaTile
             metaDescription
           }
         }
@@ -97,6 +96,7 @@ const BlogMain = () => {
     fetchAllCate();
   }, []);
   console.log(allCategory);
+  console.log(data)
 
   return (
     <div>
@@ -108,7 +108,7 @@ const BlogMain = () => {
           <div className="text-xl font-semibold">Categories:</div>
           {allCategory.map((val, index) => (
             <Link
-              href={`/blog/category/${val.node.name}`}
+              href={`/blog/category/${val.node.slug}`}
               key={index}
               className="px-2 "
             >

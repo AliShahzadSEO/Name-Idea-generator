@@ -25,7 +25,6 @@ const DynamicBlog = ({ slug }) => {
       blogs {
         slug
         heading
-        metaTile
         metaDescription
           coverImage {
             url
@@ -36,7 +35,6 @@ const DynamicBlog = ({ slug }) => {
       url
     }
     heading
-    metaTile
     content {
       html
     }
