@@ -67,6 +67,8 @@ const DynamicBlog = ({ slug }) => {
 
     fetchHygraphData();
   }, []);
+
+
   // console.log(cateData);
   console.log(data);
 
@@ -79,20 +81,20 @@ const DynamicBlog = ({ slug }) => {
       <HeroSection
         context={data[0]?.heading}
         bgImage={data[0]?.coverImage.url}
-        blogcontent={`${data[0].categories.map(
-          (value, index) => value.name
-        )} `}
+        // blogcontent={`${data[0].categories.map(
+        //   (value, index) => value.name
+        // )} `}
       />
       <div className="py-4 w-[85%] mx-auto">
         {/* <div className="text-3xl pb-4">{slug}</div> */}
         <div className="flex items-center gap-2 mb-4">
           <span className="font-semibold text-xl">Categories:</span>
           {data[0].categories.map((value, index) => (
-            <>
-              <div className="bg-slate-200 px-2 rounded-full" key={index}>
+            <Link href={`/blog/category/${value.slug}`} key={index}>
+              <div className="bg-slate-200 px-2 rounded-full" >
                 {value.name}
               </div>
-            </>
+            </Link>
           ))}
         </div>
         <div
@@ -103,12 +105,10 @@ const DynamicBlog = ({ slug }) => {
           Related Blogs
         </div>
 
-        {data[0].categories.map((value, index) => (
           <div
-            key={index}
             className="grid grid-cols-1 md:grid-cols-3 gap-5 my-2"
           >
-            {value.blogs.slice(0,3).map((val, ind) => (
+            {data[0].categories[0].blogs.slice(0,3).map((val, ind) => (
               <Link
                 href={`/blog/${val.slug}`}
                 className="py-2 flex flex-col shadow-md p-2 rounded-lg hover:scale-105 duration-300"
@@ -133,7 +133,6 @@ const DynamicBlog = ({ slug }) => {
               </Link>
             ))}
           </div>
-        ))}
       </div>
       <Footer />
     </>

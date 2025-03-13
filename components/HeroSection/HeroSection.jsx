@@ -343,11 +343,11 @@ const HeroSection = ({ context, bgImage, blogcontent }) => {
             infuse authenticity and flair into their character development.
           </p>
         )}
-        {isBlogPage && !isBlogCatery&& <Link
+        {/* {isBlogPage && !isBlogCatery&& <Link
        href={`/blog/category/${blogcontent}`}
       ><p className="text-white text-[20px]">Category: {blogcontent}</p>
       </Link>
-      }
+      } */}
       </div>
     
 
