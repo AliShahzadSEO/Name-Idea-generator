@@ -535,7 +535,7 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
           <path d="M10 19l7-7-7-7"></path>
         </svg>
       <li className="flex items-center">
-        <a href="/halfing-name-generator" className="hover:underline text-[#343a40]">Halfing Name Generator</a>
+        <a href="/halfling-name-generator" className="hover:underline text-[#343a40]">Halfing Name Generator</a>
       </li>
     </ol>
   </nav>

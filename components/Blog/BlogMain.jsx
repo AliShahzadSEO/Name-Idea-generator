@@ -9,6 +9,7 @@ const BlogMain = () => {
   const context = "Blogs";
   const [data, setData] = useState([]);
   const [allCategory, setAllCategory] = useState([]);
+  console.log('Blogs are',data);
 
   useEffect(() => {
     const fetchHygraphData = async () => {
@@ -108,7 +109,7 @@ const BlogMain = () => {
           <div className="text-xl font-semibold">Categories:</div>
           {allCategory.map((val, index) => (
             <Link
-              href={`/blog/category/${val.node.name}`}
+              href={`/blog/category/${val.node.slug}`}
               key={index}
               className="px-2 "
             >
@@ -137,7 +138,7 @@ const BlogMain = () => {
                 <p className="pt-2 text-sm">
                   {val.metaDescription.split(" ").length > 9
                     ? val.metaDescription.split(" ").slice(0, 9).join(" ") +
-                      "..."
+                    "..."
                     : val.metaDescription}
                 </p>
               </Link>
