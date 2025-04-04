@@ -28,7 +28,6 @@ const BlogMain = () => {
               url
             }
             heading
-            metaTile
             metaDescription
           }
         }
@@ -98,6 +97,7 @@ const BlogMain = () => {
     fetchAllCate();
   }, []);
   console.log(allCategory);
+  console.log(data)
 
   return (
     <div>
