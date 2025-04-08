@@ -18,7 +18,7 @@ const DynamicBlog = ({ slug }) => {
       const query = `
          query {
   blog(where: { slug: "${slug}" }) {
-    slug
+     slug
     categories {
       name
       slug
@@ -39,6 +39,9 @@ const DynamicBlog = ({ slug }) => {
       html
     }
     metaDescription
+    metaTitle
+    schemaMarkup
+    
   }
 }`;
 
@@ -52,7 +55,6 @@ const DynamicBlog = ({ slug }) => {
         });
 
         const result = await response.json();
-        // console.log(result.data); // Check the structure here
 
         if (result.data && result.data.blog) {
           setData(result.data.blog);
@@ -69,8 +71,7 @@ const DynamicBlog = ({ slug }) => {
   }, []);
 
 
-  // console.log(cateData);
-  console.log(data);
+
 
   if (loading) {
     return <div>Loading...</div>;

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const Breadcrumbs = ({ className }) => {
   const pathName = usePathname();
   const pathArr = pathName.split("/").filter((path) => path);
-  // console.log(pathArr);
+  
 
   return (
     <div className={`flex items-center ${className}`}>

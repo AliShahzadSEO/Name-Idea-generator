@@ -47,7 +47,7 @@ const DynamicCategory = ({ slug }) => {
       });
 
       const result = await response.json();
-      console.log(result)
+    
 
       if (result.data && result.data.categories) {
         setCategoryName(result.data.categories.name);

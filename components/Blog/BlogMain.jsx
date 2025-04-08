@@ -9,7 +9,7 @@ const BlogMain = () => {
   const context = "Blogs";
   const [data, setData] = useState([]);
   const [allCategory, setAllCategory] = useState([]);
-  console.log('Blogs are',data);
+
 
   useEffect(() => {
     const fetchHygraphData = async () => {
@@ -43,7 +43,6 @@ const BlogMain = () => {
         });
 
         const result = await response.json();
-        console.log(result.data); // Check the structure here
 
         if (result.data && result.data.blog) {
           setData(result.data.blog); // Set the correct nested data
@@ -82,7 +81,6 @@ const BlogMain = () => {
         });
 
         const result = await response.json();
-        console.log(result); // Check the structure here
 
         if (result.data && result.data.categoryConnection) {
           setAllCategory(result.data.categoryConnection.edges); // Set the correct nested data
@@ -96,8 +94,6 @@ const BlogMain = () => {
 
     fetchAllCate();
   }, []);
-  console.log(allCategory);
-  console.log(data)
 
   return (
     <div>

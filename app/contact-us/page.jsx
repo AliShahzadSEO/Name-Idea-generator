@@ -88,7 +88,7 @@ const page = () => {
       <div>
         {/* Inject Optimized Schema Markup */}
         <Script
-          type="application/ld+json"
+          type="application/ld+json"l
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
         />
         <ContactUs />

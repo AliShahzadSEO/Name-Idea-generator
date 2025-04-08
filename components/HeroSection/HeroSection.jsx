@@ -53,7 +53,6 @@ const HeroSection = ({ context, bgImage, blogcontent }) => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []); // Run only once on component mount
-  // console.log(scrollY);
   useEffect(() => {
     // Finding();
     // ScrollUpFunction();

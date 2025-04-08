@@ -5,7 +5,7 @@ const useCategoryName = (slug: string) => {
   const [categoryName, setCategoryName] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  console.log(slug)
+  
 
   useEffect(() => {
     if (!slug) return;
