@@ -3,41 +3,42 @@ import DynamicBlog from "../../../components/Blog/DynamicBlog";
 
 export async function generateMetadata({ params }) {
   const slug = params.slug;
-  
   const fetchHygraphData = async () => {
-    const endpoint = "https://ap-south-1.cdn.hygraph.com/content/cm5gp1k6r008v07uljwcl0fg0/master";
+    const endpoint =
+      "https://ap-south-1.cdn.hygraph.com/content/cm5gp1k6r008v07uljwcl0fg0/master";
 
     const query = `
-      query GetBlogPost($slug: String!) {
-        blog(where: { slug: $slug }) {
-          slug
-          keywordsforblogs {
-            keyword
-          }
-          categories {
-            name
-            slug
-            blogs {
-              slug
-              heading
-              metaDescription
-              coverImage {
-                url
-              }
-            }
-          }
-          coverImage {
-            url
-          }
-          heading
-          content {
-            html
-          }
-          metaDescription
-          metaTitle
-          schemaMarkup
+       query {
+blog(where: { slug: "${slug}" }) {
+   slug
+   keywordsforblogs{
+      keyword
+    }
+  categories {
+    name
+    slug
+    blogs {
+      slug
+      heading
+      metaDescription
+        coverImage {
+          url
         }
-      }`;
+    }
+  }
+  coverImage {
+    url
+  }
+  heading
+  content {
+    html
+  }
+  metaDescription
+  metaTitle
+  schemaMarkup
+  
+}
+}`;
 
     try {
       const response = await fetch(endpoint, {
@@ -45,52 +46,45 @@ export async function generateMetadata({ params }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          query,
-          variables: { slug }
-        }),
+        body: JSON.stringify({ query }),
       });
 
       const result = await response.json();
 
-      if (result.errors) {
-        console.error("GraphQL Errors:", result.errors);
-        return null;
-      }
+      if (result.data && result.data.blog) {
+        console.log(result.data.blog[0].metaTitle)
+        return result.data.blog
 
-      return result.data?.blog || null;
+      } else {
+        console.error("Unexpected data structure:", result);
+      }
     } catch (error) {
       console.error("Error fetching data:", error);
-      return null;
     }
   };
-
-  const blogData = await fetchHygraphData();
+  const data = await fetchHygraphData()
   
-  if (!blogData) {
-    return {
-      title: "Blog Post",
-      description: "Read our latest blog post.",
-    };
-  }
-
   return {
-    title: blogData.metaTitle || blogData.heading || "Blog Post",
-    description: blogData.metaDescription || "Read our latest blog post.",
+    title: data?.[0]?.metaTitle || "Blog",
+    description: data?.[0]?.metaDescription || "Read our latest blog post.",
     openGraph: {
-      title: blogData.metaTitle || blogData.heading,
-      description: blogData.metaDescription,
-      images: blogData.coverImage?.url ? [{ url: blogData.coverImage.url }] : [],
+      title: data?.[0]?.metaTitle,
+      description: data?.[0]?.metaDescription,
     },
     alternates: {
       canonical: `https://www.nameideagenerator.com/blog/${slug}`,
     },
-    keywords: blogData.keywordsforblogs?.map(k => k.keyword) || [],
+    keywords: [""],
   };
 }
 
+
+
 const Page = async ({ params }) => {
-  return <DynamicBlog slug={params.slug} />;
+  const slug = params.slug;
+
+  return <DynamicBlog slug={slug} />;
 };
 
 export default Page;
+
