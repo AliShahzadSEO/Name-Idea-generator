@@ -65,8 +65,8 @@ blog(where: { slug: "${slug}" }) {
   const data = await fetchHygraphData()
   
   return {
-    title: data?.[0]?.metaTitle || "Blog",
-    description: data?.[0]?.metaDescription || "Read our latest blog post.",
+    title: data[0].metaTitle || "Blog",
+    description: data[0].metaDescription || "Read our latest blog post.",
     openGraph: {
       title: data?.[0]?.metaTitle,
       description: data?.[0]?.metaDescription,
@@ -80,67 +80,6 @@ blog(where: { slug: "${slug}" }) {
 
 
 
-// export async function generateMetadata({ params }) {
-//   const slug = params.slug;
-
-//   const query = `
-//     query {
-//       blog(where: { slug: "${slug}" }) {
-//         slug
-//         metaTitle
-//         metaDescription
-//         keywordsforblogs {
-//           keyword
-//         }
-//       }
-//     }
-//   `;
-
-//   try {
-//     const response = await fetch("https://ap-south-1.cdn.hygraph.com/content/cm5gp1k6r008v07uljwcl0fg0/master", {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//       body: JSON.stringify({ query }),
-//       next: { revalidate: 60 }, // optional: for ISR
-//     });
-
-//     const result = await response.json();
-//     const blog = result?.data?.blog;
-
-//     if (!blog) {
-//       return {
-//         title: "Blog",
-//         description: "Read our latest blog post.",
-//       };
-//     }
-
-//     const keywords = blog.keywordsforblogs?.map((k) => k.keyword) || [];
-
-//     return {
-//       title: blog.metaTitle || "Blog",
-//       description: blog.metaDescription || "Read our latest blog post.",
-//       openGraph: {
-//         title: blog.metaTitle,
-//         description: blog.metaDescription,
-//       },
-//       alternates: {
-//         canonical: `https://www.nameideagenerator.com/blog/${slug}`,
-//       },
-//       keywords,
-//     };
-//   } catch (error) {
-//     console.error("Error in generateMetadata:", error);
-//     return {
-//       title: "Blog",
-//       description: "Read our latest blog post.",
-//     };
-//   }
-// }
-git 
-
-// Main page component
 const Page = async ({ params }) => {
   const slug = params.slug;
 
