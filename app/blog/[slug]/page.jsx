@@ -65,8 +65,8 @@ blog(where: { slug: "${slug}" }) {
   const data = await fetchHygraphData()
   
   return {
-    title: data[0].metaTitle || "Blog",
-    description: data[0].metaDescription || "Read our latest blog post.",
+    title: data?.[0]?.metaTitle || "Blog",
+    description: data?.[0]?.metaDescription || "Read our latest blog post.",
     openGraph: {
       title: data?.[0]?.metaTitle,
       description: data?.[0]?.metaDescription,
