@@ -794,14 +794,14 @@ const DemonNameGenerator = () => {
   
 const bgImage = "/demonpic.jpg"
 const context = "Demon Name Generator"
-const Q1 = "What is a demon name generator?"
-const A1 = "Our Demon Name Generator is an online tool designed to create unique and creative names inspired by mythological characters and fantasy elements. It serves as a valuable resource for creative writing, role-playing games, and other imaginative projects."
-const Q2 = "How does a demon name generator work?"
-const A2 = "Our tool uses advanced algorithms to combine various linguistic elements, prefixes, and suffixes to produce names with a demonic or otherworldly feel. It can also incorporate user inputs, such as themes and specific characteristics, to tailor the names to your needs."
-const Q3 = "Does the demon name generator produce unique names?"
-const A3 = "Yes, our generator is designed to create unique and original names. It utilizes a comprehensive database and sophisticated algorithms to ensure the names are distinct and fitting for your creative projects."
-const Q4 = "Why would I use this online demon name generator?"
-const A4 = "Our tool is ideal for writers needing distinctive character names, game developers creating unique NPC names, and tabletop gamers designing new characters. It is also perfect for anyone interested in generating captivating names for various creative purposes."
+const Q1 = "Can I use the Demon Name Generator for other types of creatures?"
+const A1 = "Yes! You can use the names for any supernatural or fantasy creatures, not just demons, in your stories or games."
+const Q2 = "How do I know if the demon name fits my character?"
+const A2 = "You can refine the results by adjusting the demon’s type and gender to better match their personality and role, which makes it easier to find the perfect fit."
+const Q3 = "Will the generator provide names with meanings?"
+const A3 = "Yes! When you hover over the generated names, you’ll see their meanings and origins, which help you understand the significance behind each name."
+const Q4 = "Can I generate names for both male and female demons?"
+const A4 = "Yes! The generator allows you to select a gender, and it will suggest names that match your choice. Male, female, or neutral."
 const Q5 = "Can a demon name generator inspire character development?"
 const A5 = "Yes, our Demon Name Generator can spark inspiration for character development. It helps set the foundation for creating detailed and intriguing characters by providing names that align with your story or game's setting and themes."
   return (
@@ -911,23 +911,20 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       >
         <div className="w-[80%] mx-auto pb-[20px]">
           <div className="py-[50px]">
-            <p className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-              About Us
-            </p>
+            <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
+            About Us
+            </h2>
             <hr />
             <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-            Our Demon Name Generator offers a simple solution for finding powerful names for your creative projects. 
-            If you’re crafting a fantasy story or searching for a unique gaming username, this tool helps you find the perfect fit. 
+            Our Demon Name Generator offers a simple solution for finding powerful names for your creative projects. If you’re crafting a fantasy story or searching for a unique gaming username, this tool helps you find the perfect fit. 
             It is specially designed to provide names that resonate with your vision and set the right tone for your work.
             </p>
-            <p className="text-center py-[10px] text-[#343a40]">
-            Our demon names generator tool generates a variety of names that inspire imagination. 
-            You can easily explore a list of options that align with your creative needs. 
+            <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
+            Our demon names generator tool generates a variety of names that inspire imagination. You can easily explore a list of options that align with your creative needs. 
             The process is straightforward and requires only a few details to produce names that capture the essence of your desired alter ego.
             </p>
-            <p className="text-center py-[10px] text-[#343a40]">
-            This female demon names generator is intuitive, free, and accessible to all users. 
-            You can start creating names that elevate your projects without any hassle. 
+            <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
+            This female demon names generator is intuitive, free, and accessible to all users. You can start creating names that elevate your projects without any hassle. 
             Unlock the power of names today and see how they can enhance your creative journey with our male demon names generator.
             </p>
           </div>
@@ -936,7 +933,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
-            How to use Demon Name Generator?
+          How to use Demon Name Generator?
           </h2>
           <p className="sm:text-[16px] text-[16px] text-center">
           Let’s show you how to use our online devil name generator to follow some simple steps.
