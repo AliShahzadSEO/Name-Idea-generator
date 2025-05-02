@@ -961,6 +961,22 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
           It’s quick, it’s easy, and you’ll have your demon’s perfect name ready in no time.
         </p>
       </div>
+      <div>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842"
+     crossorigin="anonymous"></Script>
+
+<ins
+  className="adsbygoogle"
+  style={{ display: 'block' }}
+  data-ad-client="ca-pub-1797994018929842"
+  data-ad-slot="5439217831"
+  data-ad-format="auto"
+  data-full-width-responsive="true"
+/>
+<Script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</Script>
+      </div>
     </div>
 
     {/* Right Ad Section */}

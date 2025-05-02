@@ -790,7 +790,7 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
     </div>
 
 
-    <div class="w-[100%] bg-white">
+<div class="w-[100%] bg-[#f1f1f1]">
   <div class="flex justify-between w-full">
     <div class="w-[15%] bg-[#f1f1f1] h-[100vh] hidden sm:block">
     <div className="w-[15%] bg-[#f1f1f1] h-[100vh] hidden sm:block rounded-l-lg">
