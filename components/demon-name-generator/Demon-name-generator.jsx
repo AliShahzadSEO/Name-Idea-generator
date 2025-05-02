@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import FAQSection from "../FAQSection/FAQSection";
 import Footer from "../Footer/Footer";
 import HeroSection from "../HeroSection/HeroSection";
+import Script from 'next/script';
 const demonNames = [
   {
     name: "Azaroth",
@@ -866,6 +867,22 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
               <option value="earth">Earth</option>
             </select>
           </div>
+          <div>
+          <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842"
+     crossorigin="anonymous"></Script>
+
+<ins
+  className="adsbygoogle"
+  style={{ display: 'block' }}
+  data-ad-client="ca-pub-1797994018929842"
+  data-ad-slot="5439217831"
+  data-ad-format="auto"
+  data-full-width-responsive="true"
+/>
+<Script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</Script>
+          </div>
           <div className="flex justify-center items-center py-[30px]">
             <button
               className="text-white p-[10px] bg-[#17A2B8] transition-colors duration-300 hover:bg-[#56baca] rounded-[5px] text-[22px]"
@@ -905,32 +922,68 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       <div className="w-[80%] text-center mx-auto py-[20px] mb-[16px] mt-[30px] border border-solid shadow-lg text-[20px] font-semibold">
         {Description}
       </div>
-      <div
-        className="w-[100%] bg-white"
-        // style={{ backgroundColor: "rgb(23 ,162 ,184, 0.6)" }}
-      >
-        <div className="w-[80%] mx-auto pb-[20px]">
-          <div className="py-[50px]">
-            <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-            Generate Demon Names In a Click
-            </h2>
-            <hr />
-            <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-            It doesn’t really need to be a struggle to find the right name for your demon character. 
-            Our Demon Name Generator offers a fast, efficient solution to your naming needs. 
-            Choose from different demon types like demon lords, imps, or fallen angels, and select a gender to customize your results. 
-            In just one click, you’ll get a fresh list of names that fit your character’s role and personality. 
-            Need something fierce and commanding or subtle and devious? Our tool provides names that bring your demon to life.
-            </p>
-            <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-            The best part? You don’t need to sift through endless lists of names or overthink the process. 
-            Simply hit <b> "Generate,"</b> and instantly get powerful names with deep, infernal meanings. 
-            The tool even allows you to hover over each name for its meaning, which gives you insight into its dark origins. 
-            It’s quick, it’s easy, and you’ll have your demon’s perfect name ready in no time.
-            </p>
-          </div>
-        </div>
+      <div className="w-[100%] bg-white rounded-lg">
+  <div className="flex justify-between w-full">
+    {/* Left Ad Section */}
+    <div className="w-[15%] bg-[#f1f1f1] h-[100vh] hidden sm:block rounded-l-lg">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842" crossOrigin="anonymous"></script>
+
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-1797994018929842"
+        data-ad-slot="3517655713"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <div className="w-[80%] mx-auto pb-[20px] rounded-lg">
+      <div className="py-[50px]">
+        <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
+          Generate Demon Names In a Click
+        </h2>
+        <hr />
+        <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
+          It doesn’t really need to be a struggle to find the right name for your demon character. 
+          Our Demon Name Generator offers a fast, efficient solution to your naming needs. 
+          Choose from different demon types like demon lords, imps, or fallen angels, and select a gender to customize your results. 
+          In just one click, you’ll get a fresh list of names that fit your character’s role and personality. 
+          Need something fierce and commanding or subtle and devious? Our tool provides names that bring your demon to life.
+        </p>
+        <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
+          The best part? You don’t need to sift through endless lists of names or overthink the process. 
+          Simply hit <b> "Generate,"</b> and instantly get powerful names with deep, infernal meanings. 
+          The tool even allows you to hover over each name for its meaning, which gives you insight into its dark origins. 
+          It’s quick, it’s easy, and you’ll have your demon’s perfect name ready in no time.
+        </p>
       </div>
+    </div>
+
+    {/* Right Ad Section */}
+    <div className="w-[15%] bg-[#f1f1f1] h-[100vh] hidden sm:block rounded-r-lg">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842" crossOrigin="anonymous"></script>
+
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client="ca-pub-1797994018929842"
+        data-ad-slot="5680784626"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+
+
+
       <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
@@ -1216,28 +1269,29 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
     </div>
 
     {/* Demon Names in Mythology */}
-    <div className="flex flex-row gap-6">
-  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[30%]">
+    <div className="flex flex-wrap gap-6 justify-center">
+  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[48%] md:w-[30%]">
     <h3 className="text-[20px] font-semibold mb-2">Lucifer</h3>
     <p className="text-[16px]">
       The fallen angel, Lucifer symbolizes rebellion and pride. Once a high-ranking angel, he defied God and became the ruler of Hell in many religious traditions.
     </p>
   </div>
 
-  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[30%]">
+  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[48%] md:w-[30%]">
     <h3 className="text-[20px] font-semibold mb-2">Beelzebub</h3>
     <p className="text-[16px]">
       Known as the “Lord of the Flies,” Beelzebub is a powerful demon in Christian and Jewish demonology, associated with gluttony, corruption, and the prince of Hell.
     </p>
   </div>
 
-  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[30%]">
+  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[48%] md:w-[30%]">
     <h3 className="text-[20px] font-semibold mb-2">Asmodeus</h3>
     <p className="text-[16px]">
       The demon of lust, greed, and wrath, Asmodeus is a significant figure in Jewish lore, often depicted as a corrupting force on human desires.
     </p>
   </div>
 </div>
+
 
 
     {/* Demon Names in Pop Culture */}
