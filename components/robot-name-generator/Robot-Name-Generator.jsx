@@ -792,10 +792,12 @@ const RobotNameGenerator = () => {
                         </p>
                     </div>
                     <div>
-                        <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
-                            Request
-                        </button>
-                    </div>
+          <a href="https://www.nameideagenerator.com/contact-us" target="_blank" rel="noopener noreferrer">
+            <button className="bg-white text-black text-[20px] px-[40px] py-[8px] rounded-[10px] font-semibold">
+                Request
+            </button>
+           </a>
+        </div>
                 </motion.div>
             </div>
 

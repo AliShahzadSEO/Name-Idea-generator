@@ -890,10 +890,12 @@ Try our Half-Elf Name Generator today to explore its advanced features and find 
                         </p>
                     </div>
                     <div>
-                        <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
-                            Request
-                        </button>
-                    </div>
+          <a href="https://www.nameideagenerator.com/contact-us" target="_blank" rel="noopener noreferrer">
+            <button className="bg-white text-black text-[20px] px-[40px] py-[8px] rounded-[10px] font-semibold">
+                Request
+            </button>
+           </a>
+        </div>
                 </motion.div>
             </div>
             <FAQSection Q1={Q1} A1={A1} Q2={Q2} A2={A2} Q3={Q3} A3={A3} Q4={Q4} A4={A4} Q5={Q5} A5={A5}/>
