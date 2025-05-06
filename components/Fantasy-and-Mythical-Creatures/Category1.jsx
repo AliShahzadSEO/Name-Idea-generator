@@ -60,7 +60,31 @@ const Data = [
     pic: "/drowname.webp",
     link: "/drow-name-generator",
   },
-  
+  {
+    name: "Wizard Name Generator",
+    pic: "/wizards-wizard-name-ideas.webp",
+    link: "/wizard-name-generator",
+  },
+  {
+    name: "Vampire Name Generator",
+    pic: "/vampire-name-generator.jpg",
+    link: "/vampire-name-generator",
+  },
+  {
+    name: "Ship Name Generator",
+    pic: "/An-ornate-ship-with-mystical-symbols.jpg",
+    link: "/ship-name-generator",
+  },
+  {
+    name: "Kingdom Name Generator",
+    pic: "/kingdom-name-generator.jpeg",
+    link: "/kingdom-name-generator",
+  },
+  {
+    name: "Guild Name Generator",
+    pic: "/guild-name-generator.jpg",
+    link: "/guild-name-generator",
+  },
 ];
 
 const Category1 = () => {

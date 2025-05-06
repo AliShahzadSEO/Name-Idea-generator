@@ -48,8 +48,8 @@ const Data = [
   },
   {
     name: "Pirate Name Generator",
-    pic: "/coming-soon-name-idea-generator.jpeg",
-    link: "",
+    pic: "/pirate-name-generator.avif",
+    link: "/pirate-name-generator",
   },
   {
     name: "Cowbody Elf Name Generator",

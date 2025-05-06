@@ -324,7 +324,6 @@ function getRandomDemon(gender, type, demonNames) {
       setLockedDemonList(newLockedList);
     };
   
-const bgImage = "/vampire-name-generator.jpg"
 const context = "Vampire Name Generator With Meaning"
 const Q1 = "What makes a good vampire name?"
 const A1 = "A good vampire name reflects mystery, power, and elegance. It often connects to folklore, gothic themes, or historical references to create an intriguing presence."

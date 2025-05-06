@@ -26,6 +26,16 @@ const Data = [
     link: "/norse-name-generator",
   },
   {
+    name: "Koren Name Generator",
+    pic: "/korean.webp",
+    link: "/korean-name-generator",
+  },
+  {
+    name: "French Name Generator",
+    pic: "/french-name-generator.avif",
+    link: "/french-name-generator",
+  },
+  {
     name: "Celtic Name Generator",
     pic: "/coming-soon-name-idea-generator.jpeg",
     link: "",
@@ -52,8 +62,8 @@ const Data = [
   },
   {
     name: "Medieval Name Generator",
-    pic: "/coming-soon-name-idea-generator.jpeg",
-    link: "",
+    pic: "/dark-fantasy-character-Medieval-Names.avif",
+    link: "medieval-name-generator",
   },
   {
     name: "African Name Generator",
@@ -62,8 +72,8 @@ const Data = [
   },
   {
     name: "Chinese Name Generator",
-    pic: "/coming-soon-name-idea-generator.jpeg",
-    link: "",
+    pic: "/chinese-name-generator.jpg",
+    link: "/chinese-name-generator",
   },
   {
     name: "Aztec Name Generator",
