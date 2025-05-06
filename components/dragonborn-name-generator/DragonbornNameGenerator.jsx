@@ -1645,16 +1645,16 @@ const DragonbornNameGenerator = () => {
   
 const bgImage = "/bg-dragonborn.webp"
 const context = "Dragonborn Name Generator"
-const Q1 = "Is the Dragonborn Name Generator free to use?"
-const A1 = "Yes, our tool has a basic version which is free to use. You can access all essential features without any cost. Use it unlimitedly without any fear of its cost."
-const Q2 = "Can I save the names generated?"
-const A2 = "Yes, you can save the generated names on this site. This feature allows you to keep track of your favorite names for future use."
-const Q3 = "How unique are the names generated?"
-const A3 = "Our tool uses advanced algorithms to produce names that are unique and well-suited for Dragonborn characters. Each name is designed to stand out."
-const Q4 = "Is my data safe when using the generator?"
-const A4 = "Yes, we use robust encryption technology to protect your data. Your inputs and preferences remain secure and confidential."
-const Q5 = "Can I generate names for other fantasy races?"
-const A5 = "Currently, the tool specializes in Dragonborn names. We are exploring options to include names for other fantasy races in the future."
+const Q1 = "Can I use the Dragonborn Name Generator for other fantasy races?"
+const A1 = "Yes! While it's made for dragonborn, the names also work well for other strong, honor-bound fantasy characters."
+const Q2 = "Do the names follow official D&D naming rules?"
+const A2 = "The names are inspired by D&D naming conventions, which include clan-based traditions and draconic sounds, but they’re flexible for any setting."
+const Q3 = "Can I choose between male, female, or neutral names?"
+const A3 = "Absolutely! You can select the gender that fits your character, and our name generator will provide names with that tone and style."
+const Q4 = "Are there meanings behind the names?"
+const A4 = "Yes! Hover over any name to view its meaning or linguistic inspiration. Many are tied to legacy, strength, or ancient language roots."
+const Q5 = "Is there a limit to how many names I can generate?"
+const A5 = "Not at all. You can generate names as many times as you like until you find the perfect one."
   return (
     <motion.div
       initial={{ opacity: 0, x: 1200 }}
@@ -1686,7 +1686,7 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
     </ol>
   </nav>
             <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                Random Dragonborn Name Generator With Meaning
+                Random DnD Dragonborn Name Generator With Meaning
             </h2>
           </div>
           <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -1764,23 +1764,20 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
         <div className="w-[80%] mx-auto pb-[20px]">
           <div className="py-[50px]">
             <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-              About Us
+            Say Goodbye to Naming Struggles
             </h2>
             <hr />
             <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-            Our Dragonborn Name Generator is an essential tool for Dungeons and Dragons or D&D players and Dungeon masters. 
-            It generates unconventional names for Dragonborn characters that are compatible with the lore to improve your playing experience. 
+            A dragonborn name should carry weight. It should reflect strength, honor, 
+            and the ancient roots of your character’s bloodline. But let’s be honest—finding that kind of name isn’t always easy. 
+            Scrolling through endless name lists? Exhausting. And half of them sound like budget brand cereals.
             </p>
             <p className="text-center py-[10px] text-[#343a40]">
-            Tailored to Dungeons and Dragons (D&D)’s opulent, fantasy world—it offers you some options to generate 
-            names that match the desired gender, length, and specific traits. 
-            This not only saves your time but also adds depth and authenticity to your characters. 
-            It ensures an immersive adventure in the D&D universe.
+            That’s why we built the Dragonborn Name Generator—a tool forged in the fires of creativity (and maybe a little caffeine). You just pick a few traits—clan type, 
+            personality, alignment—and click once. Boom. A list of names that actually sound like a dragonborn would wear them with pride.
             </p>
             <p className="text-center py-[10px] text-[#343a40]">
-            We have designed and developed it with robust security features to keep user data safe and secure. 
-            It uses encryption technology to protect sensitive information such as user names and preferences. 
-            Everything will remain safe for you.
+            Looking for something noble? Brutal? Maybe even a little mysterious? Our DnD Names Generator has you covered—no fluff, just names that belong in legends.
             </p>
           </div>
         </div>
@@ -1788,44 +1785,57 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
       <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
-          How to Use the Dragonborn Name Generator?
+          How Our Dragonborn Name Generator Works?
           </h2>
           <p className="sm:text-[20px] text-[28px] text-center">
-          Follow these simple steps to use our Dragonborn Name Generator and create unique names effortlessly:
+          Our <a href="https://www.nameideagenerator.com/"> Name Generator</a> helps you find bold, meaningful names. 
+          Each name is built to match the rich culture and pride of dragonborn characters. Here's how you can use the tool step by step:
           </p>
         </div>
         <hr />
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
           <div className="sm:w-[50%]">
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1 - Specify Gender
+              <h3 className="sm:text-[24px] text-[20px] font-semibold">
+              Step 1 - Choose a Name Type
               </h3>
               <p>
-              Select the gender to generate a dragonborn name, aligning with traditional dragonborn naming conventions in fantasy lore.
+              Pick the kind of name you want your dragonborn to have. You can go for traditional names, clan names, or something more fantasy-driven. 
+              Each style creates a different tone for your character’s background and role.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Select the Type
+              <h3 className="sm:text-[24px] text-[20px] font-semibold">
+              Step 2 - Select a Gender
               </h3>
               <p>
-              Pick the type of dragonborn name you are interested in, such as heroic, mystical, or ancient, to refine the style of names generated.</p>
+              Decide if your dragonborn is male, female, or neutral. This option helps shape the structure and sound of the name to better match your character’s identity.</p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                Step 3 - Click on Generate
+              <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                Step 3 - Click <b>‘Generate’</b>
               </h3>
               <p>
-              Press the <b> "Generate"</b> button to start the creation of dragonborn names based on your inputs.
+              Hit the Generate button to get a new batch of names. The tool instantly pulls up a list based on your selected style and gender. No delays, no filler.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                Step 4 - Review Names and Their Meanings
+              <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                Step 4 - Hover to See Meanings
               </h3>
               <p>
-              The generated names will be displayed. Hover over each name to uncover detailed information like its meaning, background, and the mythology it's associated with.
+              Move your cursor over any name to reveal its meaning or linguistic influence. Some are inspired by ancient languages, others by draconic culture or fantasy lore.
+              </p>
+            </div>
+            <div className="py-[10px] flex flex-col gap-4">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+              Refine and Repeat
+              </h3>
+              <p>
+              Still not satisfied? You can go back, adjust your choices, and generate again. The tool lets you explore unlimited combinations until you find a name that feels perfect.
+              </p>
+              <p>
+              No need to overthink it. Our tool does the work so you can focus on building the rest of your dragonborn’s story.
               </p>
             </div>
           </div>
@@ -1833,12 +1843,12 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
             <img
               src="dragonborn.jpg"
               alt="Dragonborn Name Generator | DND Dragonborn Names With Meaning"
-              className="w-[300px] h-[320px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
+              className="w-[320px] h-[320px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
             />
             <img
               src="dragonborn1.jpg"
               alt="Dragonborn Name Generator | DND Dragonborn Names With Meaning"
-              className="w-[300px] h-[320px]  sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+              className="w-[320px] h-[320px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
@@ -1854,7 +1864,7 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
         }}
       >
         <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-          Related to DragonBorn-Name-Generator
+          Related to DnD DragonBorn Name Generator
         </p>
         <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
           {Category1.map((item, index) => (
@@ -1882,132 +1892,219 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
           ))}
         </div>
       </div>
-    <div class="w-[80%] mx-auto text-[#343a40] my-[30px] ">
-        <div class="text-center mb-[10px]">
-            <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-            Who Can Benefit from the Dragonborn Name Generator?
-            </h2>
-            <p class="sm:text-[16px] text-[22px] font-semibold">
-            The Dragonborn Name Generator is ideal for various creative needs. 
-            Scroll down to see how it can enhance your projects and bring your characters to life.
-            </p>
-        </div>
 
-        <div class="flex flex-col lg:flex-row gap-8">
-     
-    <div class="w-[80%]">
-        <hr class="my-4" />
-        <div class="py-[10px]">
-            <div class="py-[5px] flex flex-col gap-2">
-                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                Writers
-                </h3>
-                <p>
-                Our Dragonborn Name Generator helps writers create unique and compelling names for their characters. 
-                So, if you are also a writer then use it to add depth and authenticity to your fantasy stories and novels.
-                </p>
-            </div>
-            <div class="py-[5px] flex flex-col gap-2">
-                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                Game Developers 
-                </h3>
-                <p>
-                Game developers can utilize our tool to generate diverse and imaginative names for Dragonborn characters in video games and tabletop RPGs. 
-                Enhance your game’s world-building with distinctive names.</p>
-            </div>
-            <div class="py-[10px] flex flex-col gap-2">
-                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                Creative Enthusiasts
-                </h3>
-                <p>
-                Anyone involved in creative projects, from role-playing games to art, can use the generator to find fitting names. 
-                Bring your Dragonborn characters to life with names that capture their essence.
-                </p>
-            </div>
-            <div class="py-[10px] flex flex-col gap-2">
-                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                Role-Playing Gamers 
-                </h3>
-                <p>
-                Role-playing gamers can benefit from our tool. 
-                Yes – if you are also a gamer then use our free tool to create memorable names for their Dragonborn avatars. 
-                Enhance your gaming experience with unique names that stand out.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<hr />
-    </div>
-      <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
-        <div>
-          <h2 className="sm:text-[36px] text-[22px] text-center sm:font-normal font-semibold">
-          Why Opt for the Dragonborn Name Generator?
-          </h2>
-          <p className="sm:text-[16px] text-[22px] text-center sm:font-normal font-semibold">
-          Experience a seamless naming process with our tool’s advanced features and high-quality results. 
-          Here are the features that make our tool an exclusive online Dragonborn name generator:
-          </p>
-        </div>
-        <hr />
-        <div className="py-[20px]">
-          <div className="py-[10px] flex flex-col gap-2">
-            <h3 className="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-            Streamlined Name Generation
-            </h3>
-            <p>
-            Our tool quickly generates names based on your input. Simplify your process with immediate results tailored to your specifications. 
-            Enjoy a fast and effective way to create names for your Dragonborn characters.
-            </p>
-          </div>
-          <div className="py-[10px] flex flex-col gap-2">
-            <h3 className="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-            Exceptional Name Quality
-            </h3>
-            <p>
-            Utilize our advanced algorithms to produce names that are both unique and imaginative. Each name is crafted to suit Dragonborn characters and enhance their attributes. 
-            Depends on our tool for high-quality and relevant name results.           
-            </p>
-          </div>
-          <div className="py-[10px] flex flex-col gap-2">
-            <h3 className="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-            Data Security and Privacy
-            </h3>
-            <p>
-            We implement strong encryption protocols to ensure the safety of your data. All user inputs and preferences are kept secure and confidential. 
-            Trust our system to maintain the privacy of your information.            
-            </p>
-          </div>
-          <div className="py-[10px] flex flex-col gap-2">
-            <p className="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-            Broad Usability
-            </p>
-            <p>
-            Our tool supports a variety of creative projects, including gaming and writing. 
-            Adapt the generated names to fit different scenarios and requirements. 
-            Enhance your creative work with a versatile naming solution.
-            </p>
-          </div>
-          <div className="py-[10px] flex flex-col gap-2">
-            <p className="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-            Swift and Effective
-            </p>
-            <p>
-            Generate distinctive names instantly using our efficient tool. Reduce time spent on manual brainstorming and achieve results rapidly. 
-            Experience a fast and dependable solution for all your naming needs.
-            </p>
-          </div>
-          <div className="py-[10px] flex flex-col gap-2">
-            <p className="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-            Reliable Performance 
-            </p>
-            <p>
-            Our tool consistently delivers accurate and fitting names. Rely on it for dependable results every time you need a Dragonborn name. 
-            Experience a robust tool designed to meet your naming requirements with precision.
-            </p>
-          </div>
-        </div>
+
+      <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
+  <div class="text-center mb-[10px]">
+    <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
+      What Makes Our Dragonborn Name Generator Worth Using?
+    </h2>
+    <p class="sm:text-[16px] text-[16px] font-semibold">
+      The Dragonborn Name Generator is ideal for various creative needs. 
+      Scroll down to see how it can enhance your projects and bring your characters to life.
+    </p>
+  </div>
+
+  <div class="flex flex-col lg:flex-row gap-10 mt-10">
+    <div class="lg:w-[100%] w-full grid sm:grid-cols-2 gap-6">
+      <div class="p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Quick and Easy to Use</h3>
+        <p>Get powerful names in seconds without forms or delays.</p>
       </div>
+
+      <div class="p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Built for Dragonborn Lore</h3>
+        <p>Every name reflects strength, pride, and cultural depth.</p>
+      </div>
+
+      <div class="p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Custom Options That Matter</h3>
+        <p>Select style and gender for names that truly fit.</p>
+      </div>
+
+      <div class="p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Meanings with Every Name</h3>
+        <p>Hover over names to see meanings and origins instantly.</p>
+      </div>
+
+      <div class="p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Endless Name Combinations</h3>
+        <p>Generate as many names as you like with no limits.</p>
+      </div>
+
+      <div class="p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Fits Any Fantasy Setting</h3>
+        <p>Perfect for D&D, storytelling, or fantasy gaming.</p>
+      </div>
+    </div>
+
+  
+  </div>
+
+  <hr class="mt-10" />
+</div>
+
+
+
+
+<div class="w-[90%] mx-auto text-[#343a40] my-[40px]">
+  <div class="mb-[40px]">
+    <h2 class="text-[28px] sm:text-[36px] font-bold mb-4 text-center">
+      What Makes Dragonborn Names Stand Out in Fantasy Worlds?
+    </h2>
+    <div class="bg-white rounded-xl shadow-md p-6 sm:p-8 text-lg leading-relaxed">
+      <p class="mb-4">
+        Dragonborn names hold weight. They are chosen at random but they’re also tied to a long tradition of strength, discipline, and ancestral pride. A single name can reflect a character’s connection to their clan, their values, or even the legacy they’re trying to live up to. That’s why dragonborn names often sound bold, ancient, and powerful.
+      </p>
+      <p>
+        In fantasy settings, names do more than identify. They help shape the way others see your character. A name like <strong>“Rhogar”</strong> or <strong>“Tazmyra”</strong> immediately feels tied to draconic heritage. It tells the world this character walks with purpose. That depth makes dragonborn names stand out because they don’t just sound strong, they mean something strong.
+      </p>
+    </div>
+  </div>
+
+  <div>
+    <h2 class="text-[28px] sm:text-[36px] font-bold mb-4 text-center">
+      Dragonborn Name Inspiration
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Draconic Sound & Strength</h3>
+        <p>
+          Dragonborn names draw from many sources. You can find inspiration in mythology, dragons, and even different cultures. A good name reflects the character’s background and role in the story. You look at dragon-related words for ideas. Names like <strong>Drakos</strong> or <strong>Kavarrath</strong> evoke strength and power. These names have sharp, strong sounds that reflect the fierce nature of Dragonborn.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Myths, Legends & Cultural Roots</h3>
+        <p>
+          Mythology also offers great inspiration. Many Dragonborn names sound ancient and legendary. <strong>Sahrak</strong> and <strong>Valthrun</strong> could work well for characters with a deep, ancient history. Have you considered linking your Dragonborn’s name to a specific myth or legend? You can also take cues from different cultures. Does your Dragonborn have ties to a specific culture or clan? Their name can reflect that connection.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="w-[90%] mx-auto my-[40px] text-[#343a40]">
+  <h2 class="text-[28px] sm:text-[36px] font-bold mb-6 text-center">List of Unique Dragonborn Names</h2>
+
+  <div class="overflow-x-auto">
+    <table class="min-w-full table-auto border-collapse border border-gray-200 rounded-xl overflow-hidden shadow-md">
+      <thead class="bg-gray-100">
+        <tr>
+          <th class="text-left p-4 text-[18px] font-semibold border-b border-gray-200">Name</th>
+          <th class="text-left p-4 text-[18px] font-semibold border-b border-gray-200">Meaning & Traits</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Drakos</td>
+          <td class="p-4">Derived from "drake" meaning dragon, evokes power and strength</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Vyzara</td>
+          <td class="p-4">Mysterious, suggesting elegance and intelligence</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Kavarrath</td>
+          <td class="p-4">Ancient and strong, reflects a connection to ancient dragon bloodlines</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Zorvok</td>
+          <td class="p-4">Fierce, warrior-like, indicates battle readiness</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Tazrah</td>
+          <td class="p-4">Bold, symbolizing courage and resilience</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Sahrak</td>
+          <td class="p-4">Evokes a sense of wisdom and ancient knowledge</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Tharok</td>
+          <td class="p-4">Sturdy, reflecting a solid, unwavering character</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Raezar</td>
+          <td class="p-4">Mystical, with a connection to the arcane or unknown</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Xalnoth</td>
+          <td class="p-4">Powerful, indicating a dominant force or leader</td>
+        </tr>
+        <tr class="hover:bg-gray-50 transition">
+          <td class="p-4 font-semibold">Valthrun</td>
+          <td class="p-4">Noble, representing a regal or high-born character</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="mt-6 text-lg">
+    These names carry unique qualities. Want your Dragonborn to stand out? Pick one of these names for a powerful, distinct identity.
+  </p>
+</div>
+
+
+<div class="w-[90%] mx-auto my-[40px] text-[#343a40]">
+  <h2 class="text-[28px] sm:text-[36px] font-bold text-center mb-8">Common Themes and Inspirations for Dragonborn Names</h2>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-xl shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-2">Dragon-Related Themes</h3>
+      <p>Names like <strong>Drakos</strong> or <strong>Kavarrath</strong> echo power and mystique. These names reflect strength, majesty, and a deep connection to dragons.</p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-2">Mythological Influences</h3>
+      <p>Names like <strong>Valthrun</strong> or <strong>Sahrak</strong> give your character an ancient or divine aura, inspired by myth and timeless legends.</p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-2">Cultural Influences</h3>
+      <p>Names such as <strong>Raazgar</strong> or <strong>Vyzara</strong> may come from different Dragonborn clans or traditions—warrior, scholarly, or spiritual in nature.</p>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md p-6">
+      <h3 class="text-xl font-semibold mb-2">Elemental Themes</h3>
+      <p>Inspired by fire, ice, or lightning—names like <strong>Tharok</strong> or <strong>Mornak</strong> carry the elemental essence of your Dragonborn's power.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w-[90%] mx-auto my-[60px] text-[#343a40]">
+  <h2 class="text-[28px] sm:text-[36px] font-bold text-center mb-8">How Dragonborn Names Reflect Clan, Honor, and Legacy</h2>
+
+  <div class="flex flex-col lg:flex-row gap-10 items-start">
+    <div class="lg:w-[60%] w-full bg-white rounded-xl p-6 shadow-md">
+      <p class="mb-4">Dragonborn names aren’t just personal—they’re historical. A name reflects your bloodline, your clan’s pride, and your cultural identity. It tells the story of where you come from and what you represent.</p>
+
+      <h3 class="text-xl font-semibold mb-2">Clan Names and Ancient Lineages</h3>
+      <p class="mb-4">Names like <strong>Kepeshkmolik</strong> or <strong>Myastan</strong> come first in dragonborn culture. They’re more than titles—they’re heritage markers, showing loyalty and honor.</p>
+
+      <h3 class="text-xl font-semibold mb-2">Masculine, Feminine, and Neutral Styles</h3>
+      <p>From strong and commanding like <strong>Balasar</strong> to graceful and noble like <strong>Akra</strong>, every name style offers personality. Gender-neutral options help reflect individual identity in any world.</p>
+    </div>
+
+    <div class="lg:w-[40%] w-full flex justify-center">
+    <img src="Dragonborn_2.jpg" alt="Dragonborn Clan Legacy" className="rounded-xl shadow-md max-w-[350px] w-full" />
+    </div>
+  </div>
+</div>
+
+<div class="w-[90%] mx-auto my-[60px] text-[#343a40]">
+  <h2 class="text-[28px] sm:text-[36px] font-bold text-center mb-6">The Roots of Dragonborn Names in Fantasy Lore</h2>
+
+  <div class="bg-white rounded-xl shadow-md p-6 sm:p-8 leading-relaxed text-[16px]">
+    <p class="mb-4">Dragonborn names trace back to ancient draconic languages and cultural traditions. They’re built on legacy, pride, and strength—often sounding ceremonial or regal. It’s what sets dragonborn apart from humans, elves, or dwarves.</p>
+
+    <p class="mb-4">In Dungeons & Dragons, a Dragonborn typically carries both a personal name and a clan name. The result? A character who feels deeply rooted in a world with real history and honor.</p>
+
+    <p>Outside of D&D, dragonborn-style names appear in novels, fantasy games, and MMOs. Writers use them to give characters an instant sense of heritage and weight. The name is not just a label—it’s a mark of legacy, ready to be carried into the next great tale.</p>
+  </div>
+</div>
+
           
       <div
         className="w-[100%] flex justify-center items-center bg-overlay py-[250px]"
@@ -2029,21 +2126,27 @@ const A5 = "Currently, the tool specializes in Dragonborn names. We are explorin
           transition={{ duration: 0.5, delay:  0.25 }}
           className="flex items-center flex-col gap-6"
         >
+         <div className="pl-8">
+  <div>
+    <p className="text-[36px] font-semibold text-white">
+      Do you have a request
+    </p>
+  </div>
+  <div>
+    <p className="text-white">
+      Commissions are available! Visit my contact page and send an
+      inquiry with the details of your request.
+    </p>
+  </div>
+</div>
+
           <div>
-            <p className="text-[36px] font-semibold text-white">
-              Do you have a request
-            </p>
-          </div>
-          <div>
-            <p className="text-white">
-              Commissions are available! Visit my contact page and send an
-              inquiry with the details of your request.
-            </p>
-          </div>
-          <div>
-            <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
-              Request
-            </button>
+          <a href="https://www.nameideagenerator.com/contact-us" target="_blank" rel="noopener noreferrer">
+  <button className="bg-white text-black text-[20px] px-[40px] py-[8px] rounded-[10px] font-semibold">
+    Request
+  </button>
+</a>
+
           </div>
         </motion.div>
       </div>
