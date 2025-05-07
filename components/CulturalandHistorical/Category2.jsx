@@ -62,8 +62,8 @@ const Data = [
   },
   {
     name: "Medieval Name Generator",
-    pic: "/dark-fantasy-character-Medieval-Names.avif",
-    link: "medieval-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "African Name Generator",
@@ -72,8 +72,8 @@ const Data = [
   },
   {
     name: "Chinese Name Generator",
-    pic: "/chinese-name-generator.jpg",
-    link: "/chinese-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "Aztec Name Generator",

@@ -62,28 +62,28 @@ const Data = [
   },
   {
     name: "Wizard Name Generator",
-    pic: "/wizards-wizard-name-ideas.webp",
-    link: "/wizard-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "Vampire Name Generator",
-    pic: "/vampire-name-generator.jpg",
-    link: "/vampire-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "Ship Name Generator",
-    pic: "/An-ornate-ship-with-mystical-symbols.jpg",
-    link: "/ship-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "Kingdom Name Generator",
-    pic: "/kingdom-name-generator.jpeg",
-    link: "/kingdom-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "Guild Name Generator",
-    pic: "/guild-name-generator.jpg",
-    link: "/guild-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
 ];
 
