@@ -354,14 +354,14 @@ const ORCNameGenerator = () => {
   
 const bgImage = "/orc-name-generator.jpg"
 const context = "Orc Name Generator"
-const Q1 = "Is the Orc Name Generator free to use?"
-const A1 = "Yes, our Orc Name Generator is available for free. You can generate names without any cost. For enhanced features, we are also working on some premium options but right now they are not available."
-const Q2 = "Can I save the names I generate?"
-const A2 = "Yes, you can save the generated names for future reference on this website. Our tool allows you to view the list of your saved names."
-const Q3 = "How unique are the names produced?"
-const A3 = "Our Orc Name Generator uses advanced algorithms to ensure each name is unique and fitting for Orcish characters. You can trust that each name is distinct."
-const Q4 = "Is my personal data secure when using the generator?"
-const A4 = "Absolutely. We employ encryption technology to safeguard your data and ensure your privacy. Your information remains confidential throughout the process."
+const Q1 = "Can I use these names for other settings, like video games?"
+const A1 = "Yes, absolutely! These names are great for any game, whether it’s D&D, MMORPGs, or fantasy video games."
+const Q2 = "Are the names truly unique?"
+const A2 = "Yes, every time you generate a new batch, the names are randomly created to ensure uniqueness. No repeats unless you want them."
+const Q3 = "Can I generate names for orc tribes or clans?"
+const A3 = "Of course! Many of these names are perfect for individual orcs or entire groups. Just pick a few and mash them together to create a tribe name."
+const Q4 = "What do the meanings of the names tell me?"
+const A4 = "Each name has a meaning that ties into the orc’s role. A trait like 'strength, a clan name,' or a title like 'war chief.' Hover over the name to reveal its meaning or cultural significance."
 const Q5 = "Can the tool generate names for other fantasy characters?"
 const A5 = "Currently, the Orc Name Generator specializes in orc names. We are working on expanding its capabilities to include names for other fantasy races in the future."
   return (
@@ -473,22 +473,16 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
         <div className="w-[80%] mx-auto pb-[20px]">
           <div className="py-[50px]">
             <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-              About Us
+            Forget the Perfect Name for Your Orc Warrior
             </h2>
             <hr />
             <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-            Our Half Orc Name Generator provides a quick and efficient solution for creating distinctive orc names. 
-            Designed with simplicity in mind, this tool allows you to generate names instantly with just a click. 
-            Enter your preferences, and let our tool handle the rest, delivering names that fit your exact needs.            
+            Orc names are all about power, strength, and intimidation. They should make you think of wild battles, 
+            unbreakable warriors, and maybe a little bit of grunting and roaring. Finding the right name can be a challenge, but you don’t have to spend hours searching.
             </p>
             <p className="text-center py-[10px] text-[#343a40]">
-            The DnD Half ORC Name Generator utilizes advanced algorithms to ensure each name is unique and fitting for orc characters. 
-            Use it to enhance the authenticity and depth of your orc characters for games, stories, or any creative project.
-            </p>
-            <p className="text-center py-[10px] text-[#343a40]">
-            Experience the ease of crafting the perfect orc name without hassle. 
-            Our Orc Names Generator is user-friendly and requires no complex inputs. 
-            Try it now and effortlessly bring your orc characters to life.
+            Our Orc Name Generator is here to do the heavy lifting. Whether you want something primal and brutal or something with a hint of strategy and cunning, 
+            you’ll get names that fit the bill. Hit the button, and you’re ready to roll with a name that sounds like it’s made for battle.
             </p>
           </div>
         </div>
@@ -496,73 +490,72 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
       <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
         <div>
           <h2 className="sm:text-[36px] text-[28px] text-center">
-          How to Use the Orc Name Generator?
+          How Our Orc Name Generator Works?
           </h2>
           <p className="sm:text-[16px] text-[16px] text-center">
           Our Orc Name Gene is a valuable tool for anyone who wants to create realistic and engage Orc names effortlessly. 
           Explore its capabilities today and bring your Orc characters to life with names that resonate with authenticity and creativity.
-          <br /> <br />
-          <b>You can follow these easy and quick steps to create your perfect Orc name for your project. </b>
+          <br />
           </p>
         </div>
         <hr />
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-          <div className="sm:w-[50%]">
+          <div className="sm:w-[60%]">
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1- Specify Gender
+              <h3 className="sm:text-[22px] text-[18px] font-semibold">
+              Step 1- Pick a Gender
               </h3>
               <p>
-              Choose a gender for the orc name, which helps in generating names that fit gender-specific naming conventions in orcish cultures.
+              Decide whether your orc is male, female, or Random. 
+              Gender influences the flow and tone of the name, making it more personalized to fit the character’s vibe.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2 - Select the Type
+              <h3 className="sm:text-[22px] text-[18px] font-semibold">
+              Step 2 - Select Your Orc’s Types
               </h3>
               <p>
-              Decide on the type of orc name you want, such as warlike, tribal, or fantastical, to guide the name generation.
+              What kind of orc are you naming? Choose from options like savage warriors, cunning tacticians, or fearsome clan leaders. 
+              Each choice will guide the generator to pull names that suit the role you’ve got in mind.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-              Step 3 - Click on Generate 
+              <h3 className="sm:text-[22px] text-[18px] font-semibold ">
+              Step 3 - Hit <b>‘Generate’</b>
               </h3>
               <p>
-              Click the <b> "Generate"</b> button to produce a list of orc names that match your criteria.
+              Click the button, and boom—instantly get a list of orc names that match your selected role and gender. No waiting. No hassle.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-              Step 4: Review Names and Their Meanings
+              <h3 className="sm:text-[22px] text-[18px] font-semibold ">
+              Step 4 - Hover for Meanings
               </h3>
               <p>
-              Names will appear on your screen. Hover over each to see details like meaning, origin, and cultural significance, aiding in your selection process.
+              Want to know what your orc’s name really means? Just hover your mouse over any name, and the meaning pops up. 
+              You might find out it’s a name of power, war, or even a clever nod to orcish culture.
               </p>
             </div>
-            <div className="py-[10px] flex flex-col gap-2">
-              <h2 className="sm:text-[28px] text-[20px] font-semibold">
-              Security and Privacy
-              </h2>
+            <div className="py-[10px] flex flex-col gap-4">
+              <h3 className="sm:text-[22px] text-[18px] font-semibold ">
+              Step 5: Refine or Retry
+              </h3>
               <p>
-              We have robust security features in the Orc Name Generator to protect user data. 
-Our tool incorporates a state of encryption technology to ensure security of any sensitive data and secures the privacy of user inputs. 
-<br /> <br />
-Our responsibility to confidentiality is at the core of what we do and ensures that every user has a secure environment.
-
+              Not feeling the first round of names? No worries! Change your selections and hit ‘Generate’ again. 
+              You can repeat this process until you find the perfect name that feels just right.
               </p>
             </div>
           </div>
-          <div className="sm:w-[47%] relative ">
+          <div className="sm:w-[40%] relative ">
             <img
               src="orc-demon.jpg"
               alt="Orc Name Generator | Random Orc Name Generator With Meaning"
-              className="w-[280px] my-[20px] h-[300px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
+              className="w-[320px] my-[20px] h-[320px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
             />
             <img
               src="orc2.jpg"
               alt="Orc Name Generator | Random Orc Name Generator With Meaning"
-              className="w-[280px] h-[320px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+              className="w-[320px] h-[320px] my-[20px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
@@ -610,119 +603,303 @@ Our responsibility to confidentiality is at the core of what we do and ensures t
       <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
         <div class="text-center mb-[10px]">
             <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-            Explore the Key Benefits of Our Orc Name Generator
+            Why Use Our Orc Name Generator?
             </h2>
-            <p class="sm:text-[16px] text-[22px] font-semibold">
-            Scroll down to discover the exclusive benefits you can access with our Orc Name Generator.
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Fast and Easy</h3>
+        <p>No forms, no delays. Click and get a list of strong orc names in seconds.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Tailored for Orcs</h3>
+        <p>Names that reflect the savage power, cunning, or leadership of your orc character.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Real Customization</h3>
+        <p>Choose the orc type and gender to generate names that feel personalized and fitting.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Instant Meaning</h3>
+        <p>Hover over any name to instantly see its meaning or cultural origin.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Endless Options</h3>
+        <p>Generate as many names as you need. Perfect for naming whole orc clans or just one powerful warrior.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Perfect for Any Fantasy World</h3>
+        <p>Ideal for D&D, video games, and storytelling—works for any setting, from savage hordes to strategic masterminds.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Unique Names</h3>
+        <p>No more generic, forgettable orcs. Each name is crafted to stand out and make an impact.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Great for Character Depth</h3>
+        <p>The names add instant backstory and flavor, enriching your character’s role in the game or story.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">No Repeats, Only Fresh Ideas</h3>
+        <p>Each name generation is unique, so you won’t end up with the same name twice unless you want it.</p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg">
+        <h3 class="text-[22px] font-semibold mb-2">Built for Creators</h3>
+        <p>Perfect for game developers, writers, and RPG players who need authentic orc names quickly.</p>
+    </div>
+</div>
+    </div>
+    <div class="my-12 px-6 sm:px-12">
+    <div class="mb-16">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">What are Orcs?</h2>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Orcs are like the tough guys of the fantasy world. Picture a big, bulky creature, with muscles for days 
+                and a battle-ready attitude that screams, "I don't back down." You’ll find them stomping around in Lord of the Rings, 
+                Dungeons & Dragons, and World of Warcraft, often looking for a good fight (and probably a lot of spoils). 
+                They're all about strength, honor, and clan loyalty, with an unshakable focus on survival. 
+                Orcs aren’t the kind to sit around sipping tea—they’d rather be wielding a massive weapon and charging into battle.
+               <br /> <br />
+                Now, sure, they’re usually the bad guys in most stories, but not always. Some versions show orcs as warriors fighting for their homes, 
+                fighting for their people. Their names? Oh, they’ve got some serious bite—literally and figuratively. 
+                Think heavy, growly names that match their warrior spirit. Orcs don’t do "subtle"—they do "powerful," and it’s all reflected in their names, 
+                their actions, and their attitude.
+                <br /> <br />
+                If you’re fascinated by orcs and looking for more <a href="https://www.nameideagenerator.com/categories/fantasy-and-mythical-creatures"> fantasy and mythical creature names</a>, our Fantasy and Mythical Creatures category has you covered. 
+                Explore a wide range of names that bring your entire universe to life—whether it’s a fearsome dragon or a sly elf, 
+                you'll find the perfect names to match your mythical beings.
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">The History and Lore Behind Orc Names</h2>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Orc names are like badges of honor in the fantasy world. They’re tough, gritty, and meant to strike fear in the hearts of enemies. 
+                Most orc names come with a heavy dose of strength and history—think Azog or Grommash, names that scream power. 
+                These names aren’t random; they’re tied to their battles, their tribes, or their achievements. 
+                So, when you pick an orc name, you’re not just picking a cool-sounding word—you’re embracing the wild, warrior spirit behind it.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="my-12 px-6 sm:px-12">
+
+    <div>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Orc Names Across Fantasy Worlds</h2>
+
+        <div class="bg-white p-6 shadow-lg rounded-lg mb-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Orc Names in Tolkien’s Universe</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                In Tolkien's world, orc names are dark and menacing, drawing heavily from his Black Speech. Names like Azog and Uglúk are designed to evoke 
+                fear and power, reflecting their ruthless, evil nature. These names are steeped in the lore of Middle-earth and are meant to sound as terrifying 
+                as the orcs themselves.
             </p>
         </div>
 
-        <div class="flex flex-col lg:flex-row gap-8">
-            <div>
-                <hr class="my-4" />
-                <div class="py-[10px]">
-                    <div class="py-[5px] flex flex-col gap-2">
-                        <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                        Genuine Orcish Essence
-                        </h3>
-                        <p>
-                        Our Orc Name Generator creates names that authentically reflect orcish culture and lore. 
-                        Each name embodies the unique characteristics and attributes of orcish traditions. 
-                        Trust our tool to deliver names that enhance your characters' depth and authenticity.
-                        </p>
-                    </div>
-                    <div class="py-[5px] flex flex-col gap-2">
-                        <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                        Effortless Operation
-                        </h3>
-                        <p>
-                        Our user-friendly interface allows for quick and straightforward name generation. 
-                        Input your preferences and generate names with just a few clicks. 
-                        Enjoy a hassle-free experience as you receive names that meet your exact needs.
-                        </p>
-                    </div>
-                    <div class="py-[10px] flex flex-col gap-2">
-                        <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                        Broad Application
-                        </h3>
-                        <p>
-                        Ideal for writers, gamers, and creative professionals, our tool adapts to various uses. 
-                        Whether you're developing a character for a game, writing a novel, or working on any orc-themed project, 
-                        our generator provides versatile and fitting names.
-                        </p>
-                    </div>
-                    <div class="py-[10px] flex flex-col gap-2">
-                        <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                        Robust Privacy Protection
-                        </h3>
-                        <p>
-                        We prioritize your privacy and data security. Our tool employs advanced encryption to protect your inputs and generated names. 
-                        Feel assured that your information remains confidential and secure while using our generator.
-                        </p>
-                    </div>
-                    <div class="py-[10px] flex flex-col gap-2">
-                        <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                        Instant Name Creation
-                        </h3>
-                        <p>
-                        Generate names quickly and efficiently without the need for extensive brainstorming. 
-                        Our tool produces a list of names in moments, allowing you to find the perfect orc name without delay. 
-                        Save time and effort with our rapid online name-generation process.
-                        </p>
-                    </div>
-                    <div class="py-[10px] flex flex-col gap-2">
-                        <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                        Tailored Name Results  
-                        </h3>
-                        <p>
-                        Our tool delivers customized results by filtering names according to your specific preferences. 
-                        Adjust parameters repeatedly to refine the output until it aligns perfectly with your vision. 
-                        This ensures each name you receive is tailored to your exact needs and requirements.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
+        <div class="bg-white p-6 shadow-lg rounded-lg mb-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Orc Names in World of Warcraft</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                In World of Warcraft, orc names carry deep ties to clan history and personal titles. 
+                Characters like Thrall and Gul'dan aren’t just warriors—they’re leaders, with names that reflect their role in the orc society. 
+                These names carry legacies, often tied to the individual’s rise to power, their title (like Warchief or Dark Sorcerer), and the clan they represent.
+            </p>
         </div>
-    </div>
-      <div>
-            <div className=" py-[30px]  mx-auto"> 
-            <section class="w-[80%] mx-auto p-6 bg-white rounded-lg shadow-lg mt-10">
-        <h2 class="text-2xl font-bold text-gray-800 mb-4">Who Can Benefit from This Tool?</h2>
-        <p class="text-gray-600 mb-4">
-        Our Orc Name Generator tool is undeniably unique for anyone seeking to create distinctive Orc names. 
-        However, the following audiences will find it particularly valuable:
+
+        <div class="bg-white p-6 shadow-lg rounded-lg mb-6">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Orc Names in Dungeons & Dragons</h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                In Dungeons & Dragons, orc names are a little more flexible. While they still carry a sense of toughness, they often reflect a character’s 
+                personality and role within their tribe. Names like Sharn or Gorak are strong but can range from ferocious warriors to cunning leaders. 
+                The focus is less on intimidation and more on fitting the orc’s specific character traits or backstory.
+            </p>
+        </div>
+
+        <p class="text-lg text-gray-700 leading-relaxed">
+            So, depending on where your orc comes from, their name will tell a very different tale—whether it’s all about the dark menace of Tolkien’s 
+            orcs, the rich heritage of World of Warcraft, or the adaptable personalities found in Dungeons & Dragons.
         </p>
-        <div class="flex flex-col lg:flex-row gap-8">
-    <div class="lg:w-1/2">
-        <ul class="list-disc pl-5 space-y-4 text-left">
-            <li class="text-gray-600 ">
-                <span class=" mb-4 font-semibold">Game Developers</span><br />
-                Enhance game characters with authentic Orc names for deeper engagement and realism.
-            </li>
-            <li class="text-gray-600 ">
-                <span class="mb-4 font-semibold ">Writers</span> <br />
-                Create believable Orc characters and settings for novels, stories, and screenplays.
-            </li>
-            <li class=" text-gray-600 ">
-                <span class="mb-4 font-semibold">Role-Players</span><br />
-                Assign unique and fitting names to Orc characters for a richer RPG experience.
-            </li>
-            <li class="text-gray-600  ">
-                <span class="mb-4 font-semibold">World Builders</span><br />
-                Integrate realistic Orc names into your fictional worlds and histories.
-            </li>
-            <li class="text-gray-600  ">
-                <span class="mb-4 font-semibold">Creative Enthusiasts</span><br />
-                Use the tool for any project requiring unique Orc names to boost creativity and impact.
-            </li>
-        </ul>
     </div>
 </div>
-    </section>
-            </div>
 
-          </div>
+
+<div class="my-12 px-6 sm:px-12">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">How to Create a Good Orc Name?</h2>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg mb-8">
+        <div class="flex items-center gap-4">
+            <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            <h3 class="text-2xl font-semibold text-gray-800">Use Harsh Sounds and Strong Syllables</h3>
+        </div>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            Orc names need to sound as tough as they are. Stick to hard, sharp sounds like K, G, and R. You want your orc’s name to make people flinch when they hear it. Keep it rough, keep it strong. The more guttural, the better!
+        </p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg mb-8">
+        <div class="flex items-center gap-4">
+            <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            <h3 class="text-2xl font-semibold text-gray-800">Think About the Orc's Role or Backstory</h3>
+        </div>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            A good orc name should tell a story. What’s your orc’s role? Are they a fierce warrior, a wise shaman, or a battle-hardened chieftain? Pick a name that suits your orc’s character and backstory—after all, they’re not just a name; they’re a living legend in the making.
+        </p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg mb-8">
+        <div class="flex items-center gap-4">
+            <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            <h3 class="text-2xl font-semibold text-gray-800">Add Clan Names, Titles, or Achievements</h3>
+        </div>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            An orc’s name is their legacy. Add a little extra punch with clan names, titles, or past victories. Think Rukgar Bonecrusher or Sharn of the Bloodsworn. Titles like Warchief or Champion give the name an epic vibe.
+        </p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg mb-8">
+        <div class="flex items-center gap-4">
+            <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            <h3 class="text-2xl font-semibold text-gray-800">Avoid Soft or Overused Fantasy Names</h3>
+        </div>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            No one’s scared of an orc named Fluffykins. Orcs need names that pack a punch, not ones that sound like a kitten. Avoid the usual soft or overused names and go for something that feels original and fierce.
+        </p>
+    </div>
+
+    <div class="bg-white p-6 shadow-lg rounded-lg mb-8">
+        <div class="flex items-center gap-4">
+            <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+            <h3 class="text-2xl font-semibold text-gray-800">Try the Orc Name Generator for Instant Inspiration</h3>
+        </div>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            Stuck on naming your orc? Don’t sweat it—use our Orc Name Generator to instantly discover fierce, battle-ready names. It’s fast, fun, and brutally effective.
+        </p>
+    </div>
+</div>
+
+
+<div class="my-12 px-6 sm:px-12">
+<div class="my-12 px-6 sm:px-12">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Examples of Orc Names</h2>
+
+    <div class="flip-card mb-8">
+        <div class="flip-card-inner">
+            <div class="flip-card-front bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center gap-4">
+                    <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                    <h3 class="text-2xl font-semibold text-gray-800">Male Orc Name Ideas</h3>
+                </div>
+            </div>
+            <div class="flip-card-back p-6 bg-gray-200 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Need a name that sounds like it could crush a mountain? Try Gorak Steelcrusher, Throk Grimblade, or Karnak the Unyielding. These names don’t mess around. They scream strength, power, and the kind of orc who leads a battle charge without thinking twice.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip-card mb-8">
+        <div class="flip-card-inner">
+            <div class="flip-card-front bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center gap-4">
+                    <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                    <h3 class="text-2xl font-semibold text-gray-800">Female Orc Name Ideas</h3>
+                </div>
+            </div>
+            <div class="flip-card-back p-6 bg-gray-200 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Who says orc women can’t rule the battlefield? Try names like Zara Ironclaw, Morak the Fierce, or Urzul the Bloodbane. These names are bold, powerful, and perfect for an orc who’s ready to make a name for herself... literally.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip-card mb-8">
+        <div class="flip-card-inner">
+            <div class="flip-card-front bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center gap-4">
+                    <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                    <h3 class="text-2xl font-semibold text-gray-800">Funny, Fierce, and Tribal Examples</h3>
+                </div>
+            </div>
+            <div class="flip-card-back p-6 bg-gray-200 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Sometimes you just want a name that makes people laugh and shudder at the same time. Try Thudgar Bigfoot, Brog the Lummox, or Grunk the Stomp. These names are full of personality and perfect for that orc with a sense of humor who still knows how to kick butt.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip-card mb-8">
+        <div class="flip-card-inner">
+            <div class="flip-card-front bg-white p-6 shadow-lg rounded-lg">
+                <div class="flex items-center gap-4">
+                    <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                    <h3 class="text-2xl font-semibold text-gray-800">Names Inspired by Popular Fantasy Universes</h3>
+                </div>
+            </div>
+            <div class="flip-card-back p-6 bg-gray-200 rounded-lg">
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Take a page from the legends! Thrall (World of Warcraft), Azog (Lord of the Rings), and Grishnákh (Lord of the Rings) are some big-name orcs who’ve made their mark in fantasy history. You can use these as inspiration, or remix them for your own unique orc character who’s ready to take over the world.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="my-12 px-6 sm:px-12">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Where to Use Your Orc Name</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Tabletop RPGs (D&D, Pathfinder)</h3>
+            <div class="flex items-center gap-4 mb-4">
+                <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                <h4 class="text-lg font-medium text-gray-800">Your orc name is perfect for tabletop RPGs like Dungeons & Dragons or Pathfinder. Whether you're charging into battle as a fierce warrior or using your orcish charm to intimidate foes, your character's name will add that extra layer of authenticity.</h4>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Online Games and Avatars (MMORPGs)</h3>
+            <div class="flex items-center gap-4 mb-4">
+                <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                <h4 class="text-lg font-medium text-gray-800">Need a name that’ll make your orc stand out in the world of World of Warcraft or any MMORPG? Your orc name can bring your online avatar to life and set the tone for your character.</h4>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Fantasy Novels, Comics, or Scripts</h3>
+            <div class="flex items-center gap-4 mb-4">
+                <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                <h4 class="text-lg font-medium text-gray-800">Got an epic fantasy novel or comic in the works? An orc name can add depth to your characters, making them feel more rooted in their world.</h4>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Worldbuilding and Lore Projects</h3>
+            <div class="flex items-center gap-4 mb-4">
+                <svg class="w-6 h-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                <h4 class="text-lg font-medium text-gray-800">Creating your own fantasy universe? An orc name is a great way to flesh out your worldbuilding and bring new tribes to life.</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
 
 
       <div
