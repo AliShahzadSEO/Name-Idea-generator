@@ -257,16 +257,16 @@ const CatergorySection = () => {
     </div>
 
     <div className="bg-[#f9fafb] p-6 rounded-2xl shadow-sm hover:shadow-md transition">
-      <h3 className="sm:text-[24px] text-[18px] font-semibold mb-2">🎲 When Building Tabletop Characters</h3>
+      <h3 className="sm:text-[24px] text-[18px] font-semibold mb-2">🎮 When Designing Game Worlds</h3>
       <p className="text-gray-600">
-        Running a D&D campaign? Grab a name for your Tiefling, Goblin, or Angel in seconds. Our name generator tools save time and keep your world consistent.
+        Need a region name, clan, or monster species? Use tools like the Island or Horse Name Generator. You’ll get names that sound like they belong.
       </p>
     </div>
 
     <div className="bg-[#f9fafb] p-6 rounded-2xl shadow-sm hover:shadow-md transition">
-      <h3 className="sm:text-[24px] text-[18px] font-semibold mb-2">🎮 When Designing Game Worlds</h3>
+      <h3 className="sm:text-[24px] text-[18px] font-semibold mb-2">🎲 When Building Tabletop Characters</h3>
       <p className="text-gray-600">
-        Need a region name, clan, or monster species? Use tools like the Island or Horse Name Generator. You’ll get names that sound like they belong.
+        Running a D&D campaign? Grab a name for your Tiefling, Goblin, or Angel in seconds. Our name generator tools save time and keep your world consistent.
       </p>
     </div>
 
