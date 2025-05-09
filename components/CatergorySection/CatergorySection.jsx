@@ -88,7 +88,7 @@ const CatergorySection = () => {
   Explore NiG Tools By Category
   </h2>
   </div>
-  <p className="sm:text-[18px] text-[16px] leading-relaxed">
+  <p className="sm:text-[18px] text-center text-[16px] leading-relaxed">
     Pick your world and choose your path. Each category gives you a set of name idea generator tools built for specific vibes—fantasy, history, sci-fi, or the weird in between. No filler, just names that work for your books, projects, and games.
   </p>
 
