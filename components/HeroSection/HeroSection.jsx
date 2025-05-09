@@ -60,15 +60,16 @@ const HeroSection = ({ context, bgImage, blogcontent }) => {
 
   return (
     <div
-      className="h-[100vh] relative bg-overlay "
-      style={{
-        backgroundImage: `url(${bgImage})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundAttachment: "fixed",
-      }}
-    >
+  className="min-h-screen relative bg-overlay"
+  style={{
+    backgroundImage: `url(${bgImage})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+    backgroundAttachment: "scroll", // fallback for mobile devices
+  }}
+>
+
       <div className="border-b border-solid ">
         {width > 768 ? (
           <>
@@ -333,11 +334,11 @@ const HeroSection = ({ context, bgImage, blogcontent }) => {
       </div>
       <Breadcrumbs className={"text-white px-4 pt-4"} />
       <div className="text-center w-[80%] mx-auto flex flex-col gap-4 items-center justify-center h-[80vh]">
-        <h1 className="text-[40px] text-white font-bold tracking-[4px]">
+        <h1 className="sm:text-[28px] text-[24px] text-white font-bold tracking-[4px]">
           {context}
         </h1>
         {islogorNot && !isBlogPage && (
-          <p className="text-white text-[20px]">
+          <p className="text-white sm:text-[18px] text-[16px]">
             The ultimate platform for writers, gamers, and creators looking to
             infuse authenticity and flair into their character development.
           </p>
