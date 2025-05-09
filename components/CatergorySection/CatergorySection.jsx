@@ -94,7 +94,7 @@ const CatergorySection = () => {
 
         {/* Category 1 */}
         <div>
-          <h2 className="text-[28px] py-[20px]">Fantasy and Mythical</h2>
+          <h2 className="text-[24px] py-[20px]">Fantasy and Mythical</h2>
           <p className="sm:text-[18px] text-[16px] leading-relaxed pb-[20px]">
           Generate names that carry magic, danger, or mystery. Find goblins, demons, orcs, and more. 
           Every name sounds like it belongs in a book story or gaming zone—not just a list.
@@ -132,7 +132,7 @@ const CatergorySection = () => {
         </div>
         {/* Category 2 */}
         <div>
-          <h2 className="text-[28px] py-[20px]">Cultural and Historical</h2>
+          <h2 className="text-[24px] py-[20px]">Cultural and Historical</h2>
           <p className="sm:text-[18px] text-[16px] leading-relaxed pb-[20px]">
           Viking, Norse, Russian, Greek—we keep the soul intact in every name. 
           Just a few clicks, and you get a range of unique names that honor the past and shape strong characters.
@@ -170,7 +170,7 @@ const CatergorySection = () => {
         </div>
         {/* Category 3 */}
         <div>
-          <h2 className="text-[28px] py-[20px]">Fictional and Sci-Fi</h2>
+          <h2 className="text-[24px] py-[20px]">Fictional and Sci-Fi</h2>
           <p className="sm:text-[18px] text-[16px] leading-relaxed pb-[20px]">
           Your setting needs more than lasers and stars. It needs names that fit. 
           Angels to islands, songs to horses—we give you names that shape the tone and set the mood. 
