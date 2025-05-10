@@ -27,13 +27,13 @@ const Data = [
   },
   {
     name: "Koren Name Generator",
-    pic: "/korean.webp",
-    link: "/korean-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "French Name Generator",
-    pic: "/french-name-generator.avif",
-    link: "/french-name-generator",
+    pic: "/coming-soon-name-idea-generator.jpeg",
+    link: "",
   },
   {
     name: "Celtic Name Generator",

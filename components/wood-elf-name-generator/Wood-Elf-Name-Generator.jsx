@@ -538,7 +538,7 @@ const WoodElfNameGenerator = () => {
           <path d="M10 19l7-7-7-7"></path>
         </svg>
       <li className="flex items-center">
-        <a href="/wood-name-generator" className="hover:underline text-[#343a40]">Wood Name Generator</a>
+        <a href="/wood-elf-name-generator" className="hover:underline text-[#343a40]">Wood Elf Name Generator</a>
       </li>
     </ol>
   </nav>
