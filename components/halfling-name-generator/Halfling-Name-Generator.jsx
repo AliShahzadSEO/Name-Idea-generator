@@ -499,16 +499,16 @@ const HalflingNameGenerator = () => {
 
     const bgImage = "/halfling.webp"
     const context = "Halfling Name Generator"
-    const Q1 = "What is the Halfling Name Generator?"
-const A1 = "This prints names for Halflings in D&D using random order with each press making 10 names mostly Halflings but can also pass as human."
-const Q2 = "How do I generate names?"
-const A2 = "In case you are not happy with what you see on this page. You can drop us a line and tell me what type of or names you would prefer. As a result, you will receive a lineup of ten ideal names for a cosmic soldier."
-const Q3 = "What kind of names does the generator create?"
-const A3 = "The generator creates melodic and authentic Halfling names, ranging from short to fairly long. Female names tend to be more melodic, but the differences can be subtle. It also generates compound family names typical of Halflings, such as Goodbarrel, Hilltopple, Thorngage, and Underbough."
-const Q4 = "Can I use the names of other races or characters?"
-const A4 = "Yes, the generator is designed to create Halfling names, many of the names. It can also be suitable for human and humanoid races in the Dungeons & Dragons universe."
-const Q5 = "Is there a cost to use the Halfling Name Generator?"
-const A5 = "No, there is no cost to use the Halfling Name Generator. It is completely free and available to everyone. You can visit our tool website or platform in order to get accurate and recent information on the same."
+    const Q1 = "Can I customize the names generated?"
+const A1 = "Yes! You can choose certain traits, like gender or style, to personalize the names. You could go for something nature-inspired or more adventurous, we’ve got you covered."
+const Q2 = "Do I need to create an account to use the tool?"
+const A2 = "Nope! Our tool is free to use and doesn’t require an account. Just click, generate, and find the perfect Halfling name."
+const Q3 = "Can I share my favorite Halfling name?"
+const A3 = "Yes! Once you’ve found the name you love, you can easily share it with friends or use it in your own writing or game."
+const Q4 = "How many names can I generate?"
+const A4 = "You can generate as many names as you need! Each click brings up a fresh set of options, so feel free to explore until you find the perfect fit."
+const Q5 = "Can I save names I like from the generator?"
+const A5 = "Yes! Just jot them down or copy them while you try others. There’s no limit, so keep building your list till one stands out."
     return (
         <motion.div
             initial={{ opacity: 0, x: 1200 }}
@@ -540,7 +540,7 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
     </ol>
   </nav>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Halfling Name Generator
+                            Random Halfling Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -618,20 +618,19 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
                         <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                           Generate Your Perfect Halfling Name
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        Our Halfling Name Generator is a valuable tool for creating unique and fitting names for Halfling characters in your Dungeons & Dragons universe. 
-                        This tool offers a convenient way to generate names that embody the essence of Halflings.</p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                        It provides 4 randomly selected names, each reflecting the spirit of Halflings. 
-                        These names are versatile and suitable for various humanoid races, capturing the charm and characteristics of Halflings.                        
+                       Are you looking for the perfect Halfling name? You’ve come to the right place! 
+                       Our Halfling Name Generator takes the guesswork out of finding a name that suits your character. 
+                       Are you crafting an RPG hero or writing your next fantasy novel? This tool makes it quick and easy to generate names that feel just right. 
+                       All you have to do is click the link and let the generator do its thing. You’ll get a name that’s simple, charming, and ready for any adventure.                      
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        Halfling names are known for their melodic quality and range from short to fairly long. 
-                        Whether you need a name for an adventurous Halfling or a member of a tranquil Halfling community, 
-                        our generator delivers diverse options to fit your needs. 
+                    You don’t need to be a naming expert to get started. The Halfling Name Generator offers a variety of names 
+                    inspired by nature, family, and the Halfling way of life. Take Greenfoot or Bramblebrush, it’s all about names that reflect a down-to-earth, nature-loving spirit. 
+                    Just click, and within seconds, you’ll have a name that’s perfect for your little adventurer.
                         </p>
                     </div>
                 </div>
@@ -639,56 +638,60 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use our Halfling Name Generator Tool?
+                   How Does Our Tool Work?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                    Let’s show you how to use our tool with easy and simple steps. 
+                 Our Halfling Name Generator makes naming your character quick and easy. 
+                 No need to spend hours brainstorming names or getting lost in the details. Here’s how it works:
                     </p>
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Specify Gender
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold">
+                            Step 1 - Choose Your Preferences
                             </h3>
                             <p>
-                            Select the gender to generate a halfling name, aligning with traditional halfling naming conventions in fantasy settings.
+                            Start by selecting any preferences, such as gender or specific name traits that suit your Halfling. 
+                            Want something nature-inspired? We’ve got you covered.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Select the Type
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold">
+                            Step 2 - Click to Generate
                             </h3>
                             <p>
-                            Pick the type of halfling name you are interested in, such as cheerful, rustic, or noble, to refine the style of names generated.                           
+                            Hit that magic button, and our tool will instantly generate a list of Halfling names for you. 
+                            It’s like having a name-creating wizard at your fingertips!                         
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Click on Generate
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                            Step 3 - Pick Your Favorite
                             </h3>
                             <p>
-                            Hit the <b> "Generate"</b> button to start the creation of halfling names based on your inputs.                            
+                            Browse through the list and choose the name that feels just right. It could be simple, whimsical, or quirky, you’ll find a perfect fit in no time.                           
                             </p>                       
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
                             Step 4: Review Names and Their Meanings
                             </h3>
                             <p>
-                            The generated names will appear on your screen. Hover over each name to see detailed information like its meaning, cultural context, and any historical references.                            
+                            The generated names will appear on your screen. 
+                            Hover over each name to see detailed information like its meaning, cultural context, and any historical references.                            
                             </p>                       
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
-                            src="dragonborn.jpg"
+                            src="Halfling.png"
                             alt="Halfling Name Generator | DnD Halfling Name Generator With Meaning"
                             className="w-[270px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
-                            src="dragonborn1.jpg"
+                            src="Halfling_name_generator.webp"
                             alt="Halfling Name Generator | DnD Halfling Name Generator With Meaning"
                             className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
@@ -738,87 +741,77 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
             <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
                 <div class="text-center mb-[10px]">
                     <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    Why You Need to Use Halfling Name Generator?
+                   Why Use Our Halfling Name Generator?
                     </h2>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    The Halfling Name Generator enhances the depth and intrigue of your characters. 
-                    Use it to create unique, evocative names that make your stories, novels, and scripts stand out. 
-                    The generator produces names that capture the dark and mysterious essence needed to elevate your writing.
-                    </p>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    You can also enjoy a range of additional benefits by using our tool. Let’s explore what they are.
-                    </p>
                 </div>
 
                 <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="lg:w-1/2">
+                    <div class="lg:w-[60%]">
                         <hr class="my-4" />
                         <div class="py-[10px]">
                             <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Simplify Character Creation
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold">
+                               Quick and Easy
                                 </h3>
                                 <p>
-                                Generating authentic names for Halfling characters can be challenging. 
-                                The Halfling Name Generator provides a diverse range of names with a single click. 
-                                This simplifies the naming process, allowing you to focus more on character development and story-building.
+                                Forget hours of name brainstorming. Just click a button and let the generator do the hard work. 
+                                You’ll have a list of names in seconds, ready for you to choose from.
                                  </p>
                             </div>
                             <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Save Time and Effort
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Customizable Options
                                 </h3>
                                 <p>
-                                    Selecting names for characters often consumes considerable time. 
-                                    The Halfling Name Generator streamlines this process, offering ten random names at a time. 
-                                    This efficiency allows you to allocate more time to other important aspects of your project.
+                                Do you want a traditional, nature-inspired name or something a bit more adventurous?  
+                                Our <a href="https://nameideagenerator.com/"> <b> Name Genrerator</b></a> tool has a variety of options to suit your needs. 
+                                You can personalize the names based on what fits your character best.
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Ensure Authenticity
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Creative and Fun
                                 </h3>
                                 <p>
-                                The Halfling Name Generator delivers names that align with D&D lore, maintaining the integrity and immersion of your campaign or story. 
-                                It provides names with recognizable melodies and compound family names typical of the D&D world.                           
+                               It’s a tool designed to spark creativity. Each name reflects the spirit of a Halfling. 
+                               Charming, cozy, and full of character. This way you’ll know it’s the perfect choice.                           
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Boost Your Storytelling
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Perfect for Any Project
                                 </h3>
                                 <p>
-                                Well-chosen names add depth and memorability to characters. 
-                                The generator helps create names that enhance character traits and make them more engaging to the audience. 
-                                This contributes to richer storytelling and more relatable characters.                          
+                                Are you playing an RPG, writing a story, or just having some fun? 
+                                Our Halfling Name Generator makes sure your character's name stands out.                          
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Maintain the Versatility
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                               A Name that Fits Your Character
                                 </h3>
                                 <p>
-                                The generator is versatile and not limited to Halfling names alone. 
-                                Many names are adaptable to other humanoid species within the Dungeons & Dragons universe, 
-                                providing greater variety for character creation.                       
+                                Halfling names are all about simplicity, nature, and adventure. 
+                                Our Halfling names generator will give you names that reflect those key traits, 
+                                so you can be sure your character’s name will be a perfect fit for their personality.                       
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Inspiration for Character Backstories
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Endless Inspiration
                                 </h3>
                                 <p>
-                                Names often reflect a character’s culture and history. The generator offers names that suggest specific images and concerns, 
-                                aiding in the development of character backstories and adding depth to their backgrounds.                          
+                                Even if you can’t decide on one name right away, the generator provides enough options to inspire you. 
+                                It’s like having a personal naming assistant to give you ideas you might not have thought of.                          
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Professional Quality
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                No More Writer's Block
                                 </h3>
                                 <p>
-                                Whether you are a Dungeon Master, writer, or game developer, the Halfling Name Generator provides credible names that enhance your work. 
-                                It ensures authenticity, consistency, and memorable names without requiring extensive effort.                          
+                                Stuck on finding the right name for your Halfling? Don’t stress! Our tool takes the pressure off, 
+                                helping you focus on the fun parts of your project.                          
                                 </p>
                             </div>
                         </div>
@@ -828,16 +821,256 @@ const A5 = "No, there is no cost to use the Halfling Name Generator. It is compl
                         <img
                             src="Halfling1.jpg"
                             alt="Tiefling Image 1"
-                            class="w-[350px] my-[60px] h-[460px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
+                            class="w-[320px] my-[60px] h-[400px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="Halfling2.jpg"
                             alt="Tiefling Image 2"
-                            class="w-[350px] h-[460px] my-[20px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
+                            class="w-[320px] h-[400px] my-[20px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
             </div>
+
+
+
+<section className="w-full bg-white py-16 px-4 text-[#343a40]">
+  <div className="max-w-4xl mx-auto space-y-10">
+    <h2 className="text-3xl md:text-4xl font-bold text-center ">
+      What is a Halfling?
+    </h2>
+
+    <div className="space-y-6  text-[17px] leading-relaxed">
+      <div>
+        <h3 className="text-xl font-semibold ">
+          Friendly Adventurers with Big Hearts
+        </h3>
+        <p>
+          Halflings are those small, lovable folks you’ll find in just about every fantasy world.
+          They’re like the neighbor you wish you had. Always friendly, always down for a good meal,
+          and somehow always ending up in the middle of an adventure, even if they didn’t sign up for it.
+          They may not be the tallest folks in the room, but they’ve got heart, courage, and a knack for
+          getting things done, even if they’re a little short on height. Think of them as the underdogs
+          who end up stealing the show.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold ">Origin of Halflings</h3>
+        <p>
+          Halflings have been around for ages, always popping up in myths, stories, and every fantasy world
+          worth its salt. They’re usually thought to be a kind of smaller, more down-to-earth version of humans,
+          and prefer peaceful, rural lives in cozy homes tucked away from the chaos of the world. Tolkien’s Shire
+          is the most famous example—these folks love their gardens, food, and quiet life. But no matter where they
+          come from, one thing’s for sure: Halflings are all about community, comfort, and, of course,
+          an occasional adventure.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold ">
+          Physical Appearance of Halflings
+        </h3>
+        <p>
+          Halflings aren’t known for towering over anyone. They’re small and stocky, usually standing at about 3 to 4 feet tall.
+          What they lack in height, they make up for in charm. Their faces are round and friendly, with big eyes that make
+          you feel like they’re always up to something. Their hair’s curly, and they’ve got big, sturdy feet that are just perfect
+          for running around barefoot. They dress simply in practical tunics, comfy pants, and boots ready for any journey.
+          A Halfling’s look says, “I’m here to enjoy life, and maybe steal a bite of your pie while I’m at it.”
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="w-full py-16 px-4 text-[#343a40]">
+  <div className="max-w-4xl mx-auto space-y-10 ">
+    <h2 className="text-3xl md:text-4xl font-bold text-center">
+      Halfling Culture: Traditions, Values, and Everyday Life
+    </h2>
+
+    <div className="space-y-6 text-[17px] leading-relaxed">
+      <p>
+        Halfling culture is all about enjoying the simple things. Good food, good company, and a peaceful life.
+        They love tending their gardens, sharing meals with friends, and celebrating their close-knit communities.
+        Halflings value hard work, loyalty, and always lending a hand when needed.
+      </p>
+      <p>
+        Traditions are important to them too, from harvest festivals to cozy nights of storytelling.
+        Their lives are rooted in family and tradition, which make sure there's always time for fun, food,
+        and a little bit of adventure along the way.
+      </p>
+    </div>
+
+    <h3 className="text-2xl font-semibold ">
+      Mysterious Past of Halflings
+    </h3>
+
+    <div className="space-y-6 text-[17px] leading-relaxed">
+      <p>
+        Halflings have a past that’s as mysterious as a hidden treasure chest. Some legends say they were created
+        by ancient gods, while others suggest they’re descended from a forgotten race. Whatever the truth, one thing’s
+        for sure: Halflings have always had a special bond with the land, and that connection runs deep in their stories and myths.
+      </p>
+      <p>
+        Over the years, Halflings have popped up in countless legends, often as the humble heroes who don’t seek the spotlight
+        but somehow end up saving the day. They might not be looking for adventure, but they always find themselves right in the middle of it.
+        Whether guarding enchanted forests or stumbling upon long-lost treasures, the lore of Halflings is filled with unexpected bravery
+        and quiet wisdom that makes them unforgettable.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section className="w-full bg-white py-16 px-4">
+  <div className="max-w-6xl mx-auto text-[#343a40]">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Halfling's Role in Your Fantasy World
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="bg-white p-6 rounded-2xl shadow-md border text-[#343a40]">
+        <h3 className="text-xl font-semibold mb-2">🗡️ The Unlikely Hero</h3>
+        <p>
+          Halflings might not start out seeking adventure, but when the call comes, they step up with unexpected bravery and heart.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow-md border text-[#343a40]">
+        <h3 className="text-xl font-semibold mb-2">🧠 Charming and Clever</h3>
+        <p>
+          Charming others or outsmarting foes? Halflings excel in wit and resourcefulness, making them essential to any quest.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow-md border text-[#343a40]">
+        <h3 className="text-xl font-semibold mb-2">🤝 The Loyal Companion</h3>
+        <p>
+          They’re the ones you can count on. Steady, dependable, and always there for their friends when the going gets tough.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow-md border text-[#343a40]">
+        <h3 className="text-xl font-semibold mb-2">🕵️ Sneaky and Quick</h3>
+        <p>
+          Small and nimble, Halflings are perfect for sneaking into places, gathering information, or getting out of sticky situations without being noticed.
+        </p>
+      </div>
+
+      <div className="bg-white p-6 rounded-2xl shadow-md border text-[#343a40] md:col-span-2">
+        <h3 className="text-xl font-semibold mb-2">❤️ Heart of the Story</h3>
+        <p>
+          Halflings often add warmth and humor to the tale, grounding the adventure and making it relatable with their down-to-earth nature.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="w-full  py-16 px-4">
+  <div className="max-w-6xl mx-auto text-[#343a40]">
+    <h2 className="text-3xl md:text-4xl font-bold  mb-10">
+     List of Famous Halfling Names
+    </h2>
+
+    <ul className="space-y-4 list-disc list-inside text-lg">
+      <li><strong>Frodo Baggins</strong> – <span className="italic">The Lord of the Rings</span></li>
+      <li><strong>Samwise Gamgee</strong> – <span className="italic">The Lord of the Rings</span></li>
+      <li><strong>Meriadoc "Merry" Brandybuck</strong> – <span className="italic">The Lord of the Rings</span></li>
+      <li><strong>Peregrin "Pippin" Took</strong> – <span className="italic">The Lord of the Rings</span></li>
+      <li><strong>Bilbo Baggins</strong> – <span className="italic">The Hobbit</span></li>
+      <li><strong>Rosie Cotton</strong> – <span className="italic">The Lord of the Rings</span></li>
+      <li><strong>Lily Goodchime</strong> – <span className="italic">Dungeons & Dragons</span></li>
+      <li><strong>Pippin Greenbottle</strong> – <span className="italic">Dungeons & Dragons</span></li>
+      <li><strong>Tansy Brightleaf</strong> – <span className="italic">Dungeons & Dragons</span></li>
+    </ul>
+  </div>
+</section>
+
+<section className="w-full bg-white py-16 px-4">
+  <div className="max-w-6xl mx-auto text-[#343a40]">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Tips for Creating Unique Halfling Names
+    </h2>
+
+    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+      {/* Card 1 */}
+      <div className="bg-[#f8f9fa] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-2">🌿 Draw Inspiration from Nature</h3>
+        <p>
+          Halflings are connected to the earth, so names like <strong>Willowbrook</strong>, <strong>Bramblefoot</strong>, or <strong>Greenbottle</strong> are perfect.
+          Think plants, animals, and natural features.
+        </p>
+      </div>
+
+      {/* Card 2 */}
+      <div className="bg-[#f8f9fa] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-2">✨ Keep It Simple</h3>
+        <p>
+          Halfling names should be short and approachable, like <strong>Samwise</strong>, <strong>Pippin</strong>, or <strong>Frodo</strong>.
+          Simple yet charming.
+        </p>
+      </div>
+
+      {/* Card 3 */}
+      <div className="bg-[#f8f9fa] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-2">🎭 Reflect Personality</h3>
+        <p>
+          An adventurous Halfling might be named <strong>Tansy Quickfoot</strong>, while a quieter one could be <strong>Theo Greenbottle</strong>.
+          Match the name with traits.
+        </p>
+      </div>
+
+      {/* Card 4 */}
+      <div className="bg-[#f8f9fa] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-2">💛 Add a Nickname</h3>
+        <p>
+          Halflings love endearing nicknames like <strong>Sunny</strong> or <strong>Bram</strong> to show their friendly, warm nature.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section className="w-full bg-white py-16 px-4">
+  <div className="max-w-6xl mx-auto text-[#343a40]">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Gendered and Surnamed Halfling Names
+    </h2>
+
+    <div className="grid gap-8 md:grid-cols-2">
+      {/* Gender-Specific Names Card */}
+      <div className="bg-[#f8f9fa] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <h3 className="text-2xl font-semibold mb-4">🎀 Gender-Specific Halfling Names</h3>
+        <p className="mb-2">
+          Halfling names don’t always need to be gendered, but traditional ones can add familiarity to your character.
+        </p>
+        <ul className="list-disc list-inside space-y-1">
+          <li><strong>Male Names:</strong> Finnian, Milo, Samwise</li>
+          <li><strong>Female Names:</strong> Lily, Poppy, Rosie</li>
+          <li><strong>Gender-Neutral:</strong> Morgan, Sunny, Bram</li>
+        </ul>
+        <p className="mt-2">Mix and match styles to suit your Halfling's personality and role in the story.</p>
+      </div>
+
+      {/* Halfling Surnames Card */}
+      <div className="bg-[#f8f9fa] p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+        <h3 className="text-2xl font-semibold mb-4">🏡 Halfling Surnames</h3>
+        <p className="mb-2">
+          Surnames tell a deeper story—of heritage, lifestyle, or a quirky trait.
+        </p>
+        <ul className="list-disc list-inside space-y-1">
+          <li><strong>Place-based:</strong> Underhill, Baggins</li>
+          <li><strong>Nature-inspired:</strong> Brandybuck, Tumblebrook</li>
+          <li><strong>Personality-based:</strong> Quickfoot, Goodbarrel</li>
+        </ul>
+        <p className="mt-2">Think about your Halfling’s roots and quirks when crafting their surname.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
             <div
