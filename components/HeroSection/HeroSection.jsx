@@ -31,11 +31,11 @@ const HeroSection = ({ context, bgImage }) => {
       }}
     >
       {/* Desktop Navbar */}
-      <div className="hidden md:flex max-w-screen-xl w-full px-4 mx-auto justify-between items-center py-[20px]">
+      <div className="hidden md:flex max-w-screen-xl w-full  px-4 mx-auto justify-between items-center py-[20px]">
         <Link href="/">
           <img src="/Logo.png" alt="Logo" className="w-20 h-20" />
         </Link>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-4 bg-white/10 backdrop-blur-md rounded-xl px-10 py-5">
           {/* Dropdowns */}
           {[
             {
@@ -97,7 +97,7 @@ const HeroSection = ({ context, bgImage }) => {
               onMouseEnter={() => menu.setShow(true)}
               onMouseLeave={() => menu.setShow(false)}
             >
-              <div className="flex items-center hover:text-[#007bff] text-white gap-1 cursor-pointer">
+              <div className="flex items-center hover:text-[#e0e0e0] text-white gap-1 cursor-pointer">
                 <Link href={menu.link}>
                   <p className="font-medium text-[13px] whitespace-normal break-words">
                     {menu.title}
@@ -106,13 +106,13 @@ const HeroSection = ({ context, bgImage }) => {
                 {menu.show ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
               </div>
               <ul
-                className={`absolute text-center top-[140%] flex flex-col gap-4 pt-5 py-2 px-2 text-[14px] bg-slate-100 rounded-md ${menu.width} transition-all duration-300 ${
+                className={`absolute text-center top-[140%] flex flex-col text-white gap-4 pt-5 py-2 px-2 text-[14px] bg-white/20 backdrop-blur-md rounded-md ${menu.width} transition-all duration-300 ${
                   menu.show ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
                 {menu.dropdown.map(([name, href], i) => (
                   <Link href={href} key={i}>
-                    <li className="hover:text-[#007bff] text-sm">{name}</li>
+                    <li className="hover:text-[#e0e0e0] text-sm">{name}</li>
                   </Link>
                 ))}
               </ul>

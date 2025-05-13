@@ -348,16 +348,16 @@ const VikingNameGenerator = () => {
 
     const bgImage = "/vikings.jpg"
     const context = "Viking Name Generator"
-    const Q1 = "How does the Viking Name Generator work?"
-const A1 = "It uses a database of Viking-inspired names. Simply input your preferences, and it will generate fitting names instantly."
-const Q2 = "Is the Viking Name Generator safe?"
-const A2 = "Yes, it's completely safe. It doesn't require personal information, and your data remains secure in your browser."
-const Q3 = "How can I share suggestions for the Viking Name Generator?"
-const A3 = "We appreciate your input and encourage you to share any suggestions or feedback. Please use the contact form on our website to submit your ideas or report any issues. Your feedback helps us improve the tool and enhance the experience for all users."
-const Q4 = "Is the Viking Name Generator free?"
-const A4 = "Yes, it's free to use. Just access it through your web browser, enter your preferences, and generate names."
-const Q5 = "Can I use the Viking Name Generator for commercial purposes?"
-const A5 = "Yes, the generated names can be used for commercial projects, but check for any licensing requirements."
+    const Q1 = "Are the viking names really authentic?"
+const A1 = "Yes, the viking names are inspired by Norse mythology, Viking history, and traditions. They’re designed to feel authentic and true to Viking culture."
+const Q2 = "Do I need to create an account to use the Name Generator tool?"
+const A2 = "No account needed! Just click to generate names, and you can use them right away. It’s completely free and simple."
+const Q3 = "How many names can I generate?"
+const A3 = "You can generate as many names as you want. Each click will provide a new set of names to explore."
+const Q4 = "Can I share my Viking name?"
+const A4 = "Yes, feel free to share your Viking name with others or use it in your own projects. It’s all yours."
+const Q5 = "Can I mix two names to create something new?"
+const A5 = "Yes, you can combine parts of names you like. Many players do that to make their Vikings name more personal or to match a specific backstory."
     return (
         <motion.div
             initial={{ opacity: 0, x: 1200 }}
@@ -464,25 +464,21 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                 className="w-[100%] bg-white"
             // style={{ backgroundColor: "rgb(23 ,162 ,184, 0.6)" }}
             >
-                <div className="w-[80%] mx-auto pb-[20px]">
+                <div className="w-[80%] mx-auto text-center pb-[20px]">
                     <div className="py-[50px]">
-                        <h2 className="text-[36px] font-medium text-[#343a40] pb-[]">
-                        How Can You Generate Authentic Viking Names?
+                        <h2 className="text-[36px] text-center font-medium text-[#343a40] pb-[]">
+                        Generate Your Perfect Viking Name
                         </h2>
                         <hr />
                         <p className="mt-[30px] py-[10px] text-[#343a40]">
-                        You need strong and historically accurate Viking names for your characters. A reliable tool makes the process easy. The Viking Name Generator helps you find the perfect name in seconds.
-                        </p>
-                        <hr />
-                        <h2 className="text-[36px] font-medium text-[#343a40] pb-[]">
-                        Why Should You Use the Viking Name Generator?
-                        </h2>
-                        <p className="py-[10px] text-[#343a40]">
-                        A Viking name gives your character a strong identity. Writers, gamers, and RPG players need names that match Viking history and culture. This tool provides names that feel real and meaningful.
+                        Ready to step into the boots of a fearless Viking warrior? Our Viking Name Generator is here to help you find the 
+                        perfect name that’s as bold and powerful as the legends themselves. Go ahead and create a character for a game, 
+                        write a story, or just have fun. Our tool will give you unique and authentic Viking names in just a few clicks.
                         </p>
                         <p className="py-[10px] text-[#343a40]">
-                        The Viking Name Generator is tailored to meet your specific needs, ensuring you consistently receive a suitable name for your character. 
-                        Our norse name generator tool offers a reliable solution for creating powerful, authentic Viking names every time. 
+                       All you have to do is hit the button and watch as the generator creates a list of names inspired by Norse mythology, Viking history, and the warrior spirit. 
+                       Fierce warriors, mighty chieftains. 
+                       You’ll find a name that feels like it belongs to your Viking hero. Let the adventure begin!
                         </p>
                     </div>
                 </div>
@@ -490,7 +486,7 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Viking Name Generator?
+                    How Does Our Viking Name Generator Tool Work?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
                     Follow these easy steps and you will generate the most unforgettable names for your characters in our Viking name generator.  
@@ -498,50 +494,54 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-                    <div className="sm:w-[50%]">
+                    <div className="sm:w-[60%]">
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 1 - Specify Gender
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold">
+                            STEP 1 - Select Your Viking’s Gender
                             </h3>
                             <p>
-                            Start by choosing the gender for the Viking name you want to generate, if relevant, to align with historical naming conventions.
+                            First, you’ll choose what kind of Viking name you need. You can choose between Male, female or random. 
+                            The names generated sre gender specific or you’ll just get them at random. You decide!
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 2 - Select the Type
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold">
+                                STEP 2 - Select Your Viking Type
                             </h3>
                             <p>
-                            Choose the type of Viking name you are interested in, such as historical, legendary, or inspired by Viking gods and heroes.                            
+                                Then, you’ll choose what kind of Viking name you need. Are you looking for a fierce warrior name, a legendary Norse god name, 
+                                or a clan-based name? You can easily specify what fits your character’s background or story.                            
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            STEP 3 - Click on Generate
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                            STEP 3 - Click to Generate Your Name
                             </h3>
                             <p>
-                            Press the <b> "Generate"</b> button to create a list of Viking names based on your specified preferences.                            
+                                Once you've made your selection, simply click the "Generate" button. Our tool will quickly create a list of Viking names 
+                                that match your chosen type. Each name will reflect the strength, power, and boldness typical of Vikings.                            
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            STEP  4: Review Names and Their Meanings
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                                STEP 4: Choose Your Favorite Name
                             </h3>
                             <p>
-                            The generated names will appear on your screen. You can hover over each name to see detailed information, including its meaning and any cultural or historical significance.                            
+                              After the list of Viking names appears, go through the options and pick the one that feels right for your character. 
+                              You’ll have a name that’s perfect for your story or game.                            
                             </p>
                         </div>
                     </div>
-                    <div className="sm:w-[47%] relative ">
+                    <div className="sm:w-[40%] relative ">
                         <img
                             src="Viking1.jpg"
                             alt="Viking Name Generator | (Old Norse) Name Generator With Meaning"
-                            className="w-[270px] my-[10px] h-[320px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[300px] my-[10px] h-[340px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="viking2.webp"
                             alt="Viking Name Generator | (Old Norse) Name Generator With Meaning"
-                            className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[300px] h-[340px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
@@ -557,7 +557,7 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Viking-Name-Generator
+                    Related to Viking Names Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category2.map((item, index) => (
@@ -586,145 +586,161 @@ const A5 = "Yes, the generated names can be used for commercial projects, but ch
                 </div>
             </div>
 
-            <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
-                <div class="text-center mb-[10px]">
-                    <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    What Makes Viking Name Generator Unique? 
-                    </h2>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    You need more than just a random name. A Viking name should feel authentic, carrying the strength, history, and spirit of Norse warriors. This tool ensures that every name has meaning and depth.
-                    </p> <br /> <br />
-                </div>
 
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="lg:w-1/2">
-                        <hr class="my-4" />
-                        <div class="py-[10px]">
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Authentic Norse Names
-                                </h3>
-                                <p>
-                                Real Viking names came from Old Norse traditions. Warriors, rulers, and legendary figures bore names that reflected their strength and heritage. This tool pulls from historical records, sagas, and mythology to give you names that feel real.
-                                 </p>
-                            </div>
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Instant Name Generation
-                                </h3>
-                                <p>
-                                Some name generators create random words. This tool provides structured, culturally accurate Viking names with one click. No long forms, no unnecessary steps—just instant results.
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Historical & Mythological Accuracy
-                                </h3>
-                                <p>
-                                Viking names weren’t chosen randomly. They were influenced by Norse gods, elements, and warrior traditions. This generator includes names that:
-                                <li>
-                                Are derived from Old Norse words meaning warrior, storm, or battle.
-                                </li>
-                                <li>
-                                    Pay tribute to gods like Odin, Thor, and Freyja.
-                                </li>
-                                <li>
-                                    Have roots in real Viking clans and rulers.
-                                </li>
-                                
-                                Each name carries a meaning, giving your character a strong identity..                          
-                                
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Easy to Use
-                                </h3>
-                                <p>
-                                Some name tools overwhelm you with settings and filters. This one keeps it simple.
+<section className="bg-white text-[#343a40] py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Why Use Our Viking Name Generator?
+    </h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-3">⚡ Quick and Easy</h3>
+        <p>
+          Need a name fast? Our Viking Name Generator gives you a list of strong, bold names in seconds.
+        </p>
+      </div>
 
-                                   <li> Choose a gender (optional).
-                                   </li><li>Pick a name type—historical, mythological, or fantasy-inspired.
-                                   </li><li> Click Generate and get a list of names instantly.
-                                   </li><li>You don’t waste time. You get the right name immediately</li>                 
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Perfect for Writers & Gamers
-                                </h3>
-                                <p>
-                                This tool isn’t just for fun. It’s designed for:
+      <div className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-3">🛡️ Authentic Viking Names</h3>
+        <p>
+          Get names rooted in Norse mythology and Viking tradition for an authentic feel in your character design.
+        </p>
+      </div>
 
-                                   <li> <b>Writers</b> creating Viking characters for historical or fantasy fiction.                                   .
-                                   </li><li><b>Game developers</b> designing Viking warriors, clans, and NPCs.
-                                   </li><li> <b>RPG players</b> needing powerful names for DnD or tabletop adventures.
-                                   </li><li><b>Historians & enthusiasts</b> looking for authentic Norse names with meaning.</li>
-                                   Whether you’re writing a novel, crafting a game world, or naming your next RPG hero, this tool delivers names that fit the Viking era.                 
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Privacy-Focused & Secure
-                                </h3>
-                                <p>
-                                You don’t have to worry about data tracking. Unlike some generators, this tool:
+      <div className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-3">⚔️ Endless Customization</h3>
+        <p>
+          Choose from warriors, gods, or heroes. Customize the type of name based on your character’s role.
+        </p>
+      </div>
 
-                                    <li>
-                                        Runs entirely in your browser—no data is sent or stored.
-                                    </li>
-                                    <li>
-                                        Doesn’t collect personal information—you generate names without logging in.
-                                    </li>
-                                    <li>
-                                        Keeps your experience private—your searches stay on your device.
-                                    </li>
-                                    <li>
-                                        Your creativity stays yours. Your data stays safe.
-                                    </li>
+      <div className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-3">🎮 Perfect for Games and Stories</h3>
+        <p>
+          Whether it’s a fantasy novel or role-playing game, our names blend seamlessly into Viking-themed worlds.
+        </p>
+      </div>
 
-                     
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+      <div className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-3">💡 Inspire Creativity</h3>
+        <p>
+          Stuck naming a character? Let the generator inspire backstory ideas and creative sparks.
+        </p>
+      </div>
 
-                    <div class="sm:w-[50%] relative">
-                        <img
-                            src="viking2.jpg"
-                            alt="Tiefling Image 1"
-                            class="w-[350px] my-[60px] h-[450px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
-                        />
-                        <img
-                            src="viking3.jpeg"
-                            alt="Tiefling Image 2"
-                            class="w-[350px] h-[450px] my-[-60px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className=" py-[30px]  mx-auto">
-                    <section class="w-[80%] mx-auto p-6 bg-white rounded-lg shadow-lg mt-10">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4">When to Use the Viking Name Generator?</h2>
-                        <p class="text-gray-600 mb-4">
-                        Our Viking Name Generator is a fun and efficient way to create unique names for your characters. 
-                        Whenever you need a name you capture the essence of Viking warriors and their rich culture.
-                        </p>
-                        <ul class="text-gray-600 mb-4">
-                            <li>- Creating a new character for a historical or fantasy story</li>
-                            <li>- Designing a video game or tabletop RPG character</li>
-                            <li>- Naming a character in a role-playing game</li>
-                            <li>- Developing a Viking culture or clan for world-building</li>
-                        </ul> 
-                        <p class="text-gray-600 mb-4">
-                        You can use our tool in a wide range of sequences from casual gaming to professional writing. 
-                        Try our tool today and explore its advanced features to create the perfect Viking names with ease!
-                        </p>
-                    </section>
-                </div>
+      <div className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-xl font-semibold mb-3">🎉 Fun and Free</h3>
+        <p>
+          Use the tool as much as you want — completely free and unlimited. No sign-ups or hidden fees.
+        </p>
+      </div>
 
-            </div>
+    </div>
+  </div>
+</section>
+
+<section className="bg-white text-[#343a40] py-16 px-4">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">What Are Vikings?</h2>
+    
+    <div className="bg-gray-100 p-6 md:p-8 rounded-xl shadow-md">
+      <p className="text-lg leading-relaxed mb-6">
+        Vikings were seafaring warriors, traders, and explorers from Scandinavia, what we now call Norway, Denmark, and Sweden. They lived during the Viking Age, which lasted from the late 8th century to the early 11th century. While they’re often remembered for their brutal raids on villages and monasteries, there’s so much more to their story. Vikings attacked, explored, traded, and even settled in places as far as Iceland, Greenland, and North America.
+      </p>
+
+      <p className="text-lg leading-relaxed">
+        Viking society wasn’t just about war. They were skilled craftsmen, farmers, and merchants, too. They built advanced ships that could sail across oceans and navigate rivers, which made them expert travelers. Their culture was deeply tied to the Norse gods, and their myths and legends were passed down in sagas. Vikings were also big on honor, bravery, and family. They lived in tight-knit communities, and their social structure was based on loyalty and respect. So, while they definitely had a fierce reputation, they were also a complex and influential group that shaped history in many ways.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section className="text-[#343a40] py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Viking Names: History, Structure, and Meaning
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-10 items-start">
+      {/* History Card */}
+      <div className="bg-gray-100 rounded-xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <h3 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-2">History</h3>
+        <p className="text-lg leading-relaxed">
+          Viking names were pretty straightforward. You’d get a given name, and then a patronymic (for guys) or matronymic (for gals) to show who your parents were. The suffixes “-son” (son of) and “-dottir” (daughter of) were used to link you to your dad or mom.
+          <br /><br />
+          For example, <strong>Bjorn Ironside</strong> means the son of Bjorn, and <strong>Astrid Bjornsdottir</strong> would be the daughter of Bjorn. Simple, but it kept things personal and tied to family!
+        </p>
+      </div>
+
+      {/* Meaning Card */}
+      <div className="bg-gray-100 rounded-xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+        <h3 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-2">Meaning</h3>
+        <p className="text-lg leading-relaxed">
+          Viking names were full of meaning, often linked to nature, gods, or traits that Vikings valued. Many names came from Old Norse words tied to animals (<strong>Ulf</strong>, meaning “wolf”), gods (<strong>Thorvald</strong>, meaning “Thor’s ruler”), or elements of nature (<strong>Skadi</strong>, named after the goddess of winter).
+         
+          These names described a person. They connected them to their family, their heritage, and even the gods. Names like <strong>Astrid</strong> (meaning “divine strength”) reflected qualities like power, resilience, and divine favor.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="text-[#343a40] py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Types of Viking Names
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Norse Gods and Legends */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-2xl font-semibold mb-3">Norse Gods and Legends</h3>
+        <p className="text-base leading-relaxed">
+          These names are inspired by mighty gods and heroes from Norse mythology. Think of figures like <strong>Thor</strong> or <strong>Odin</strong>. Create unique blends like <strong>Odrik</strong> or <strong>Thorsen</strong>. These names radiate power and mystery.
+        </p>
+      </div>
+
+      {/* Warrior and Fighter Names */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-2xl font-semibold mb-3">Warrior and Fighter Names</h3>
+        <p className="text-base leading-relaxed">
+          Names like <strong>Bjorn</strong> (bear), <strong>Ragnar</strong> (warrior), or <strong>Ulf</strong> (wolf) showcase Viking strength and battle spirit—ideal for fierce characters ready for war.
+        </p>
+      </div>
+
+      {/* Viking Clan and Place Names */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-2xl font-semibold mb-3">Viking Clan and Place Names</h3>
+        <p className="text-base leading-relaxed">
+          Deeply tied to their roots, Vikings used names like <strong>Hrafnson</strong>, <strong>Skjold</strong>, or <strong>Helsing</strong> to reflect clan ties and geography—great for characters proud of their legacy.
+        </p>
+      </div>
+    </div>
+
+    {/* Example Names Section */}
+    <div className="mt-16">
+      <h3 className="text-2xl font-bold mb-6 text-center">Examples of Viking Names</h3>
+      <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-lg font-medium list-disc list-inside">
+        <li>Bjorn Ironside</li>
+        <li>Ragnar Lothbrok</li>
+        <li>Freya Stormborn</li>
+        <li>Thorvald the Bold</li>
+        <li>Astrid Bjornsdottir</li>
+        <li>Erik the Red</li>
+        <li>Sigrid Firehair</li>
+        <li>Leif the Lucky</li>
+        <li>Ulf Wolfson</li>
+        <li>Hilda Ravenshield</li>
+        <li>Olaf the Mighty</li>
+        <li>Helga Thorsdottir</li>
+        <li>Gunnar Frostbeard</li>
+        <li>Kara Wolfdaughter</li>
+        <li>Vidar the Valiant</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 
             <div
