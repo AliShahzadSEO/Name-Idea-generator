@@ -46,20 +46,65 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Name Idea Generator",
+    "url": "https://www.nameideagenerator.com",
+    "description":
+      "Find the perfect name for your business, brand, or project with our AI-powered Name Idea Generator. Get unique, creative, and SEO-friendly name suggestions for businesses, domains, fantasy worlds, and more in seconds.",
+    "keywords": [
+      "name generator",
+      "Name Idea Generator",
+      "Idea name generator",
+      "name maker",
+      "Special name generator",
+      "fantasy name generator",
+      "name generator fantasy",
+      "name crafter",
+      "common name generator",
+      "name generators",
+      "Fantasy name generator",
+      "dnd name generator",
+      "Sci-Fi name generator",
+      "Fictional name generator",
+      "Historical name generator",
+      "Cultural name generator",
+      "Mythical name generator"
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Name Idea Generator",
+      "url": "https://www.nameideagenerator.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.nameideagenerator.com/Logo.png"
+      }
+    }
+  };
+
   return (
     <html lang="en">
       <head>
-      <meta name="google-site-verification" content="IW3ie0bKpLn8jz5a03YsvJRQy6X2TWYnzvprqsR7cms" />
-      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842"
-     crossOrigin="anonymous"></Script>
+        <meta
+          name="google-site-verification"
+          content="IW3ie0bKpLn8jz5a03YsvJRQy6X2TWYnzvprqsR7cms"
+        />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1797994018929842"
+          crossOrigin="anonymous"
+        />
+        {/* Inject homepage schema */}
+        <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+        />
       </head>
-
       <body className={inter.className}>
-        {/* <NavBar /> */}
         {children}
-        {/* <Footer /> */}
+        <GoogleAnalytics gaId="G-CR7P6GW9K1" />
       </body>
-        <GoogleAnalytics gaId="G-CR7P6GW9K1"/>
     </html>
   );
 }

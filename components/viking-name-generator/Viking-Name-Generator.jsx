@@ -743,6 +743,152 @@ const A5 = "Yes, you can combine parts of names you like. Many players do that t
 </section>
 
 
+<section className="bg-white text-[#343a40] py-16 px-4">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Tips for Creating Memorable Viking Names
+    </h2>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Tip 1 */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-xl font-semibold mb-2">Use Strong, Bold Syllables</h3>
+        <p>
+          Viking names should sound fierce. Choose hard consonants and strong vowels to create a powerful, warrior-like vibe.
+        </p>
+      </div>
+
+      {/* Tip 2 */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-xl font-semibold mb-2">Incorporate Norse Mythology</h3>
+        <p>
+          Get inspired by gods and heroes like Thor, Odin, or Freya. Combine elements of their names to form something unique yet authentic.
+        </p>
+      </div>
+
+      {/* Tip 3 */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-xl font-semibold mb-2">Keep it Short and Punchy</h3>
+        <p>
+          Names like Ragnar or Bjorn are easy to remember. Short, sharp names make a lasting impression on readers and players.
+        </p>
+      </div>
+
+      {/* Tip 4 */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-xl font-semibold mb-2">Include Elements of Nature</h3>
+        <p>
+          Use words like Wolf, Stone, or Thunder to reflect the Viking’s deep connection with nature and untamed power.
+        </p>
+      </div>
+
+      {/* Tip 5 */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-xl font-semibold mb-2">Use Patronymic Naming</h3>
+        <p>
+          Add “-son” or “-dottir” to a parent’s name for tradition and heritage—like Ericson or Gudrun Dottir.
+        </p>
+      </div>
+
+      {/* Tip 6 */}
+      <div className="bg-gray-100 rounded-xl p-6 shadow hover:shadow-md transition duration-300">
+        <h3 className="text-xl font-semibold mb-2">Mix Old and New</h3>
+        <p>
+          Blend traditional roots with creative twists. A name like Thorin Frost combines classic Viking with modern style.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="text-[#343a40] py-16 px-4">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+      What Role Did Surnames Play in Viking Culture?
+    </h2>
+
+    <div className="space-y-8 text-base md:text-lg leading-relaxed">
+
+      {/* Section 1 */}
+      <div>
+        <h3 className="text-xl font-semibold mb-2">Patronymic Naming</h3>
+        <p>
+          For Vikings, surnames were all about who your father was. If your dad was Erik, you’d proudly carry the surname <strong>Eriksson</strong> (son of Erik). And if you were a daughter? You’d be an <strong>Eriksdottir</strong> (daughter of Erik). It was the easiest way to show family ties—your name was a walking family tree!
+        </p>
+      </div>
+
+      {/* Section 2 */}
+      <div>
+        <h3 className="text-xl font-semibold mb-2">Your Legacy in Your Name</h3>
+        <p>
+          The surname wasn’t just a formality—it was your Viking legacy! It linked you to your father’s reputation, achievements, and status. So if your dad was a respected warrior, your name shouted, “I’m tough and ready for battle.”
+        </p>
+      </div>
+
+      {/* Section 3 */}
+      <div>
+        <h3 className="text-xl font-semibold mb-2">No Inherited Surnames</h3>
+        <p>
+          Viking surnames weren’t passed down forever. Your kids wouldn’t get your last name—they’d get a new one based on <em>your</em> first name. So Eriksson ended with Erik’s children. It kept surnames fresh, meaningful, and directly tied to your family tree.
+        </p>
+      </div>
+
+      {/* Section 4 */}
+      <div>
+        <h3 className="text-xl font-semibold mb-2">A Marker of Identity</h3>
+        <p>
+          Your surname was more than a name—it was your Viking ID. It told people where you came from, who your father was, and gave you a sense of belonging and pride in your heritage.
+        </p>
+      </div>
+
+      {/* Section 5 */}
+      <div>
+        <p>
+          So, Viking surnames were a way to honor family, show respect for your roots, and proudly claim your place in Norse society. Not bad for just a few extra syllables!
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<section className="bg-white text-[#343a40] py-16 px-4">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
+      How Can Viking Names Reflect Personal Traits or Characteristics?
+    </h2>
+
+    <div className="grid gap-8 text-base md:text-lg leading-relaxed">
+
+      <div>
+        <p>
+          Viking names weren’t just picked for fun—they acted like a personal billboard, proudly announcing your traits, strengths, or even your destiny! If you were a fierce warrior, you might be called <strong>Bjorn</strong> (meaning “bear”), a symbol of raw power and toughness.
+        </p>
+      </div>
+
+      <div>
+        <p>
+          A sharp mind or leadership potential? You might carry a name like <strong>Eirik</strong>, which means “eternal ruler,” pointing to your cleverness or kingly destiny. Parents often named children with traits they admired or hoped their kids would grow into.
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Even the gods influenced naming. A name like <strong>Thorvald</strong> (Thor’s ruler) linked you to the might of Thor himself—implying that you were strong, courageous, and maybe even unstoppable.
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Viking names weren’t random. They were meaningful choices that told a story about your character. Whether you were destined to fight, lead, or charm—your name let the world know what kind of Viking you were meant to be.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
             <div
                 className="w-[100%] flex justify-center items-center bg-overlay py-[250px]"
                 style={{

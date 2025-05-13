@@ -1011,9 +1011,9 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
         </div>
         <hr />
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-          <div className="sm:w-[50%]">
+          <div className="sm:w-[60%]">
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold">
              Step 1: Select a Type and Gender
               </h3>
               <p>
@@ -1021,7 +1021,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold">
               Step 2: Click "Generate"
               </h3>
               <p>
@@ -1029,7 +1029,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold ">
               Step 3: Hover for Meaning
               </h3>
               <p>
@@ -1038,7 +1038,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold">
               Example Name
               </h3>
               <p>
@@ -1047,16 +1047,16 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
               </p>
             </div>
           </div>
-          <div className="sm:w-[47%] relative ">
+          <div className="sm:w-[40%] relative ">
             <img
               src="motherdragon.jpg"
               alt="Demon Name Generator With Meaning | Devil Name Generator"
-              className="w-[330px] my-[10px] h-[370px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
+              className="w-[300px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="dragon.png"
               alt="Demon Name Generator With Meaning | Devil Name Generator"
-              className="w-[330px] h-[370px] my-[10px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+              className="w-[300px] h-[300px] my-[10px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
@@ -1176,7 +1176,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
   {/* Demon Description Section */}
   <div className="py-[20px]">
     <div className="py-[10px] flex flex-col gap-4">
-      <h3 className="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
+      <h3 className="sm:text-[24px] text-[20px] sm:font-normal font-semibold">
         The Nature of Demons
       </h3>
       <p className="text-[16px]">
@@ -1188,7 +1188,7 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
   {/* History of Demonology Section */}
   <div className="py-[20px]">
     <div className="py-[10px] flex flex-col gap-4">
-      <h3 className="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
+      <h3 className="sm:text-[24px] text-[20px] sm:font-normal font-semibold">
         The History of Demonology
       </h3>
       <p className="text-[16px]">

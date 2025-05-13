@@ -80,13 +80,13 @@ const page = () => {
       "url": "https://www.nameideagenerator.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nameideagenerator.com/Logo.png",
+        "url": "https://www.nameideagenerator.com/Logo.png"
       },
     },
     "brand": {
       "@type": "Brand",
       "name": "Name Idea Generator",
-      "logo": "https://www.nameideagenerator.com/Logo.png",
+      "logo": "https://www.nameideagenerator.com/Logo.png"
     },
   };
 
