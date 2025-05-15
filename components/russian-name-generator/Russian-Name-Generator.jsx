@@ -496,16 +496,16 @@ const RussianNameGenerator = () => {
 
     const bgImage = "/Russian.webp"
     const context = "Russian Name Generator"
-    const Q1 = "What is a Russian Name Generator?"
-    const A1 = "A Russian Name Generator is a free online tool for generating authentic Russian names. It applies algorithms in combining real Russian naming contents, like first names and surnames, to come up with a unique and culturally appropriate name."
-    const Q2 = "How does the Russian Name Generator work?"
-    const A2 = "The generator works by randomly selecting from a database of Russian first names and surnames. It then combines these elements to create new, realistic Russian names. Users can specify gender or other preferences to tailor the generated names."
-    const Q3 = "Are the names generated culturally accurate?"
-    const A3 = "Yes, the generator uses a database of authentic Russian names to ensure that the generated names are culturally accurate and appropriate. It aims to provide names that reflect the linguistic and cultural norms of Russian naming conventions."
-    const Q4 = "Can I use the names generated commercially or in my projects?"
-    const A4 = "Yes, the names generated with the Russian Name Generator are used for a wide array of different applications ranging from commercial projects to writing and gaming. Sure, one must always be aware of the culture that is occurring and be sensitive to derived names."
-    const Q5 = "Is the Russian Name Generator free to use?"
-    const A5 = "Yes, our Russian Name Generators offer name generation for free. You can generate a lot of names within seconds without any cost."
+    const Q1 = "Are the names based on real Russian language and culture?"
+    const A1 = "Yes! The names are rooted in authentic Russian naming conventions, which include historical and cultural significance."
+    const Q2 = "Do the generated names include meanings?"
+    const A2 = "Yes! Hover over each name to see its meaning, origin, and cultural context, and help you choose the one that fits best."
+    const Q3 = "How many names can I generate?"
+    const A3 = "You can generate as many names as you need. No limits! Keep clicking to find the perfect name for your character."
+    const Q4 = "Can I use the Russian Name Generator for modern characters?"
+    const A4 = "Yes! The tool offers both traditional and modern Russian names, so you can choose names that fit any time period or setting."
+    const Q5 = "Should I pick a name before or after building the backstory?"
+    const A5 = "You can do either. Some players pick the name first for inspiration. Others build a backstory and then use the generator to match it. Try both ways."
 
 
     return (
@@ -617,16 +617,12 @@ const RussianNameGenerator = () => {
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
                         <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                          Finding the Perfect Russian Name Just Got Easier
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                            Our soviet name generator tool enables you to generate authentic Russian names effortlessly. This tool simplifies the process of finding the perfect Russian name for a character and a project or personal use.
-                            Just a few seconds the generator provides you with a list of culturally rich names.
-                        </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                            This online russian name generator fantasy tool makes choosing your perfect name easier. You can use this tool for various purposes, including naming characters, creating usernames, or even for fun.
-                            Our russian name generator male tool saves your time and ensures meaningful, pertinent names, not by flipping through tons of papers.
+                         You don’t need to guess what sounds Russian enough. You need names that feel real. Names that fit a Slavic world, 
+                         a cold war spy, or a folk hero in a fantasy forest. Russian names carry weight. They tell stories. You just need the right tool to unlock them.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
                             We have designed and developed our russian surname generator with robust security features to keep user data safe and secure. It uses encryption technology to protect sensitive
