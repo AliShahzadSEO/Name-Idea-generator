@@ -644,47 +644,61 @@ const RussianNameGenerator = () => {
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                                Step 1: Specify Gender
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold">
+                                Step 1: Pick the Gender
                             </h3>
                             <p>
-                            Choose a gender for the Russian name you wish to generate, helping tailor the names to fit gender-specific characteristics common in Russian culture.
+                            Start by selecting the gender of your character. Russian names differ based on gender, and this step helps ensure the name matches cultural norms. 
+                            Choose male, female, or unisex options to get the most accurate results.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                                Step 2: Select the Type
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold">
+                                Step 2: Select a Name Type
                             </h3>
                             <p>
-                            Decide on the type of Russian name you want, such as traditional, modern, or influenced by famous Russian figures.
+                            After choosing gender, pick the style of name you want. Do you need something classic and traditional? Or maybe something rare and unique? 
+                            The generator offers different styles like noble, common, or modern, which allow you to tailor the names to your character's background.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                                Step 3: Click on Generate
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                                Step 3: Click ‘Generate’
                             </h3>
                             <p>
-                            Click the <b> "Generate"</b> button to produce a list of Russian names based on your selections.
+                            Hit the “Generate” button to instantly receive a list of name suggestions. 
+                            Each click brings a new batch of names, so you can quickly explore different options that suit your character.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                                Step 4: Review Names and Their Meanings
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                                Step 4: Hover to View Name Meanings
                             </h3>
                             <p>
-                            The names will be displayed on your screen. Hover over each name to get more details like its meaning, origin, and any cultural significance, aiding in your selection process.                            </p>
+                            Curious about the meaning behind a name? Hover over any name to view its meaning, origin, or cultural context. 
+                            This will help you pick a name with the right story or significance.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+                              Adjust and Try Again
+                            </h3>
+                            <p>
+                            Not satisfied with the first set of names? Change the style, gender, or any other setting to refine your results. 
+                            The more specific you get with your preferences, the more targeted and relevant the names will be.
+                            </p>
                         </div>
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="russian2.webp"
                             alt="Russian Name Generator | Random Russian Name Generator With Meaning"
-                            className="w-[300px] h-[330px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[350px] h-[350px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="russian4.jpeg"
                             alt="Russian Name Generator | Random Russian Name Generator With Meaning"
-                            className="w-[300px] h-[330px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[350px] h-[350px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
@@ -729,135 +743,255 @@ const RussianNameGenerator = () => {
                 </div>
             </div>
 
-            <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
-                <div class="text-center mb-[10px]">
-                    <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    What Makes Our Russian Name Generator Female the Top Choice?
-                    </h2>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    The Russian Name Gene is a convenient way to find the perfect name quickly and accurately. It makes the process easier, saves time, and adds cultural authenticity to the names you choose. 
-                    <br /> <br />
-                    There are several compelling reasons to use our russian surnames generator tool, including for the following:
+            <section className="py-16 px-4 text-[#1a1a1a]">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      Why Use Our Russian Name Tool?
+    </h2>
 
-                    </p>
-                </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {[
+        "Works instantly to generate names without delay",
+        "Provides accurate Russian name structures based on tradition",
+        "Includes both traditional and modern styles to fit your needs",
+        "Shows name meanings with one hover to add depth",
+        "Ensures cultural accuracy for a realistic feel",
+        "Offers unlimited name ideas with every click",
+        "Customizable filters for more specific results",
+        "Helps build unique, memorable characters quickly",
+        "Perfect for writers, role-players, and game developers",
+        "Saves time by cutting out hours of research",
+        "Great for creating authentic Russian names for any project",
+      ].map((text, index) => (
+        <div
+          key={index}
+          className="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition duration-300"
+        >
+          <p className="text-lg">{text}</p>
+        </div>
+      ))}
+    </div>
 
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="w-[60%]">
-                        <hr class="my-4" />
-                        <div class="py-[10px]">
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Diverse Name Generation
-                                </h3>
-                                <p>
-                                Our Russian Name Generator provides a vast array of name options, ensuring you find the perfect match for your character, project, or any creative endeavor. 
-                                Whether you're seeking traditional or unique names, the generator offers a wide selection tailored to your needs.
+    <div className="mt-10 text-center">
+      <p className="text-lg">
+        You can also browse more options in our{" "}
+        <a
+          href="categories/cultural-and-historical"
+          className="text-blue-600 font-medium"
+        >
+          Cultural and Historical Name Generators hub
+        </a>.
+      </p>
+    </div>
+  </div>
+</section>
 
-                                </p>
-                            </div>
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Quick and Easy Use
-                                </h3>
-                                <p>
-                                Designed with a user-friendly interface, our russian nickname generator tool allows you to generate names effortlessly. 
-                                With just a few clicks, you can explore numerous options without any hassle, making the process efficient and enjoyable.
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Creative Inspiration
-                                </h3>
-                                <p>
-                                The generator sparks creativity by providing a variety of name styles and themes. 
-                                It helps you explore different naming possibilities, fueling your imagination for writing, gaming, or other creative projects.                               
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Versatile Applications
-                                </h3>
-                                <p>
-                                Whether you need a name for a story character, a gaming avatar, or a personal project, our russian name maker tool caters to various use cases. 
-                                Its flexibility ensures that you can find a name suitable for any purpose.                               
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                No Registration Required
-                                </h3>
-                                <p>
-                                You can use our tool immediately without needing to sign up or provide personal information. 
-                                This convenience allows you to start generating names right away. Now save your time and effort with our online Russian names generator tool.                              
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Free Access
-                                </h3>
-                                <p>
-                                Enjoy the full functionality of our tool at no cost. We have launched this tool, which is free to use for users without any fees. 
-                                Now, you can generate as many names as you need without any charges, making it an accessible resource for everyone.                              
-                                 </p>
-                            </div>
-                        </div>
-                    </div>
+<div class="w-[90%] max-w-7xl mx-auto my-16 text-[#343a40]">
+  <div class="text-center mb-8">
+    <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
+      Where Do Russian Names Come From?
+    </h2>
+    <p class="text-[16px] sm:text-[18px] leading-relaxed font-medium max-w-3xl mx-auto">
+      Russian names follow a specific structure made up of a first name, a patronymic, and a surname. The patronymic comes from the father’s first name. For example, a man named Ivan whose father is Nikolai would be called <span class="font-semibold">Ivan Nikolaevich</span>.
+    </p>
+  </div>
 
-                    <div class="sm:w-[40%] relative">
-                        <img
-                            src="russian1.webp"
-                            alt="Tiefling Image 1"
-                            class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
-                        />
-                        <img
-                            src="russian3.jpg"
-                            alt="Tiefling Image 2"
-                            class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
-                        />
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className=" py-[30px]  mx-auto">
-                    <section class="w-[80%] mx-auto p-6 bg-white rounded-lg shadow-lg mt-10">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Applications of the Russian Name Generator</h2>
-                        <p class="text-gray-600 mb-4">
-                        My name in Russian Generator is a versatile tool that streamlines the process of finding the perfect name. Here are some key applications:
-                        </p>
-                        <div class="py-[10px] flex flex-col gap-2">
-                            <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                            Character Naming
-                            </h3>
-                            <p class="text-gray-600 mb-4">
-                            Ideal for writers, game developers, and creators, this tool helps you find authentic Russian names
-                             for characters, adding cultural depth and accuracy to your stories, games, or other creative projects.
-                            </p>
-                            <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                            Username Creation
-                            </h3>
-                            <p class="text-gray-600 mb-4">
-                            Whether for social media, forums, or online gaming, our tool makes it easy to create unique, 
-                            culturally rich usernames that help you stand out with a name that reflects your interests or heritage.
-                            </p>
-                            <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                            Personal Use
-                            </h3>
-                            <p class="text-gray-600 mb-4">
-                            Whether you're looking to create a pseudonym, explore your cultural roots, or simply find a name that resonates with you, 
-                            this tool offers the perfect solution for adding a personal touch to your projects or online presence.
-                            </p>
-                            <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                            Research and Learning
-                            </h3>
-                            <p class="text-gray-600 mb-4">
-                            For researchers, students, and educators, the Russian Name Generator provides accurate and culturally appropriate names for academic projects,
-                             papers, or studies, ensuring the authenticity and depth of your work.</p>
-                        </div>
-                    </section>
-                </div>
+  <div class="space-y-5 text-[16px] leading-relaxed">
+    <p>
+      Russian surnames also reflect gender — <span class="font-semibold">“Ivanov” becomes “Ivanova”</span> for a woman. These naming conventions give Russian names a unique cultural depth, tracing back to <span class="italic">centuries-old Slavic traditions</span> that often reflect family history, region, or social status.
+    </p>
+    <p>
+      Many well-known names like <span class="font-semibold">“Dmitri,” “Anastasia,” or “Yelena”</span> carry religious or historical meaning. Some originate from Orthodox saints, while others are rooted in old pagan traditions. 
+    </p>
+    <p>
+      When you choose a Russian name, you’re not just picking random syllables — <span class="font-semibold">you’re choosing a name with legacy, symbolism, and story</span>.
+    </p>
+  </div>
+</div>
 
-            </div>
+<div class="w-[90%] max-w-7xl mx-auto my-16 text-[#343a40]">
+  <div class="text-center mb-8">
+    <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
+      Why Do Russian Names Matter in Storytelling?
+    </h2>
+    <p class="text-[16px] sm:text-[18px] leading-relaxed font-medium max-w-3xl mx-auto">
+      Russian names aren’t just culturally rich — they instantly evoke strong emotions and vivid impressions, making them a powerful tool for writers, gamers, and storytellers.
+    </p>
+  </div>
+
+  <div class="space-y-5 text-[16px] leading-relaxed">
+    <p>
+      When you hear names like <span class="font-semibold">"Dmitri"</span> or <span class="font-semibold">"Anastasia"</span>, they feel loaded with mystery, nobility, or strength. These names set a mood before the character even speaks.
+    </p>
+    <p>
+      Whether you're writing a novel, creating a game avatar, or role-playing, using an authentic Russian name gives your character identity, background, and depth. 
+    </p>
+    <p>
+      It’s not just about sounding cool — it’s about giving your character roots. Names like <span class="font-semibold">"Ivan"</span> or <span class="font-semibold">"Tatiana"</span> carry heritage, making your story more immersive and believable.
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="w-[90%] max-w-7xl mx-auto text-[#343a40] my-16">
+  <div class="text-center mb-10">
+    <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
+      Famous Russian Names in History and Pop Culture
+    </h2>
+    
+  </div>
+
+  <div class="flex flex-col lg:flex-row gap-10">
+    <div class="lg:w-[60%] w-full space-y-8">
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Leo Tolstoy</h3>
+        <p class="text-[16px] leading-relaxed">
+          Iconic Russian author known for War and Peace. His name carries intellectual weight and literary legacy.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Catherine the Great</h3>
+        <p class="text-[16px] leading-relaxed">
+         Powerful Russian empress who shaped history. Her name suggests leadership and strength.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Rasputin</h3>
+        <p class="text-[16px] leading-relaxed">
+          The mysterious confidant of the Romanovs. His name evokes intrigue and mysticism.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Anastasia Romanov</h3>
+        <p class="text-[16px] leading-relaxed">
+         The tragic Russian princess. A name tied to royalty and mystery.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Boris (James Bond)</h3>
+        <p class="text-[16px] leading-relaxed">
+         Instantly recognizable villain from GoldenEye. His name brings a classic action-packed vibe.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Ivan the Terrible</h3>
+        <p class="text-[16px] leading-relaxed">
+          The notorious Tsar of Russia. His name symbolizes ruthless power and a dramatic reign.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Alexei Romanov</h3>
+        <p class="text-[16px] leading-relaxed">
+         The youngest son of the Romanovs. His name reflects innocence and tragedy.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Mikhail Gorbachev</h3>
+        <p class="text-[16px] leading-relaxed">
+         The last leader of the Soviet Union. His name is linked to history-changing reforms and global politics.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Yekaterina Ivanovna</h3>
+        <p class="text-[16px] leading-relaxed">
+         A classic, elegant Russian name. It conveys grace and tradition, perfect for a noble character.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-[22px] sm:text-[26px] font-semibold mb-1">Sergey</h3>
+        <p class="text-[16px] leading-relaxed">
+         A common Russian male name. Known for its association with historical figures and artists, it’s versatile and timeless.
+        </p>
+      </div>
+      <p class="text-[16px] leading-relaxed">
+        These names add immediate historical or cultural context to your characters, if you’re writing fiction or creating a role-playing persona.
+      </p>
+    </div>
+    
+
+    <div class="lg:w-[40%] w-full relative flex flex-col items-center lg:items-start gap-6">
+      <img
+        src="russian1.webp"
+        alt="Russian Name Illustration 1"
+        class="w-[100%] sm:w-[350px] h-auto rounded-2xl shadow-md"
+      />
+      <img
+        src="russian3.jpg"
+        alt="Russian Name Illustration 2"
+        class="w-[100%] sm:w-[350px] h-auto rounded-2xl shadow-md"
+      />
+    </div>
+  </div>
+</div>
+
+
+<div class="w-[90%] max-w-7xl mx-auto my-16 text-[#343a40]">
+  <div class="text-center mb-10">
+    <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
+      Why You Would Need to Generate Russian Names?
+    </h2>
+    <p class="text-[16px] sm:text-[18px] font-medium max-w-3xl mx-auto leading-relaxed">
+      Whether you're writing a novel, creating a game, or role-playing, using a Russian name generator offers multiple advantages that go beyond just picking a name.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 gap-8 text-[16px] leading-relaxed">
+    
+    <div>
+      <h3 class="text-[20px] font-semibold mb-2">Authenticity and Cultural Depth</h3>
+      <p>
+        A well-chosen Russian name instantly ties your character to a rich cultural background, making them feel authentic and grounded in Russian history.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-[20px] font-semibold mb-2">Quick and Easy Name Selection</h3>
+      <p>
+        Forget endless searching! Generating Russian names with a tool gives you fast, accurate results without wasting time.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-[20px] font-semibold mb-2">Reflect Your Character’s Heritage</h3>
+      <p>
+        Russian names can reflect the character’s family, background, or even their destiny. It helps you build a more complex, relatable character from the start.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-[20px] font-semibold mb-2">Historical and Fantasy Settings</h3>
+      <p>
+        Writing a historical novel or a fantasy world inspired by Russia? Russian names fit perfectly to enhance the setting and tone.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-[20px] font-semibold mb-2">Create Memorable Characters</h3>
+      <p>
+        A strong Russian name sticks in the reader's or player's mind, adding depth and making your character unforgettable.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-[20px] font-semibold mb-2">Cultural Accuracy in Storytelling</h3>
+      <p>
+        Correct use of Russian names shows your attention to detail, helping avoid clichés and staying true to Russian traditions.
+      </p>
+    </div>
+  </div>
+</div>
+
 
 
             <div
