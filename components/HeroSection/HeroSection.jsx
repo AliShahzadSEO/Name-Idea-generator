@@ -35,7 +35,7 @@ const HeroSection = ({ context, bgImage }) => {
         <Link href="/">
           <img src="/Logo.png" alt="Logo" className="w-20 h-20" />
         </Link>
-        <div className="flex flex-wrap gap-4 bg-white/10 backdrop-blur-md rounded-xl px-10 py-5">
+        <div className="flex flex-wrap gap-4 bg-black/10 backdrop-blur-md rounded-xl px-10 py-5">
           {/* Dropdowns */}
           {[
             {
@@ -106,7 +106,7 @@ const HeroSection = ({ context, bgImage }) => {
                 {menu.show ? <IoMdArrowDropup /> : <IoMdArrowDropdown />}
               </div>
               <ul
-                className={`absolute text-center top-[140%] flex flex-col text-white gap-4 pt-5 py-2 px-2 text-[14px] bg-white/20 backdrop-blur-md rounded-md ${menu.width} transition-all duration-300 ${
+                className={`absolute text-center top-[140%] flex flex-col text-white gap-4 pt-5 py-2 px-2 text-[14px] bg-black/20 backdrop-blur-md rounded-md ${menu.width} transition-all duration-300 ${
                   menu.show ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
