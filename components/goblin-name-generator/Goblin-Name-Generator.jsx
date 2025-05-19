@@ -400,16 +400,16 @@ const GoblinNameGenerator = () => {
 
     const bgImage = "/Goblin.jpg"
     const context = " Goblin Name Generator"
-    const Q1 = "What is the Goblin Name Generator?"
-    const A1 = "The Goblin Name Generator is a tool designed to create unique and whimsical names for goblin characters. It is ideal for use in fantasy stories, games, and other creative projects, providing names that capture the mischievous and quirky essence of goblins."
-    const Q2 = "Why Should I Use the Goblin Name Generator?"
-    const A2 = "This tool simplifies the naming process, providing diverse, fitting options that capture the playful essence of goblins. Enhance your projects with unique, character-rich names effortlessly."
-    const Q3 = "What Are the Benefits of Using This Tool?"
-    const A3 = "The Goblin Name Generator provides unique names with ease, thanks to its user-friendly and customizable interface. It ensures data security and privacy with advanced protection measures."
-    const Q4 = "How I Can Enhance My Creativity With This Globin Name Generator?"
-    const A4 = "The Goblin Name Generator fuels your creativity. It offers its users unique names that help craft memorable characters and enhance their stories, games, and projects with a distinctive touch. Try it now to boost your level of creativity!"
-    const Q5 = "Is the Goblin Name Generator Free to Use?"
-    const A5 = "Yes, the Goblin Name Generator is available for free. You can access and use the tool without any cost, allowing you to generate as many names as you need for your creative projects."
+    const Q1 = "What makes a goblin name sound right?"
+    const A1 = "TGoblins often have short, harsh names with lots of consonants. Think “Snark,” “Blig,” or “Zruk.” Weird spellings and rough edges are part of the charm."
+    const Q2 = "Can I use this for D&D or Pathfinder?"
+    const A2 = "Absolutely. The names are great for tabletop RPGs. Need a goblin villain, sidekick, or entire clan? this tool works."
+    const Q3 = "Are the names unique every time?"
+    const A3 = "Yes. Each name batch is randomly generated and designed to sound fresh. You can keep generating until you find one that fits."
+    const Q4 = "Can I use the names for goblin clans or tribes?"
+    const A4 = "Yes you can. Many names work as individual names or tribal identifiers. You can even mash two together to form your own goblin gang name."
+    const Q5 = "What makes a goblin name memorable?"
+    const A5 = "Names that tell a story or match your character’s traits tend to stick. Pick a name with meaning, rhythm, or emotional weight. It helps in roleplay too."
 
 
     return (
@@ -520,65 +520,74 @@ const GoblinNameGenerator = () => {
             >
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
-                        <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                        <h2 className="text-center sm:text-[42px] text-[24px] font-medium text-[#343a40] pb-[]">
+                         Find the Right Name for Your Goblin Trouble-Maker
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        The Goblin Name Generator is designed to provide a streamlined solution for creating unique and humorous names for your goblin characters. 
-                        Whether you're crafting a fantasy story or developing a game, our tool enhances your creativity with names that capture the essence of goblin mischief and greed.
+                        Goblin names are short, sharp, and full of mischief. They hint at chaos, greed, grime—or genius. 
+                        Finding the right one takes time, unless you’ve got a tool that does the dirty work for you.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        This goblin names generator produces names with a distinct, guttural quality, featuring sharp consonants that evoke the mischievous and magical nature of goblins. 
-                        </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                        With our funny goblin name generator tool, you can quickly and easily generate names that add depth and personality to your projects, ensuring your goblin characters truly stand out in any fictional universe.
+                        The Goblin Name Generator gives you instant names that sound like they came straight out of a goblin warren. 
+                        Sneaky rogues, mad inventors, tribal warlords—we’ve got names for every type of goblin brain. Just click and get names that bite.
                         </p>
                     </div>
                 </div>
             </div>
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
-                    <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Goblin Name Generator?
+                    <h2 className=" sm:text-[42px] text-[24px] text-center">
+                    How Our Goblin Name Generator Works
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                    Just follow these easy steps to use our Goblin Name Generator and find the perfect name for your characters. 
+                      Each name is built for the goblin lifestyle: loud, strange, and memorable. Here’s how to use the tool:
                     </p>
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1: Specify Characteristics
+                            <h3 className="sm:text-[24px] text-[18px] font-semibold">
+                            Step 1: Choose a Type
                             </h3>
                             <p>
-                            Choose characteristics for the goblin name, such as sneaky, brutish, or clever, to guide the name generation process.
+                            Pick what kind of goblin you're naming. 
+                            Options include classic fantasy goblins, steampunk goblins, or post-apocalyptic mutants. Each type has its own flavor and naming style.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2: Select the Type
+                            <h3 className="sm:text-[24px] text-[18px] font-semibold">
+                            Step 2: Select a Gender
                             </h3>
                             <p>
-                            Pick the type of goblin name you are interested in, such as comical, fearsome, or traditional.
+                            Choose male, female, or neutral. The generator adapts the sound and rhythm of the names based on your choice.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3: Click on Generate
+                            <h3 className="sm:text-[24px] text-[18px] font-semibold ">
+                            Step 3: Click ‘Generate’
                             </h3>
                             <p>
-                            Press the <b> "Generate"</b> button to start the creation of goblin names based on your inputs.
+                            Hit the button and get a list of fresh names. Each one matches your selected type and gender.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 4: Review Names and Their Meanings
+                            <h3 className="sm:text-[24px] text-[18px] font-semibold ">
+                            Step 4: Hover to See Meanings
                             </h3>
                             <p>
-                            The generated names will be displayed. Hover over each name to uncover detailed information like its meaning, background, and the culture it's associated with.
+                            Mouse over any name to learn what it means—or what kind of personality it fits. 
+                            Some hint at traits like cowardice or cleverness. Others sound like they were spat out mid-scam.
+                            </p>
+                        </div>
+                         <div className="py-[10px] flex flex-col gap-4">
+                            <h3 className="sm:text-[24px] text-[18px] font-semibold ">
+                            Customize and Repeat
+                            </h3>
+                            <p>
+                            Not quite there yet? Switch up the type or gender and try again. 
+                            You can generate names endlessly until one sticks (or stinks—in a good way).
                             </p>
                         </div>
                     </div>
@@ -636,91 +645,421 @@ const GoblinNameGenerator = () => {
                 </div>
             </div>
 
-            <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
-                <div class="text-center mb-[10px]">
-                    <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    Why Choose Our Goblin Name Generator?
-                    </h2>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Here is a list of advantages that you can enjoy right after leveraging our online tool. Let’s see what all these benefits are:
-                    </p>
-                </div>
+           <section class="bg-white text-[#343a40] py-12 px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl sm:text-[42px] text-[24px] font-bold mb-4">Why Use Our Goblin Name Generator?</h2>
+      <p class="text-lg sm:text-xl font-medium">It’s fast. It’s fun. It’s packed with goblin mischief. See why creators love it:</p>
+    </div>
 
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="w-[60%]">
-                        <hr class="my-4" />
-                        <div class="py-[10px]">
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Extensive Database of Names
-                                </h3>
-                                <p>
-                                Our generator leverages a vast and diverse database of goblin names, ensuring that every name produced is unique and aligns with your creative needs. With a broad selection, 
-                                you’re guaranteed to find a name that perfectly fits the quirky and mischievous nature of your goblin characters, no matter how specific your requirements are.
-                                </p>
-                            </div>
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                User-Friendly Interface
-                                </h3>
-                                <p>
-                                The Goblin Name Generator is designed with simplicity in mind. Its intuitive interface allows users to easily input their preferences without navigating complex menus or settings. 
-                                Just enter the desired name style or characteristics, and the tool quickly generates a list of names, making the process smooth and straightforward.
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Secure and Reliable
-                                </h3>
-                                <p>
-                                We are committed to maintaining the highest standards of privacy and data security. Our Goblin Name Generator incorporates advanced security measures to safeguard your personal information. 
-                                You can confidently use our tool knowing that your data is protected from unauthorized access and breaches.                            
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Versatile Applications
-                                </h3>
-                                <p>
-                                Our Goblin Name Generator tool is designed for a wide range of applications, making it a valuable asset for various creative projects. 
-                                Whether you are working on character creation, storytelling, or game development, the names generated are versatile and suitable for enhancing your creative endeavors.                                
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Instant Name Generation
-                                </h3>
-                                <p>
-                                Our Goblin Name Generator provides instant results with just a single click. No need to wait or refresh endlessly—simply enter your preferences, and receive a list of goblin names in seconds. 
-                                This speed and efficiency ensure you stay focused on your creative process without interruptions.                              
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Regularly Updated Name Database
-                                </h3>
-                                <p>
-                                Our Goblin Name Generator is continually enhanced with new and diverse names, ensuring you always have fresh options to choose from. 
-                                The regularly updated database guarantees that the names you generate remain relevant and creative. All this provides your characters a unique edge in any story or game.                          
-                                 </p>
-                            </div>
-                        </div>
-                    </div>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">⚡</span>
+        <div>
+          <h3 class="text-xl font-semibold">Fast and Fun</h3>
+          <p>No sign-ups. No delays. Just weird goblin names, instantly.</p>
+        </div>
+      </div>
 
-                    <div class="sm:w-[40%] relative">
-                        <img
-                            src="gobline3.jpg"
-                            alt="Half-Elf"
-                            class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
-                        />
-                        <img
-                            src="goblin4.jpg"
-                            alt="Tiefling Image 2"
-                            class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
-                        />
-                    </div>
-                </div>
-            </div>
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">👹</span>
+        <div>
+          <h3 class="text-xl font-semibold">Built for Goblin Chaos</h3>
+          <p>Every name captures that messy, sneaky goblin vibe.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">🛠️</span>
+        <div>
+          <h3 class="text-xl font-semibold">Real Custom Options</h3>
+          <p>Choose type and gender for results that actually fit your character.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">🔍</span>
+        <div>
+          <h3 class="text-xl font-semibold">Name Meanings on Hover</h3>
+          <p>Learn what the name suggests—greedy, twitchy, brainy, or just plain gross.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">♾️</span>
+        <div>
+          <h3 class="text-xl font-semibold">Endless Mischief</h3>
+          <p>Generate unlimited names. Make a whole goblin clan or army.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">🌍</span>
+        <div>
+          <h3 class="text-xl font-semibold">Fits Any Fantasy World</h3>
+          <p>Perfect for D&D, TTRPGs, fantasy novels, or video games.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">🎧</span>
+        <div>
+          <h3 class="text-xl font-semibold">More Than Just Noise</h3>
+          <p>Names are handcrafted to sound authentic—not just random syllables.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">🎮</span>
+        <div>
+          <h3 class="text-xl font-semibold">Perfect for Creators</h3>
+          <p>Ideal for game devs, authors, storytellers, and roleplayers.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">📱</span>
+        <div>
+          <h3 class="text-xl font-semibold">Mobile-Friendly Tool</h3>
+          <p>Works smoothly on any device, no app needed.</p>
+        </div>
+      </div>
+
+      <div class="flex items-start gap-4">
+        <span class="text-2xl">💡</span>
+        <div>
+          <h3 class="text-xl font-semibold">Instant Inspiration</h3>
+          <p>Great for kicking off character ideas or worldbuilding details.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class=" text-[#343a40] py-12 px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl sm:text-[42px] text-[24px] font-bold mb-4">Why Do You Need Unique Goblin Names?</h2>
+      <p class="text-lg sm:text-xl font-medium">Because names aren’t just words—they’re identity, tone, and storytelling power.</p>
+    </div>
+
+    <div class="space-y-6 text-base sm:text-lg leading-relaxed">
+      <p>
+        You need unique goblin names to create a real connection between the character and its role. A distinct name gives identity, depth, and personality. It avoids the clichés that kill immersion. 
+        Generic names feel forgettable and weaken the rhythm of your story or game. A well-crafted goblin name sticks in the reader’s mind. It builds emotional weight and helps the character stand out in a crowd.
+      </p>
+      <p>
+        You also shape tone and worldbuilding through naming. A funny goblin name sets a comic tone. A harsh one fits horror or dark fantasy. Tribal names add culture and structure. 
+        Unique names suggest language, myth, and history. In RPGs or video games, strong names make goblin NPCs, enemies, or allies feel alive. You avoid confusing overlaps with other characters, keeping your world clear, sharp, and immersive.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white text-[#343a40] py-16 px-6">
+  <div class="max-w-4xl mx-auto text-center mb-12">
+    <h2 class="text-3xl sm:text-[42px] text-[24px] font-bold mb-4">What Makes a Goblin Name Sound Authentic?</h2>
+    <p class="text-lg sm:text-xl font-medium">
+      Goblin names aren’t just noise—they’re rooted in sound, culture, and chaos.
+    </p>
+  </div>
+
+  <div class="max-w-4xl mx-auto space-y-6">
+    <div class="text-base sm:text-lg leading-relaxed text-center mb-6">
+      <p class="mb-4">
+        You need names that reflect goblin nature—raw, tribal, and chaotic. Authenticity comes from sound, structure, and cultural cues. It’s about more than randomness. It’s about evoking a world.
+      </p>
+      <p>
+        The right goblin name feels gritty, twisted, and alive—something that snarls off the tongue and hints at a violent, quirky history. Whether you’re writing fantasy or designing a game, real-sounding names add immersion and believability.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-6">
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Hard, guttural consonants</h3>
+        <p>Use G, K, Z, R, and Sn to create a rough, savage tone.</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Short, broken syllables</h3>
+        <p>Stick to one or two syllables like Grak, Snib, or Zog.</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Unusual or twisted spelling</h3>
+        <p>Misspell intentionally—names like Krubz, Drekk, or Gibbitz.</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Tribal or cultural tags</h3>
+        <p>Add suffixes like -nob, -gash, or -snag to suggest goblin clans.</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Sound-based symbolism</h3>
+        <p>Harsh = warriors (Thrak, Drugg). Squeaky = tricksters (Nibby, Fizzle).</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Titles and role-based names</h3>
+        <p>Use names like the Rotten, Bone-Snapper, or Muckborn to show status.</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Real-world language roots</h3>
+        <p>Blend Slavic, Norse, or Germanic sounds to deepen worldbuilding.</p>
+      </div>
+
+      <div class="bg-gray-100 p-5 rounded-xl shadow-sm">
+        <h3 class="text-lg font-semibold mb-1">Tone-matching structure</h3>
+        <p>Funny names sound squeaky. Dark names feel sharp and aggressive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class=" text-[#343a40] py-16 px-6">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">List of Famous Goblin Names</h2>
+      <p class="text-lg sm:text-xl font-medium">
+        You need names that fit tone, role, and style. Here’s a categorized list covering every goblin type—dark, funny, tribal, and more.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-xl font-semibold mb-3 border-b pb-1">Savage and Brutal Goblin Names</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Grak</li>
+          <li>Throgg</li>
+          <li>Ruknash</li>
+          <li>Drogz</li>
+          <li>Kravak</li>
+          <li>Zurn</li>
+          <li>Mugruk</li>
+          <li>Skarn</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-3 border-b pb-1">Funny and Comedic Goblin Names</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Nibby Snotfang</li>
+          <li>Boogerblitz</li>
+          <li>Wobblegut</li>
+          <li>Splatchee</li>
+          <li>Fizzlenog</li>
+          <li>Squeak the Tiny</li>
+          <li>Gobbo Gigglecrack</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-3 border-b pb-1">Magical and Shamanic Goblin Names</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Varnuk the Whisper</li>
+          <li>Dribblehex</li>
+          <li>Zibbit Runejaw</li>
+          <li>Hexnob</li>
+          <li>Mork the Smoke-Eye</li>
+          <li>Snazzlecrank</li>
+          <li>Wugwort</li>
+          <li>Dregmaw</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-3 border-b pb-1">Tribal and Clan-Based Goblin Names</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Grubsnag</li>
+          <li>Kruk of Bonecleaver</li>
+          <li>Skig Tribehowl</li>
+          <li>Bagnob Sharpfang</li>
+          <li>Thruk Gutpiercer</li>
+          <li>Zaggot Mudblood</li>
+          <li>Nargash the Ironbelly</li>
+          <li>Snogbash of Redfang</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-3 border-b pb-1">Dark and Creepy Goblin Names</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Blightmaw</li>
+          <li>Dreadsnarl</li>
+          <li>Skulk</li>
+          <li>Murktooth</li>
+          <li>Grimshank</li>
+          <li>Rotgut</li>
+          <li>Karg the Hollow</li>
+          <li>Slithak</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white text-[#343a40] py-16 px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+        How Can You Create Goblin Names That Match Your Story or Game?
+      </h2>
+      <p class="text-lg sm:text-xl font-medium">
+        Goblin names work best when they match the world around them—its tone, terrain, and tribal chaos.
+      </p>
+    </div>
+
+    <div class="space-y-8 text-base sm:text-lg leading-relaxed">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Start with Tone and Role</h3>
+        <p>
+          Match the name to your world—dark, silly, tribal, or magical. Define the goblin’s role. 
+          <strong>Warrior names</strong> sound harsh. <strong>Shaman names</strong> feel mystical. 
+          <strong>Leader names</strong> sound commanding.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Build from the Goblin’s Environment</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li><strong>Forest goblins</strong> use nature: Twig, Moss, Grub</li>
+          <li><strong>Mountain goblins</strong> use stone/metal sounds: Crag, Throk, Grav</li>
+          <li><strong>Swamp goblins</strong> sound slimy: Muck, Slob, Dreg</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Choose Fitting Sounds</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li><strong>Harsh consonants</strong> for savagery (K, G, R)</li>
+          <li><strong>Squeaky syllables</strong> for comedy (Z, B, S)</li>
+          <li><strong>Mixed tones</strong> for complexity (Thragblit, Snibzul)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Use Modifiers to Expand Identity</h3>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Add <strong>titles</strong>: the Bone-Crusher, of Redfang, Swamp-Walker</li>
+          <li>Combine <strong>traits/actions</strong>: Snagglebite, Wretchspit, Fizzlespark</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Reflect Culture and Lore</h3>
+        <p>
+          Invent tribal naming systems. Use repeating prefixes or suffixes across clans. Mix languages for uniqueness. 
+          Always <strong>say names aloud</strong>—they should feel natural in dialogue. Avoid overused patterns. Change one letter. Twist endings.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white text-[#343a40] py-16 px-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">Which Fantasy Worlds Have the Best Goblin Name Examples?</h2>
+      <p class="text-lg sm:text-xl font-medium">
+        Explore how top fantasy worlds give goblins unique voice, tone, and naming traditions.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Tolkien’s Middle-earth</h3>
+        <p class="mb-2 text-sm">Brutal and tribal names rooted in ancient Orcish sound.</p>
+        <p class="text-sm"><strong>Examples:</strong> Bolg, Golfimbul, Grishnákh</p>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Dungeons & Dragons (D&D)</h3>
+        <p class="mb-2 text-sm">Flexible naming across races, clans, and campaigns.</p>
+        <p class="text-sm"><strong>Examples:</strong> Yegg, Krusk, Drakthar <br />
+        <strong>Clans:</strong> Redfang, Broken Tusk</p>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Warcraft Universe</h3>
+        <p class="mb-2 text-sm">Comic-tech names with greed, gadgets, and grit.</p>
+        <p class="text-sm"><strong>Examples:</strong> Gallywix, Gazlowe, Snizzleblast</p>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Pathfinder</h3>
+        <p class="mb-2 text-sm">Chaotic and eccentric names full of tribal rhythm.</p>
+        <p class="text-sm"><strong>Examples:</strong> Zarf, Reta Bigbad, Poog of Zarongel</p>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Elder Scrolls (Cyrodiil Tribes)</h3>
+        <p class="mb-2 text-sm">Minimal and role-based titles with behavioral focus.</p>
+        <p class="text-sm"><strong>Examples:</strong> Chief Goblin, Shaman Goblin</p>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">The Witcher Universe</h3>
+        <p class="mb-2 text-sm">Slavic-inspired dark names for goblin-like entities.</p>
+        <p class="text-sm italic">Not goblin-heavy, but similar naming energy.</p>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200">
+        <h3 class="text-xl font-semibold mb-2">Magic: The Gathering</h3>
+        <p class="mb-2 text-sm">Quirky, tribal goblins with puns and battle slang.</p>
+        <p class="text-sm"><strong>Examples:</strong> Skirk Prospector, Mogg Fanatic, Krenko Mob Boss</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class=" text-[#343a40] py-16 px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-4">How to Make Goblin Names Memorable and Meaningful?</h2>
+      <p class="text-lg sm:text-xl font-medium">
+        A great goblin name sticks. It growls, it pops, and it belongs to the world you’ve built.
+      </p>
+    </div>
+
+    <div class="space-y-8 text-base sm:text-lg leading-relaxed">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Start with Bold, Guttural Sounds</h3>
+        <p>Use raw sounds like <strong>Gr</strong>, <strong>Sn</strong>, or <strong>Kr</strong>. These create a savage tone right from the start.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Keep It Short and Punchy</h3>
+        <p>One or two syllables hit hardest—names like <strong>Grak</strong> or <strong>Snib</strong> feel immediate and memorable.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Match the Name to the Goblin’s Role</h3>
+        <p><strong>Warriors</strong> need sharp tones. <strong>Shamans</strong> need eerie, drawn-out sounds. <strong>Tinkerers</strong> sound twitchy and clever.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Add Traits or Titles for Meaning</h3>
+        <p>Layer identity with titles like <strong>the Rotgut</strong> or <strong>of Redfang</strong>. These tell a story in a single line.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Reflect Goblin Culture</h3>
+        <p>Use common roots like <strong>Grub-</strong>, <strong>-fang</strong>, or <strong>-nob</strong> to build a sense of tribal tradition.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Test the Rhythm Out Loud</h3>
+        <p>Say the name aloud. It should sound wild, bounce off your tongue, and feel like it belongs in chaos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
 
             <div
