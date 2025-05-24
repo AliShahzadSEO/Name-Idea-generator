@@ -502,25 +502,25 @@ const HorseNameGenerator = () => {
     const bgImage = "/horse.webp"
     const context = " Horse Name Generator"
 
-    const Q1 = "What is the Horse Name Generator used for?"
+    const Q1 = "What makes a good horse name?"
 
-    const A1 = "The Horse Name Generator is used to create unique and fitting names for horses, whether for real-life horses, fictional characters in books, or horses in games. It helps users generate names that match the horse's characteristics and the context of use."
+    const A1 = "A good horse name reflects their personality, appearance, or background. It should be memorable, easy to say, and ideally not too long."
     
-    const Q2 = "Is my data secure when using this tool?"
+    const Q2 = "Do horse names have to be unique?"
     
-    const A2 = "Yes, the tool is designed with advanced security features to ensure that your data remains private and secure. All inputs are processed securely, and your preferences are not stored beyond your session unless you choose to save them."
+    const A2 = "It’s best to have a unique name, especially for racing or show horses, to avoid confusion. Some organizations require names to be distinct."
     
-    const Q3 = "Is the tool free to use?"
+    const Q3 = "Can a horse’s name influence their behavior?"
     
-    const A3 = "Yes, the Horse Name Generator is free to use, with no hidden fees or subscriptions required. You can generate as many names as you need without any cost."
+    const A3 = "While there’s no scientific proof, some people believe that a horse's name can reflect their temperament and possibly affect how they behave."
     
-    const Q4 = "How accurate are the names generated for my project?"
+    const Q4 = "How do I choose a name for my horse?"
     
-    const A4 = "The Horse Name Generator produces names from a carefully curated database, ensuring they are suitable for a variety of projects, whether you're naming a real horse, writing a novel, or creating characters for a game. Each name is crafted to be relevant and meaningful, helping you find the perfect fit for your specific needs."
+    const A4 = "Think about your horse’s personality, physical features, or even their breed. Consider names that highlight their unique traits or something meaningful to you."
     
-    const Q5 = "Can I customize the generated names?"
+    const Q5 = "How long can a horse’s name be?"
     
-    const A5 = "The Horse Name Generator does not offer customization options. Instead, it provides a wide variety of names from its database, allowing you to browse through and select the one that best fits your needs."
+    const A5 = "Names typically have a character limit, usually between 18-20 characters, depending on the registry. Short and snappy names are often preferred."
 
     return (
         <motion.div
@@ -631,18 +631,17 @@ const HorseNameGenerator = () => {
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
                         <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                         Generate the Best Name for Your Horse
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        The Race Horse Name Generator is a specialized tool designed to help you create unique and fitting names for horses in various contexts. Whether you’re an equestrian enthusiast, a writer crafting a novel, 
-                        a game developer, or someone who needs an interesting name for a fictional horse, this tool offers an extensive range of options tailored to your specific needs. 
+                       A horse’s name carries great importance. It reflects its personality, history, and the bond you share. 
+                       You need a name that fits perfectly and feels just right for your horse. 
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        This Horse Names Generator is more than just a random name generator; it considers the characteristics, breed, and personality of the horse to deliver names that are both meaningful and memorable.  
-                        </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                        Now, users can generate a name that perfectly aligns with the horse's identity, making our race horse name generator tool an essential tool for anyone involved in equine-related projects.
+                        Our Horse Name Generator simplifies the search for that perfect name. 
+                        Choose the type of horse you’re naming, click generate, and discover unique names that match your vision. 
+                        Skip the endless lists and find the right name in no time!
                         </p>
                     </div>
                 </div>
@@ -650,7 +649,7 @@ const HorseNameGenerator = () => {
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Horse Name Generator?
+                    How Does Our Horse Name Generator Work?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
                     Using our Horse Race Name Generator is easy and fun. Follow these simple steps to create the perfect name for your horse. 
@@ -658,50 +657,60 @@ const HorseNameGenerator = () => {
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-                    <div className="sm:w-[50%]">
+                    <div className="sm:w-[60%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Specify Gender
+                            Step 1 - Select the Gender
                             </h3>
                             <p>
-                            Choose a gender for the horse name, if relevant, to help generate names that might be typically used for male or female horses.
+                            Start by choosing your horse's gender—male or female. This helps tailor the name to suit its character.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Select the Type
+                            Step 2 - Choose the Type of Horse
                             </h3>
                             <p>
-                            Decide on the type of horse name you want, such as classic, racehorse, or mythical, to guide the name generation. 
+                            Next, decide what type of horse you're naming. Is it a thoroughbred, a draft horse, or maybe a pony? 
+                            This will guide the generator to suggest the most fitting names.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Click on Generate
+                            Step 3 - Click ‘Generate’
                             </p>
                             <p>
-                            Click the <b> "Generate"</b> button to produce a list of horse names that match your criteria.
+                            Hit the button and get a list of fresh, unique names right away. No more sifting through endless lists of common names.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <p className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 4: Review Names and Their Descriptions
+                            Step 4: Hover to Discover the Meaning
                             </p>
                             <p>
-                            Names will appear on your screen. Hover over each to see details like meaning, any known associations in history or literature, and its potential characteristics.
+                            Curious about a name? Hover over it to learn its meaning, origin, or inspiration behind it.
+                            </p>
+                        </div>
+                        <div className="py-[10px] flex flex-col gap-4">
+                            <p className="sm:text-[28px] text-[20px] font-semibold ">
+                            Refine and Repeat
+                            </p>
+                            <p>
+                            If the name doesn't quite fit, tweak your choices and hit ‘Generate’ again. 
+                            You can refine your search until you find the perfect name that matches your horse’s spirit!
                             </p>
                         </div>
                     </div>
-                    <div className="sm:w-[47%] relative ">
+                    <div className="sm:w-[40%] relative ">
                         <img
                             src="horse1.webp"
                             alt="Horse Name Generator | Race Horse Name Generator With Meaning"
-                            className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[300px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="horse2.webp "
                             alt="Horse Name Generator | Race Horse Name Generator With Meaning"
-                            className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[300px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
@@ -746,95 +755,241 @@ const HorseNameGenerator = () => {
                 </div>
             </div>
 
-            <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
-                <div class="text-center mb-[10px]">
-                    <h2 class="sm:text-[36px] text-[22px] font-semibold mb-4">
-                    Why Use Our Horse Name Generator?
-                    </h2>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Our race horse names generator offers a seamless and enjoyable experience with plenty of options to find the perfect name. 
-                    This Horse Name Generator is an invaluable tool for anyone looking to name a horse, whether for personal, professional, or creative purposes. 
-                    </p>
-                    <p class="sm:text-[16px] text-[22px] font-semibold">
-                    Here are some reasons why you should consider using it:
-                    </p>
-                </div>
+<div class="w-[90%] max-w-[1200px] mx-auto text-[#343a40] my-[50px]">
+  <div class="text-center mb-[40px]">
+    <h2 class="sm:text-[36px] text-[24px] font-bold mb-2">
+      Why Use Our Horse Name Generator?
+    </h2>
+    <p class="sm:text-[18px] text-[16px] font-medium text-[#555]">
+      Here’s why thousands of users love it:
+    </p>
+  </div>
 
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="w-[60%]">
-                        <hr class="my-4" />
-                        <div class="py-[10px]">
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Efficiency
-                                </h3>
-                                <p>
-                                Naming a horse can be a time-consuming process, especially when you want a name that stands out and is meaningful. 
-                                The name generator for horses tool streamlines this process by providing a list of well-considered names in just a few clicks.
-                                </p>
-                            </div>
-                            <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Customization
-                                </h3>
-                                <p>
-                                Unlike generic name generators, this name generator horse tool allows you to customize the generated names based on specific criteria such as breed, color, and temperament. 
-                                This ensures that the name is not just random but aligns with the horse’s characteristics and the context in which it will be used.
-                                </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Versatility
-                                </h3>
-                                <p>
-                                Whether you’re naming a real horse, a fictional character in a novel, or a horse in a game, the tool offers versatile naming options. 
-                                Our horse name gen tool caters to various styles, from classic and elegant names to fun and imaginative ones, making it suitable for different projects.                            
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                User-Friendly Interface
-                                </h3>
-                                <p>
-                                The interface is designed to be intuitive and easy to use. Even if you’re not tech-savvy, 
-                                you can quickly generate a list of potential names without needing to navigate complicated menus or settings.                                
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Reliable Results
-                                </h3>
-                                <p>
-                                The names generated by our racing horse names generator tool are not only creative but also reliable. They are derived from a vast database of equine names and cultural references, 
-                                ensuring that each name is unique, culturally appropriate, and fitting for the intended use.                              
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Quick Generation
-                                </h3>
-                                <p>
-                                Our Horse Name Generator provides fast results that allow you to generate a list of distinctive names in seconds. 
-                                This efficiency saves you time and helps you quickly find the perfect name for your horse. Whether it is for a story, game, or real-life use.                         
-                                 </p>
-                            </div>
-                        </div>
-                    </div>
+  <div class="flex flex-col lg:flex-row gap-10 items-start">
+    <div class="lg:w-[60%] w-full flex flex-col gap-6">
 
-                    <div class="sm:w-[40%] relative">
-                        <img
-                            src="horse3.png"
-                            alt="Half-Elf"
-                            class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
-                        />
-                        <img
-                            src="horse5.jpg"
-                            alt="Tiefling Image 2"
-                            class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
-                        />
-                    </div>
-                </div>
-            </div>
+      <div class="bg-white p-6 rounded-[12px] shadow-sm">
+        <h3 class="text-[22px] font-semibold mb-1">Quick and Easy</h3>
+        <p>Now this has never been simpler. With just a few clicks, you’ll get a list of unique, fitting names in seconds.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-[12px] shadow-sm">
+        <h3 class="text-[22px] font-semibold mb-1">Customizable to Your Horse</h3>
+        <p>Choose the gender and type of your horse to get names that match its breed, personality, and appearance.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-[12px] shadow-sm">
+        <h3 class="text-[22px] font-semibold mb-1">Instant Inspiration</h3>
+        <p>You’ll never run out of ideas. Generate a fresh list of names every time, ensuring you always find something new and exciting.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-[12px] shadow-sm">
+        <h3 class="text-[22px] font-semibold mb-1">Unique Names Every Time</h3>
+        <p>Say goodbye to overused, generic horse names. Our generator ensures every name is special, just like your horse.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-[12px] shadow-sm">
+        <h3 class="text-[22px] font-semibold mb-1">Perfect for All Horse Types</h3>
+        <p>Are you naming a show jumper, racehorse, or a beloved pony? Our tool has names that work for all types of horses.</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-[12px] shadow-sm">
+        <h3 class="text-[22px] font-semibold mb-1">Easy to Use</h3>
+        <p>Simple, intuitive, and designed to help you find the perfect name quickly, without the stress.</p>
+      </div>
+    </div>
+
+    <div class="lg:w-[40%] w-full flex flex-col gap-6 relative">
+      <img
+        src="horse3.png"
+        alt="Horse Generator Feature Image 1"
+        class="w-full max-w-[350px] h-auto rounded-[16px] mx-auto"
+      />
+      <img
+        src="horse5.jpg"
+        alt="Horse Generator Feature Image 2"
+        class="w-full max-w-[350px] h-auto rounded-[16px] mx-auto"
+      />
+    </div>
+  </div>
+</div>
+
+<div class="w-[90%] max-w-[1200px] mx-auto my-[50px] text-[#343a40] ">
+  <div class="text-center mb-12">
+    <h2 class="text-[32px] sm:text-[40px] font-bold mb-2">
+      Types of Horse Names You Can Create
+    </h2>
+    <p class="text-[16px] sm:text-[18px] text-[#555]">
+      From epic to elegant—choose the style that fits your horse best.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
+    <div class="bg-white shadow-lg p-6 rounded-[16px] hover:shadow-2xl transition-all duration-300 ease-in-out">
+      <h3 class="text-[22px] font-semibold mb-2">Fantasy Horse Names</h3>
+      <p>Names like <strong>Stormrider</strong>, <strong>Mystic Hoof</strong>, or <strong>Shadowmane</strong> evoke mystery and magic—ideal for majestic, mythic horses.</p>
+    </div>
+
+    <div class="bg-white shadow-lg p-6 rounded-[16px] hover:shadow-2xl transition-all duration-300 ease-in-out">
+      <h3 class="text-[22px] font-semibold mb-2">Racing Horse Names</h3>
+      <p><strong>Quickstep</strong>, <strong>Lightning Bolt</strong>, and <strong>Fastlane Fury</strong> are fast, bold, and ready for the track.</p>
+    </div>
+
+    <div class="bg-white shadow-lg p-6 rounded-[16px] hover:shadow-2xl transition-all duration-300 ease-in-out">
+      <h3 class="text-[22px] font-semibold mb-2">Show Horse Names</h3>
+      <p><strong>Golden Serenade</strong>, <strong>Majestic Charm</strong>, and <strong>Royal Elegance</strong> radiate grace and beauty—perfect for show stoppers.</p>
+    </div>
+
+    <div class="bg-white shadow-lg p-6 rounded-[16px] hover:shadow-2xl transition-all duration-300 ease-in-out">
+      <h3 class="text-[22px] font-semibold mb-2">Western Horse Names</h3>
+      <p>Channel the Wild West with names like <strong>Dusty Trail</strong>, <strong>Bronco King</strong>, or <strong>Midnight Rider</strong>.</p>
+    </div>
+
+    <div class="bg-white shadow-lg p-6 rounded-[16px] hover:shadow-2xl transition-all duration-300 ease-in-out">
+      <h3 class="text-[22px] font-semibold mb-2">Cute & Playful Names</h3>
+      <p>Fun and sweet names like <strong>Sugarplum</strong>, <strong>Bubbles</strong>, and <strong>Peanut</strong> suit horses full of charm.</p>
+    </div>
+
+    <div class="bg-white shadow-lg p-6 rounded-[16px] hover:shadow-2xl transition-all duration-300 ease-in-out">
+      <h3 class="text-[22px] font-semibold mb-2">Traditional Horse Names</h3>
+      <p>Timeless names like <strong>Thunderbolt</strong>, <strong>Silver Star</strong>, and <strong>Lady Grace</strong> carry honor and heritage.</p>
+    </div>
+  </div>
+
+  <div class="text-center mt-12">
+    <a href="/horse-name-generator" class="inline-block bg-[#343a40] text-white text-[16px] sm:text-[18px] px-8 py-3 rounded-full hover:bg-[#222] transition-all duration-300">
+      Try the Horse Name Generator Now
+    </a>
+  </div>
+</div>
+<div class="w-[90%] max-w-[1000px] mx-auto my-[50px] text-[#343a40]">
+  <div class="text-center mb-10">
+    <h2 class="text-[32px] sm:text-[40px] font-bold">
+      Famous Horse Names in Pop Culture
+    </h2>
+    <p class="text-[16px] sm:text-[18px] text-[#555]">
+      From fiction to reality, these iconic horses have left a lasting legacy.
+    </p>
+  </div>
+
+  <div class="space-y-8 text-[16px] sm:text-[18px] leading-[1.7]">
+    
+    <div>
+      <h3 class="text-[22px] font-semibold mb-2">In Literature and Movies</h3>
+      <p><strong>Black Beauty</strong>, from Anna Sewell’s novel, symbolizes kindness and resilience.</p>
+      <p><strong>Shadowfax</strong>, Gandalf’s horse in *The Lord of the Rings*, is known for supernatural speed and grace.</p>
+      <p><strong>Silver</strong>, the Lone Ranger’s steed, represents loyalty and bravery.</p>
+    </div>
+
+    <div>
+      <h3 class="text-[22px] font-semibold mb-2">In Sports</h3>
+      <p><strong>Secretariat</strong> earned fame by winning the Triple Crown in 1973 with record-breaking speed.</p>
+      <p><strong>Seabiscuit</strong> became a symbol of hope during the Great Depression, overcoming all odds to achieve greatness.</p>
+    </div>
+
+    <div>
+      <h3 class="text-[22px] font-semibold mb-2">In TV Shows</h3>
+      <p><strong>Mr. Ed</strong>, the talking horse from the sitcom, became a cultural icon with a humorous twist.</p>
+      <p><strong>Trigger</strong>, Roy Rogers’ loyal companion, was beloved for his intelligence and showmanship.</p>
+    </div>
+
+    <div class="pt-4">
+      <p class="text-[#555]">
+        These famous names remind us that horses often stand for strength, loyalty, and adventure—
+        inspiring name choices with deeper meaning for your own horse.
+      </p>
+    </div>
+
+  </div>
+</div>
+<div class="w-[90%] max-w-[1100px] mx-auto my-[60px] text-[#343a40]">
+  <div class="text-center mb-10">
+    <h2 class="text-[32px] sm:text-[40px] font-bold">
+      Horse Naming Tips That Actually Help
+    </h2>
+    <p class="text-[16px] sm:text-[18px] text-[#555] mt-2">
+      Practical advice for finding a name your horse will love—and respond to.
+    </p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="bg-white p-5 rounded-[14px] shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-[20px] font-semibold mb-2">Keep it Short</h3>
+      <p>Horses respond better to names with just 1–2 syllables. Simple names make commands clearer.</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-[14px] shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-[20px] font-semibold mb-2">Avoid Confusing Sounds</h3>
+      <p>Stay away from names that sound like commands—like “No” or “Whoa”—to prevent miscommunication.</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-[14px] shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-[20px] font-semibold mb-2">Match the Breed</h3>
+      <p>Names inspired by your horse’s breed (like Mustang or Andalusian) can highlight their heritage.</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-[14px] shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-[20px] font-semibold mb-2">Think About Personality</h3>
+      <p>Pick a name that suits your horse’s traits. “Blaze” fits a bold horse. “Whisper” fits a gentle one.</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-[14px] shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-[20px] font-semibold mb-2">Add a Unique Twist</h3>
+      <p>Blend words or use foreign terms. Try “Luz del Fuego” or “Stormshadow” for distinctiveness.</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-[14px] shadow-md hover:shadow-lg transition-all duration-300">
+      <h3 class="text-[20px] font-semibold mb-2">Test It Out Loud</h3>
+      <p>Say the name out loud several times. Make sure it rolls off your tongue and gets your horse’s attention.</p>
+    </div>
+
+  </div>
+</div>
+<div class="w-[90%] max-w-[900px] mx-auto my-[60px] text-[#343a40]">
+  <div class="text-center mb-12">
+    <h2 class="text-[32px] sm:text-[40px] font-bold">
+      Fun Facts About Horses and Their Names
+    </h2>
+    <p class="text-[16px] sm:text-[18px] text-[#555] mt-2">
+      Ever wondered how horses get their names? Here are some surprising and fun insights!
+    </p>
+  </div>
+
+  <div class="relative border-l-4 border-[#d4d4d4] pl-6 space-y-10">
+
+    <div class="relative">
+      <div class="absolute -left-[14px] top-[6px] w-[12px] h-[12px] bg-[#343a40] rounded-full"></div>
+      <p><strong>Horses have been named after famous figures</strong> like "Alexander" and "Victoria" throughout history.</p>
+    </div>
+
+    <div class="relative">
+      <div class="absolute -left-[14px] top-[6px] w-[12px] h-[12px] bg-[#343a40] rounded-full"></div>
+      <p><strong>Some horses are named for their personality</strong>, such as "Speedster" for the energetic or "Gentle Heart" for calm souls.</p>
+    </div>
+
+    <div class="relative">
+      <div class="absolute -left-[14px] top-[6px] w-[12px] h-[12px] bg-[#343a40] rounded-full"></div>
+      <p><strong>Racehorses can change names</strong> based on their performance or training stage—it’s not always set in stone.</p>
+    </div>
+
+    <div class="relative">
+      <div class="absolute -left-[14px] top-[6px] w-[12px] h-[12px] bg-[#343a40] rounded-full"></div>
+      <p><strong>Horses like "Seabiscuit" and "Secretariat"</strong> became household names through legendary racing careers.</p>
+    </div>
+
+    <div class="relative">
+      <div class="absolute -left-[14px] top-[6px] w-[12px] h-[12px] bg-[#343a40] rounded-full"></div>
+      <p><strong>Nature inspires horse names</strong> too—"Thunder" for bold ones and "Willow" for graceful movers.</p>
+    </div>
+
+    <div class="relative">
+      <div class="absolute -left-[14px] top-[6px] w-[12px] h-[12px] bg-[#343a40] rounded-full"></div>
+      <p><strong>Some believe a name can influence racing luck</strong>—"Lucky Charm" is more than just a cute idea for many owners!</p>
+    </div>
+
+  </div>
+</div>
 
 
             <div
