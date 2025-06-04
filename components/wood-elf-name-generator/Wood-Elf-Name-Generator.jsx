@@ -492,25 +492,25 @@ const WoodElfNameGenerator = () => {
     const bgImage = "/Wood_Elf.webp"
     const context = " Wood Elf Name Generator"
 
-    const Q1 = "How do I use the Wood Elf Name Generator?"
+    const Q1 = "Can I choose between male and female names?"
 
-    const A1 = 'Using our Wood Elf Name Generator is simple. Click the "Generate Names" button to produce a list of 10 random names. If you want more options, just click the button again. Select and save the names you like in the "Saved Names" section for future use.'
+    const A1 = 'Yes, you can select gender-specific options. Or keep it neutral for more flexibility.'
     
-    const Q2 = "How many names can I generate at once?"
+    const Q2 = "Is the generator free to use?"
     
-    const A2 = 'You can generate up to four names at a time with each click of the "Generate Names" button. If you need more names, click the button again to create a new set.'
+    const A2 = 'Yes, completely free. No sign-ups, no catches, no quests required.'
     
-    const Q3 = "Are the names generated unique and relevant?"
+    const Q3 = "Can I use these names in games and stories?"
     
-    const A3 = "Absolutely. Our generator produces names specifically designed to fit the wood elf theme. Each name is crafted to be unique and align with the mystical and nature-inspired characteristics of wood elves."
+    const A3 = "Absolutely! These names are yours to use in any personal or creative project."
     
-    const Q4 = "Is there a cost to use the Wood Elf Name Generator?"
+    const Q4 = "What if I don’t like any of the names?"
     
-    const A4 = "No, the Wood Elf Name Generator is completely free to use. You can generate, save, and manage names without any financial commitment or subscription fees."
+    const A4 = "Click again! Each refresh brings a new batch. You’ll find one that clicks with your character."
     
-    const Q5 = "Can I use the names generated for different purposes?"
+    const Q5 = "Can I bookmark or save names?"
     
-    const A5 = "Yes, the names can be used for various applications, including fantasy writing, role-playing games, world-building, or any other creative project involving wood elves. The versatility of the names makes them suitable for a wide range of uses."
+    const A5 = "Yes, just copy and paste your favorites to a note or doc. You can build your own elf name shortlist."
 
     return (
         <motion.div
@@ -621,20 +621,21 @@ const WoodElfNameGenerator = () => {
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
                         <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                          Get the Right Name for Your Wood Elf Character
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        We’ve designed our Wood Elf Name Generator to help you find the perfect names for your fantasy projects. Whether you're crafting a character for a story, designing an RPG, 
-                        or exploring the mystical world of wood elves, our tool offers unique and captivating names at your fingertips.
+                       Are you looking for a Wood Elf name that sounds like it belongs in an ancient forest? You’re in the right place. 
+                       Our Wood Elf Name Generator helps you skip the guesswork and get straight to the perfect name. 
+                       Building a new DnD character or writing your next fantasy novel? This tool delivers elven name ideas fast.
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        Our generator is built with a user-friendly interface, making it easy to generate names with just a click. 
-                        We’ve included a large repository of names, ensuring you get plenty of variations that fit perfectly within the nature-inspired realm of Wood Elves.  
+                        You don’t need to spend hours flipping through fantasy name lists. You click. You get names. Simple. 
+                        Each name feels like it came from deep woods and moonlit glades. Think elegance, nature, and a bit of quiet danger. 
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        Our Wood Elf Name Generator is perfect for writers, players, or fans of fantasy. 
-                        It ensures that your Wood Elf characters have names as incredible and captivating as the characters themselves. 
+                        So what’s your character’s vibe? Mystic archer, wandering healer, or just the elf who knows the best forest shortcuts? 
+                        This generator has names that fit all of it.
                         </p>
                     </div>
                 </div>
@@ -642,10 +643,10 @@ const WoodElfNameGenerator = () => {
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Wood Elf Name Generator?
+                   How Does our Generator Work?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                    The use of this Wood Elf Name Generator is easy and straightforward. Follow these simple steps to find the perfect name for your wood elf:
+                    You don’t need to answer quizzes or fill out forms. This tool runs fast and gives instant results.
                     </p>
                 </div>
                 <hr />
@@ -653,10 +654,10 @@ const WoodElfNameGenerator = () => {
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            STEP 1: Specify Gender
+                            STEP 1: Pick the Gender
                             </h3>
                             <p>
-                            Start by choosing the gender for the wood elf name you want to generate, aligning with traditional elf naming conventions.
+                            Decide the gender of your character. Male? Female? Gender neutral? You’ll get names that fit all. 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
@@ -664,23 +665,27 @@ const WoodElfNameGenerator = () => {
                             STEP 2: Select the Type
                             </h3>
                             <p>
-                            Choose the type of wood elf name you are interested in, such as ancient, modern, or inspired by forest lore. 
+                            Decide the tone of your character. Noble? Wild? Peaceful? You’ll get names that fit all styles.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            STEP 3: Get Your Required Name
+                            STEP 3: One Click Does It All
                             </h3>
                             <p>
-                            Press the "Generate" button to create a list of wood elf names based on your specified preferences.
+                            Click once. Scroll. Enjoy the flood of elven creativity. 
+                            You’ll see names that sound like they’ve been whispered by ancient oaks. Hover over the names to see their meaning. 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            STEP 4: Review Names and Their Meanings
+                            STEP 4: Make It Yours
                             </h3>
                             <p>
-                            The generated names will appear on your screen. You can hover over each name to see detailed information, including its meaning and any cultural or historical significance.
+                            Use the name directly, or mash up different ones. Add your twist. The tool gives the base, and you take it from there.
+                            </p>
+                            <p>
+                            Want something more balanced between human and elf? The Half-Elf Name Generator is built exactly for that.
                             </p>
                         </div>
                     </div>
@@ -688,12 +693,12 @@ const WoodElfNameGenerator = () => {
                         <img
                             src="Wood_Elf.jpg"
                             alt="Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning"
-                            className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[340px] my-[10px] h-[340px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="Wood_Elf1.jpg"
                             alt="Wood Elf Name Generator | Random Wood Elf Name Generator With Meaning"
-                            className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[340px] h-[340px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
@@ -709,7 +714,7 @@ const WoodElfNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Wood-Elf-Name-Generator
+                    Related to Wood Elf Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
@@ -753,62 +758,43 @@ const WoodElfNameGenerator = () => {
                         <hr class="my-4" />
                         <div class="py-[10px]">
                             <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Enhanced Functionality
+                                <h3 class="sm:text-[24px] text-[18px] sm:font-normal font-semibold">
+                                Instant Results
                                 </h3>
                                 <p>
-                                Our Wood Elf Name Generator is designed to offer a seamless gaming experience. With its efficient functionality, you can generate a diverse set of names quickly and effortlessly. 
-                                The tool ensures that every name aligns with the mystical and nature-inspired attributes of wood elves, making it a reliable choice for all your fantasy needs.
+                                You won’t really need to brainstorm ideas for hours. Simply click once. Get names instantly. That’s it.
                                 </p>
                             </div>
                             <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Intuitive Interface
+                                <h3 class="sm:text-[24px] text-[18px] sm:font-normal font-semibold ">
+                                Fantasy Ready
                                 </h3>
                                 <p>
-                                We have crafted an easy-to-navigate interface that simplifies the name-generation process. 
-                                The straightforward design ensures that even users unfamiliar with similar tools can effortlessly create and save names. 
-                                Our user-friendly approach allows you to focus on your creative projects without getting bogged down by complex procedures.
+                                Each name feels pulled straight from a fantasy novel. Use them in DnD campaigns, writing projects, or online games.
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Reliable Results
+                                <h3 class="sm:text-[24px] text-[18px] sm:font-normal font-semibold ">
+                                Avoid Repetition
                                 </h3>
                                 <p>
-                                Expect consistent and high-quality results every time you use our generator. 
-                                The names produced are curated to fit perfectly within the fantasy realm of wood elves, ensuring that each name is both unique and relevant. 
-                                This reliability helps maintain the thematic integrity of your work, whether for writing, gaming, or other creative endeavors.                           
+                                Tired of every elf being named “Elrond-something”? This tool gives you unique Wood Elf names that stand out.                           
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Free Access
+                                <h3 class="sm:text-[24px] text-[18px] sm:font-normal font-semibold ">
+                                Custom Feel
                                 </h3>
                                 <p>
-                                Enjoy full access to our Wood Elf Name Generator without any costs. 
-                                The tool is available online for free, allowing you to generate and save names without any financial commitment. 
-                                This accessibility ensures that you can use the tool as often as needed, without worrying about subscription fees or usage limits.                              
+                               Names are crafted using elven-sounding roots and nature-based inspiration. You’ll get names that feel real, not random.                              
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Creative Flexibility
+                                <h3 class="sm:text-[24px] text-[18px] sm:font-normal font-semibold ">
+                                Fresh Every Time
                                 </h3>
                                 <p>
-                                Our Wood Elf Name Generator is versatile, catering to various uses such as fantasy writing, role-playing games, and world-building. 
-                                The names generated can be used in different contexts, from adding depth to a story to enhancing characters in games. 
-                                This flexibility makes it a valuable tool for anyone involved in creative projects involving wood elves.                             
-                                 </p>
-                            </div>
-                            <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Comprehensive Name Options
-                                </h3>
-                                <p>
-                                Our Wood Elf Name Generator provides a wide array of name choices, ensuring you find the perfect fit for your needs. 
-                                Each name is crafted to reflect the ethereal and natural qualities associated with wood elves. 
-                                Its extensive range helps you select a name that truly enhances the essence of your wood elf characters.                         
+                               Every click gives new options. You won’t see the same name twice. There is plenty of variety.                             
                                  </p>
                             </div>
                         </div>
@@ -818,16 +804,61 @@ const WoodElfNameGenerator = () => {
                         <img
                             src="Wood_Elf2.png"
                             alt="Half-Elf"
-                            class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
+                            class="w-[300px] my-[50px] h-[300px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="Wood_Elf3.webp"
                             alt="Tiefling Image 2"
-                            class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
+                            class="w-[300px] h-[300px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
             </div>
+
+<section class="px-4 py-12 text-center bg-white ">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-6">What Are Wood Elves?</h2>
+    <p class="text-gray-800 mb-4">
+      Wood Elves are deeply tied to nature. Unlike High Elves who love libraries and politics, Wood Elves live in hidden forests, guard ancient groves, and know which mushrooms are edible.
+    </p>
+    <p class="text-gray-800 mb-4">
+      They tend to keep to themselves, and prefer peace over conflict. But when danger knocks, Wood Elves don’t back down. They fight with skill, speed, and a deep connection to the land.
+    </p>
+    <p class="text-gray-800 mb-8">
+      You can think of them as the introverts of the elf world. Calm, graceful, and probably judging your loud city ways.
+    </p>
+
+    <h2 class="text-2xl font-semibold mb-4">Where Do Wood Elves Appear?</h2>
+    <p class="text-gray-800 mb-4">
+      Wood Elves show up in just about every fantasy world you can name. Dungeons &amp; Dragons, Elder Scrolls—they’re the woodland guardians, rangers, and quiet scouts.
+    </p>
+    <p class="text-gray-800 mb-8">
+      They also make great RPG and MMO characters. Their background gives you instant depth. Tragic past optional but highly recommended.
+    </p>
+
+    <p class="text-gray-800">
+      Are you looking for other elven styles? You might enjoy our <a href="https://www.nameideagenerator.com/half-elf-name-generator">Half-Elf Name Generator</a> too.
+    </p>
+  </div>
+</section>
+<section class="px-4 py-12 text-center">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-2xl font-semibold mb-4">Why Does the Right Name Matter?</h2>
+    <p class="text-gray-800 mb-4">
+      You shouldn’t settle for a name that sounds like a breakfast cereal. A good Wood Elf name gives your character depth, style, and presence. It helps others understand their story before they even speak.
+    </p>
+    <p class="text-gray-800">
+      Most players struggle to invent names that feel magical and grounded at the same time. That’s where a tool like this saves the day. It delivers names with personality, so you don’t waste time second-guessing.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+
+
 
 
             <div
