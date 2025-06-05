@@ -502,25 +502,25 @@ const TabaxiNameGenerator = () => {
     const bgImage = "/tabaxi.jpeg"
     const context = " Tabaxi Name Generator"
 
-    const Q1 = "What is a Tabaxi Name Generator?"
+    const Q1 = "Can I use the Tabaxi Name Generator outside of D&D?"
 
-    const A1 = 'It’s an online tool designed to create unique names for Tabaxi characters. Generate Tabaxi names online with a tool that would be useful for writing projects, games, and more.'
+    const A1 = 'Yes! The names work for any fantasy setting. Use them in books, games, or as usernames with flair.'
     
-    const Q2 = "How does Tabaxi Name Generator work?"
+    const Q2 = "Are the names based on real lore or invented?"
     
-    const A2 = 'The generator uses algorithms to combine different linguistic elements. It works by creating names that are both unique and suitable for Tabaxi characters.'
+    const A2 = 'The names are inspired by D&D lore and cultural styles. Each one sounds like it belongs in a jungle village or a bard’s tale.'
     
-    const Q3 = "Are the names unique?"
+    const Q3 = "Can I select a gender?"
     
-    const A3 = "Yes, the generator aims to provide original names using an extensive database. So it is highly sure that you will get unique names."
+    const A3 = "Yes. You can pick male, female, or unisex before generating results."
     
-    const Q4 = "Can I use the names for commercial purposes?"
+    const Q4 = "Do the names come with meanings?"
     
-    const A4 = "Yes, the names generated can be used for commercial purposes such as books, games, and other creative projects."
+    const A4 = "They do. Hover your cursor over a name to see what it means or represents."
     
-    const Q5 = "Do I need to create an account to use the generator?"
+    const Q5 = "Is there a limit to how many names I can generate?"
     
-    const A5 = "No account is needed to use the basic features. However, creating an account allows you to save and revisit your favorite names."
+    const A5 = "Not at all. You can click as many times as needed to find the name that feels just right."
 
     return (
         <motion.div
@@ -553,7 +553,7 @@ const TabaxiNameGenerator = () => {
     </ol>
   </nav>
                         <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-                            Random Tabaxi Name Generator
+                            Random Tabaxi Name Generator With Meaning
                         </h2>
                     </div>
                     <div className="pt-[20px] pb-[10px] flex flex-col gap-2">
@@ -570,7 +570,7 @@ const TabaxiNameGenerator = () => {
                         </select>
                     </div>
                     <div className="py-[10px] flex flex-col gap-2">
-                        <p className="text-center text-[#343a40]">Types of Tabaxi Names</p>
+                        <p className="text-center text-[#343a40]">Types of Tabaxi Cat Names</p>
                         <select
                             className="w-[100%] border border-solid text-[#343a40] rounded-[5px] py-[10px] sm:px-[5px] px-[10px]"
                             id="type"
@@ -631,20 +631,16 @@ const TabaxiNameGenerator = () => {
                 <div className="w-[80%] mx-auto pb-[20px]">
                     <div className="py-[50px]">
                         <h2 className="text-center text-[36px] font-medium text-[#343a40] pb-[]">
-                            About Us
+                          Say Goodbye to Tabaxi Naming Trouble
                         </h2>
                         <hr />
                         <p className="text-center mt-[30px] py-[10px] text-[#343a40]">
-                        Our Tabaxi Name Generator provides a streamlined solution for creating unique names tailored to your Tabaxi characters. The tool features a simple, intuitive interface that allows users to generate names with a single click. 
-                        Designed for ease of use, it delivers a range of names that align with the mystical qualities of Tabaxi characters.
+                        Naming a tabaxi can be a real puzzle. You want something that feels exotic, wild, and true to their culture. 
+                        It should echo nature, motion, or a trait that defines them. That’s a tall order—and random name lists don’t always help. 
                         </p>
                         <p className="text-center py-[10px] text-[#343a40]">
-                        The generator draws from an extensive database, ensuring a diverse selection of names to match various creative needs. 
-                        Each name reflects the rich lore and nature-inspired attributes associated with Tabaxi, offering options that are both distinctive and fitting. 
-                        </p>
-                        <p className="text-center py-[10px] text-[#343a40]">
-                        All of its exclusive features make our tool an Ideal choice for fantasy writing, role-playing games, and other creative projects. 
-                        Our tool simplifies the naming process, ensuring efficiency and relevance in every name generated.
+                        The Tabaxi Name Generator takes the pressure off. Choose your options, click once, and boom—your tabaxi has a name that purrs with personality. 
+                        Whether you're crafting a curious wanderer or a mystical tracker, the right name will jump right out.
                         </p>
                     </div>
                 </div>
@@ -652,58 +648,62 @@ const TabaxiNameGenerator = () => {
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Tabaxi Name Generator?
+                    How Does the Tabaxi Name Generator Work?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                    Using our Tabaxi Name Generator is straightforward and enjoyable. Follow these simple steps to get started:
+                    The Tabaxi Name Generator is built to keep things quick and clever. 
+                    You won’t need to dig through long forums or struggle with fantasy syllables. Here's what you do:
                     </p>
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
                     <div className="sm:w-[50%]">
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 1 - Specify Traits
+                            <h3 className="sm:text-[26px] text-[20px] font-semibold">
+                            Step 1 - Select Gender
                             </h3>
                             <p>
-                            Choose specific traits for the Tabaxi name, like adventurous, mysterious, or playful, to reflect the characteristics of the Tabaxi culture in fantasy settings.
+                            Choose male, female, or unisex to guide the tone and rhythm of the name suggestions.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold">
-                            Step 2 - Select the Type
+                            <h3 className="sm:text-[26px] text-[20px] font-semibold">
+                            Step 2 - Pick a Name Style
                             </h3>
                             <p>
-                            Decide on the type of Tabaxi name you want, such as lyrical, descriptive, or influenced by their nomadic lifestyle.
+                             Select the name style that fits your tabaxi. You’ll find traditional tabaxi phrases, fantasy-sounding picks, and creative blends that bring variety
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 3 - Click on Generate
+                            <h3 className="sm:text-[26px] text-[20px] font-semibold ">
+                            Step 3 - Hit Generate
                             </h3>
                             <p>
-                            Hit the "Generate" button to create a list of Tabaxi names based on your preferences.
+                             Click the "Generate" button and let the magic happen. You’ll get a batch of names instantly.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
-                            <h3 className="sm:text-[28px] text-[20px] font-semibold ">
-                            Step 4 - Review Names and Their Descriptions
+                            <h3 className="sm:text-[26px] text-[20px] font-semibold ">
+                            Try Again if Needed
                             </h3>
                             <p>
-                            Names will appear on your screen. Hover over each to see details about the name's meaning, cultural background, and the role it might play in Tabaxi lore.
+                             Didn’t find the one? Mix it up. Change the style, hit generate again, and keep scrolling through fresh ideas.
+                             <br />
+                             No stress. No overthinking. Just a name that feels like it was meant to be.
                             </p>
                         </div>
+
                     </div>
                     <div className="sm:w-[47%] relative ">
                         <img
                             src="tabaxi1.jpeg"
                             alt="Tabaxi Name Generator | DnD Tabaxi Name Generator With Meaning"
-                            className="w-[240px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[300px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="tabaxi2.jpeg"
                             alt="Tabaxi Name Generator | DnD Tabaxi Name Generator With Meaning"
-                            className="w-[270px] h-[320px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[300px] h-[300px] my-[-40px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
@@ -719,7 +719,7 @@ const TabaxiNameGenerator = () => {
                 }}
             >
                 <p className="text-[28px] font-semibold py-[16px] w-[80%] mx-auto text-white">
-                    Related to Tabaxi-Name-Generator
+                    Related to Tabaxi Name Generator
                 </p>
                 <div className="w-[80%] mx-auto grid sm:grid-cols-4 grid-cols-1 gap-2">
                     {Category1.map((item, index) => (
@@ -763,62 +763,51 @@ const TabaxiNameGenerator = () => {
                         <hr class="my-4" />
                         <div class="py-[10px]">
                             <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold">
-                                Unlock Your Creativity
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold">
+                                  Fast and Focused
                                 </h3>
                                 <p>
-                                Generate unique and captivating names for your Tabaxi characters. Our tool provides a steady stream of inspiration, 
-                                enabling you to craft rich narratives and memorable characters for all your creative projects. 
-                                Explore endless possibilities and find names that bring your fantasy world to life.
+                                No more endless list scrolling. Get names right when you need them.
                                 </p>
                             </div>
                             <div class="py-[5px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Save Time and Effort
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                 Inspired by Tabaxi Culture
                                 </h3>
                                 <p>
-                                Naming your fiction Tabaxi characters can be a time-consuming task for you. 
-                                Don’t worry now! Our generator streamlines this process by delivering a diverse set of names with a single click, 
-                                freeing up valuable time and effort. Quickly get the names you need without the hassle of brainstorming for hours.
+                                Names that capture curiosity, speed, jungle roots, and the playful nature of tabaxi lore.
                                 </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Ensure Consistency
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Built-In Customization
                                 </h3>
                                 <p>
-                                Maintain consistent naming across your projects effortlessly. 
-                                The generator produces names that align with the thematic elements of your fantasy world, ensuring quality and coherence. 
-                                Enhance the overall impact of your work by keeping character names in line with your creative vision.                          
+                                 Choose your vibe and gender to get names that feel tailored and fitting.                         
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Professional Quality
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Meanings On Demand
                                 </h3>
                                 <p>
-                                Achieve names of professional quality with our tool.
-                                 It provides names that reflect the same level of effort and creativity you invest in your projects, whether for novels, games, movies, or any other purpose you want. 
-                                Ensure your characters' names are as polished and engaging as the rest of your work.                              
+                                Hover over each result to learn what it stands for. A fun bonus if you're big on backstories.                              
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                Versatile Use Cases
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Unlimited Possibilities
                                 </h3>
                                 <p>
-                                Our generator is versatile and caters to various needs such as fantasy writing, role-playing games, and character development. 
-                                It produces such types of names that would be suitable for different contexts. All this makes it a valuable tool for any creative endeavor involving Tabaxi characters.                             
+                                Generate as many names as you like. Keep going until one makes you say “That’s it!”                             
                                  </p>
                             </div>
                             <div class="py-[10px] flex flex-col gap-2">
-                                <h3 class="sm:text-[28px] text-[20px] sm:font-normal font-semibold ">
-                                User-Friendly Experience
+                                <h3 class="sm:text-[24px] text-[20px] sm:font-normal font-semibold ">
+                                Fits Any Creative Project
                                 </h3>
                                 <p>
-                                Experience a smooth and intuitive naming process with our easy-to-use interface-containing tool. 
-                                Even if you’re new to this tool, still you can generate names effortlessly without navigating complex settings. 
-                                Enjoy a straightforward and hassle-free way to create perfect names for your Tabaxi characters.                       
+                                Whether you’re writing a novel, setting up a D&D campaign, or creating an OC, this tool saves time.                       
                                  </p>
                             </div>
                         </div>
@@ -828,16 +817,179 @@ const TabaxiNameGenerator = () => {
                         <img
                             src="tabaxi3.jpeg"
                             alt="Half-Elf"
-                            class="w-[350px] my-[30px] h-[430px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
+                            class="w-[300px] my-[30px] h-[330px] sm:absolute sm:top-30 sm:left-0 rounded-[16px]"
                         />
                         <img
                             src="tabaxi4.webp"
                             alt="Tiefling Image 2"
-                            class="w-[350px] h-[450px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
+                            class="w-[300px] h-[330px] sm:absolute sm:bottom-20 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
             </div>
+<section class="px-4 py-8 md:px-8 lg:px-16 bg-white text-gray-800">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center">Who Are the Tabaxi?</h2>
+    <p class="text-base md:text-lg mb-4 leading-relaxed">
+      Tabaxi are catlike humanoids from the jungles of fantasy worlds. They come from rich cultures that cherish storytelling, artifacts, and secrets. Curious to the core, they often leave their clans to explore unknown lands. Every Tabaxi has a unique backstory—and a name to match.
+    </p>
+    <p class="text-base md:text-lg leading-relaxed">
+      In <em>Dungeons &amp; Dragons</em>, they stand out as agile, quick-thinking adventurers. Many are bards, rogues, or rangers. They live in the moment, chase legends, and collect tales more than treasure. Their names reflect that spirit—often poetic, odd, or deeply personal.
+    </p>
+  </div>
+</section>
+<section class="px-4 py-8 md:px-8 lg:px-16 bg-gray-50 text-gray-800">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">What Do Tabaxi Look Like?</h2>
+    
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Physical Features</h3>
+        <p class="text-base leading-relaxed">
+          They have feline faces, sharp eyes, fur-covered bodies, and long tails. Their claws are retractable, and their eyes gleam with curiosity.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Fur Patterns and Colors</h3>
+        <p class="text-base leading-relaxed">
+          Tabaxi fur can be spotted, striped, or solid—like a leopard, tiger, or panther. Common colors include tawny brown, jet black, snow white, and golden-orange.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-6">
+        <h3 class="text-xl font-semibold mb-2">Tribal Touches</h3>
+        <p class="text-base leading-relaxed">
+          Tabaxi often wear beads, feathers, and woven cloth. These accessories often match the stories they tell or the travels they’ve taken.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-8 text-base md:text-lg leading-relaxed text-gray-700">
+      A Tabaxi’s look is part of their lore—and so is their name.
+    </p>
+  </div>
+</section>
+<section class="bg-white px-4 py-10 md:py-14 lg:py-20 text-gray-900">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">Why Tabaxi Names Matter in Fantasy and RPGs</h2>
+    
+    <p class="text-base md:text-lg leading-relaxed mb-4">
+      Tabaxi names are never random. They’re poetic and personal. A name like <span class="italic">“Whispers-of-Twilight”</span> or <span class="italic">“Leaps-Over-Fences”</span> tells a story before the tabaxi even speaks. It reveals quirks, dreams, and sometimes past mistakes.
+    </p>
+
+    <p class="text-base md:text-lg leading-relaxed mb-4">
+      In D&D, tabaxi often use two-part names made of phrases. These reflect personality, values, or habits. The right name gives your character instant flavor.
+    </p>
+
+    <p class="text-base md:text-lg leading-relaxed">
+      Looking for more fantasy inspiration? 
+      Try our <a href="https://www.nameideagenerator.com/tiefling-name-generator" class="text-indigo-600 font-medium">Tiefling Name Generator </a> 
+      to match names with darker origins or otherworldly charm.
+    </p>
+  </div>
+</section>
+<section class="bg-gray-50 px-4 py-12">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-8 text-center">What Makes Tabaxi Names Unique?</h2>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Tribal and Narrative Style</h3>
+        <p class="text-gray-600 text-base">Tabaxi names often sound like phrases. They read like riddles or proverbs—descriptive and vivid.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Reflective and Symbolic</h3>
+        <p class="text-gray-600 text-base">Each name says something about who they are. It could be a memory, a trait, or a prediction.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Gender Neutrality</h3>
+        <p class="text-gray-600 text-base">Tabaxi names don’t always rely on gender. Many players choose unisex names to keep things fluid and open-ended.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="bg-white px-4 py-12">
+  <div class="max-w-5xl mx-auto space-y-12">
+
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">How Are Tabaxi Names Used in D&D and Fantasy Worlds?</h2>
+      <p class="text-gray-700 text-base leading-relaxed">
+        In most settings, tabaxi names aren’t just cool. They’re character-defining. DMs and players use them to build mood, shape story arcs, and create instant recognition. Some characters adopt nicknames or shorten their names over time. For example, <strong>“Sleeps-Beneath-Stars”</strong> might become <strong>“Stars.”</strong> It makes roleplay smoother without losing the lore.
+      </p>
+      <p class="text-gray-700 text-base leading-relaxed mt-4">
+        Writers and GMs also love tabaxi names for NPCs. They add flavor to jungle settings, rogue guilds, and exotic taverns alike.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Where Do Tabaxi Naming Traditions Come From?</h2>
+      <p class="text-gray-700 text-base leading-relaxed">
+        The naming style of tabaxi draws inspiration from tribal speech, ancient phrases, and spiritual symbols. Some are inspired by real-world African and South American cultures, while others are pure fantasy.
+      </p>
+      <p class="text-gray-700 text-base leading-relaxed mt-4">
+        Names often focus on:
+      </p>
+
+      <ul class="mt-4 space-y-2 list-disc list-inside text-gray-700">
+        <li><strong>Habits or quirks:</strong> <em>Talks-To-Himself</em></li>
+        <li><strong>Nature elements:</strong> <em>Walks-With-Thunder</em></li>
+        <li><strong>Emotional states:</strong> <em>Hides-His-Heart</em></li>
+        <li><strong>Aspirations:</strong> <em>Dreams-Of-Fire</em></li>
+      </ul>
+
+      <p class="text-gray-700 text-base leading-relaxed mt-4">
+        Over time, the naming tradition became a signature of tabaxi culture across games, stories, and campaigns.
+      </p>
+    </div>
+
+  </div>
+</section>
+<section class="bg-gray-50 py-12 px-4">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Famous Tabaxi Characters in Lore</h2>
+    <p class="text-gray-700 text-base mb-10 max-w-6xl">
+      Tabaxi might not be as common as elves or dwarves, but they’ve made their mark. Here are a few fan-favorite characters known across different fantasy tales:
+    </p>
+    
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      
+      <div class="bg-white shadow-md rounded-2xl p-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Three-Strings</h3>
+        <p class="text-gray-600">
+          A bard with a tabaxi soul in many D&D campaigns. Mischievous, clever, and surprisingly charming.
+        </p>
+      </div>
+      
+      <div class="bg-white shadow-md rounded-2xl p-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">River Mist</h3>
+        <p class="text-gray-600">
+          A tabaxi guide from the “Tomb of Annihilation” adventure. She’s cautious but skilled, with deep ties to jungle lore.
+        </p>
+      </div>
+      
+      <div class="bg-white shadow-md rounded-2xl p-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Roscoe “Whiskers” Trilltail</h3>
+        <p class="text-gray-600">
+          A homebrew legend. Known for outrunning every bounty hunter in four realms.
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-gray-700 text-base mt-10 max-w-3xl">
+      Each shows just how much character a tabaxi name can carry.
+    </p>
+  </div>
+</section>
+
+
+
+
 
 
             <div
