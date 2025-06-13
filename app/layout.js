@@ -96,10 +96,8 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         />
         {/* Inject homepage schema */}
-        <Script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }} />
+
       </head>
       <body className={inter.className}>
         {children}
