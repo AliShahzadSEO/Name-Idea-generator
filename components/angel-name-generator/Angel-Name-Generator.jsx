@@ -315,7 +315,7 @@ const Category1 = [
         link: "https://www.nameideagenerator.com/song-name-generator",
     },
     {
-        name: "WoW (World of Warcraft) Name Generator",
+        name: "WoW Name Generator",
         pic: "/wow.jpg",
         link: "https://www.nameideagenerator.com/wow-name-generator",
     },
