@@ -724,14 +724,14 @@ const Category1 = [
     link: "https://www.nameideagenerator.com/alien-name-generator",
 },
 {
-    name: "Angel Name Generator",
-    pic: "/angel.jpg",
-    link: "https://www.nameideagenerator.com/angel-name-generator",
+    name: "Tiefling Name Generator",
+    pic: "/female.jpg",
+    link: "https://www.nameideagenerator.com/tiefling-name-generator",
 },
 {
-    name: "WoW (World of Warcraft) Name Generator",
-    pic: "/wow.jpg",
-    link: "https://www.nameideagenerator.com/wow-name-generator",
+    name: "Orc Name Generator",
+    pic: "/orc-name-generator.jpg",
+    link: "https://www.nameideagenerator.com/orc-name-generator",
 },
 {
     name: "Horse Name Generator",
