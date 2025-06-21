@@ -1014,36 +1014,42 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
           <div className="sm:w-[60%]">
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[24px] text-[20px] font-semibold">
-             Step 1: Select a Type and Gender
+             Step 1: Select a Gender
               </h3>
               <p>
-              Start by selecting the demon type you want to name. Choose between demon lords, imps, or fallen angels. Then, pick a gender to narrow down your options.
+                Start by picking a gender to customize your results. You can choose between a male and female. 
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[24px] text-[20px] font-semibold">
-              Step 2: Click "Generate"
+              Step 2: Choose a Type 
+              </h3>
+              <p>
+              Select the type of demon you want to name. You can choose from Fire, Water, Air, or Earth demons. Each type reflects unique traits and elemental powers.
+              </p>
+            </div>
+            <div className="py-[10px] flex flex-col gap-4">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold ">
+              Step 3: Click "Generate"
               </h3>
               <p>
               Click the "Generate" button to instantly get a list of demon names. Each name is generated based on your selection, which ensures it fits your needs.
               </p>
             </div>
-            <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[24px] text-[20px] font-semibold ">
-              Step 3: Hover for Meaning
+            <div className="py-[10px] flex flex-col gap-2">
+              <h3 className="sm:text-[24px] text-[20px] font-semibold">
+              Hover for Meaning
               </h3>
               <p>
-              Hover over any name to view its meaning. This feature reveals the origin and significance of the name. 
-              This helps you make an informed choice.
+              Hover over any name to view its meaning. This feature reveals the origin and significance of the name. This helps you make an informed choice.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[24px] text-[20px] font-semibold">
-              Example Name
+              Example of Names
               </h3>
               <p>
-              If you choose a male demon name, you might generate Azazel. 
-              Hover over it to see that Azazel is often known as a fallen angel in mythology, which adds depth to your character.
+              If you choose a male demon name, you might generate Azazel. Hover over it to see that Azazel is often known as a fallen angel in mythology, which adds depth to your character.
               </p>
             </div>
           </div>
@@ -1051,12 +1057,12 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
             <img
               src="motherdragon.jpg"
               alt="Demon Name Generator With Meaning | Devil Name Generator"
-              className="w-[300px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
+              className="w-[300px] my-[10px] h-[350px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="dragon.png"
               alt="Demon Name Generator With Meaning | Devil Name Generator"
-              className="w-[300px] h-[300px] my-[10px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+              className="w-[300px] h-[350px] my-[10px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
@@ -1113,114 +1119,151 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
   <hr className="border-t-[2px] border-[#e0e0e0] my-6" />
   
   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
-      <h3 className="text-[20px] font-semibold mb-2">Saves Time</h3>
-      <ul className="text-[14px] list-inside">
-        <li>Quickly generate a wide variety of names.</li>
-        <li>Avoid spending hours coming up with names.</li>
+  {[
+    {
+      title: "⏱️ Saves Time",
+      points: [
+        "✅ Quickly generate a wide variety of names.",
+        "✅ Avoid spending hours coming up with names.",
+      ],
+    },
+    {
+      title: "♾️ Endless Options",
+      points: [
+        "🎯 Choose from different demon types and genders.",
+        "🌀 Each click generates a unique name.",
+      ],
+    },
+    {
+      title: "📖 Meaningful Names",
+      points: [
+        "💡 Each name carries a rich meaning or backstory.",
+        "🔍 Select names with depth and purpose.",
+      ],
+    },
+    {
+      title: "🎛️ Customizable Results",
+      points: [
+        "🎨 Personalize results by choosing traits.",
+        "🔧 More specific inputs = better names.",
+      ],
+    },
+    {
+      title: "⚡ Instant Inspiration",
+      points: [
+        "🚀 Get ideas instantly without long searches.",
+        "✨ Creativity sparked with every click.",
+      ],
+    },
+    {
+      title: "🎮 Perfect for Any Project",
+      points: [
+        "📝 Great for stories, roleplaying, and games.",
+        "👹 Find names that suit every demon type.",
+      ],
+    },
+  ].map(({ title, points }) => (
+    <div key={title} className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
+      <h3 className="text-[20px] font-semibold mb-2">{title}</h3>
+      <ul className="text-[14px] list-inside space-y-1">
+        {points.map((point, i) => (
+          <li key={i}>{point}</li>
+        ))}
       </ul>
     </div>
-
-    <div className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
-      <h3 className="text-[20px] font-semibold mb-2">Endless Options</h3>
-      <ul className="text-[14px] list-inside">
-        <li>Choose from different demon types and genders to find the perfect name.</li>
-        <li>Each click generates a unique name.</li>
-      </ul>
-    </div>
-
-    <div className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
-      <h3 className="text-[20px] font-semibold mb-2">Meaningful Names</h3>
-      <ul className="text-[14px] list-inside">
-        <li>Each name carries a rich meaning or backstory.</li>
-        <li>This helps you select names with depth and purpose.</li>
-      </ul>
-    </div>
-
-    <div className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
-      <h3 className="text-[20px] font-semibold mb-2">Customizable Results</h3>
-      <ul className="text-[14px] list-inside">
-        <li>Personalize your results by selecting specific traits.</li>
-        <li>The more specific you are, the more accurate the names will be.</li>
-      </ul>
-    </div>
-
-    <div className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
-      <h3 className="text-[20px] font-semibold mb-2">Instant Inspiration</h3>
-      <ul className="text-[14px] list-inside">
-        <li>Get name ideas instantly without sifting through long lists.</li>
-        <li>The generator sparks creativity with every click.</li>
-      </ul>
-    </div>
-
-    <div className="bg-[#f8f9fa] p-4 rounded-lg shadow-md">
-      <h3 className="text-[20px] font-semibold mb-2">Perfect for Any Project</h3>
-      <ul className="text-[14px] list-inside">
-        <li>Ideal for character creation in stories, roleplaying, and games.</li>
-        <li>The tool helps you find fitting names for any demon, big or small.</li>
-      </ul>
-    </div>
-  </div>
+  ))}
 </div>
 
-<div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
-  {/* Title and Introduction */}
-  <div className="text-center mb-6">
-    <h2 className="sm:text-[36px] text-[24px] font-semibold mb-4">
-      What is a Demon?
-    </h2>
-    <p className="sm:text-[16px] text-[14px] mb-6">
-    A demon is a supernatural entity typically linked to negative or harmful influences. In different cultures and beliefs, demons are thought to affect or control humans in both spiritual and physical ways.    </p>
-  </div>
-  
-  {/* Demon Description Section */}
-  <div className="py-[20px]">
-    <div className="py-[10px] flex flex-col gap-4">
-      <h3 className="sm:text-[24px] text-[20px] sm:font-normal font-semibold">
-        The Nature of Demons
-      </h3>
-      <p className="text-[16px]">
-        Demons come in all shapes and sizes, with unique powers and purposes. Some excel in dark magic, others in mind control or destruction. The more powerful demons, like demon lords, rule entire realms, while smaller demons, such as imps, cause trouble in subtle ways. Whether towering monsters or tiny tricksters, demons make their mark on the world with their unique abilities and dark agendas.
+</div>
+<div className="w-full bg-white text-[#343a40]">
+
+  <div className="w-[90%] max-w-[1000px] mx-auto py-[50px]">
+    
+    {/* Title and Introduction */}
+    <div className="text-center mb-10">
+      <h2 className="sm:text-[36px] text-[28px] font-bold mb-4">
+        What is a Demon?
+      </h2>
+    </div>
+
+    {/* Demon Description Section */}
+    <div className="mb-10">
+      <p className="text-[16px] leading-relaxed">
+        Demons are basically the original bad guys, straight from the dark corners of the universe.
+        They’re usually tied to hellish realms or underworlds, representing chaos, destruction, and all things that go bump in the night.
+        Think of them as the ultimate troublemakers—always stirring up fear, tempting humans, and shaking up the natural order.
+        Depending on which culture you ask, these guys might be fallen angels, ancient spirits, or just plain evil beings who love to ruin everything.
+        They live outside normal human life, which is what makes them so intriguing and terrifying at the same time.
+      </p>
+      <p className="text-[16px] mt-4 leading-relaxed">
+       Now, demons come in all shapes and sizes, and their powers are just as varied. Some have a knack for dark magic, 
+       while others are better at mind control or plain old destruction. The bigger demons, like demon lords, have enough power to rule entire realms, 
+       while the smaller ones, like imps, are more into causing chaos in subtle ways (think pranks with a side of evil). 
+       Whether they’re towering monsters or tiny tricksters, 
+       each demon brings something unique to the table, and you can bet they’re leaving their mark on the world—one dark spell or evil scheme at a time.
       </p>
     </div>
-  </div>
-  
-  {/* History of Demonology Section */}
-  <div className="py-[20px]">
-    <div className="py-[10px] flex flex-col gap-4">
-      <h3 className="sm:text-[24px] text-[20px] sm:font-normal font-semibold">
+
+    {/* History of Demonology Section */}
+    <div className="mb-10">
+      <h3 className="text-[22px] sm:text-[26px] font-semibold mb-3">
         The History of Demonology
       </h3>
-      <p className="text-[16px]">
-        The study of demons, or demonology, traces its roots back to ancient civilizations. The term comes from the Greek words "daimon" (spirit) and "logos" (study). Ancient cultures like the Egyptians and Mesopotamians had their own demonologies. In medieval times, Christian demonology flourished, and texts like the "Malleus Maleficarum" (1487) helped fuel witch hunts and demon identification. Over time, demonology evolved and became central to various religious and cultural practices, leading to stories of possession, chaos, and evil in popular media.
+      <p className="text-[16px] leading-relaxed">
+        So, demonology – the study of demons, right? It sounds a little spooky, but it’s actually really fascinating. 
+        The word itself comes from the Greek daimon (spirit) and logos (study), which means it’s basically the science of bad spirits. 
+        Ancient civilizations like the Egyptians and Mesopotamians had their own versions of demons, often seeing them as powerful 
+        and usually not-so-friendly beings who could mess with your fate.
+      </p>
+      <p className="text-[16px] mt-4 leading-relaxed">
+        Fast forward to medieval times when things got really dramatic. In the good old days of Christianity, demons were all about causing 
+        chaos, possession, and turning people away from the light. The Malleus Maleficarum—a bestseller in 1487—was pretty much a guide to identifying 
+        witches and demons, which led to some intense times. And of course, every culture had its own demon stories: the fallen angels in the Bible, 
+        the creepy creatures we now see in movies. Demonology has been stirring the pot for centuries, and it’s not going anywhere anytime soon!
       </p>
     </div>
-  </div>
 
-  {/* Types of Demons Across Cultures Section */}
-  <div className="py-[20px]">
-    <div className="py-[10px] flex flex-col gap-4">
-    <h2 className="sm:text-[36px] text-[24px] text-center font-semibold mb-4">
-    Types of Demons Across Cultures
-    </h2>
-      <p className="text-[16px]">
+    {/* Types of Demons Across Cultures Section */}
+    <div className="mb-10">
+      <h2 className="text-center text-[28px] sm:text-[32px] font-bold mb-4">
+        Types of Demons Across Cultures
+      </h2>
+      <p className="text-[16px] leading-relaxed mb-4">
         Different cultures have their own interpretations of demons, each contributing unique traits and characteristics to the mythos. Here are some examples:
       </p>
-      
-      {/* Demon Types List */}
-      <div className="mt-4">
-        <ul className="list-disc pl-5 text-[16px]">
-          <li><strong>Greek & Roman:</strong> Keres – Spirits of death, causing disaster and destruction.</li>
-          <li><strong>Hinduism:</strong> Asuras – Rivals to the gods, focused on chaos and conflict.</li>
-          <li><strong>Japan:</strong> Oni – Large, horned demons, causing trouble or sometimes just enjoying mischief.</li>
-          <li><strong>Christianity:</strong> Fallen Angels – Servants of Satan, spreading evil and rebellion.</li>
-          <li><strong>Islamic:</strong> Jinn – Spirits that can be good, bad, or mischievous, often misunderstood.</li>
-          <li><strong>Mexican Folklore:</strong> La Llorona – The Weeping Woman, a tragic spirit searching for her lost children.</li>
-        </ul>
-      </div>
+
+      <ul className="pl-6 text-[16px] space-y-3 list-none">
+  <li>
+    <span className="inline-block mr-2">⚔️</span>
+    <strong>Greek & Roman:</strong> <span className="text-[#6c757d]">Keres – Spirits of violent death, drawn to disaster and battlefield chaos.</span>
+  </li>
+  <li>
+    <span className="inline-block mr-2">🔥</span>
+    <strong>Hinduism:</strong> <span className="text-[#6c757d]">Asuras – Powerful beings who clash with gods, representing turmoil and ambition.</span>
+  </li>
+  <li>
+    <span className="inline-block mr-2">👹</span>
+    <strong>Japan:</strong> <span className="text-[#6c757d]">Oni – Fierce, horned demons known for mischief, wrath, and supernatural strength.</span>
+  </li>
+  <li>
+    <span className="inline-block mr-2">😈</span>
+    <strong>Christianity:</strong> <span className="text-[#6c757d]">Fallen Angels – Banished beings allied with Satan, spreading corruption and sin.</span>
+  </li>
+  <li>
+    <span className="inline-block mr-2">🌪️</span>
+    <strong>Islamic:</strong> <span className="text-[#6c757d]">Jinn – Shapeshifting spirits of smokeless fire, capable of good, evil, or mischief.</span>
+  </li>
+  <li>
+    <span className="inline-block mr-2">👻</span>
+    <strong>Mexican Folklore:</strong> <span className="text-[#6c757d]">La Llorona – The weeping ghost of a mother, forever searching for her lost children.</span>
+  </li>
+</ul>
+
     </div>
+    
   </div>
 </div>
+
 
 <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
   {/* What is a Demon Section */}
@@ -1229,7 +1272,8 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       How Demons Are Named?
     </h2>
     <p className="sm:text-[16px] text-[14px] mb-6">
-      Naming a demon isn’t just about picking something sinister. It’s about capturing their essence—personality, powers, and origins. Here's a deeper dive into how demons get their names across different cultures and stories.
+      When it comes to naming a demon, you need to pick something cool-sounding. 
+      Something that reflects their personality, powers, and origins. Here’s how different cultures and stories usually go about it:
     </p>
   </div>
 
@@ -1239,35 +1283,35 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
       <div className="bg-[#f8f9fa] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e0e0e0]">
         <h3 className="text-[20px] font-semibold mb-2">Infernal Roots</h3>
         <p className="text-[16px]">
-          Many demon names come from ancient languages, often tied to hellish realms or evil forces. These names tend to sound harsh or otherworldly, like Beelzebub or Lucifer, reflecting their dark nature.
+         Many demon names come from ancient languages, often linked to hellish realms or evil forces. These names can sound harsh, sharp, or otherworldly, like Beelzebub or Lucifer.
         </p>
       </div>
 
       <div className="bg-[#f8f9fa] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e0e0e0]">
         <h3 className="text-[20px] font-semibold mb-2">Symbolic Meanings</h3>
         <p className="text-[16px]">
-          Some demons are named based on their roles or powers. For example, Asmodeus is derived from the Hebrew word for "wrath," reflecting his fiery nature and destructive traits.
+         Some demons are named based on their roles or powers. For example, Asmodeus comes from the Hebrew word for "wrath" or "anger," which reflects his fiery nature.
         </p>
       </div>
 
       <div className="bg-[#f8f9fa] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e0e0e0]">
         <h3 className="text-[20px] font-semibold mb-2">Mythological Influence</h3>
         <p className="text-[16px]">
-          Many demon names are influenced by mythology. For example, Greek, Roman, or Norse mythologies often provide the names and stories of these dark beings, adding historical depth to their character.
+         Many names are inspired by mythologies. The names of demons in Greek, Roman, or Norse legends often have roots in ancient tales that give them meaning.
         </p>
       </div>
 
       <div className="bg-[#f8f9fa] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e0e0e0]">
         <h3 className="text-[20px] font-semibold mb-2">Descriptive Names</h3>
         <p className="text-[16px]">
-          Sometimes demons are named for their actions. Astaroth, for example, is tied to seduction and trickery, reflecting his manipulative nature.
+         Sometimes demons are named after what they do. Think of Astaroth, which is often associated with seduction and trickery.
         </p>
       </div>
 
       <div className="bg-[#f8f9fa] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e0e0e0]">
         <h3 className="text-[20px] font-semibold mb-2">Cultural Twist</h3>
         <p className="text-[16px]">
-          Depending on the region or culture, demons may be named according to local folklore. For instance, Jinn in Arabic culture means "hidden spirit" and embodies a different kind of supernatural force.
+         Depends on the region or culture. Demons may be given names that reflect local folklore, like Jinn in Arabic culture, which means "hidden spirit."
         </p>
       </div>
     </div>
@@ -1286,24 +1330,55 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
 
     {/* Demon Names in Mythology */}
     <div className="flex flex-wrap gap-6 justify-center">
-  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[48%] md:w-[30%]">
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
     <h3 className="text-[20px] font-semibold mb-2">Lucifer</h3>
     <p className="text-[16px]">
-      The fallen angel, Lucifer symbolizes rebellion and pride. Once a high-ranking angel, he defied God and became the ruler of Hell in many religious traditions.
+     Perhaps the most famous fallen angel, Lucifer symbolizes rebellion and pride. Once a high-ranking angel, he defied God and was cast out of Heaven, 
+     becoming the ruler of Hell in many religious traditions. His name has come to represent ultimate evil, temptation, and defiance.
     </p>
   </div>
 
-  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[48%] md:w-[30%]">
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
     <h3 className="text-[20px] font-semibold mb-2">Beelzebub</h3>
     <p className="text-[16px]">
-      Known as the “Lord of the Flies,” Beelzebub is a powerful demon in Christian and Jewish demonology, associated with gluttony, corruption, and the prince of Hell.
+     Often referred to as the “Lord of the Flies,” Beelzebub is another powerful demon from Christian and Jewish demonology. 
+     He is sometimes seen as one of the princes of Hell, associated with gluttony and corruption. In some traditions, he is a high-ranking servant of Satan.
     </p>
   </div>
 
-  <div className="bg-[#e9ecef] p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#d4d9df] w-full sm:w-[48%] md:w-[30%]">
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
     <h3 className="text-[20px] font-semibold mb-2">Asmodeus</h3>
     <p className="text-[16px]">
-      The demon of lust, greed, and wrath, Asmodeus is a significant figure in Jewish lore, often depicted as a corrupting force on human desires.
+     In Jewish lore, Asmodeus is the demon of lust, greed, and wrath. He’s often depicted as a powerful demon who corrupts people’s desires and passions. 
+     He also plays a significant role in the Book of Tobit, where he is responsible for the death of seven husbands.
+    </p>
+  </div>
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
+    <h3 className="text-[20px] font-semibold mb-2">Lilith</h3>
+    <p className="text-[16px]">
+     Known as Adam’s first wife in Jewish and later Christian folklore, Lilith is often portrayed as a demon who rejected Adam and sought power for herself. 
+     Cast out of Eden, she is associated with night creatures and is often seen as a symbol of feminine rebellion and independence.
+    </p>
+  </div>
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
+    <h3 className="text-[20px] font-semibold mb-2">Astaroth</h3>
+    <p className="text-[16px]">
+     A grand duke of Hell in Christian demonology, Astaroth is known for his intelligence and manipulative abilities. 
+     He is often depicted as a demon who tempts individuals to forsake their faith and indulge in evil acts. His name has ties to ancient gods, including the Phoenician goddess Ashtoreth.
+    </p>
+  </div>
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
+    <h3 className="text-[20px] font-semibold mb-2">Mammon</h3>
+    <p className="text-[16px]">
+     The demon of greed and material wealth, Mammon is frequently mentioned in Christian theology and literature as a symbol of avarice. 
+     His name is often used to represent the worship of money and possessions over spiritual well-being.
+    </p>
+  </div>
+  <div className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#ebeaea] w-full sm:w-[48%] md:w-[30%]">
+    <h3 className="text-[20px] font-semibold mb-2">Baphomet</h3>
+    <p className="text-[16px]">
+     A symbol often associated with the occult and Satanism, Baphomet is depicted as a goat-headed figure with both male and female traits. 
+     Historically, Baphomet’s name has been linked to both the Templars and later modern occult practices.
     </p>
   </div>
 </div>
@@ -1311,45 +1386,194 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
 
 
     {/* Demon Names in Pop Culture */}
-    <div className="py-[40px]">
-  <h2 className="text-[28px]  font-semibold mb-6 text-center">
+   <div className="py-[40px] text-[#343a40]">
+  <h2 className="text-[28px] font-semibold text-center">
     Demon Names in Pop Culture
   </h2>
-  <div className="bg-[#f8f9fa] p-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e0e0e0]">
-    <p className="text-[16px] mb-4">
-      From movies to TV shows, demons have been reimagined countless times in pop culture. Here are some of the most famous representations:
-    </p>
-    <ul className="list-disc pl-6 text-[16px] space-y-2">
-      <li><strong>Pazuzu</strong> in The Exorcist: The demon that possesses Regan MacNeil, representing chaos and sickness.</li>
-      <li><strong>Azazel</strong> in Supernatural: A cunning demon with a complex backstory and a central antagonist.</li>
-      <li><strong>Valak</strong> in The Conjuring Universe: The terrifying demon featured in The Nun and other films.</li>
-    </ul>
+
+  <div className="space-y-6">
+
+    {/* Entry 1 */}
+    <div className="bg-[#f8f9fa] hover:bg-[#e9ecef] transition-all duration-300 ease-in-out p-6 rounded-xl shadow-md hover:shadow-xl transform hover:scale-[1.02]">
+      <h3 className="text-[20px] font-bold mb-2">😈 Pazuzu – <span className="italic">The Exorcist (1973)</span></h3>
+      <p className="text-[16px] leading-relaxed">
+        One of the most iconic demons in cinema, <strong>Pazuzu</strong> possesses Regan MacNeil in <em>The Exorcist</em>.
+        Originating from Mesopotamian mythology, Pazuzu brings chaos, sickness, and sheer terror—becoming the face of demonic possession on screen.
+      </p>
+    </div>
+
+    {/* Entry 2 */}
+    <div className="bg-[#f8f9fa] hover:bg-[#e9ecef] transition-all duration-300 ease-in-out p-6 rounded-xl shadow-md hover:shadow-xl transform hover:scale-[1.02]">
+      <h3 className="text-[20px] font-bold mb-2">🔥 Azazel – <span className="italic">Supernatural (2005–2020)</span></h3>
+      <p className="text-[16px] leading-relaxed">
+        A powerful, manipulative demon with yellow eyes and a haunting backstory. <strong>Azazel</strong> drives much of the plot in <em>Supernatural</em>,
+        crafting demonic armies and altering human destiny—an unforgettable antagonist.
+      </p>
+    </div>
+
+    {/* Entry 3 */}
+    <div className="bg-[#f8f9fa] hover:bg-[#e9ecef] transition-all duration-300 ease-in-out p-6 rounded-xl shadow-md hover:shadow-xl transform hover:scale-[1.02]">
+      <h3 className="text-[20px] font-bold mb-2">👁️ Valak – <span className="italic">The Conjuring Universe (2013)</span></h3>
+      <p className="text-[16px] leading-relaxed">
+        Dressed as a haunting nun, <strong>Valak</strong> brings nightmares to life in <em>The Conjuring</em> films.
+        With its eerie smile and sinister presence, Valak is now one of horror’s most recognized demon designs.
+      </p>
+    </div>
+
+    {/* Entry 4 */}
+    <div className="bg-[#f8f9fa] hover:bg-[#e9ecef] transition-all duration-300 ease-in-out p-6 rounded-xl shadow-md hover:shadow-xl transform hover:scale-[1.02]">
+      <h3 className="text-[20px] font-bold mb-2">💀 Cyberdemon – <span className="italic">Doom (1993)</span></h3>
+      <p className="text-[16px] leading-relaxed">
+        Straight from hell with rocket launchers for arms, the <strong>Cyberdemon</strong> is a symbol of pure evil in the <em>Doom</em> universe.
+        A test of skill and fear in FPS history—this demon is brutality incarnate.
+      </p>
+    </div>
+
+    {/* Entry 5 */}
+    <div className="bg-[#f8f9fa] hover:bg-[#e9ecef] transition-all duration-300 ease-in-out p-6 rounded-xl shadow-md hover:shadow-xl transform hover:scale-[1.02]">
+      <h3 className="text-[20px] font-bold mb-2">👹 Hellboy – <span className="italic">Hellboy Comics & Films</span></h3>
+      <p className="text-[16px] leading-relaxed">
+        A demon raised to be good? <strong>Hellboy</strong> flips the narrative. With his stone hand, red skin, and dry wit,
+        he battles evil instead of causing it—giving demons a whole new dimension in pop storytelling.
+      </p>
+    </div>
+
+    {/* Entry 6 */}
+    <div className="bg-[#f8f9fa] hover:bg-[#e9ecef] transition-all duration-300 ease-in-out p-6 rounded-xl shadow-md hover:shadow-xl transform hover:scale-[1.02]">
+      <h3 className="text-[20px] font-bold mb-2">🧜‍♂️ The Demon – <span className="italic">Constantine (2005)</span></h3>
+      <p className="text-[16px] leading-relaxed">
+        In <em>Constantine</em>, demons don’t always look the part. One appears as a hybrid of fish and man,
+        reminding us that demons in pop culture can be disturbing in fresh, unexpected forms.
+      </p>
+    </div>
+
   </div>
 </div>
-
   </div>
 
-  {/* Psychological Impact of Demon Names */}
-  <div className="py-[30px]">
-  {/* Section Title and Description */}
-  <div className="text-center mb-8">
-    <h2 className="sm:text-[32px] text-[26px] font-bold text-[#343a40] mb-4">
+<div className="w-full py-[50px]">
+  <div className="w-[90%] max-w-[1200px] mx-auto text-[#343a40]">
+    <h2 className="text-[28px] font-semibold mb-10 text-center">
+      Demon Names in Literature
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      {/* Card 1: Satan */}
+      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:bg-[#f1f3f5]">
+        <h3 className="text-[20px] font-bold mb-2">😈 Satan</h3>
+        <p className="text-[14px] italic mb-1">
+          From <strong>Paradise Lost</strong> by John Milton
+        </p>
+        <p className="text-[16px]">
+          A tragic yet rebellious figure, Satan challenges divine authority and explores themes of pride, free will, and justice. Milton’s Satan is as philosophical as he is powerful.
+        </p>
+      </div>
+
+      {/* Card 2: Lucifer */}
+      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:bg-[#f1f3f5]">
+        <h3 className="text-[20px] font-bold mb-2">🧊 Lucifer</h3>
+        <p className="text-[14px] italic mb-1">
+          From <strong>The Divine Comedy</strong> by Dante Alighieri
+        </p>
+        <p className="text-[16px]">
+          Frozen at Hell’s core, Dante’s Lucifer represents betrayal and despair. His silent suffering is one of literature’s most chilling symbols of evil and eternal punishment.
+        </p>
+      </div>
+
+      {/* Card 3: Screwtape */}
+      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:bg-[#f1f3f5]">
+        <h3 className="text-[20px] font-bold mb-2">✉️ Screwtape</h3>
+        <p className="text-[14px] italic mb-1">
+          From <strong>The Screwtape Letters</strong> by C.S. Lewis
+        </p>
+        <p className="text-[16px]">
+          A witty, bureaucratic demon giving advice on corruption. Screwtape exposes the subtlety of temptation through satire, making readers think deeply about morality.
+        </p>
+      </div>
+
+      {/* Card 4: Symbolic Demon */}
+      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:bg-[#f1f3f5]">
+        <h3 className="text-[20px] font-bold mb-2">🧠 The Demon (Symbolic)</h3>
+        <p className="text-[14px] italic mb-1">
+          From <strong>The Brothers Karamazov</strong> by Fyodor Dostoevsky
+        </p>
+        <p className="text-[16px]">
+          More metaphor than monster, Dostoevsky’s demon sparks philosophical crises, haunting the characters with doubt, guilt, and the burden of human conscience.
+        </p>
+      </div>
+
+      {/* Card 5: Mephistopheles */}
+      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:bg-[#f1f3f5]">
+        <h3 className="text-[20px] font-bold mb-2">📜 Mephistopheles</h3>
+        <p className="text-[14px] italic mb-1">
+          From <strong>Faust</strong> by Johann Wolfgang von Goethe
+        </p>
+        <p className="text-[16px]">
+          A master of temptation, Mephistopheles offers Faust knowledge for his soul. This demon embodies the tension between enlightenment, desire, and damnation.
+        </p>
+      </div>
+
+      {/* Card 6: The Monk Demon */}
+      <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:bg-[#f1f3f5]">
+        <h3 className="text-[20px] font-bold mb-2">🕯️ The Demon</h3>
+        <p className="text-[14px] italic mb-1">
+          From <strong>The Monk</strong> by Matthew Lewis
+        </p>
+        <p className="text-[16px]">
+          Seductive and dark, this demon leads a pious monk down a path of lust, violence, and doom. A classic Gothic warning against unchecked desires and moral weakness.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div className="w-full bg-white py-[50px] text-[#343a40]">
+  <div className="w-[90%] max-w-[1100px] mx-auto">
+    <h2 className="text-[28px] font-semibold text-center mb-10">
       Psychological Impact of Demon Names
     </h2>
-    <p className="sm:text-[18px] text-[16px] text-[#6c757d] leading-relaxed">
-      Demon names aren't just labels—they carry weight. A strong name conveys authority, fear, and power, shaping the perception of the demon. Whether it’s a name like Lucifer or something more unique like Azazel, names are a crucial part of building a demon’s character and its impact in stories.
-    </p>
-  </div>
 
-  {/* Main Content Card */}
-  <div className="bg-[#f8f9fa] p-8 rounded-lg shadow-xl transform hover:scale-105 transition duration-300 ease-in-out hover:bg-[#e9ecef]">
-    <p className="text-[16px] text-[#495057]">
-      Names like Lucifer evoke authority and fear, making demons feel larger than life. On the other hand, unique names like Azazel or Vexira stand out, adding curiosity and originality. A name tied to mythological or cultural meanings can deepen a demon's character and make their role in the narrative more significant.
-    </p>
+    <div className="grid md:grid-cols-2 gap-8">
+
+      {/* LEFT BLOCK: Powerful Names */}
+      <div className="bg-[#f8f9fa] p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+        <h3 className="text-[20px] font-bold mb-2">😈 Names That Command Power</h3>
+        <p className="text-[16px] leading-relaxed">
+          Demon names like <strong>Lucifer</strong> or <strong>Beelzebub</strong> evoke immediate authority and fear. They make demons feel larger than life—imposing, unforgettable, and emotionally charged. Such names don’t just identify the character—they brand them as forces that dominate the narrative and the audience’s mind.
+        </p>
+      </div>
+
+      {/* RIGHT BLOCK: Unique + Fresh */}
+      <div className="bg-[#f8f9fa] p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+        <h3 className="text-[20px] font-bold mb-2">🧠 Original Names Spark Curiosity</h3>
+        <p className="text-[16px] leading-relaxed">
+          Unique names like <strong>Azazel</strong> or <strong>Vexira</strong> leave a lasting impression. They feel fresh, mysterious, and creative. A distinctive name helps your demon stand out from cliché villains—making them more engaging, complex, and memorable in any story or game.
+        </p>
+      </div>
+
+      {/* LEFT BLOCK: Names With Lore */}
+      <div className="bg-[#f8f9fa] p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+        <h3 className="text-[20px] font-bold mb-2">📚 Rooted in Lore and Myth</h3>
+        <p className="text-[16px] leading-relaxed">
+          Names like <strong>Asmodeus</strong> or <strong>Lilith</strong> carry weight from mythology, religion, and ancient legends. This depth adds richness to the demon’s backstory, making them feel more integrated into the world’s lore. A name with meaning builds narrative strength.
+        </p>
+      </div>
+
+      {/* RIGHT BLOCK: Psychological Branding */}
+      <div className="bg-[#f8f9fa] p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+        <h3 className="text-[20px] font-bold mb-2">🧩 Identity Beyond the Name</h3>
+        <p className="text-[16px] leading-relaxed">
+          A well-chosen demon name isn't just memorable—it shapes how we perceive the character’s purpose and emotion. Whether invoking dread, seduction, or rebellion, the name becomes a psychological tool to influence how readers or players connect with your character.
+        </p>
+      </div>
+
+    </div>
   </div>
 </div>
 
-</div>
 
       <div
         className="w-[100%] flex justify-center items-center bg-overlay py-[250px]"
@@ -1383,9 +1607,11 @@ const A5 = "Yes, our Demon Name Generator can spark inspiration for character de
             </p>
           </div>
           <div>
-            <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
-              Request
-            </button>
+           <Link href="/contact-us">
+  <button className="bg-white text-black text-[20px] px-[20px] py-[16px] rounded-[10px] font-semibold">
+    Request
+  </button>
+</Link>
           </div>
         </motion.div>
       </div>
