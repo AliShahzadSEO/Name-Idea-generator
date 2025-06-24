@@ -400,7 +400,7 @@ const Category1 = [
     link: "https://www.nameideagenerator.com/angel-name-generator",
 },
 {
-    name: "WoW (World of Warcraft) Name Generator",
+    name: "WoW Name Generator",
     pic: "/wow.jpg",
     link: "https://www.nameideagenerator.com/wow-name-generator",
 },
@@ -629,33 +629,33 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
         </div>
         <hr />
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-          <div className="sm:w-[50%]">
+          <div className="sm:w-[60%]">
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 1: Choose a Name Style
+              <h3 className="sm:text-[24px] text-[18px] font-semibold">
+              Step 1: Choose a Gender
               </h3>
               <p>
-              Pick the type of name you want. Classic infernal, dark fantasy, or something more modern and unique.
+              Pick the gender of the name you want. Choose between male, female, or get a random pick.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold">
-              Step 2: Select Gender
+              <h3 className="sm:text-[24px] text-[18px] font-semibold">
+              Step 2: Select Type
               </h3>
               <p>
-              Choose the gender of your tiefling. This helps the tool generate names with the right tone and structure.
+              Then choose their type: Inferno, Abyss, Fiend, Celestial, or Shadow. Each type reflects a different lineage, background, or magical influence tied to your character’s story.
                </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              <h3 className="sm:text-[24px] text-[18px] font-semibold ">
               Step 3 - Click ‘Generate’
               </h3>
               <p>
-              Hit the <b> "Generate"</b> button to get a list of names instantly. Every batch gives you a new set of fresh options.
+              Hit the <strong> "Generate"</strong> button to get a list of names instantly. Every batch gives you a new set of fresh options.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              <h3 className="sm:text-[24px] text-[18px] font-semibold ">
               Step 4 - Hover to View Meanings
               </h3>
               <p>
@@ -663,7 +663,7 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
-              <h3 className="sm:text-[28px] text-[20px] font-semibold ">
+              <h3 className="sm:text-[24px] text-[18px] font-semibold ">
               Step 5 - Adjust and Try Again
               </h3>
               <p>
@@ -674,16 +674,16 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
             It doesn’t have to take hours. Our tool helps you skip the scroll and find the right name super fast.
               </p>
           </div>
-          <div className="sm:w-[45%] relative ">
+          <div className="sm:w-[40%] relative ">
             <img
               src="tiffling.webp"
               alt="Tiefling Name Generator | Get Random Tiefling Name With Meaning"
-              className="w-[350px] my-[10px] h-[350px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
+              className="w-[300px] my-[10px] h-[300px] sm:absolute sm:top-0 sm:left-0 rounded-[16px]"
             />
             <img
               src="tiffing.webp"
               alt="Tiefling Name Generator | Get Random Tiefling Name With Meaning"
-              className="w-[350px] my-[10px] h-[350px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+              className="w-[300px] my-[10px] h-[300px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
@@ -728,7 +728,7 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
         </div>
       </div>
 
-      <div class="w-[80%] mx-auto text-[#343a40] my-[30px]">
+      <div class="w-[80%] mx-auto my-[30px]">
         <div class="text-center mb-[10px]">
         <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
             What Makes Our Tiefling Name Generator Worth Using?
@@ -812,7 +812,7 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
 
     <div class="w-[70%] mx-auto pb-[40px]">
       <div class="py-[60px]">
-        <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+        <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
           Who Are the Tieflings?
         </h2>
         <hr class="border-t-2 border-[#343a40] w-1/4 mx-auto mb-[30px]" />
@@ -826,37 +826,40 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
         </p>
       </div>
 
+<div>
+  <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
+    What Do Tieflings Look Like?
+  </h2>
+  <p class="max-w-4xl mx-auto text-center text-[#343a40] text-[16px] sm:text-[18px] mb-10 px-4">
+    Tieflings have unique features that stand out. Their appearance reflects their fiendish heritage. They may seem human, but something is different.
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+    <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+      <h3 class="text-[24px] font-semibold text-[#343a40] mb-4">Physical Traits</h3>
+      <p class="text-[#343a40]">
+        Tieflings have horns and tails. The horns vary. Some are curled, like a ram's. Others are straight or spiral. Their tails are long and thick. They are often prehensile. Tieflings also have sharp canine teeth and eyes that lack sclera. The eyes are often solid colors, such as red, gold, or black.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+      <h3 class="text-[24px] font-semibold text-[#343a40] mb-4">Skin and Hair Colors</h3>
+      <p class="text-[#343a40]">
+        Tieflings’ skin ranges from human tones to red, purple, and blue. Their hair is mostly dark, like black, brown, or dark red. Some Tieflings have unusual hair colors, like blue or purple. The hair grows behind their horns.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
+      <h3 class="text-[24px] font-semibold text-[#343a40] mb-4">Easily Recognizable</h3>
+      <p class="text-[#343a40]">
+        Tieflings are not always easy to recognize. Some look human, with small horns or odd eyes. Most, though, have strong infernal traits that make them stand out. Would you like to be judged by your appearance alone? Tieflings often don’t have a choice. Their looks remind the world of their fiendish ancestry.
+      </p>
+    </div>
+  </div>
+</div>
+
       <div class="mt-[40px]">
-        <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
-          What Do Tieflings Look Like?
-        </h2>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-            <h3 class="text-[24px] font-semibold text-[#343a40] mb-4">Physical Traits</h3>
-            <p class="text-[#343a40]">
-              Tieflings have horns and tails. The horns vary. Some are curled, like a ram's. Others are straight or spiral. Their tails are long and thick. They are often prehensile. Tieflings also have sharp canine teeth and eyes that lack sclera.
-            </p>
-          </div>
-
-          <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-            <h3 class="text-[24px] font-semibold text-[#343a40] mb-4">Skin and Hair Colors</h3>
-            <p class="text-[#343a40]">
-              Tieflings’ skin ranges from human tones to red, purple, and blue. Their hair is mostly dark, like black, brown, or dark red. Some Tieflings have unusual hair colors, like blue or purple. The hair grows behind their horns.
-            </p>
-          </div>
-
-          <div class="bg-white p-6 rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-            <h3 class="text-[24px] font-semibold text-[#343a40] mb-4">Easily Recognizable</h3>
-            <p class="text-[#343a40]">
-              Tieflings are not always easy to recognize. Some look human, with small horns or odd eyes. Most, though, have strong infernal traits that make them stand out.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="mt-[40px]">
-        <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+        <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
           Do you want to be judged by your appearance?
         </h2>
 
@@ -887,86 +890,91 @@ const A5 = "As many as you want! There’s no limit. Keep clicking until you fin
 </div>
 
 
-<div class="w-[90%] sm:w-[80%] mx-auto pb-[40px]">
+<div className="sm:w-[100%] bg-white ">
+<div class="w-[90%] sm:w-[80% mx-auto pb-[40px]">
   <div class="py-[60px]">
-  <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+  <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
       Why Tiefling Names Are a Big Deal in Fantasy and RPGs?
     </h2>
     <hr class="border-t-2 border-[#343a40] w-1/4 mx-auto mb-[30px]" />
 
-    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[30px] leading-relaxed">
+    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[10px] leading-relaxed">
       Tieflings aren’t your average characters. They come with a backstory full of infernal bloodlines, mysterious powers, and inner conflict. Their name should reflect all of that. A good tiefling name sets the tone right away. It can hint at their lineage, their past, or the path they’re about to take in your story or campaign.
     </p>
 
-    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[30px] leading-relaxed">
+    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[10px] leading-relaxed">
       In RPGs like Dungeons & Dragons, names help define who a character is before they say a single word. A name like “Zarion” or “Vexira” already tells you this tiefling has some fire in them. It’s a small detail that carries a lot of weight, which makes the character feel real, memorable, and fully formed from the start.
     </p>
   </div>
 
-  <div class="mt-[40px]">
-  <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+  <div>
+  <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
     What Tiefling Names Say About Your Character?
   </h2>
   <hr class="border-t-2 border-[#343a40] w-1/4 mx-auto mb-[30px]" />
 
   <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[40px] leading-relaxed">
-    A tiefling’s name does more than just sound cool. It carries meaning. It can reflect where they come from, what they’ve inherited, or how they see themselves in a world that doesn’t always welcome them. The right name helps build your tiefling’s identity and adds personality before they even speak.
+    A tiefling’s name does more than just sound cool. It carries meaning. It can reflect where they come from, what they’ve inherited, or how they 
+    see themselves in a world that doesn’t always welcome them. The right name helps build your tiefling’s identity and adds personality before they even speak.
   </p>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     <div class="bg-white p-8 rounded-2xl shadow-2xl transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
       <h3 class="text-[20px] font-semibold text-[#343a40] mb-4">Infernal Bloodlines and Ancestral Echoes</h3>
       <p class="text-[#343a40] text-lg">
-        Many tieflings draw names from their infernal ancestry. These names often sound ancient, sharp, or otherworldly. They’re like reminders of a bloodline that traces back to devils, fiends, or something far older. Some names carry pride and some reflect a burden or a past the tiefling is trying to outrun.
+        Many tieflings draw names from their infernal ancestry. These names often sound ancient, sharp, or otherworldly. 
+        They’re like reminders of a bloodline that traces back to devils, fiends, or something far older. 
+        Some names carry pride and some reflect a burden or a past the tiefling is trying to outrun.
       </p>
     </div>
 
     <div class="bg-white p-8 rounded-2xl shadow-2xl transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl">
       <h3 class="text-[20px] font-semibold text-[#343a40] mb-4">Masculine, Feminine, and Unisex Naming Patterns</h3>
       <p class="text-[#343a40] text-lg">
-        Tiefling names can take many forms. Some bold and commanding, others smooth and mysterious. Masculine names might carry weight and grit, while feminine names often lean into elegance or danger. Unisex names are also common, which give tieflings freedom to choose a name that reflects how they see themselves, not just how they were born.
+        Tiefling names can take many forms. Some bold and commanding, others smooth and mysterious. 
+        Masculine names might carry weight and grit, while feminine names often lean into elegance or danger. 
+        Unisex names are also common, which give tieflings freedom to choose a name that reflects how they see themselves, not just how they were born.
       </p>
     </div>
   </div>
 </div>
-
 </div>
-
+</div>
 
 
 <div class="w-[90%] sm:w-[80%] mx-auto pb-[40px]">
   <div class="py-[60px]">
-  <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+  <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
       How Tiefling Names Are Used in D&D and Fantasy Worlds?
     </h2>
     <hr class="border-t-2 border-[#343a40] w-1/4 mx-auto mb-[30px]" />
 
-    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[40px] leading-relaxed">
+    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[10px] leading-relaxed">
       In Dungeons & Dragons, tiefling names often hint at the character’s connection to the infernal planes. Some players stick to traditional names rooted in ancient languages or infernal dialects, while others use virtue names like “Hope,” “Torment,” or “Reckon” to reflect the tiefling’s beliefs or inner conflict.
     </p>
 
-    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[40px] leading-relaxed">
+    <p class="text-center text-lg sm:text-[18px] text-[#343a40] leading-relaxed">
       Outside of D&D, tieflings appear in countless fantasy games, novels, and campaigns, each with their own twist on naming traditions. No matter the setting, a well-chosen tiefling name adds depth, flavor, and meaning to the character’s role in the world. It sets the mood before a single line of dialogue is spoken.
     </p>
   </div>
 
-  <div class="mt-[40px]">
-  <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+  <div>
+  <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
       The Origins of Tiefling Names in Fantasy Lore
     </h2>
     <hr class="border-t-2 border-[#343a40] w-1/4 mx-auto mb-[30px]" />
 
-    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[40px] leading-relaxed">
+    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[10px] leading-relaxed">
       Tiefling names often trace back to infernal roots, ancient tongues, and old-world traditions. Many names are inspired by languages that sound harsh, melodic, or otherworldly which mirror the tiefling’s connection to mysterious and powerful ancestors.
     </p>
 
-    <p class="text-center text-lg sm:text-[18px] text-[#343a40] mb-[40px] leading-relaxed">
+    <p class="text-center text-lg sm:text-[18px] text-[#343a40] leading-relaxed">
       Some names are passed down through generations as a mark of pride or defiance, while others are chosen as a break from the past. In many stories and homebrew worlds, tiefling names also carry symbolic meanings. Words tied to fate, emotion, or rebellion. Over time, these naming styles became a staple in fantasy, which give tieflings a distinct identity across different settings.
     </p>
   </div>
 
   <div class="mt-[40px]">
-  <h2 class="text-center text-[32px] sm:text-[36px] lg:text-[40px] font-bold text-[#343a40] mb-6">
+  <h2 class="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-bold text-[#343a40] mb-6">
       Who Are Some Famous Tieflings in Lore?
     </h2>
     <hr class="border-t-2 border-[#343a40] w-1/4 mx-auto mb-[30px]" />
