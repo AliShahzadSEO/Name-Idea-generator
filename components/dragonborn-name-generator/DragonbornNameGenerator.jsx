@@ -1788,28 +1788,30 @@ const A5 = "Not at all. You can generate names as many times as you like until y
           How Our Dragonborn Name Generator Works?
           </h2>
           <p className="sm:text-[20px] text-[28px] text-center">
-          Our <a href="https://www.nameideagenerator.com/"> Name Generator</a> helps you find bold, meaningful names. 
-          Each name is built to match the rich culture and pride of dragonborn characters. Here's how you can use the tool step by step:
+            Our Dragonborn Name Generator helps you find bold, meaningful names. 
+            Each name is built to match the rich culture and pride of dragonborn characters. Here's how you can use the tool step by step:
           </p>
         </div>
         <hr />
         <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-          <div className="sm:w-[50%]">
+          <div className="sm:w-[60%]">
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[24px] text-[20px] font-semibold">
-              Step 1 - Choose a Name Type
+              Step 1 - Select a Gender
               </h3>
               <p>
-              Pick the kind of name you want your dragonborn to have. You can go for traditional names, clan names, or something more fantasy-driven. 
-              Each style creates a different tone for your character’s background and role.
+              Decide if your dragonborn is male, female, or pick random. This option helps shape 
+              the structure and sound of the name to better match your character’s identity.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[24px] text-[20px] font-semibold">
-              Step 2 - Select a Gender
+              Step 2 - Choose a Name Type
               </h3>
               <p>
-              Decide if your dragonborn is male, female, or neutral. This option helps shape the structure and sound of the name to better match your character’s identity.</p>
+              Pick the kind of name you want your dragonborn to have. You can go for fire, ice, earth or shadow. 
+              Each style creates a different tone for your character’s background and role.
+              </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
               <h3 className="sm:text-[24px] text-[20px] font-semibold ">
@@ -1824,7 +1826,7 @@ const A5 = "Not at all. You can generate names as many times as you like until y
                 Step 4 - Hover to See Meanings
               </h3>
               <p>
-              Move your cursor over any name to reveal its meaning or linguistic influence. Some are inspired by ancient languages, others by draconic culture or fantasy lore.
+                Move your cursor over any name to reveal its meaning or linguistic influence. Some are inspired by ancient languages, others by draconic culture or fantasy lore.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
@@ -1832,23 +1834,24 @@ const A5 = "Not at all. You can generate names as many times as you like until y
               Refine and Repeat
               </h3>
               <p>
-              Still not satisfied? You can go back, adjust your choices, and generate again. The tool lets you explore unlimited combinations until you find a name that feels perfect.
+                Still not satisfied? You can go back, adjust your choices, and generate again. 
+                The tool lets you explore unlimited combinations until you find a name that feels perfect.
               </p>
               <p>
-              No need to overthink it. Our tool does the work so you can focus on building the rest of your dragonborn’s story.
+                No need to overthink it. Our tool does the work so you can focus on building the rest of your dragonborn’s story.
               </p>
             </div>
           </div>
-          <div className="sm:w-[47%] relative ">
+          <div className="sm:w-[40%] relative ">
             <img
               src="dragonborn.jpg"
               alt="Dragonborn Name Generator | DND Dragonborn Names With Meaning"
-              className="w-[320px] h-[320px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
+              className="w-[300px] h-[350px] sm:absolute sm:top-0 sm:left-10 rounded-[16px]"
             />
             <img
               src="dragonborn1.jpg"
               alt="Dragonborn Name Generator | DND Dragonborn Names With Meaning"
-              className="w-[320px] h-[320px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+              className="w-[300px] h-[350px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
             />
           </div>
         </div>
@@ -1946,6 +1949,8 @@ const A5 = "Not at all. You can generate names as many times as you like until y
 
 
 
+<div class="w-[100%] mx-auto bg-white py-[20px]">
+
 
 <div class="w-[90%] mx-auto text-[#343a40] my-[40px]">
   <div class="mb-[40px]">
@@ -1983,7 +1988,7 @@ const A5 = "Not at all. You can generate names as many times as you like until y
     </div>
   </div>
 </div>
-
+</div>
 
 <div class="w-[90%] mx-auto my-[40px] text-[#343a40]">
   <h2 class="text-[28px] sm:text-[36px] font-bold mb-6 text-center">List of Unique Dragonborn Names</h2>

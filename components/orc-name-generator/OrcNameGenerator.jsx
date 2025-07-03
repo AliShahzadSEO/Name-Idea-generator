@@ -493,7 +493,7 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
           How Our Orc Name Generator Works?
           </h2>
           <p className="sm:text-[16px] text-[16px] text-center">
-          Our Orc Name Gene is a valuable tool for anyone who wants to create realistic and engage Orc names effortlessly. 
+          Our Orc Name Generator is a valuable tool for anyone who wants to create realistic and engage Orc names effortlessly. 
           Explore its capabilities today and bring your Orc characters to life with names that resonate with authenticity and creativity.
           <br />
           </p>
@@ -506,17 +506,17 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
               Step 1- Pick a Gender
               </h3>
               <p>
-              Decide whether your orc is male, female, or Random. 
-              Gender influences the flow and tone of the name, making it more personalized to fit the character’s vibe.
+              Decide whether your orc is male, female, or neutral. Gender influences the flow and tone of the name, 
+              making it more personalized to fit the character’s vibe.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-2">
               <h3 className="sm:text-[22px] text-[18px] font-semibold">
-              Step 2 - Select Your Orc’s Types
+              Step 2 - Select Your Orc’s Role
               </h3>
               <p>
-              What kind of orc are you naming? Choose from options like savage warriors, cunning tacticians, or fearsome clan leaders. 
-              Each choice will guide the generator to pull names that suit the role you’ve got in mind.
+                What kind of orc are you naming? Choose from options like warlord, shaman, berserker or mountain. 
+                Each choice will guide the generator to pull names that suit the role you’ve got in mind.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
@@ -524,7 +524,7 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
               Step 3 - Hit <b>‘Generate’</b>
               </h3>
               <p>
-              Click the button, and boom—instantly get a list of orc names that match your selected role and gender. No waiting. No hassle.
+                Click the button, and boom. Instantly get a list of orc names that match your selected role and gender. No waiting. No hassle.
               </p>
             </div>
             <div className="py-[10px] flex flex-col gap-4">
@@ -541,8 +541,8 @@ const A5 = "Currently, the Orc Name Generator specializes in orc names. We are w
               Step 5: Refine or Retry
               </h3>
               <p>
-              Not feeling the first round of names? No worries! Change your selections and hit ‘Generate’ again. 
-              You can repeat this process until you find the perfect name that feels just right.
+                Not feeling the first round of names? No worries! Change your selections and hit ‘Generate’ again. 
+                You can repeat this process until you find the perfect name that feels just right.
               </p>
             </div>
           </div>

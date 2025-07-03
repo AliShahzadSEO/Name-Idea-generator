@@ -638,53 +638,52 @@ const A5 = "Yes! Just jot them down or copy them while you try others. There’s
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                   How Does Our Tool Work?
+                   How Does Our Halfling Name Tool Work?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                 Our Halfling Name Generator makes naming your character quick and easy. 
-                 No need to spend hours brainstorming names or getting lost in the details. Here’s how it works:
+                      Our Halfling Name Generator makes naming your character quick and easy. 
+                      No need to spend hours brainstorming names or getting lost in the details. Here’s how it works:
                     </p>
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-                    <div className="sm:w-[50%]">
+                    <div className="sm:w-[60%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[24px] text-[20px] font-semibold">
-                            Step 1 - Choose Your Preferences
+                            Step 1 - Choose the Gender
                             </h3>
                             <p>
-                            Start by selecting any preferences, such as gender or specific name traits that suit your Halfling. 
-                            Want something nature-inspired? We’ve got you covered.
+                            Start by selecting any preferences, such as gender. Pick between a male, a female, or get a name with a random gender tone.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[24px] text-[20px] font-semibold">
-                            Step 2 - Click to Generate
+                            Step 2 - Pick a Style/Type
                             </h3>
                             <p>
-                            Hit that magic button, and our tool will instantly generate a list of Halfling names for you. 
-                            It’s like having a name-creating wizard at your fingertips!                         
+                            Get specific name traits that suit your Halfling. We’ve got options like meadow halflings, river halflings, or hill halflings.                         
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <h3 className="sm:text-[24px] text-[20px] font-semibold ">
-                            Step 3 - Pick Your Favorite
+                            Step 3 - Click to Generate
                             </h3>
                             <p>
-                            Browse through the list and choose the name that feels just right. It could be simple, whimsical, or quirky, you’ll find a perfect fit in no time.                           
+                              Hit that magic button, and our tool will instantly generate a list of Halfling names for you. 
+                              It’s like having a name-creating wizard at your fingertips!                         
                             </p>                       
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
                             <h3 className="sm:text-[24px] text-[20px] font-semibold ">
-                            Step 4: Review Names and Their Meanings
+                            Step 4: Pick Your Favorite
                             </h3>
                             <p>
-                            The generated names will appear on your screen. 
-                            Hover over each name to see detailed information like its meaning, cultural context, and any historical references.                            
+                            Browse through the list and choose the name that feels just right. 
+                            It could be simple, whimsical, or quirky, you’ll find a perfect fit in no time.                            
                             </p>                       
                         </div>
                     </div>
-                    <div className="sm:w-[47%] relative ">
+                    <div className="sm:w-[40%] relative ">
                         <img
                             src="Halfling.png"
                             alt="Halfling Name Generator | DnD Halfling Name Generator With Meaning"
