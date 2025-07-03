@@ -654,7 +654,7 @@ const AlienNameGenerator = () => {
                             </h3>
                             <p>
                            Start by selecting the gender of the alien you want to name. 
-                           Do you want a name for female or male alie. We have got names for both. Or neutralise the way you wish 
+                           Do you want a name for female or male alien. We have got names for both. Or neutralise the way you wish 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
@@ -662,8 +662,8 @@ const AlienNameGenerator = () => {
                                 Step 2 - Choose Your Alien Species
                             </h3>
                             <p>
-                            Do you need a futuristic space traveler? A mysterious alien from a distant galaxy? The tool lets you pick a species that suits your character’s vibe. 
-                            From high-tech beings to ancient and powerful aliens, the choice is yours!
+                             Pick between unique options like Zarkonian, Aetherian, Kryllian, or Nexorian aliens. 
+                             Each type guides the generator to give you specific names with the type’s tone 
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -671,9 +671,9 @@ const AlienNameGenerator = () => {
                                 Step 3 - Click to Generate Your Name
                             </p>
                             <p>
-                           Once you've chosen your species, simply click the <b>“Generate”</b> button. 
-                           The tool will instantly create a list of unique and fitting alien names based on your selection. 
-                           You don’t need to do anything else—just sit back and let the magic happen!
+                             Once you've chosen your species, simply click the “Generate” button. 
+                             The tool will instantly create a list of unique and fitting alien names based on your selection. 
+                             You don’t need to do anything else—just sit back and let the magic happen!
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -681,9 +681,9 @@ const AlienNameGenerator = () => {
                                 Step 4: Select the Name You Like
                             </p>
                             <p>
-                            After the names pop up, browse through the options and choose the one that feels right for your alien. 
-                            Each name is crafted to sound authentic, so you’ll find something that fits perfectly. 
-                            Once you’ve selected your favorite, you’re ready to go—your alien now has the perfect name for their next adventure!
+                              After the names pop up, browse through the options and choose the one that feels right for your alien. 
+                              Each name is crafted to sound authentic, so you’ll find something that fits perfectly. 
+                              Once you’ve selected your favorite, you’re ready to go—your alien now has the perfect name for their next adventure!
                             </p>
                         </div>
                     </div>
@@ -830,12 +830,15 @@ const AlienNameGenerator = () => {
     <div class="container mx-auto w-4/5  text-center">
         <h2 class="text-3xl font-semibold text-gray-900 mb-6">The Mystery Behind Alien Life Forms</h2>
         <p class="text-lg text-gray-700 mb-6">
-            Aliens have been a mystery for ages, right? From ancient myths about beings from the stars to modern sci-fi flicks, we’ve been obsessed with the idea that we might not be alone in the universe.
-       
-            Scientists are still on the hunt for extraterrestrial life, and while they haven’t found anything concrete yet, the possibilities are endless. Imagine a world where creatures exist that are nothing like us—maybe they don’t have legs, or maybe they communicate through colors!
+            Aliens have been a mystery for ages, right? From ancient myths about beings from the stars to modern sci-fi flicks, 
+            we’ve been obsessed with the idea that we might not be alone in the universe. Scientists are still on the hunt for extraterrestrial life, 
+            and while they haven’t found anything concrete yet, the possibilities are endless. Imagine a world where creatures exist that are nothing like us. 
+            Maybe they don’t have legs, or maybe they communicate through colors! The mystery isn’t just about finding life, but discovering what form it takes.
         </p>
         <p class="text-lg text-gray-700 mb-6">
-            The mystery isn’t just about finding life, but discovering what form it takes. It’s kind of exciting to think about, right? What would an alien look like, and how would they behave? We’ve got a lot of theories, but no answers yet. And that’s where the fun begins! The unknown makes the idea of alien life all the more fascinating.
+            The mystery isn’t just about finding life, but discovering what form it takes. It’s kind of exciting to think about, right? 
+            What would an alien look like, and how would they behave? We’ve got a lot of theories, but no answers yet. And that’s where the fun begins! 
+            The unknown makes the idea of alien life all the more fascinating.
         </p>
     </div>
 </section>
@@ -844,10 +847,17 @@ const AlienNameGenerator = () => {
     <div class="container mx-auto w-4/5 text-center">
         <h2 class="text-3xl font-semibold text-gray-900 mb-6">What Makes an Alien Name Truly Out of This World?</h2>
         <p class="text-lg text-gray-700 mb-6">
-            Now, when it comes to alien names, the sky's the limit—literally! A name should feel like it belongs to someone or something from a completely different galaxy. What makes an alien name stand out is its uniqueness and ability to sound completely unfamiliar, yet still carry some kind of meaning. It should sound otherworldly, with strange syllables, exotic sounds, and sometimes, even a bit of mystery. After all, if you're naming an alien, it should have that "I’ve never heard anything like this before" vibe.
+         Now, when it comes to alien names, the sky's the limit. Literally! A name should feel like it belongs to 
+         someone or something from a completely different galaxy. What makes an alien name stand out is its uniqueness 
+         and ability to sound completely unfamiliar, yet still carry some kind of meaning. It should sound otherworldly, 
+         with strange syllables, exotic sounds, and sometimes, even a bit of mystery. After all, if you're naming an alien, 
+         it should have that "I’ve never heard anything like this before" vibe.  
         </p>
         <p class="text-lg text-gray-700">
-            An alien name doesn’t have to follow the rules of Earthly languages. It can break from traditional naming patterns and get creative with pronunciation and structure. Maybe it uses unexpected combinations of letters, or perhaps it reflects the alien’s culture, traits, or even the environment they come from. The goal is to make the name feel authentic to the alien world it represents—something you wouldn’t hear in your local coffee shop!
+          An alien name doesn’t have to follow the rules of Earthly languages. It can break from traditional naming patterns 
+          and get creative with pronunciation and structure. Maybe it uses unexpected combinations of letters, or perhaps it reflects the alien’s culture, 
+          traits, or even the environment they come from. 
+          The goal is to make the name feel authentic to the alien world. It represents something you wouldn’t hear in your local coffee shop!
         </p>
     </div>
 </section>
@@ -865,7 +875,7 @@ const AlienNameGenerator = () => {
             <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h3 class="text-xl font-semibold text-gray-900 mb-4">Play with Sounds</h3>
                 <p class="text-gray-700">
-                    Use combinations of letters and sounds that you wouldn’t typically hear on Earth—think unusual consonants and vowel pairings.
+                  Use combinations of letters and sounds that you wouldn’t typically hear on Earth. Think unusual consonants and vowel pairings.
                 </p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-lg">
@@ -909,13 +919,13 @@ const AlienNameGenerator = () => {
             <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h3 class="text-xl font-semibold text-gray-900 mb-4">Mysterious and Otherworldly</h3>
                 <p class="text-gray-700">
-                    Now, some aliens come from places so strange, you can't help but wonder if they’re from a galaxy far, far away—or just from a whole different plane of existence! Names like Zha'ran or Qirael sound like they hold secrets, like they’re shrouded in mystery and untold power. If you’re imagining an alien race with ancient knowledge or hidden abilities, these names are the way to go.
+                  Now, some aliens come from places so strange, you can't help but wonder if they’re from a galaxy far, far away, or just from a whole different plane of existence! Names like Zha'ran or Qirael sound like they hold secrets, like they’re shrouded in mystery and untold power. If you’re imagining an alien race with ancient knowledge or hidden abilities, these names are the way to go.
                 </p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-lg">
                 <h3 class="text-xl font-semibold text-gray-900 mb-4">Mythical and Powerful</h3>
                 <p class="text-gray-700">
-                    For those aliens who feel like they’ve been around forever—gods, legends, or just extremely powerful beings—you need names that scream authority. Thalorak or Esharoth have that bold, commanding energy, perfect for alien species with immense power, wisdom, or even a touch of divine influence. These names are perfect for the mighty rulers or the ancient species in your story.
+                  For those aliens who feel like they’ve been around forever, gods, legends, or just extremely powerful beings, you need names that scream authority. Thalorak or Esharoth have that bold, commanding energy, perfect for alien species with immense power, wisdom, or even a touch of divine influence. These names are perfect for the mighty rulers or the ancient species in your story.
                 </p>
             </div>
         </div>
