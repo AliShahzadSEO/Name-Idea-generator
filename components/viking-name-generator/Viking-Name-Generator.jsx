@@ -500,8 +500,8 @@ const A5 = "Yes, you can combine parts of names you like. Many players do that t
                             STEP 1 - Select Your Viking’s Gender
                             </h3>
                             <p>
-                            First, you’ll choose what kind of Viking name you need. You can choose between Male, female or random. 
-                            The names generated sre gender specific or you’ll just get them at random. You decide!
+                              First, you’ll choose what kind of Viking name you need. 
+                              You can choose between Male, female or random. The names generated sre gender specific or you’ll just get them at random. You decide!
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
@@ -509,8 +509,8 @@ const A5 = "Yes, you can combine parts of names you like. Many players do that t
                                 STEP 2 - Select Your Viking Type
                             </h3>
                             <p>
-                                Then, you’ll choose what kind of Viking name you need. Are you looking for a fierce warrior name, a legendary Norse god name, 
-                                or a clan-based name? You can easily specify what fits your character’s background or story.                            
+                                Then, you’ll choose what kind of Viking name you need. Are you looking for a Norse warrior, a coastal raider, mountain clan, 
+                                or a seafaring explorer?  You can easily specify what fits your character’s background or story.                            
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -518,8 +518,8 @@ const A5 = "Yes, you can combine parts of names you like. Many players do that t
                             STEP 3 - Click to Generate Your Name
                             </h3>
                             <p>
-                                Once you've made your selection, simply click the "Generate" button. Our tool will quickly create a list of Viking names 
-                                that match your chosen type. Each name will reflect the strength, power, and boldness typical of Vikings.                            
+                              Once you've made your selection, simply click the "Generate" button. 
+                              Our tool will quickly create a list of Viking names that match your chosen type. Each name will reflect the strength, power, and boldness typical of Vikings.                            
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -527,8 +527,8 @@ const A5 = "Yes, you can combine parts of names you like. Many players do that t
                                 STEP 4: Choose Your Favorite Name
                             </h3>
                             <p>
-                              After the list of Viking names appears, go through the options and pick the one that feels right for your character. 
-                              You’ll have a name that’s perfect for your story or game.                            
+                             After the list of Viking names appears, go through the options and 
+                             pick the one that feels right for your character. You’ll have a name that’s perfect for your story or game.                           
                             </p>
                         </div>
                     </div>

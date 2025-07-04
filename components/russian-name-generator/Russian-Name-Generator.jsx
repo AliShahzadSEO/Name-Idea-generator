@@ -634,22 +634,22 @@ const RussianNameGenerator = () => {
             <div className="w-[80%] mx-auto text-[#343a40] my-[50px]">
                 <div>
                     <h2 className="sm:text-[36px] text-[28px] text-center">
-                    How to Use the Russian Name Generator?
+                      How to Use Our Russian Name Generator?
                     </h2>
                     <p className="sm:text-[16px] text-[16px] text-center">
-                        To use our Russian Male & Female Name Generator effectively, follow these steps:
+                      To use our Russian Male & Female Name Generator effectively, follow these steps:
                     </p>
                 </div>
                 <hr />
                 <div className="py-[20px] flex sm:flex-row flex-col gap-4">
-                    <div className="sm:w-[50%]">
+                    <div className="sm:w-[60%]">
                         <div className="py-[10px] flex flex-col gap-2">
                             <h3 className="sm:text-[24px] text-[20px] font-semibold">
                                 Step 1: Pick the Gender
                             </h3>
                             <p>
-                            Start by selecting the gender of your character. Russian names differ based on gender, and this step helps ensure the name matches cultural norms. 
-                            Choose male, female, or unisex options to get the most accurate results.
+                              Start by selecting the gender of your character. Russian names differ based on gender, and this step helps ensure the name matches cultural norms. 
+                              Choose male, female, or unisex options to get the most accurate results.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-2">
@@ -657,8 +657,9 @@ const RussianNameGenerator = () => {
                                 Step 2: Select a Name Type
                             </h3>
                             <p>
-                            After choosing gender, pick the style of name you want. Do you need something classic and traditional? Or maybe something rare and unique? 
-                            The generator offers different styles like noble, common, or modern, which allow you to tailor the names to your character's background.
+                              After choosing gender, pick the style of name you want. Do you need something historical and traditional? 
+                              Or maybe something modern and unique? Or hopping towards a Salvic name?  The generator offers different styles like noble, 
+                              common, or modern, which allow you to tailor the names to your character's background.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -666,8 +667,8 @@ const RussianNameGenerator = () => {
                                 Step 3: Click ‘Generate’
                             </h3>
                             <p>
-                            Hit the “Generate” button to instantly receive a list of name suggestions. 
-                            Each click brings a new batch of names, so you can quickly explore different options that suit your character.
+                              Hit the “Generate” button to instantly receive a list of name suggestions. 
+                              Each click brings a new batch of names, so you can quickly explore different options that suit your character.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -675,8 +676,8 @@ const RussianNameGenerator = () => {
                                 Step 4: Hover to View Name Meanings
                             </h3>
                             <p>
-                            Curious about the meaning behind a name? Hover over any name to view its meaning, origin, or cultural context. 
-                            This will help you pick a name with the right story or significance.
+                              Curious about the meaning behind a name? Hover over any name to view its meaning, origin, or cultural context. 
+                              This will help you pick a name with the right story or significance.
                             </p>
                         </div>
                         <div className="py-[10px] flex flex-col gap-4">
@@ -684,21 +685,21 @@ const RussianNameGenerator = () => {
                               Adjust and Try Again
                             </h3>
                             <p>
-                            Not satisfied with the first set of names? Change the style, gender, or any other setting to refine your results. 
-                            The more specific you get with your preferences, the more targeted and relevant the names will be.
+                              Not satisfied with the first set of names? Change the style, gender, or any other setting to refine your results. 
+                              The more specific you get with your preferences, the more targeted and relevant the names will be.
                             </p>
                         </div>
                     </div>
-                    <div className="sm:w-[47%] relative ">
+                    <div className="sm:w-[40%] relative ">
                         <img
                             src="russian2.webp"
                             alt="Russian Name Generator | Random Russian Name Generator With Meaning"
-                            className="w-[350px] h-[350px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
+                            className="w-[300px] h-[370px] sm:absolute sm:top-0 sm:left-20 rounded-[16px]"
                         />
                         <img
                             src="russian4.jpeg"
                             alt="Russian Name Generator | Random Russian Name Generator With Meaning"
-                            className="w-[350px] h-[350px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
+                            className="w-[300px] h-[370px] sm:absolute sm:bottom-0 sm:right-0 rounded-[16px]"
                         />
                     </div>
                 </div>
@@ -743,7 +744,7 @@ const RussianNameGenerator = () => {
                 </div>
             </div>
 
-            <section className="py-16 px-4 text-[#1a1a1a]">
+            <section className="py-16 px-4 bg-white text-[#1a1a1a]">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
       Why Use Our Russian Name Tool?
@@ -791,7 +792,7 @@ const RussianNameGenerator = () => {
     <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
       Where Do Russian Names Come From?
     </h2>
-    <p class="text-[16px] sm:text-[18px] leading-relaxed font-medium max-w-3xl mx-auto">
+    <p class="text-[16px] sm:text-[18px] leading-relaxed font-medium mx-auto">
       Russian names follow a specific structure made up of a first name, a patronymic, and a surname. The patronymic comes from the father’s first name. For example, a man named Ivan whose father is Nikolai would be called <span class="font-semibold">Ivan Nikolaevich</span>.
     </p>
   </div>
@@ -814,7 +815,7 @@ const RussianNameGenerator = () => {
     <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
       Why Do Russian Names Matter in Storytelling?
     </h2>
-    <p class="text-[16px] sm:text-[18px] leading-relaxed font-medium max-w-3xl mx-auto">
+    <p class="text-[16px] sm:text-[18px] leading-relaxed font-medium mx-auto">
       Russian names aren’t just culturally rich — they instantly evoke strong emotions and vivid impressions, making them a powerful tool for writers, gamers, and storytellers.
     </p>
   </div>
@@ -831,13 +832,6 @@ const RussianNameGenerator = () => {
     </p>
   </div>
 </div>
-
-
-
-
-
-
-
 
 <div class="w-[90%] max-w-7xl mx-auto text-[#343a40] my-16">
   <div class="text-center mb-10">
@@ -935,13 +929,13 @@ const RussianNameGenerator = () => {
   </div>
 </div>
 
-
-<div class="w-[90%] max-w-7xl mx-auto my-16 text-[#343a40]">
+<div class="w-[100%] bg-white my-26">
+<div class="w-[90%] max-w-7xl py-[30px] mx-auto text-[#343a40]">
   <div class="text-center mb-10">
     <h2 class="text-[26px] sm:text-[36px] font-bold mb-4">
       Why You Would Need to Generate Russian Names?
     </h2>
-    <p class="text-[16px] sm:text-[18px] font-medium max-w-3xl mx-auto leading-relaxed">
+    <p class="text-[16px] sm:text-[18px] font-medium mx-auto leading-relaxed">
       Whether you're writing a novel, creating a game, or role-playing, using a Russian name generator offers multiple advantages that go beyond just picking a name.
     </p>
   </div>
@@ -991,7 +985,7 @@ const RussianNameGenerator = () => {
     </div>
   </div>
 </div>
-
+</div>
 
 
             <div
