@@ -11230,19 +11230,19 @@ const Category1 = [
         link: "https://www.nameideagenerator.com/island-name-generator",
     },
     {
-        name: "Song Name Generator",
-        pic: "/pop.jpg",
-        link: "https://www.nameideagenerator.com/song-name-generator",
+        name: "Halfling Name Generator",
+        pic: "/halfling.webp",
+        link: "https://www.nameideagenerator.com/halfling-name-generator",
     },
     {
-        name: "WoW (World of Warcraft) Name Generator",
-        pic: "/wow.jpg",
-        link: "https://www.nameideagenerator.com/wow-name-generator",
+        name: "Drow Name Generator",
+        pic: "/drowname.webp",
+        link: "https://www.nameideagenerator.com/drow-name-generator",
     },
     {
-        name: "Horse Name Generator",
-        pic: "horse.webp",
-        link: "https://www.nameideagenerator.com/horse-name-generator",
+        name: "Tiefling Name Generator",
+        pic: "female.jpg",
+        link: "https://www.nameideagenerator.com/tiefling-name-generator",
     },
 ];
 
