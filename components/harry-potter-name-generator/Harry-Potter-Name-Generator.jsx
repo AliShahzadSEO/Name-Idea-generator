@@ -11347,7 +11347,7 @@ const HarryPotterNameGenerator = () => {
           <path d="M10 19l7-7-7-7"></path>
         </svg>
       <li className="flex items-center">
-        <a href="/alien-name-generator" className="hover:underline text-[#343a40]">Alien Name Generator</a>
+        <a href="/harry-potter-name-generator" className="hover:underline text-[#343a40]">Harry Potter Name Generator</a>
       </li>
     </ol>
   </nav>
@@ -11355,7 +11355,7 @@ const HarryPotterNameGenerator = () => {
   {/* Title */}
   <div>
     <h2 className="sm:text-[48px] text-[24px] text-center text-[#343a40]">
-      Random Alien Name Generator With Meaning
+      Random Harry Potter Name Generator With Meaning
     </h2>
   </div>
 </div>                    
